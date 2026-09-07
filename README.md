@@ -2,7 +2,7 @@
 
 ## 运行
 
-本工作流只依赖 Python 标准库，不需要 API Key。
+报告生成、文本相似度和合规检查只依赖 Python 标准库，不需要 API Key。
 
 Windows：
 
@@ -31,3 +31,19 @@ py -3 collect_tiktok_jewelry.py
 结果写入 `output/tiktok-jewelry-YYYY-MM-DD/`，包括 `候选视频.json` 和 `候选视频.md`。默认查询 US、GB、CA、AU，并按公开标题、品牌和行业字段归档为 DIY 配件、成品饰品、人设口播。报告中的点赞和 CTR 只代表接口返回值；视频预览地址是 TikTok CDN 的时效链接，可能过期。
 
 当前工作流只保存公开链接、素材 ID、可验证元数据和结构分类，不复制他人完整文案，不提交视频文件，也不绕过地区、登录或反爬限制。
+
+## 本地视频文案提取
+
+默认使用本地 `faster-whisper`，不调用 OpenAI API。第一次使用需要安装本地依赖，并可能下载一次开源模型；后续识别使用本机缓存。视频源文件不会复制到仓库，转写输出默认被 Git 忽略。
+
+```powershell
+py -3 -m pip install -r requirements-local.txt
+py -3 transcribe_local.py "C:\path\to\video.mp4"
+```
+
+默认使用 `base` 多语言模型、CPU `int8` 推理、自动语言识别和静音检测。结果写入 `output/transcribe/YYYY-MM-DD/<视频名>/`，包括：
+
+- `原始文案.txt`：带时间戳的原始语音文案
+- `转写结果.json`：语言、置信度、时长和分段数据
+
+工作流默认只提取原文；翻译、改写、结构分析和合规检查需要在你明确提出后执行。若只允许使用已经下载的本地模型，可增加 `--local-files-only`。

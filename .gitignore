@@ -1,3 +1,4 @@
 .env.local
 __pycache__/
 .playwright-cli/
+output/transcribe/
