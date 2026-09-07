@@ -11,12 +11,15 @@ from __future__ import annotations
 import argparse
 import json
 import sys
+from urllib.request import Request, urlopen
 from datetime import date, datetime, timezone
 from pathlib import Path
 from typing import Any
 
 
 ROOT = Path(__file__).resolve().parent
+OLLAMA_DEFAULT_URL = "http://127.0.0.1:11434/api/generate"
+OLLAMA_DEFAULT_MODEL = "qwen2.5-coder:14b"
 
 
 def format_timestamp(seconds: float) -> str:
@@ -83,6 +86,46 @@ def transcribe(args: argparse.Namespace) -> dict[str, Any]:
     }
 
 
+def enrich_locally(report: dict[str, Any], args: argparse.Namespace) -> dict[str, Any]:
+    """Use the local Ollama model for translation, rewrite, and analysis."""
+    source_text = "\n".join(item["text"] for item in report["segments"] if item["text"])
+    if not source_text:
+        return {"mode": "full", "translation": "", "rewrite": "", "analysis": {}}
+    prompt = f"""你是短视频脚本编辑。请处理下面这段视频原始文案。
+
+要求：
+1. translation：忠实翻译成自然中文，不补充原文没有的信息。
+2. rewrite：在不复制原句、不虚构产品事实的前提下，改写成适合饰品短视频的中文口播稿，保留原文节奏和动作逻辑。
+3. analysis：用 JSON 对象输出 hook、核心动作、内容类型、节奏、可复用结构、风险提示；每项使用简短中文字符串或字符串数组。
+只输出一个合法 JSON 对象，键名严格为 translation、rewrite、analysis。
+
+原始文案：
+{source_text}
+"""
+    request = Request(
+        args.ollama_url,
+        data=json.dumps(
+            {"model": args.ollama_model, "prompt": prompt, "stream": False, "format": "json"}
+        ).encode("utf-8"),
+        headers={"Content-Type": "application/json"},
+    )
+    try:
+        with urlopen(request, timeout=args.ollama_timeout) as response:
+            payload = json.load(response)
+        result = json.loads(payload.get("response", "{}"))
+    except Exception as exc:
+        raise SystemExit(
+            f"本地 Ollama 处理失败：{exc}。可运行 ollama serve，或使用 --extract-only 仅提取原文。"
+        ) from exc
+    return {
+        "mode": "full",
+        "ollama_model": args.ollama_model,
+        "translation": result.get("translation", ""),
+        "rewrite": result.get("rewrite", ""),
+        "analysis": result.get("analysis", {}),
+    }
+
+
 def write_outputs(report: dict[str, Any], output_dir: Path) -> None:
     output_dir.mkdir(parents=True, exist_ok=True)
     lines = [
@@ -99,6 +142,35 @@ def write_outputs(report: dict[str, Any], output_dir: Path) -> None:
     (output_dir / "转写结果.json").write_text(
         json.dumps(report, ensure_ascii=False, indent=2), encoding="utf-8"
     )
+    if report.get("enrichment", {}).get("mode") == "full":
+        enrichment = report["enrichment"]
+        analysis = enrichment.get("analysis", {})
+        lines = [
+            "# 视频文案工作流结果",
+            "",
+            "## 原始文案",
+            "",
+            *[f"- {item['text']}" for item in report["segments"] if item["text"]],
+            "",
+            "## 中文翻译",
+            "",
+            enrichment.get("translation", ""),
+            "",
+            "## 中文改写稿",
+            "",
+            enrichment.get("rewrite", ""),
+            "",
+            "## 结构分析",
+            "",
+        ]
+        for key, value in analysis.items():
+            if isinstance(value, list):
+                lines.append(f"- {key}：{'；'.join(str(item) for item in value)}")
+            else:
+                lines.append(f"- {key}：{value}")
+        (output_dir / "翻译_改写_分析.md").write_text(
+            "\n".join(lines).rstrip() + "\n", encoding="utf-8"
+        )
 
 
 def main() -> int:
@@ -113,10 +185,19 @@ def main() -> int:
     parser.add_argument("--word-timestamps", action="store_true")
     parser.add_argument("--no-vad", action="store_true", help="不启用静音检测")
     parser.add_argument("--local-files-only", action="store_true", help="只使用已有模型缓存")
+    parser.add_argument("--extract-only", action="store_true", help="只提取原文；默认还会本地翻译、改写和分析")
+    parser.add_argument("--ollama-url", default=OLLAMA_DEFAULT_URL)
+    parser.add_argument("--ollama-model", default=OLLAMA_DEFAULT_MODEL)
+    parser.add_argument("--ollama-timeout", type=int, default=180)
     parser.add_argument("--output-dir", type=Path, default=None)
     args = parser.parse_args()
 
     report = transcribe(args)
+    report["enrichment"] = (
+        {"mode": "extract-only"}
+        if args.extract_only
+        else enrich_locally(report, args)
+    )
     output_dir = args.output_dir or ROOT / "output" / "transcribe" / date.today().isoformat() / args.video.stem
     write_outputs(report, output_dir)
     print(

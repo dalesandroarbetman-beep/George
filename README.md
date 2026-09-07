@@ -34,16 +34,23 @@ py -3 collect_tiktok_jewelry.py
 
 ## 本地视频文案提取
 
-默认使用本地 `faster-whisper`，不调用 OpenAI API。第一次使用需要安装本地依赖，并可能下载一次开源模型；后续识别使用本机缓存。视频源文件不会复制到仓库，转写输出默认被 Git 忽略。
+默认使用本地 `faster-whisper`，再通过本机 Ollama 完成中文翻译、改写和结构分析，不调用 OpenAI API。第一次使用需要安装本地依赖，并可能下载一次开源模型；后续识别使用本机缓存。视频源文件不会复制到仓库，转写输出默认被 Git 忽略。
 
 ```powershell
 py -3 -m pip install -r requirements-local.txt
 py -3 transcribe_local.py "C:\path\to\video.mp4"
 ```
 
-默认使用 `base` 多语言模型、CPU `int8` 推理、自动语言识别和静音检测。结果写入 `output/transcribe/YYYY-MM-DD/<视频名>/`，包括：
+默认使用 `base` 多语言模型、CPU `int8` 推理、自动语言识别和静音检测，并调用本机 Ollama 的 `qwen2.5-coder:14b`。结果写入 `output/transcribe/YYYY-MM-DD/<视频名>/`，包括：
 
 - `原始文案.txt`：带时间戳的原始语音文案
 - `转写结果.json`：语言、置信度、时长和分段数据
+- `翻译_改写_分析.md`：中文翻译、原创改写稿和结构分析
 
-工作流默认只提取原文；翻译、改写、结构分析和合规检查需要在你明确提出后执行。若只允许使用已经下载的本地模型，可增加 `--local-files-only`。
+工作流默认执行提取、翻译、改写和结构分析。只有明确提出“只提取”时才使用：
+
+```powershell
+py -3 transcribe_local.py "C:\path\to\video.mp4" --extract-only
+```
+
+完整处理需要本机 Ollama 正在运行并已有对应模型；仅提取模式只需要本地 Whisper 模型。若只允许使用已经下载的本地 Whisper 模型，可增加 `--local-files-only`。
