@@ -43,7 +43,7 @@ py -3 -m pip install -r requirements-local.txt
 py -3 transcribe_local.py "C:\path\to\video.mp4"
 ```
 
-默认使用 `base` 多语言模型、CPU `int8` 推理、自动语言识别和静音检测，并调用本机 Ollama 的 `qwen2.5-coder:14b`。结果写入 `output/transcribe/YYYY-MM-DD/<视频名>/`，包括：
+默认使用 `base` 多语言模型、CPU `int8` 推理、自动语言识别和静音检测，并调用本机 Ollama 的 `qwen2.5-coder:14b`。品牌融合时，工作流会过滤原视频中的价格、优惠和平台归属等未确认商业事实，再加入品牌引导。结果写入 `output/transcribe/YYYY-MM-DD/<视频名>/`，包括：
 
 - `原始文案.txt`：带时间戳的原始语音文案
 - `转写结果.json`：语言、置信度、时长和分段数据
@@ -56,3 +56,9 @@ py -3 transcribe_local.py "C:\path\to\video.mp4" --extract-only
 ```
 
 完整处理需要本机 Ollama 正在运行并已有对应模型；仅提取模式只需要本地 Whisper 模型。若只允许使用已经下载的本地 Whisper 模型，可增加 `--local-files-only`。
+
+需要融合品牌时，在改写稿中传入品牌与链接；原始转写和忠实翻译不会加入品牌信息：
+
+```powershell
+py -3 transcribe_local.py "C:\path\to\video.mp4" --brand "YOHO" --brand-url "www.yohodiy.com"
+```

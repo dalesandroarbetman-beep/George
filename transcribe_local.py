@@ -10,6 +10,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import re
 import sys
 from urllib.request import Request, urlopen
 from datetime import date, datetime, timezone
@@ -20,11 +21,26 @@ from typing import Any
 ROOT = Path(__file__).resolve().parent
 OLLAMA_DEFAULT_URL = "http://127.0.0.1:11434/api/generate"
 OLLAMA_DEFAULT_MODEL = "qwen2.5-coder:14b"
+BRAND_UNVERIFIED_RE = re.compile(
+    r"[^。！？!?]*(?:(?:\d+|[一二三四五六七八九十百千万零两]+)\s*(?:美元|元|块|刀)|价格|便宜|折扣|优惠|抖音小店|TikTok\s*(?:shop|店|商店)|TikTok店)[^。！？!?]*[。！？!?]?",
+    re.I,
+)
 
 
 def format_timestamp(seconds: float) -> str:
     minutes, remainder = divmod(max(0.0, seconds), 60.0)
     return f"{int(minutes):02d}:{remainder:05.2f}"
+
+
+def sanitize_brand_rewrite(text: str, brand: str, brand_url: str) -> str:
+    """Remove source-specific commercial claims before attaching a new brand."""
+    cleaned = BRAND_UNVERIFIED_RE.sub("", text).strip()
+    cleaned = re.sub(r"\s{2,}", " ", cleaned)
+    if brand and brand.lower() not in cleaned.lower():
+        cleaned = f"{cleaned}\n想了解更多饰品设计，可以关注 {brand}。"
+    if brand_url and brand_url.lower() not in cleaned.lower():
+        cleaned = f"{cleaned.rstrip()} 详情请访问：{brand_url}。"
+    return cleaned
 
 
 def transcribe(args: argparse.Namespace) -> dict[str, Any]:
@@ -91,13 +107,26 @@ def enrich_locally(report: dict[str, Any], args: argparse.Namespace) -> dict[str
     source_text = "\n".join(item["text"] for item in report["segments"] if item["text"])
     if not source_text:
         return {"mode": "full", "translation": "", "rewrite": "", "analysis": {}}
+    brand_context = ""
+    if args.brand:
+        brand_context = f"""
+
+品牌融合要求：
+- 品牌：{args.brand}
+- 链接：{args.brand_url or '未提供'}
+- 只在 rewrite 中自然融入品牌和链接；translation 必须保持忠实，不加入品牌。
+- 不得把品牌、链接、材质、价格、优惠、平台归属或产品效果写成 YOHO 已经证实的事实；原视频的价格和平台信息不要迁移到 YOHO。
+- 改写稿结尾使用自然行动引导；若提供链接，明确写出该链接一次。
+- 改写中可以使用“YOHO 的这类设计/饰品”作为品牌承接，但不要声称 YOHO 具有原视频没有证明的材质、价格或功能。
+"""
     prompt = f"""你是短视频脚本编辑。请处理下面这段视频原始文案。
 
 要求：
-1. translation：忠实翻译成自然中文，不补充原文没有的信息。
-2. rewrite：在不复制原句、不虚构产品事实的前提下，改写成适合饰品短视频的中文口播稿，保留原文节奏和动作逻辑。
+1. translation：忠实翻译成自然中文；结合上下文消除歧义，不把反讽或口语表达误译成相反意思，不补充原文没有的信息。
+2. rewrite：写成与原文表达不同的原创中文口播稿，保留原文节奏和动作逻辑；不要逐句替换或大段复述原文。
 3. analysis：用 JSON 对象输出 hook、核心动作、内容类型、节奏、可复用结构、风险提示；每项使用简短中文字符串或字符串数组。
 只输出一个合法 JSON 对象，键名严格为 translation、rewrite、analysis。
+{brand_context}
 
 原始文案：
 {source_text}
@@ -117,11 +146,16 @@ def enrich_locally(report: dict[str, Any], args: argparse.Namespace) -> dict[str
         raise SystemExit(
             f"本地 Ollama 处理失败：{exc}。可运行 ollama serve，或使用 --extract-only 仅提取原文。"
         ) from exc
+    rewrite = sanitize_brand_rewrite(
+        str(result.get("rewrite", "")).strip(), args.brand, args.brand_url
+    )
     return {
         "mode": "full",
         "ollama_model": args.ollama_model,
+        "brand": args.brand or "",
+        "brand_url": args.brand_url or "",
         "translation": result.get("translation", ""),
-        "rewrite": result.get("rewrite", ""),
+        "rewrite": rewrite,
         "analysis": result.get("analysis", {}),
     }
 
@@ -189,6 +223,8 @@ def main() -> int:
     parser.add_argument("--ollama-url", default=OLLAMA_DEFAULT_URL)
     parser.add_argument("--ollama-model", default=OLLAMA_DEFAULT_MODEL)
     parser.add_argument("--ollama-timeout", type=int, default=180)
+    parser.add_argument("--brand", default="", help="仅用于改写稿的品牌名")
+    parser.add_argument("--brand-url", default="", help="仅用于改写稿的品牌链接")
     parser.add_argument("--output-dir", type=Path, default=None)
     args = parser.parse_args()
 
