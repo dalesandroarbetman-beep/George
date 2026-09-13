@@ -1,0 +1,4 @@
+interface:
+  display_name: "饰品标题生成"
+  short_description: "按图片和商品资料生成中文饰品标题并先做风险判断"
+  default_prompt: "使用饰品标题生成规则处理这个SKU，先判断仿大牌或受保护设计风险，再生成三套中文标题。"

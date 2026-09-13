@@ -2,3 +2,21 @@
 __pycache__/
 .playwright-cli/
 output/transcribe/
+
+# Local workflow state, browser artifacts, and generated business data.
+.learnings/
+work/
+outputs/
+*.py[cod]
+*.pyo
+
+# Source media and local model artifacts must stay outside the repository.
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.wav
+*.mp3
+*.webm
+output/**/frames/
+output/**/.local-tools/

@@ -62,3 +62,18 @@ py -3 transcribe_local.py "C:\path\to\video.mp4" --extract-only
 ```powershell
 py -3 transcribe_local.py "C:\path\to\video.mp4" --brand "YOHO" --brand-url "www.yohodiy.com"
 ```
+
+## 饰品独立站单 SKU 工作流
+
+`skills/jewelry-title-generator/` 负责按商品资料和图片执行品牌/IP、材质和标题风险闸门，并在通过后生成三组中文标题候选。`skills/jewelry-auto-listing/` 负责读取单 SKU 资料、检查主图与尺寸图、整理标签和图片顺序，并生成机器可读的 `上品包.json` 与人工审核清单。缺少尺寸图、资料冲突或风险无法确认时，流程会停在本地复核，不打开后台表单。
+
+固定程序不调用大模型，可直接运行：
+
+```powershell
+py -3 tools/auto_listing.py XX50438B0W0 `
+  --record "商品资料.xlsx" `
+  --source-root "C:\path\to\source-root" `
+  --review-root "C:\path\to\review-root"
+```
+
+也可以双击根目录的 `开始单SKU上品.bat`。后台提交不包含在本地程序中，只有用户明确授权并确认上品包后，才使用现有登录会话继续操作。原始货盘、账号配置、浏览器缓存、商品原始库和本地生成的业务数据不归档到 GitHub。

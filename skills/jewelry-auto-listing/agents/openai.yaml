@@ -1,0 +1,4 @@
+interface:
+  display_name: "饰品独立站自动上品"
+  short_description: "按固定规则准备单SKU饰品上品包并在授权后提交复审"
+  default_prompt: "处理一个单SKU饰品：读取资料和图片，执行尺寸与风险闸门，生成中文标题、标签和复审上品包；仅在明确授权后操作后台。"
