@@ -27,9 +27,11 @@ If several images show the same item, treat them as one product. If one image co
 
 Prefer this order when the fields exist:
 
-`系列/风格 + 造型 + 装饰材质 + 款式 + 成色/主体材质`
+`系列/风格 + 造型/可见图案细节 + 主体材质 + 工艺 + 款式/分类`
 
-Omit missing or weak fields. Do not put SKU, internal codes, brand names, authorization, collaboration, patent, exclusivity, or unsupported marketing claims in the title. Color, scene, gift, size, weight, quantity, and packaging are omitted by default unless they define the wearing form or the user explicitly requests them. Do not use `爆款`, `顶级`, `奢华`, or `正品`.
+Use the most specific visible shape wording supported by the image: retain a visible motif detail such as `字母` after the primary shape when it helps distinguish the item. When material and process are both supported, keep them together as a continuous phrase, such as `钛钢真空电镀14K金`. When the source category is `配件` and the image clearly shows a pendant, `吊坠配件` is an allowed ending.
+
+Omit missing or weak fields. Do not put SKU, internal codes, brand names, authorization, collaboration, patent, exclusivity, or unsupported marketing claims in the title. `宗教` and `宗教风` are forbidden title words, even when the design contains a cross or other related motif. Color, scene, gift, size, weight, quantity, and packaging are omitted by default unless they define the wearing form or the user explicitly requests them. Do not use `爆款`, `顶级`, `奢华`, or `正品`.
 
 Use the exact approved keyword form, including the two user-approved title mappings: `304不锈钢` → `钛钢`; `镀14K真金` → `真空电镀14K金`. Do not apply any other silent normalization. New or uncertain words go into the response as `新关键词/待确认`, not into the confirmed vocabulary.
 
