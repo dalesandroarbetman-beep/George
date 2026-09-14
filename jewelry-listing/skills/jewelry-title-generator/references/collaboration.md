@@ -72,3 +72,5 @@ The maintainer receives daily reports from members and performs the only canonic
 Only the maintainer changes the canonical Skill or vocabulary. The maintainer should pull the latest George `main`, make the smallest focused change, run the Skill validator, and push or merge according to the repository's normal review policy. Members do not need GitHub write access.
 
 If the maintainer wants a formal review, the maintainer may still use a separate branch and Pull Request; this is not a requirement for members' daily logs.
+
+For a ready-to-copy maintainer prompt with a two-stage analyze-then-confirm process, use [MAINTAINER_UPDATE.md](../MAINTAINER_UPDATE.md).
