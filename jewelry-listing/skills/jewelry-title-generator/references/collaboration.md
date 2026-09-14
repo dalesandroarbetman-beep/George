@@ -4,9 +4,17 @@
 
 Multiple agents can improve the title Skill while keeping one reviewed canonical version in the George repository.
 
+## Lightweight feedback mode
+
+Normal title generation is silent about collaboration. Do not create a feedback record for every product. Only create one when a user corrects the result, the agent finds a repeatable error, a new keyword is genuinely useful, or a risk decision is disputed. A single sentence is enough at first; the maintainer or a later review pass can normalize it into the JSON schema below.
+
+Suggested short form:
+
+`改进建议｜案例: <SKU/匿名编号>｜问题: <关键词/材质/风险/格式>｜事实: <证据>｜建议: <改什么>｜置信度: <低/中/高>`
+
 ## Two levels of change
 
-1. **Case feedback** — a single product result, correction, or new candidate word. This does not change the Skill. Return it as `rule_feedback` and, when a writable feedback area is explicitly provided, save one proposal file there.
+1. **Case feedback** — a single product result, correction, or new candidate word. This does not change the Skill. Return `rule_feedback` only when a feedback trigger occurs; otherwise keep it empty or omit it.
 2. **Canonical rule change** — a change to `SKILL.md`, a reference, or the confirmed vocabulary. This requires a separate branch, a focused pull request, and human review.
 
 ## Proposal schema
@@ -33,6 +41,10 @@ Do not place secrets, cookies, private URLs, customer information, or source ima
 - New keyword: remains an open candidate until explicit user/maintainer confirmation.
 - Wording, ordering, or omission rule: promote only after two independent cases or explicit user approval.
 - Risk/IP gate: promote only after explicit human review; never infer a global risk rule from one ambiguous image.
+
+## Maintainer review workflow
+
+The maintainer may ask an agent to review a specified set of past task conversations and extract only the improvement signals. Do not scan or copy private conversations by default. The review should produce a deduplicated digest of short proposals, grouped by problem type, before any rule is edited.
 
 ## Branch and pull-request workflow
 
