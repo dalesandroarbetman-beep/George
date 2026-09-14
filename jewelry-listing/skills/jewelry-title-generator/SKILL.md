@@ -35,15 +35,14 @@ Use the exact approved keyword form. Do not silently normalize a source term int
 
 ## Shared improvement protocol
 
-The copy in George is the canonical version of this Skill. Normal title generation is read-only: do not edit `SKILL.md`, references, or the confirmed vocabulary merely because one case suggests a better wording. Every agent may identify an improvement, but must separate a case result from a proposed rule change.
+The copy in George is the canonical version of this Skill. Normal title generation is read-only: members and agents must not edit `SKILL.md`, references, or the confirmed vocabulary during ordinary use. Members do not need to submit files, create branches, or push to GitHub.
 
-- For a new word or one-off correction, keep the current result usable and report a structured `rule_feedback` proposal; do not promote it automatically.
-- A keyword may enter the confirmed vocabulary only after the user or maintainer explicitly confirms it. Other agents may continue using it as an open candidate and record `new_keywords` plus `keyword_sources`.
-- A wording/order rule should be proposed with evidence from at least two independent cases, or with explicit user approval. A risk/IP rule always requires explicit human review before promotion.
-- Changes to the canonical Skill must go through a separate Git branch and pull request against George `main`. Never push an unreviewed rule change directly to `main`.
-- Include the Skill commit/version, case or SKU, evidence, problem type, proposed change, confidence, and before/after examples in the proposal. Do not include secrets, cookies, private paths, or customer-sensitive images.
+- Keep any correction, rejected word, useful new word, or disputed risk decision as a short note in the current conversation.
+- At the end of the day, when the member asks `汇总今日优化日志`, summarize only improvement points from the current conversation. Do not claim to have read other members' private conversations or tasks.
+- The daily log is sent by the member to the maintainer. The maintainer decides what to merge into the canonical Skill or vocabulary.
+- A keyword becomes confirmed only after the maintainer or user explicitly approves it. A wording/order rule needs two independent cases or explicit approval. A risk/IP rule always needs human review.
 
-Use [collaboration guidance](references/collaboration.md) for the proposal schema and merge checklist. If the agent cannot create a branch or pull request, return the completed proposal in the response so a maintainer can apply it.
+Use [collaboration guidance](references/collaboration.md) for the short daily-log format and the maintainer review rules.
 
 ## Image-only evidence handling
 

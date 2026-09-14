@@ -4,13 +4,35 @@
 
 Multiple agents can improve the title Skill while keeping one reviewed canonical version in the George repository.
 
-## Lightweight feedback mode
+## Member conversation-log mode
 
-Normal title generation is silent about collaboration. Do not create a feedback record for every product. Only create one when a user corrects the result, the agent finds a repeatable error, a new keyword is genuinely useful, or a risk decision is disputed. A single sentence is enough at first; the maintainer or a later review pass can normalize it into the JSON schema below.
+Normal title generation is silent about collaboration. Do not create a feedback record for every product. Only note an improvement in the current conversation when a user corrects the result, the agent finds a repeatable error, a new keyword is genuinely useful, or a risk decision is disputed. A single sentence is enough.
 
 Suggested short form:
 
 `改进建议｜案例: <SKU/匿名编号>｜问题: <关键词/材质/风险/格式>｜事实: <证据>｜建议: <改什么>｜置信度: <低/中/高>`
+
+At the end of the day, the member asks `汇总今日优化日志`. The agent returns a short Chinese report that can be copied to the maintainer:
+
+```text
+饰品标题 Skill 当日优化日志
+日期：YYYY-MM-DD
+Skill版本：<Git提交号，如可见>
+
+一、用户明确修正
+- <案例>｜<原结果> → <用户确认结果>
+
+二、待维护者确认
+- <案例>｜问题：<关键词/材质/风险/格式>｜事实：<证据>｜建议：<改什么>｜置信度：<低/中/高>
+
+三、重复出现的问题
+- <问题>｜出现次数：<数量>｜涉及案例：<编号>
+
+四、今日结论
+- <今日无规则改进，或需要维护者重点审核的事项>
+```
+
+The report must summarize only the current conversation's available context. It must not imply access to other members' chats, private tasks, hidden logs, or GitHub history. Omit secrets, cookies, private URLs, customer information, and source images; use SKU or an anonymized case id.
 
 ## Two levels of change
 
@@ -44,14 +66,10 @@ Do not place secrets, cookies, private URLs, customer information, or source ima
 
 ## Maintainer review workflow
 
-The maintainer may ask an agent to review a specified set of past task conversations and extract only the improvement signals. Do not scan or copy private conversations by default. The review should produce a deduplicated digest of short proposals, grouped by problem type, before any rule is edited.
+The maintainer receives daily reports from members and performs the only canonical update. Reports can be combined, deduplicated, and counted without requiring members to touch GitHub. The maintainer may ask an agent to review a specified set of past task conversations, but this is opt-in and scoped; do not scan or copy private conversations by default.
 
-## Branch and pull-request workflow
+## Canonical update workflow
 
-1. Pull the latest George `main` and note the Skill commit in the proposal.
-2. Create a focused branch such as `skill-feedback/title-20260914-rfb001`.
-3. Make the smallest change needed. Keep unrelated workflow, product data, images, and local configuration out of the branch.
-4. Add before/after examples and a regression check showing that existing risk stops and title constraints still work.
-5. Open a pull request for review. Merge only after the maintainer confirms the rule; then agents pull the new `main` commit before future use.
+Only the maintainer changes the canonical Skill or vocabulary. The maintainer should pull the latest George `main`, make the smallest focused change, run the Skill validator, and push or merge according to the repository's normal review policy. Members do not need GitHub write access.
 
-If GitHub write access is unavailable, return the proposal JSON and the suggested patch text to the maintainer instead of attempting repeated pushes.
+If the maintainer wants a formal review, the maintainer may still use a separate branch and Pull Request; this is not a requirement for members' daily logs.
