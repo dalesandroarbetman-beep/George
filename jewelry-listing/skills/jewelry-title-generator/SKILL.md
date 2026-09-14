@@ -20,7 +20,7 @@ If several images show the same item, treat them as one product. If one image co
 1. Identify the SKU and collect the available product record and images. Treat each SKU independently; do not reuse a risk conclusion from another SKU.
 2. Run the risk gate before writing any title. Focus on suspected imitation of a recognizable brand and suspected copying of a protected distinctive design or design patent. Common crosses, skulls, hearts, letters, chains, and ordinary logos are not automatically risky.
 3. If risk cannot be resolved because reverse search or visual evidence fails, mark `风险无法确认`, do not generate a title, and ask for review. If imitation or protected-design risk is found, mark `PASS/禁止上架` and do not generate a title.
-4. If the item passes the risk gate, extract only supported keywords. Product data has priority for material and process. A clearly visible zircon decoration may be added as `锆石` when product data omits it, following [material rules](references/material-rules.md). Do not invent `镶嵌`, `天然`, `人工`, `合成`, plating, or purity claims.
+4. If the item passes the risk gate, extract only supported keywords. Product data has priority for material and process. Apply the user-approved title mappings in [material rules](references/material-rules.md): source `304不锈钢` is displayed as `钛钢`, and source `镀14K真金` is displayed as `真空电镀14K金`. A clearly visible zircon decoration may be added as `锆石` when product data omits it, following the same reference. Do not invent these mappings when the source does not support the underlying material/process, and do not invent `镶嵌`, `天然`, `人工`, `合成`, or purity claims.
 5. Generate three Chinese title options by default. The first is the preferred natural title; the second and third may test a different valid order or lower-priority candidate word. Use Chinese commas and no full stop.
 
 ## Title construction
@@ -31,7 +31,7 @@ Prefer this order when the fields exist:
 
 Omit missing or weak fields. Do not put SKU, internal codes, brand names, authorization, collaboration, patent, exclusivity, or unsupported marketing claims in the title. Color, scene, gift, size, weight, quantity, and packaging are omitted by default unless they define the wearing form or the user explicitly requests them. Do not use `爆款`, `顶级`, `奢华`, or `正品`.
 
-Use the exact approved keyword form. Do not silently normalize a source term into a synonym. New or uncertain words go into the response as `新关键词/待确认`, not into the confirmed vocabulary.
+Use the exact approved keyword form, including the two user-approved title mappings: `304不锈钢` → `钛钢`; `镀14K真金` → `真空电镀14K金`. Do not apply any other silent normalization. New or uncertain words go into the response as `新关键词/待确认`, not into the confirmed vocabulary.
 
 ## Shared improvement protocol
 
