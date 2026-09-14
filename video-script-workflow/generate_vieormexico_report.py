@@ -9,7 +9,7 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parent
-TOOLS_PATH = ROOT / "tools" / "svsw_tools.py"
+TOOLS_PATH = ROOT / "svsw_tools.py"
 OUTPUT_DIR = ROOT / "output" / "vieormexico-2026-06-22"
 HTML_PATH = OUTPUT_DIR / "短视频脚本提取与改写报告.html"
 MD_PATH = OUTPUT_DIR / "短视频脚本提取与改写报告.md"

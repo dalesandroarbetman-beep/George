@@ -2,6 +2,7 @@
 __pycache__/
 .playwright-cli/
 output/transcribe/
+video-script-workflow/output/transcribe/
 
 # Local workflow state, browser artifacts, and generated business data.
 .learnings/

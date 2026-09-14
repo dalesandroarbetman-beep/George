@@ -38,7 +38,7 @@ if "%REVIEW_ROOT%"=="" (
   pause
   exit /b 1
 )
-py -3 "%~dp0tools\auto_listing.py" "%SKU%" --record "%RECORD%" --source-root "%SOURCE_ROOT%" --review-root "%REVIEW_ROOT%"
+py -3 "%~dp0auto_listing.py" "%SKU%" --record "%RECORD%" --source-root "%SOURCE_ROOT%" --review-root "%REVIEW_ROOT%"
 if errorlevel 1 echo 程序执行失败，请查看上面的错误信息。
 echo.
 pause

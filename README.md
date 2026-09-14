@@ -9,28 +9,28 @@
 Windows：
 
 ```powershell
-py -3 generate_vieormexico_report.py
+py -3 video-script-workflow/generate_vieormexico_report.py
 ```
 
 Codespaces / Linux：
 
 ```bash
-python3 generate_vieormexico_report.py
+python3 video-script-workflow/generate_vieormexico_report.py
 ```
 
-报告会生成到 `output/vieormexico-2026-06-22/`，包括 Markdown 和 HTML 两种格式。
+报告会生成到 `video-script-workflow/output/vieormexico-2026-06-22/`，包括 Markdown 和 HTML 两种格式。
 
-规则库位于 `tools/svsw_tools.py`。`.env.local` 仅用于本地私密配置，已被 Git 忽略。
+规则库位于 `video-script-workflow/svsw_tools.py`。`.env.local` 仅用于本地私密配置，已被 Git 忽略。
 
 ## TikTok 饰品公开候选
 
 使用 TikTok Creative Center 的公开接口采集近 30 天广告素材候选，不需要 API Key，也不下载视频文件：
 
 ```powershell
-py -3 collect_tiktok_jewelry.py
+py -3 tiktok-collector/collect_tiktok_jewelry.py
 ```
 
-结果写入 `output/tiktok-jewelry-YYYY-MM-DD/`，包括 `候选视频.json` 和 `候选视频.md`。默认查询 US、GB、CA、AU，并按公开标题、品牌和行业字段归档为 DIY 配件、成品饰品、人设口播。报告中的点赞和 CTR 只代表接口返回值；视频预览地址是 TikTok CDN 的时效链接，可能过期。
+结果写入 `tiktok-collector/output/tiktok-jewelry-YYYY-MM-DD/`，包括 `候选视频.json` 和 `候选视频.md`。默认查询 US、GB、CA、AU，并按公开标题、品牌和行业字段归档为 DIY 配件、成品饰品、人设口播。报告中的点赞和 CTR 只代表接口返回值；视频预览地址是 TikTok CDN 的时效链接，可能过期。
 
 当前工作流只保存公开链接、素材 ID、可验证元数据和结构分类，不复制他人完整文案，不提交视频文件，也不绕过地区、登录或反爬限制。
 
@@ -39,11 +39,11 @@ py -3 collect_tiktok_jewelry.py
 默认使用本地 `faster-whisper`，再通过本机 Ollama 完成中文翻译、改写和结构分析，不调用 OpenAI API。第一次使用需要安装本地依赖，并可能下载一次开源模型；后续识别使用本机缓存。视频源文件不会复制到仓库，转写输出默认被 Git 忽略。
 
 ```powershell
-py -3 -m pip install -r requirements-local.txt
-py -3 transcribe_local.py "C:\path\to\video.mp4"
+py -3 -m pip install -r video-script-workflow/requirements-local.txt
+py -3 video-script-workflow/transcribe_local.py "C:\path\to\video.mp4"
 ```
 
-默认使用 `base` 多语言模型、CPU `int8` 推理、自动语言识别和静音检测，并调用本机 Ollama 的 `qwen2.5-coder:14b`。品牌融合时，工作流会过滤原视频中的价格、优惠和平台归属等未确认商业事实，再加入品牌引导。结果写入 `output/transcribe/YYYY-MM-DD/<视频名>/`，包括：
+默认使用 `base` 多语言模型、CPU `int8` 推理、自动语言识别和静音检测，并调用本机 Ollama 的 `qwen2.5-coder:14b`。品牌融合时，工作流会过滤原视频中的价格、优惠和平台归属等未确认商业事实，再加入品牌引导。结果写入 `video-script-workflow/output/transcribe/YYYY-MM-DD/<视频名>/`，包括：
 
 - `原始文案.txt`：带时间戳的原始语音文案
 - `转写结果.json`：语言、置信度、时长和分段数据
@@ -52,7 +52,7 @@ py -3 transcribe_local.py "C:\path\to\video.mp4"
 工作流默认执行提取、翻译、改写和结构分析。只有明确提出“只提取”时才使用：
 
 ```powershell
-py -3 transcribe_local.py "C:\path\to\video.mp4" --extract-only
+py -3 video-script-workflow/transcribe_local.py "C:\path\to\video.mp4" --extract-only
 ```
 
 完整处理需要本机 Ollama 正在运行并已有对应模型；仅提取模式只需要本地 Whisper 模型。若只允许使用已经下载的本地 Whisper 模型，可增加 `--local-files-only`。
@@ -60,20 +60,20 @@ py -3 transcribe_local.py "C:\path\to\video.mp4" --extract-only
 需要融合品牌时，在改写稿中传入品牌与链接；原始转写和忠实翻译不会加入品牌信息：
 
 ```powershell
-py -3 transcribe_local.py "C:\path\to\video.mp4" --brand "YOHO" --brand-url "www.yohodiy.com"
+py -3 video-script-workflow/transcribe_local.py "C:\path\to\video.mp4" --brand "YOHO" --brand-url "www.yohodiy.com"
 ```
 
 ## 饰品独立站单 SKU 工作流
 
-`skills/jewelry-title-generator/` 负责按商品资料和图片执行品牌/IP、材质和标题风险闸门，并在通过后生成三组中文标题候选。`skills/jewelry-auto-listing/` 负责读取单 SKU 资料、检查主图与尺寸图、整理标签和图片顺序，并生成机器可读的 `上品包.json` 与人工审核清单。缺少尺寸图、资料冲突或风险无法确认时，流程会停在本地复核，不打开后台表单。
+`jewelry-listing/skills/jewelry-title-generator/` 负责按商品资料和图片执行品牌/IP、材质和标题风险闸门，并在通过后生成三组中文标题候选。`jewelry-listing/skills/jewelry-auto-listing/` 负责读取单 SKU 资料、检查主图与尺寸图、整理标签和图片顺序，并生成机器可读的 `上品包.json` 与人工审核清单。缺少尺寸图、资料冲突或风险无法确认时，流程会停在本地复核，不打开后台表单。
 
 固定程序不调用大模型，可直接运行：
 
 ```powershell
-py -3 tools/auto_listing.py XX50438B0W0 `
+py -3 jewelry-listing/auto_listing.py XX50438B0W0 `
   --record "商品资料.xlsx" `
   --source-root "C:\path\to\source-root" `
   --review-root "C:\path\to\review-root"
 ```
 
-也可以双击根目录的 `开始单SKU上品.bat`。后台提交不包含在本地程序中，只有用户明确授权并确认上品包后，才使用现有登录会话继续操作。原始货盘、账号配置、浏览器缓存、商品原始库和本地生成的业务数据不归档到 GitHub。
+也可以双击 `jewelry-listing/开始单SKU上品.bat`。后台提交不包含在本地程序中，只有用户明确授权并确认上品包后，才使用现有登录会话继续操作。原始货盘、账号配置、浏览器缓存、商品原始库和本地生成的业务数据不归档到 GitHub。
