@@ -6,29 +6,28 @@ Multiple agents can improve the title Skill while keeping one reviewed canonical
 
 ## Member conversation-log mode
 
-Normal title generation is silent about collaboration. Do not create a feedback record for every product. Only note an improvement in the current conversation when a user corrects the result, the agent finds a repeatable error, a new keyword is genuinely useful, or a risk decision is disputed. A single sentence is enough.
+Normal title generation is silent about collaboration. Members do not need to label, format, or submit improvement notes. When asked for a daily summary, infer signals from the current conversation: explicit corrections such as “不要/改成/选这个”, accepted or rejected title candidates, repeated wording preferences, new keywords, material corrections, and risk decisions.
 
-Suggested short form:
-
-`改进建议｜案例: <SKU/匿名编号>｜问题: <关键词/材质/风险/格式>｜事实: <证据>｜建议: <改什么>｜置信度: <低/中/高>`
-
-At the end of the day, the member asks `汇总今日优化日志`. The agent returns a short Chinese report that can be copied to the maintainer:
+At the end of the day, the member asks `汇总今日优化日志` or `汇总我的使用习惯`. The agent returns a short Chinese report that can be copied to the maintainer:
 
 ```text
 饰品标题 Skill 当日优化日志
 日期：YYYY-MM-DD
 Skill版本：<Git提交号，如可见>
 
-一、用户明确修正
+一、已识别的使用习惯
+- <偏好>｜证据：<当前对话中的具体选择或纠正>｜置信度：<低/中/高>
+
+二、用户明确修正
 - <案例>｜<原结果> → <用户确认结果>
 
-二、待维护者确认
+三、待维护者确认
 - <案例>｜问题：<关键词/材质/风险/格式>｜事实：<证据>｜建议：<改什么>｜置信度：<低/中/高>
 
-三、重复出现的问题
+四、重复出现的问题
 - <问题>｜出现次数：<数量>｜涉及案例：<编号>
 
-四、今日结论
+五、今日结论
 - <今日无规则改进，或需要维护者重点审核的事项>
 ```
 

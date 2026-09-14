@@ -37,8 +37,8 @@ Use the exact approved keyword form. Do not silently normalize a source term int
 
 The copy in George is the canonical version of this Skill. Normal title generation is read-only: members and agents must not edit `SKILL.md`, references, or the confirmed vocabulary during ordinary use. Members do not need to submit files, create branches, or push to GitHub.
 
-- Keep any correction, rejected word, useful new word, or disputed risk decision as a short note in the current conversation.
-- At the end of the day, when the member asks `汇总今日优化日志`, summarize only improvement points from the current conversation. Do not claim to have read other members' private conversations or tasks.
+- Do not require the member to label or record improvements manually. Infer improvement signals from the current conversation, including explicit corrections, accepted/rejected title options, repeated preferences, new words, material corrections, and disputed risk decisions.
+- At the end of the day, when the member asks `汇总今日优化日志` or `汇总我的使用习惯`, summarize only improvement points from the current conversation. Do not claim to have read other members' private conversations or tasks.
 - The daily log is sent by the member to the maintainer. The maintainer decides what to merge into the canonical Skill or vocabulary.
 - A keyword becomes confirmed only after the maintainer or user explicitly approves it. A wording/order rule needs two independent cases or explicit approval. A risk/IP rule always needs human review.
 
