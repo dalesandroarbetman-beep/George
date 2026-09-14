@@ -18,9 +18,10 @@ The user has approved these title-only mappings for all future jewelry titles:
 
 - `304不锈钢` → `钛钢`
 - Any explicit `14K` field, including `镀14K真金` and `14K+白` → `真空电镀14K金`
+- Any explicit `18K` field, including `18K+珠光蓝+珍珠` and `18K+浅绿` → `真空电镀18K金`
 
-Keep the original source wording in the evidence/notes when useful, but use the mapped wording in the generated title. Do not apply either mapping unless the source data actually supports the original term. Every explicit `14K` field uses the second mapping; `18K` does not use it.
+Keep the original source wording in the evidence/notes when useful, but use the mapped wording in the generated title. Do not apply either mapping unless the source data actually supports the original term. Every explicit `14K` or `18K` field uses its matching mapping; do not infer either mapping when no K-marked field is present.
 
-## Steel and 18K
+## Steel and K-marked finishes
 
-Use `钛钢` when it is supplied by the product data or confirmed by the user. `18K` may be retained exactly as a supplied keyword, but do not reinterpret it as gold plating or a precious-metal claim unless the source says so. A phrase such as `18K钛钢` is allowed only when both terms are present and the user accepts that combination.
+Use `钛钢` when it is supplied by the product data or confirmed by the user. A phrase such as `真空电镀18K金钛钢` is allowed when both the `18K` field and `钛钢` material are present. Do not add either finish mapping when the corresponding K-marked field is absent.
