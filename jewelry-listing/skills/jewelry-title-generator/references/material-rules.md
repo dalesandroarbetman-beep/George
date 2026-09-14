@@ -17,9 +17,9 @@ Do not add `镶嵌` unless the source explicitly says `锆石镶嵌`. Do not add
 The user has approved these title-only mappings for all future jewelry titles:
 
 - `304不锈钢` → `钛钢`
-- `镀14K真金` → `真空电镀14K金`
+- Any explicit `14K` field, including `镀14K真金` and `14K+白` → `真空电镀14K金`
 
-Keep the original source wording in the evidence/notes when useful, but use the mapped wording in the generated title. Do not apply either mapping unless the source data actually supports the original term. The second mapping must not be inferred from a bare `14K` or `18K` field.
+Keep the original source wording in the evidence/notes when useful, but use the mapped wording in the generated title. Do not apply either mapping unless the source data actually supports the original term. Every explicit `14K` field uses the second mapping; `18K` does not use it.
 
 ## Steel and 18K
 

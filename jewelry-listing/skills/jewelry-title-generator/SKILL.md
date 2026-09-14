@@ -20,7 +20,7 @@ If several images show the same item, treat them as one product. If one image co
 1. Identify the SKU and collect the available product record and images. Treat each SKU independently; do not reuse a risk conclusion from another SKU.
 2. Run the risk gate before writing any title. Focus on suspected imitation of a recognizable brand and suspected copying of a protected distinctive design or design patent. Common crosses, skulls, hearts, letters, chains, and ordinary logos are not automatically risky.
 3. If risk cannot be resolved because reverse search or visual evidence fails, mark `风险无法确认`, do not generate a title, and ask for review. If imitation or protected-design risk is found, mark `PASS/禁止上架` and do not generate a title.
-4. If the item passes the risk gate, extract only supported keywords. Product data has priority for material and process. Apply the user-approved title mappings in [material rules](references/material-rules.md): source `304不锈钢` is displayed as `钛钢`, and source `镀14K真金` is displayed as `真空电镀14K金`. A clearly visible zircon decoration may be added as `锆石` when product data omits it, following the same reference. Do not invent these mappings when the source does not support the underlying material/process, and do not invent `镶嵌`, `天然`, `人工`, `合成`, or purity claims.
+4. If the item passes the risk gate, extract only supported keywords. Product data has priority for material and process. Apply the user-approved title mappings in [material rules](references/material-rules.md): source `304不锈钢` is displayed as `钛钢`, and any explicit source `14K` field is displayed as `真空电镀14K金`. A clearly visible zircon decoration may be added as `锆石` when product data omits it, following the same reference. Do not apply the 14K mapping to `18K`, and do not invent `镶嵌`, `天然`, `人工`, `合成`, or purity claims.
 5. Generate three Chinese title options by default. The first is the preferred natural title; the second and third may test a different valid order or lower-priority candidate word. Use Chinese commas and no full stop.
 
 ## Title construction
@@ -29,11 +29,11 @@ Prefer this order when the fields exist:
 
 `系列/风格 + 造型/可见图案细节 + 主体材质 + 工艺 + 款式/分类`
 
-Use the most specific visible shape wording supported by the image: retain a visible motif detail such as `字母` after the primary shape when it helps distinguish the item. When material and process are both supported, keep them together as a continuous phrase, such as `钛钢真空电镀14K金`. When the source category is `配件` and the image clearly shows a pendant, `吊坠配件` is an allowed ending.
+Use one or two image- or data-supported style words by default before the shape. Favor useful style descriptors such as `复古`, `简约`, `甜美`, `个性`, or `徽章风` when they fit the item; do not add contradictory, weak, or unsupported style words merely to lengthen the title. Use the most specific visible shape wording supported by the image: retain a visible motif detail such as `字母` after the primary shape when it helps distinguish the item. When material and process are both supported, keep them together as a continuous phrase, such as `钛钢真空电镀14K金`. When the source category is `配件` and the image clearly shows a pendant, `吊坠配件` is an allowed ending.
 
 Omit missing or weak fields. Do not put SKU, internal codes, brand names, authorization, collaboration, patent, exclusivity, or unsupported marketing claims in the title. `宗教` and `宗教风` are forbidden title words, even when the design contains a cross or other related motif. Color, scene, gift, size, weight, quantity, and packaging are omitted by default unless they define the wearing form or the user explicitly requests them. Do not use `爆款`, `顶级`, `奢华`, or `正品`.
 
-Use the exact approved keyword form, including the two user-approved title mappings: `304不锈钢` → `钛钢`; `镀14K真金` → `真空电镀14K金`. Do not apply any other silent normalization. New or uncertain words go into the response as `新关键词/待确认`, not into the confirmed vocabulary.
+Use the exact approved keyword form, including the two user-approved title mappings: `304不锈钢` → `钛钢`; any explicit `14K` field → `真空电镀14K金`. Do not apply any other silent normalization. New or uncertain words go into the response as `新关键词/待确认`, not into the confirmed vocabulary.
 
 ## Shared improvement protocol
 
