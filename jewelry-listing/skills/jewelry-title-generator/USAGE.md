@@ -2,7 +2,7 @@
 
 其他 agent 连接 George 仓库后，使用以下指令调用本 Skill：
 
-> 请使用仓库中的 `skills/jewelry-title-generator` Skill。这个任务只负责饰品标题生成，不执行自动上品、后台登录或商品提交。
+> 请使用仓库中的 `jewelry-listing/skills/jewelry-title-generator` Skill。这个任务只负责饰品标题生成，不执行自动上品、后台登录或商品提交。
 >
 > 我可能只发送图片，也可能同时提供 SKU 和商品资料。请按单个 SKU 独立处理：先识别图片中可确认的款式、造型、装饰材质和资料字段，再执行仿大牌、品牌/IP、受保护独特设计或设计专利风险判断。命中风险时输出 `PASS/禁止上架`，证据不足时输出 `风险无法确认`，两种情况都不要生成标题。
 >
@@ -12,6 +12,12 @@
 
 ## 直接发图时的最简指令
 
-> 请使用 `skills/jewelry-title-generator`，仅根据这张饰品图片生成标题。先做仿大牌/IP 风险判断，再输出三套中文标题；无法确认的材质或风险请单独标记，不要擅自补词。
+> 请使用 `jewelry-listing/skills/jewelry-title-generator`，仅根据这张饰品图片生成标题。先做仿大牌/IP 风险判断，再输出三套中文标题；无法确认的材质或风险请单独标记，不要擅自补词。
 
 完整字段和状态定义见同目录下的 `references/data-contract.md`、`references/risk-rules.md` 和 `references/material-rules.md`。
+
+## 共同改进指令
+
+> 使用前先拉取 George `main` 的最新版本，并在结果中注明 Skill 的 Git 提交号。正常生成标题时不要直接修改 `SKILL.md` 或确认词库。若发现漏词、误判、材质错误或更好的标题顺序，请输出结构化 `rule_feedback`（反馈编号、Skill 版本、SKU/案例、问题类型、证据、建议改动、置信度、是否已获用户确认）。单个案例只作为候选；新词必须等用户或维护者确认后才能进入确认词库，标题规则至少需要两个独立案例或用户明确同意，风险/IP规则必须人工审核。需要改主规则时创建独立分支并提交 Pull Request 到 George 的 `main`，不要直接推送主分支；没有 GitHub 写权限就返回提案，不要反复重试。
+
+提案字段和合并清单见 `references/collaboration.md`。

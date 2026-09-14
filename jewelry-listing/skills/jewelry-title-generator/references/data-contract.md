@@ -35,8 +35,11 @@
   "titles": ["string", "string", "string"],
   "unused_keywords": ["string"],
   "new_keywords": ["string"],
-  "notes": ["string"]
+  "notes": ["string"],
+  "rule_feedback": []
 }
 ```
 
 For `风险无法确认`, `品牌/IP风险待确认`, or `PASS/禁止上架`, return an empty `titles` array. For ordinary material uncertainty, three test titles are allowed, but the status must remain visible.
+
+`rule_feedback` is optional for ordinary cases and contains zero or more proposals using the schema in [collaboration guidance](collaboration.md). A proposal records a possible improvement only; it does not authorize an automatic change to this Skill or its confirmed vocabulary.

@@ -33,6 +33,18 @@ Omit missing or weak fields. Do not put SKU, internal codes, brand names, author
 
 Use the exact approved keyword form. Do not silently normalize a source term into a synonym. New or uncertain words go into the response as `新关键词/待确认`, not into the confirmed vocabulary.
 
+## Shared improvement protocol
+
+The copy in George is the canonical version of this Skill. Normal title generation is read-only: do not edit `SKILL.md`, references, or the confirmed vocabulary merely because one case suggests a better wording. Every agent may identify an improvement, but must separate a case result from a proposed rule change.
+
+- For a new word or one-off correction, keep the current result usable and report a structured `rule_feedback` proposal; do not promote it automatically.
+- A keyword may enter the confirmed vocabulary only after the user or maintainer explicitly confirms it. Other agents may continue using it as an open candidate and record `new_keywords` plus `keyword_sources`.
+- A wording/order rule should be proposed with evidence from at least two independent cases, or with explicit user approval. A risk/IP rule always requires explicit human review before promotion.
+- Changes to the canonical Skill must go through a separate Git branch and pull request against George `main`. Never push an unreviewed rule change directly to `main`.
+- Include the Skill commit/version, case or SKU, evidence, problem type, proposed change, confidence, and before/after examples in the proposal. Do not include secrets, cookies, private paths, or customer-sensitive images.
+
+Use [collaboration guidance](references/collaboration.md) for the proposal schema and merge checklist. If the agent cannot create a branch or pull request, return the completed proposal in the response so a maintainer can apply it.
+
 ## Image-only evidence handling
 
 Separate every extracted field into `已确认` (explicit in data, user-confirmed, or clearly legible/visible) and `待确认` (ambiguous from the image). Use confirmed fields in titles. Keep uncertain fields out of the title and list them under `notes` or `new_keywords`. An image may support visible form and a clearly recognizable decorative stone, but it cannot by itself prove alloy grade, plating, purity, waterproofing, hypoallergenic performance, or a brand/IP relationship.
