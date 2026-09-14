@@ -5,7 +5,15 @@ description: Generate Chinese jewelry product titles from SKU data and images, w
 
 # Jewelry Title Generator
 
-Use this skill when a jewelry SKU, product record, or product image needs a listing title. The default output is Chinese because the storefront provides language conversion for overseas customers.
+Use this skill only for jewelry title generation. A product image alone is a valid starting input; a SKU and product record can be added when available. The default output is Chinese because the storefront provides language conversion for overseas customers. This skill does not create an upload package or operate an ERP/backend.
+
+## Input modes
+
+- **Image-first:** The user sends one or more images. Identify the visible jewelry category, shape, style, decoration, and any legible material/finish evidence. Do not wait for an SKU unless it is needed to distinguish separate products.
+- **SKU-first:** The user sends an SKU or product record, with images optionally attached. Use the record to confirm fields and use images for appearance and risk review.
+- **Mixed:** Reconcile the record and image. When they conflict, preserve the conflict in `status` and `notes`; do not silently choose an unsupported value.
+
+If several images show the same item, treat them as one product. If one image contains several distinct items and the user has not identified the target, ask which item to title before generating.
 
 ## Required sequence
 
@@ -25,9 +33,13 @@ Omit missing or weak fields. Do not put SKU, internal codes, brand names, author
 
 Use the exact approved keyword form. Do not silently normalize a source term into a synonym. New or uncertain words go into the response as `新关键词/待确认`, not into the confirmed vocabulary.
 
+## Image-only evidence handling
+
+Separate every extracted field into `已确认` (explicit in data, user-confirmed, or clearly legible/visible) and `待确认` (ambiguous from the image). Use confirmed fields in titles. Keep uncertain fields out of the title and list them under `notes` or `new_keywords`. An image may support visible form and a clearly recognizable decorative stone, but it cannot by itself prove alloy grade, plating, purity, waterproofing, hypoallergenic performance, or a brand/IP relationship.
+
 ## Output contract
 
-For a passing SKU, output only the SKU, status, and three titles unless a conflict needs explanation. Use one of the statuses in [data contract](references/data-contract.md). Keep material, shape, and length conflicts visible in the status. When the user requests English output, translate the selected Chinese title and keep it within 80 English characters by dropping lower-priority words first; do not add new keywords.
+For a passing item, output the provided SKU (or `未提供SKU`), status, and three titles unless a conflict needs explanation. Use one of the statuses in [data contract](references/data-contract.md). Keep material, shape, and length conflicts visible in the status. When the user requests English output, translate the selected Chinese title and keep it within 80 English characters by dropping lower-priority words first; do not add new keywords.
 
 Read the focused references only when needed:
 

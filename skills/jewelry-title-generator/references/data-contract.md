@@ -4,7 +4,7 @@
 
 ```json
 {
-  "sku": "string",
+  "sku": "string|null",
   "product_data": {
     "name": "string|null",
     "category": "string|null",
@@ -23,13 +23,13 @@
 }
 ```
 
-Missing fields are valid. Do not fill them with guesses merely to satisfy the schema.
+`images` may be the only populated input. Missing fields are valid. Do not fill them with guesses merely to satisfy the schema. If the user sends an image without an SKU, use `sku: null` in machine-readable output and display `未提供SKU` in the human response. Record image-derived fields in `notes` or `keyword_sources`.
 
 ## Output
 
 ```json
 {
-  "sku": "string",
+  "sku": "string|null",
   "status": "可上架|资料冲突待确认|材质待确认|品牌/IP风险待确认|风险无法确认|PASS/禁止上架",
   "risk_summary": "string",
   "titles": ["string", "string", "string"],
