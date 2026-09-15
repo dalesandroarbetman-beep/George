@@ -44,7 +44,7 @@ The copy in George is the canonical version of this Skill. Normal title generati
 - The daily log is sent by the member to the maintainer. The maintainer decides what to merge into the canonical Skill or vocabulary.
 - A keyword becomes confirmed only after the maintainer or user explicitly approves it. A wording/order rule needs two independent cases or explicit approval. A risk/IP rule always needs human review.
 
-Use [collaboration guidance](references/collaboration.md) for the short daily-log format and the maintainer review rules.
+Use [collaboration guidance](references/collaboration.md) for the short daily-log format and the maintainer review rules. Use [style-vocabulary.md](references/style-vocabulary.md) for style candidates and [risk-keywords.md](references/risk-keywords.md) for evidence flags; neither list authorizes unsupported claims.
 
 ## Image-only evidence handling
 
@@ -52,7 +52,11 @@ Separate every extracted field into `已确认` (explicit in data, user-confirme
 
 ## Output contract
 
-For a passing item, output the provided SKU (or `未提供SKU`), status, and three titles unless a conflict needs explanation. Use one of the statuses in [data contract](references/data-contract.md). Keep material, shape, and length conflicts visible in the status. When the user requests English output, translate the selected Chinese title and keep it within 80 English characters by dropping lower-priority words first; do not add new keywords.
+For a passing item, output the provided SKU (or `未提供SKU`), status, and three titles unless a conflict needs explanation. Use one of the statuses in [data contract](references/data-contract.md). Keep material, shape, and length conflicts visible in the status. When the user requests English output, translate the selected Chinese title and keep it within 80 English characters, counting spaces and punctuation. If over the limit, remove lower-priority style, decoration, and marketing words first while retaining the core shape, category, supported material, and finish; do not add new keywords.
+
+## Confirmed reusable keyword rules
+
+The 2026-09-14 maintainer log confirmed these reusable terms when evidence supports them: `滴釉`, `叠戴`, `不规则`, `蛇骨链`, `女王头像`, `万能扣`, `软陶`, `铜配件`, and `镶嵌锆石`. See [keyword-vocabulary.md](references/keyword-vocabulary.md). A term must not be used merely because it appears in the list.
 
 Read the focused references only when needed:
 

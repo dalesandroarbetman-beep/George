@@ -19,3 +19,7 @@ Do not treat an ordinary logo, letter, cross, skull, heart, basic chain, or gene
 - `PASS/禁止上架`: imitation or protected-design risk is found; do not generate a title.
 
 When uncertain whether a design imitates a brand, preserve the uncertainty and ask for human confirmation. Never claim that a product is original, authorized, exclusive, or patent-safe.
+
+## Reference keyword list
+
+Before finalizing, scan [risk-keywords.md](risk-keywords.md). These are interceptors or evidence flags, not title keywords. `独立品牌感` is forbidden. `NASA联名款` is forbidden without verifiable authorization; suspected look-alike marks or protected designs still require human review.
