@@ -35,6 +35,7 @@
   "titles": ["string", "string", "string"],
   "unused_keywords": ["string"],
   "new_keywords": ["string"],
+  "keyword_sources": ["资料|用户确认|图片清晰证据|开放候选|风险词表"],
   "notes": ["string"],
   "rule_feedback": []
 }
