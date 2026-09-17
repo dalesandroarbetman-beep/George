@@ -1,0 +1,6 @@
+interface:
+  display_name: "Video Multiplatform Publishing"
+  short_description: "Create bilingual six-platform video plans"
+  default_prompt: "Use $video-multiplatform-publishing to turn this product video into a bilingual six-platform publishing plan."
+policy:
+  allow_implicit_invocation: true
