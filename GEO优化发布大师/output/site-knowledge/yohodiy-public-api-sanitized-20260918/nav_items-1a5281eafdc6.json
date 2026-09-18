@@ -1,0 +1,2582 @@
+{
+  "table": "nav_items",
+  "source_url": "https://backend.appmiaoda.com/projects/supabase314724440942358528/rest/v1/nav_items?select=*&is_active=eq.true&order=sort_order.asc",
+  "status": 200,
+  "captured_at": "2026-09-18T04:58:45.447395+00:00",
+  "data": [
+    {
+      "id": "67fca75b-2a09-42bc-92e3-4cf210bdeae8",
+      "label": "戒指",
+      "url": null,
+      "category_id": "e0a7e0b6-fd85-4025-8bdc-1005846d4308",
+      "parent_id": "0827a201-2bbb-406d-bca4-5686c41c0e71",
+      "sort_order": 0,
+      "is_active": true,
+      "open_in_new": false,
+      "created_at": "2026-07-18T21:56:15.878381+08:00",
+      "updated_at": "2026-08-26T20:14:09.192577+08:00",
+      "translations": {
+        "en": "ring",
+        "es": "anillo",
+        "fr": "bague"
+      },
+      "category_type": "custom"
+    },
+    {
+      "id": "3797f412-072e-4bc8-9982-58068f4169cd",
+      "label": "宗教信仰",
+      "url": null,
+      "category_id": "16aebb58-2339-41dd-a34e-a7b62e30e31e",
+      "parent_id": "7dc0bf7b-9dff-47c1-a10d-734d8d9f3a57",
+      "sort_order": 0,
+      "is_active": true,
+      "open_in_new": false,
+      "created_at": "2026-07-30T19:34:49.417533+08:00",
+      "updated_at": "2026-08-16T15:29:48.675047+08:00",
+      "translations": {
+        "en": "religious belief",
+        "es": "creencia religiosa",
+        "fr": "Croyances religieuses"
+      },
+      "category_type": "accessory"
+    },
+    {
+      "id": "b259e6ca-5729-45b3-8b1d-022515e0412b",
+      "label": "文字系列",
+      "url": null,
+      "category_id": "a531c790-6adc-41cb-afa3-f20645306144",
+      "parent_id": "7dc0bf7b-9dff-47c1-a10d-734d8d9f3a57",
+      "sort_order": 0,
+      "is_active": true,
+      "open_in_new": false,
+      "created_at": "2026-07-30T19:35:28.787582+08:00",
+      "updated_at": "2026-08-16T15:29:55.608861+08:00",
+      "translations": {
+        "en": "Text series",
+        "es": "Serie de texto",
+        "fr": "Série de mots"
+      },
+      "category_type": "accessory"
+    },
+    {
+      "id": "c5a9e1ba-30d5-4380-8002-eac7c839d4f6",
+      "label": "珍珠元素",
+      "url": null,
+      "category_id": "d723c916-bd5b-4f61-82c5-8648e0519383",
+      "parent_id": "5d322113-9983-458d-b97d-7d2d05579b5c",
+      "sort_order": 0,
+      "is_active": true,
+      "open_in_new": false,
+      "created_at": "2026-07-28T10:29:32.848286+08:00",
+      "updated_at": "2026-08-16T15:27:54.268627+08:00",
+      "translations": {
+        "en": "Pearl element",
+        "es": "Elemento Perla",
+        "fr": "Éléments de perles"
+      },
+      "category_type": "spot"
+    },
+    {
+      "id": "0ba54705-18d7-40a0-97ef-3e9f6b874291",
+      "label": "法式风",
+      "url": null,
+      "category_id": "a4ea53c8-26cb-4395-bbd1-eb5928b8bed8",
+      "parent_id": "37e9fe68-9798-4ac9-9df7-7777fb32fca8",
+      "sort_order": 0,
+      "is_active": true,
+      "open_in_new": false,
+      "created_at": "2026-07-30T19:20:47.609754+08:00",
+      "updated_at": "2026-08-16T15:28:45.651787+08:00",
+      "translations": {
+        "en": "French style",
+        "es": "Estilo francés",
+        "fr": "Le vent français"
+      },
+      "category_type": "accessory"
+    },
+    {
+      "id": "ea6de3bb-19e2-416c-a404-8668055b4537",
+      "label": "编绳元素",
+      "url": null,
+      "category_id": "e9254eaa-b9fc-485b-aaae-780788edf641",
+      "parent_id": "5d322113-9983-458d-b97d-7d2d05579b5c",
+      "sort_order": 0,
+      "is_active": true,
+      "open_in_new": false,
+      "created_at": "2026-07-28T10:32:54.542986+08:00",
+      "updated_at": "2026-08-16T15:28:06.739128+08:00",
+      "translations": {
+        "en": "Rope weaving element",
+        "es": "Elementos de cuerda",
+        "fr": "Éléments de tricotage de corde"
+      },
+      "category_type": "spot"
+    },
+    {
+      "id": "8cd0e6f8-3b7f-49a9-a50f-a7737e420c0a",
+      "label": "中国风",
+      "url": null,
+      "category_id": "4a563e87-0f9a-43ee-a55d-91961811d5f8",
+      "parent_id": "37e9fe68-9798-4ac9-9df7-7777fb32fca8",
+      "sort_order": 0,
+      "is_active": true,
+      "open_in_new": false,
+      "created_at": "2026-07-30T19:19:44.921308+08:00",
+      "updated_at": "2026-08-16T15:28:38.054064+08:00",
+      "translations": {
+        "en": "Chinese style",
+        "es": "Estilo chino",
+        "fr": "Le vent chinois"
+      },
+      "category_type": "accessory"
+    },
+    {
+      "id": "a641b77f-e7ed-403a-a003-f8c0dcbac398",
+      "label": "春节",
+      "url": null,
+      "category_id": "274a034f-2465-4d9f-81e6-14f6ab71f006",
+      "parent_id": "777af77e-d6f6-4486-9309-b70aaea29ac3",
+      "sort_order": 0,
+      "is_active": true,
+      "open_in_new": false,
+      "created_at": "2026-07-30T19:27:16.693753+08:00",
+      "updated_at": "2026-08-16T15:29:10.250877+08:00",
+      "translations": {
+        "en": "Spring Festival",
+        "es": "Festival de primavera",
+        "fr": "Fête du Printemps"
+      },
+      "category_type": "accessory"
+    },
+    {
+      "id": "a313e5d8-dbe7-4548-9043-dd3c862164e8",
+      "label": "生日",
+      "url": null,
+      "category_id": "ddc3625e-c3a3-4d46-a2ea-453b2c6fa446",
+      "parent_id": "777af77e-d6f6-4486-9309-b70aaea29ac3",
+      "sort_order": 0,
+      "is_active": true,
+      "open_in_new": false,
+      "created_at": "2026-07-30T19:28:05.289677+08:00",
+      "updated_at": "2026-08-16T15:29:15.276801+08:00",
+      "translations": {
+        "en": "birthday",
+        "es": "cumpleaños",
+        "fr": "Anniversaire"
+      },
+      "category_type": "accessory"
+    },
+    {
+      "id": "689d1126-3f0b-47a2-b604-1fdac46a56f0",
+      "label": "花卉系列",
+      "url": null,
+      "category_id": "f5d45de5-bb3b-4a9a-8432-72019bc2774b",
+      "parent_id": "7dc0bf7b-9dff-47c1-a10d-734d8d9f3a57",
+      "sort_order": 0,
+      "is_active": true,
+      "open_in_new": false,
+      "created_at": "2026-07-30T19:32:54.108453+08:00",
+      "updated_at": "2026-08-16T15:29:34.768213+08:00",
+      "translations": {
+        "en": "Floral Series",
+        "es": "Colección de flores",
+        "fr": "Série florale"
+      },
+      "category_type": "accessory"
+    },
+    {
+      "id": "980e1f3e-f250-438f-9292-185db3efcccf",
+      "label": "风格",
+      "url": null,
+      "category_id": "45708861-dac3-4270-8c70-850fc3af9df7",
+      "parent_id": "5723edfa-1191-46bf-a863-828b7ade26f6",
+      "sort_order": 0,
+      "is_active": true,
+      "open_in_new": false,
+      "created_at": "2026-07-27T17:44:33.556939+08:00",
+      "updated_at": "2026-08-16T15:25:53.361155+08:00",
+      "translations": {
+        "en": "Style",
+        "es": "Estilo",
+        "fr": "Style"
+      },
+      "category_type": "spot"
+    },
+    {
+      "id": "5d322113-9983-458d-b97d-7d2d05579b5c",
+      "label": "元素",
+      "url": null,
+      "category_id": "7c312812-a1b2-40f7-91e6-cadf44913836",
+      "parent_id": "5723edfa-1191-46bf-a863-828b7ade26f6",
+      "sort_order": 0,
+      "is_active": true,
+      "open_in_new": false,
+      "created_at": "2026-07-27T17:43:41.992113+08:00",
+      "updated_at": "2026-08-16T15:25:47.463736+08:00",
+      "translations": {
+        "en": "element",
+        "es": "Elemento",
+        "fr": "Élément"
+      },
+      "category_type": "spot"
+    },
+    {
+      "id": "640aa6d5-d3ad-4218-8cb2-6dd7ac803bd6",
+      "label": "主题",
+      "url": null,
+      "category_id": "2d11cd2d-ded9-44cd-9cb3-4e48af3cc1a7",
+      "parent_id": "5723edfa-1191-46bf-a863-828b7ade26f6",
+      "sort_order": 0,
+      "is_active": true,
+      "open_in_new": false,
+      "created_at": "2026-07-27T17:44:03.236137+08:00",
+      "updated_at": "2026-08-16T15:25:49.548191+08:00",
+      "translations": {
+        "en": "Theme",
+        "es": "Tema",
+        "fr": "Sujet"
+      },
+      "category_type": "spot"
+    },
+    {
+      "id": "5f9c9455-e3ed-499a-95f2-343989482ec5",
+      "label": "系列",
+      "url": null,
+      "category_id": "f5ba81d5-695d-43c9-8695-620e3e8b4285",
+      "parent_id": "5723edfa-1191-46bf-a863-828b7ade26f6",
+      "sort_order": 0,
+      "is_active": true,
+      "open_in_new": false,
+      "created_at": "2026-07-27T17:44:16.959555+08:00",
+      "updated_at": "2026-08-16T15:25:51.39626+08:00",
+      "translations": {
+        "en": "series",
+        "es": "Serie",
+        "fr": "série"
+      },
+      "category_type": "spot"
+    },
+    {
+      "id": "2732968a-2a18-48b6-9bf4-859c19ab86b5",
+      "label": "套装",
+      "url": null,
+      "category_id": "ac969c8a-812b-4626-875d-9bca72825263",
+      "parent_id": "4979a251-e114-49fd-806c-65be9831e192",
+      "sort_order": 0,
+      "is_active": true,
+      "open_in_new": false,
+      "created_at": "2026-07-28T10:02:53.730277+08:00",
+      "updated_at": "2026-08-16T15:25:55.632871+08:00",
+      "translations": {
+        "en": "Set",
+        "es": "traje",
+        "fr": "Ensemble"
+      },
+      "category_type": "spot"
+    },
+    {
+      "id": "910b22ed-1ca9-408a-961f-500cf4796401",
+      "label": "戒指",
+      "url": null,
+      "category_id": "377c5c34-6a4b-4851-b265-6f45898322f1",
+      "parent_id": "4979a251-e114-49fd-806c-65be9831e192",
+      "sort_order": 0,
+      "is_active": true,
+      "open_in_new": false,
+      "created_at": "2026-07-28T10:03:56.184336+08:00",
+      "updated_at": "2026-08-16T15:25:57.739302+08:00",
+      "translations": {
+        "en": "ring",
+        "es": "anillo",
+        "fr": "bague"
+      },
+      "category_type": "spot"
+    },
+    {
+      "id": "882ee99f-01d2-4d6a-b46c-6ebe25346470",
+      "label": "哥特风",
+      "url": null,
+      "category_id": "c5cd65d2-c38f-4aac-8ed7-b860511411b8",
+      "parent_id": "980e1f3e-f250-438f-9292-185db3efcccf",
+      "sort_order": 0,
+      "is_active": true,
+      "open_in_new": false,
+      "created_at": "2026-07-28T10:05:45.15193+08:00",
+      "updated_at": "2026-08-16T15:26:15.393204+08:00",
+      "translations": {
+        "en": "Gothic style",
+        "es": "Viento gótico",
+        "fr": "Vent gothique"
+      },
+      "category_type": "spot"
+    },
+    {
+      "id": "b77ee015-eda1-4847-b7ca-3dd3353adcba",
+      "label": "手镯",
+      "url": null,
+      "category_id": "dba80d25-578f-44c2-b4ca-aea6fae60e7c",
+      "parent_id": "4979a251-e114-49fd-806c-65be9831e192",
+      "sort_order": 0,
+      "is_active": true,
+      "open_in_new": false,
+      "created_at": "2026-07-28T10:04:17.615295+08:00",
+      "updated_at": "2026-08-16T15:26:00.596174+08:00",
+      "translations": {
+        "en": "Bracelet",
+        "es": "pulsera",
+        "fr": "Bracelet"
+      },
+      "category_type": "spot"
+    },
+    {
+      "id": "25e2c16c-d6d5-48c0-8cf2-46654f08c288",
+      "label": "首页",
+      "url": "/",
+      "category_id": null,
+      "parent_id": null,
+      "sort_order": 0,
+      "is_active": true,
+      "open_in_new": false,
+      "created_at": "2026-07-03T18:16:23.458942+08:00",
+      "updated_at": "2026-07-18T12:51:10.110518+08:00",
+      "translations": {
+        "en": "Home",
+        "es": "Inicio",
+        "fr": "Accueil"
+      },
+      "category_type": "spot"
+    },
+    {
+      "id": "0c503af6-3b88-40f8-9bc6-e758bfaf7ef9",
+      "label": "首饰盒",
+      "url": null,
+      "category_id": null,
+      "parent_id": "e43646ff-0db6-4a0a-aa22-0e9a2809906f",
+      "sort_order": 0,
+      "is_active": true,
+      "open_in_new": false,
+      "created_at": "2026-07-16T16:34:33.163849+08:00",
+      "updated_at": "2026-07-24T16:01:25.326364+08:00",
+      "translations": {
+        "en": "Jewelry Box",
+        "es": "Caja de joyas",
+        "fr": "Boîte à bijoux"
+      },
+      "category_type": "spot"
+    },
+    {
+      "id": "fc3c3621-b8c2-4edb-971a-3dc43f0b766c",
+      "label": "手绳",
+      "url": null,
+      "category_id": "485f63f1-a8c1-4a6f-9c68-385e4de3b6cc",
+      "parent_id": "4979a251-e114-49fd-806c-65be9831e192",
+      "sort_order": 0,
+      "is_active": true,
+      "open_in_new": false,
+      "created_at": "2026-07-28T10:04:36.835964+08:00",
+      "updated_at": "2026-08-16T15:26:02.563116+08:00",
+      "translations": {
+        "en": "bracelet",
+        "es": "Cuerda de mano",
+        "fr": "Corde à main"
+      },
+      "category_type": "spot"
+    },
+    {
+      "id": "8c983992-d9e3-40da-89d2-97c372c7c80d",
+      "label": "复古风",
+      "url": null,
+      "category_id": "bed1f666-83a0-4a64-9aac-c12cbe5c67c8",
+      "parent_id": "980e1f3e-f250-438f-9292-185db3efcccf",
+      "sort_order": 0,
+      "is_active": true,
+      "open_in_new": false,
+      "created_at": "2026-07-28T10:05:02.986922+08:00",
+      "updated_at": "2026-08-16T15:26:04.813281+08:00",
+      "translations": {
+        "en": "vintage style",
+        "es": "Estilo retro",
+        "fr": "Vintage vent"
+      },
+      "category_type": "spot"
+    },
+    {
+      "id": "52a4b412-8061-471a-81ef-21ec6d564b18",
+      "label": "文艺风",
+      "url": null,
+      "category_id": "f026f4e7-9bae-440d-a282-1f998b7efe50",
+      "parent_id": "980e1f3e-f250-438f-9292-185db3efcccf",
+      "sort_order": 0,
+      "is_active": true,
+      "open_in_new": false,
+      "created_at": "2026-07-28T10:05:15.670668+08:00",
+      "updated_at": "2026-08-16T15:26:07.240585+08:00",
+      "translations": {
+        "en": "Literary Wind",
+        "es": "Estilo literario y artístico",
+        "fr": "Vent littéraire"
+      },
+      "category_type": "spot"
+    },
+    {
+      "id": "6d1ff612-e64c-44d3-87c7-f459368b7ca7",
+      "label": "嘻哈风",
+      "url": null,
+      "category_id": "57ec4ce3-36c2-4a52-a6f0-120184588aa4",
+      "parent_id": "980e1f3e-f250-438f-9292-185db3efcccf",
+      "sort_order": 0,
+      "is_active": true,
+      "open_in_new": false,
+      "created_at": "2026-07-28T10:05:32.384683+08:00",
+      "updated_at": "2026-08-16T15:26:09.328109+08:00",
+      "translations": {
+        "en": "hip-hop style",
+        "es": "Estilo hip - hop",
+        "fr": "Le vent Hip Hop"
+      },
+      "category_type": "spot"
+    },
+    {
+      "id": "6477cb90-9324-47fc-84d5-9080ce7785e6",
+      "label": "哥伦比亚风",
+      "url": null,
+      "category_id": "261cebdc-ec53-4805-a56f-f70f9c7affd2",
+      "parent_id": "980e1f3e-f250-438f-9292-185db3efcccf",
+      "sort_order": 0,
+      "is_active": true,
+      "open_in_new": false,
+      "created_at": "2026-07-28T10:06:01.560967+08:00",
+      "updated_at": "2026-08-16T15:26:17.525707+08:00",
+      "translations": {
+        "en": "Colombian Wind",
+        "es": "Viento colombiano",
+        "fr": "Vent de Colombie"
+      },
+      "category_type": "spot"
+    },
+    {
+      "id": "1e794401-178d-4dd7-b9ab-ca8c61f4ac8c",
+      "label": "中国风",
+      "url": null,
+      "category_id": "743250d0-c760-4ecf-82c0-12ac6e272559",
+      "parent_id": "980e1f3e-f250-438f-9292-185db3efcccf",
+      "sort_order": 0,
+      "is_active": true,
+      "open_in_new": false,
+      "created_at": "2026-07-28T10:06:14.147826+08:00",
+      "updated_at": "2026-08-16T15:26:19.205233+08:00",
+      "translations": {
+        "en": "Chinese style",
+        "es": "Estilo chino",
+        "fr": "Le vent chinois"
+      },
+      "category_type": "spot"
+    },
+    {
+      "id": "b73cb5fb-514e-4fc8-b307-1734844038a7",
+      "label": "极简风",
+      "url": null,
+      "category_id": "c3e1e374-c5fe-443a-93e1-4dac51565642",
+      "parent_id": "980e1f3e-f250-438f-9292-185db3efcccf",
+      "sort_order": 0,
+      "is_active": true,
+      "open_in_new": false,
+      "created_at": "2026-07-28T10:06:32.32103+08:00",
+      "updated_at": "2026-08-16T15:26:21.20628+08:00",
+      "translations": {
+        "en": "minimalist style",
+        "es": "Viento extremadamente simple",
+        "fr": "Vent minimaliste"
+      },
+      "category_type": "spot"
+    },
+    {
+      "id": "d5a051b2-15e0-4255-a4eb-90f3e90a9be1",
+      "label": "日韩风",
+      "url": null,
+      "category_id": "569c05ee-8958-41ab-83ea-0539ce2047ed",
+      "parent_id": "980e1f3e-f250-438f-9292-185db3efcccf",
+      "sort_order": 0,
+      "is_active": true,
+      "open_in_new": false,
+      "created_at": "2026-07-28T10:06:45.54927+08:00",
+      "updated_at": "2026-08-16T15:26:23.050816+08:00",
+      "translations": {
+        "en": "Japanese-Korean style",
+        "es": "Viento japonés y coreano",
+        "fr": "Vent japonais - coréen"
+      },
+      "category_type": "spot"
+    },
+    {
+      "id": "06d1600c-72f6-43cb-b8df-a326e60d6b65",
+      "label": "法式风",
+      "url": null,
+      "category_id": "b534d9e0-f4d9-4fca-bebb-6bfdd582a4f3",
+      "parent_id": "980e1f3e-f250-438f-9292-185db3efcccf",
+      "sort_order": 0,
+      "is_active": true,
+      "open_in_new": false,
+      "created_at": "2026-07-28T10:07:10.01592+08:00",
+      "updated_at": "2026-08-16T15:26:24.85547+08:00",
+      "translations": {
+        "en": "French style",
+        "es": "Estilo francés",
+        "fr": "Le vent français"
+      },
+      "category_type": "spot"
+    },
+    {
+      "id": "dea34d90-8a85-47c0-a824-0e0aae41f867",
+      "label": "甜酷风",
+      "url": null,
+      "category_id": "c9e40c9e-ecf4-4e45-bba0-f08dba251679",
+      "parent_id": "980e1f3e-f250-438f-9292-185db3efcccf",
+      "sort_order": 0,
+      "is_active": true,
+      "open_in_new": false,
+      "created_at": "2026-07-28T10:07:26.717149+08:00",
+      "updated_at": "2026-08-16T15:26:26.749465+08:00",
+      "translations": {
+        "en": "Sweet Cool Wind",
+        "es": "Dulce viento fresco",
+        "fr": "Vent doux et cool"
+      },
+      "category_type": "spot"
+    },
+    {
+      "id": "4979a251-e114-49fd-806c-65be9831e192",
+      "label": "类目",
+      "url": null,
+      "category_id": "874c1014-2fd2-48cb-8b6e-1aa3c685a57b",
+      "parent_id": "5723edfa-1191-46bf-a863-828b7ade26f6",
+      "sort_order": 0,
+      "is_active": true,
+      "open_in_new": false,
+      "created_at": "2026-07-27T10:10:47.039858+08:00",
+      "updated_at": "2026-08-16T15:26:30.749018+08:00",
+      "translations": {
+        "en": "Category",
+        "es": "Categoría",
+        "fr": "Ordre des classes"
+      },
+      "category_type": "spot"
+    },
+    {
+      "id": "1522df13-6870-4082-8581-afbf0550353f",
+      "label": "项链",
+      "url": null,
+      "category_id": "2f9e8439-7da1-4c71-b793-5b328772dd6f",
+      "parent_id": "4979a251-e114-49fd-806c-65be9831e192",
+      "sort_order": 0,
+      "is_active": true,
+      "open_in_new": false,
+      "created_at": "2026-07-27T10:11:11.659226+08:00",
+      "updated_at": "2026-08-16T15:26:33.235899+08:00",
+      "translations": {
+        "en": "necklace",
+        "es": "collar",
+        "fr": "collier"
+      },
+      "category_type": "spot"
+    },
+    {
+      "id": "9ff344dc-f027-4d77-a218-54fc12f8d884",
+      "label": "手镯",
+      "url": null,
+      "category_id": "dba80d25-578f-44c2-b4ca-aea6fae60e7c",
+      "parent_id": "4979a251-e114-49fd-806c-65be9831e192",
+      "sort_order": 0,
+      "is_active": true,
+      "open_in_new": false,
+      "created_at": "2026-07-27T10:11:30.777558+08:00",
+      "updated_at": "2026-08-16T15:26:35.408948+08:00",
+      "translations": {
+        "en": "Bracelet",
+        "es": "pulsera",
+        "fr": "Bracelet"
+      },
+      "category_type": "spot"
+    },
+    {
+      "id": "ba91d573-5427-4fe6-be57-97518c59d32a",
+      "label": "手链",
+      "url": null,
+      "category_id": "4c57da24-679f-4a88-8608-1e55de8045e9",
+      "parent_id": "4979a251-e114-49fd-806c-65be9831e192",
+      "sort_order": 0,
+      "is_active": true,
+      "open_in_new": false,
+      "created_at": "2026-07-27T17:43:14.601701+08:00",
+      "updated_at": "2026-08-16T15:26:38.922453+08:00",
+      "translations": {
+        "en": "bracelet",
+        "es": "Pulsera",
+        "fr": "bracelet"
+      },
+      "category_type": "spot"
+    },
+    {
+      "id": "6296d77f-39c0-499b-ab0f-5e0e812d07d3",
+      "label": "夏日主题",
+      "url": null,
+      "category_id": "0921521e-8ab5-44be-8162-85872c181ea9",
+      "parent_id": "640aa6d5-d3ad-4218-8cb2-6dd7ac803bd6",
+      "sort_order": 0,
+      "is_active": true,
+      "open_in_new": false,
+      "created_at": "2026-07-28T10:09:34.47199+08:00",
+      "updated_at": "2026-08-16T15:26:41.130162+08:00",
+      "translations": {
+        "en": "Summer Theme",
+        "es": "Temas de verano",
+        "fr": "Thème d'été"
+      },
+      "category_type": "spot"
+    },
+    {
+      "id": "e21b5ef0-e02f-4ed0-a2bf-d36aa5f4de57",
+      "label": "情人节",
+      "url": null,
+      "category_id": "bc2ce1d6-14c7-482a-a6f7-947040ea8e0a",
+      "parent_id": "640aa6d5-d3ad-4218-8cb2-6dd7ac803bd6",
+      "sort_order": 0,
+      "is_active": true,
+      "open_in_new": false,
+      "created_at": "2026-07-28T10:10:12.094721+08:00",
+      "updated_at": "2026-08-16T15:26:44.966178+08:00",
+      "translations": {
+        "en": "Valentine's Day",
+        "es": "Día de San Valentín",
+        "fr": "La Saint Valentin"
+      },
+      "category_type": "spot"
+    },
+    {
+      "id": "51c0094c-a42e-4158-805d-6090236c0fce",
+      "label": "复活节",
+      "url": null,
+      "category_id": "8218ef58-2806-4926-be42-8f1104aab20b",
+      "parent_id": "640aa6d5-d3ad-4218-8cb2-6dd7ac803bd6",
+      "sort_order": 0,
+      "is_active": true,
+      "open_in_new": false,
+      "created_at": "2026-07-28T10:10:28.084194+08:00",
+      "updated_at": "2026-08-16T15:26:47.144226+08:00",
+      "translations": {
+        "en": "Easter",
+        "es": "Semana Santa",
+        "fr": "Pâques"
+      },
+      "category_type": "spot"
+    },
+    {
+      "id": "bcf9b1f0-a0b2-42b3-9fba-e55b669057a1",
+      "label": "狂欢节",
+      "url": null,
+      "category_id": "2a63e62c-79fa-4420-b4a9-d8e7806e1e71",
+      "parent_id": "640aa6d5-d3ad-4218-8cb2-6dd7ac803bd6",
+      "sort_order": 0,
+      "is_active": true,
+      "open_in_new": false,
+      "created_at": "2026-07-28T10:11:05.393207+08:00",
+      "updated_at": "2026-08-16T15:26:51.407693+08:00",
+      "translations": {
+        "en": "Carnival",
+        "es": "Carnaval",
+        "fr": "Carnaval"
+      },
+      "category_type": "spot"
+    },
+    {
+      "id": "42e69eb0-0866-49e4-86ad-5cc556bb30e0",
+      "label": "平安夜",
+      "url": null,
+      "category_id": "cb26fa65-81f3-44ef-97e6-9fdba9459afc",
+      "parent_id": "640aa6d5-d3ad-4218-8cb2-6dd7ac803bd6",
+      "sort_order": 0,
+      "is_active": true,
+      "open_in_new": false,
+      "created_at": "2026-07-28T10:11:22.501198+08:00",
+      "updated_at": "2026-08-16T15:26:53.558673+08:00",
+      "translations": {
+        "en": "Christmas Eve",
+        "es": "Nochebuena",
+        "fr": "La nuit de Noël"
+      },
+      "category_type": "spot"
+    },
+    {
+      "id": "82f3ad92-4f23-4f71-87a5-2de4ed4e9b2f",
+      "label": "春节",
+      "url": null,
+      "category_id": "e1e2e910-375b-4c13-9ccb-7ee3fcbdd234",
+      "parent_id": "640aa6d5-d3ad-4218-8cb2-6dd7ac803bd6",
+      "sort_order": 0,
+      "is_active": true,
+      "open_in_new": false,
+      "created_at": "2026-07-28T10:11:51.247759+08:00",
+      "updated_at": "2026-08-16T15:26:57.603658+08:00",
+      "translations": {
+        "en": "Spring Festival",
+        "es": "Festival de primavera",
+        "fr": "Fête du Printemps"
+      },
+      "category_type": "spot"
+    },
+    {
+      "id": "b8eda787-36a1-47fa-b46e-e6fa1b6ad043",
+      "label": "母亲节",
+      "url": null,
+      "category_id": "3aa5e076-6637-4736-b6f1-0e3146ab4a0f",
+      "parent_id": "640aa6d5-d3ad-4218-8cb2-6dd7ac803bd6",
+      "sort_order": 0,
+      "is_active": true,
+      "open_in_new": false,
+      "created_at": "2026-07-28T10:12:20.301557+08:00",
+      "updated_at": "2026-08-16T15:27:00.304868+08:00",
+      "translations": {
+        "en": "Mother's Day",
+        "es": "Día de la madre",
+        "fr": "Fête des mères"
+      },
+      "category_type": "spot"
+    },
+    {
+      "id": "5169bf55-0dc1-4cee-93ea-3a95d29a9fd1",
+      "label": "生日",
+      "url": null,
+      "category_id": "f7a605d0-beab-4bef-a198-63bb3a35e84f",
+      "parent_id": "640aa6d5-d3ad-4218-8cb2-6dd7ac803bd6",
+      "sort_order": 0,
+      "is_active": true,
+      "open_in_new": false,
+      "created_at": "2026-07-28T10:12:45.664557+08:00",
+      "updated_at": "2026-08-16T15:27:04.248319+08:00",
+      "translations": {
+        "en": "birthday",
+        "es": "cumpleaños",
+        "fr": "Anniversaire"
+      },
+      "category_type": "spot"
+    },
+    {
+      "id": "6cc6194c-6a77-4706-84c5-7bae0c3445dd",
+      "label": "海洋系列",
+      "url": null,
+      "category_id": "b6b3992c-cab7-4666-b3da-d95b65a309f9",
+      "parent_id": "5f9c9455-e3ed-499a-95f2-343989482ec5",
+      "sort_order": 0,
+      "is_active": true,
+      "open_in_new": false,
+      "created_at": "2026-07-28T10:23:34.637062+08:00",
+      "updated_at": "2026-08-16T15:27:23.646847+08:00",
+      "translations": {
+        "en": "Ocean Series",
+        "es": "Serie marina",
+        "fr": "Série océan"
+      },
+      "category_type": "spot"
+    },
+    {
+      "id": "29795d4f-184a-4a8b-9f03-93e0d8ef0d82",
+      "label": "耳饰",
+      "url": null,
+      "category_id": "d0055f83-f3d4-471b-b96f-248988ebac06",
+      "parent_id": "4979a251-e114-49fd-806c-65be9831e192",
+      "sort_order": 0,
+      "is_active": true,
+      "open_in_new": false,
+      "created_at": "2026-07-28T15:04:03.644678+08:00",
+      "updated_at": "2026-08-16T15:28:10.800494+08:00",
+      "translations": {
+        "en": "earrings",
+        "es": "Pendientes",
+        "fr": "Ornements d'oreilles"
+      },
+      "category_type": "spot"
+    },
+    {
+      "id": "61600443-d4e9-4e64-a3fb-4c0eb8b41a2c",
+      "label": "复古风",
+      "url": null,
+      "category_id": "a3e4da8e-e786-48ad-8b9c-170e872879c8",
+      "parent_id": "37e9fe68-9798-4ac9-9df7-7777fb32fca8",
+      "sort_order": 0,
+      "is_active": true,
+      "open_in_new": false,
+      "created_at": "2026-07-30T19:18:10.433429+08:00",
+      "updated_at": "2026-08-16T15:28:19.438658+08:00",
+      "translations": {
+        "en": "vintage style",
+        "es": "Estilo retro",
+        "fr": "Vintage vent"
+      },
+      "category_type": "accessory"
+    },
+    {
+      "id": "0db829a3-a851-476e-8d05-0be5569354a2",
+      "label": "名字",
+      "url": null,
+      "category_id": "386fad3b-e10c-488c-afad-1738d7998e89",
+      "parent_id": "67fca75b-2a09-42bc-92e3-4cf210bdeae8",
+      "sort_order": 0,
+      "is_active": true,
+      "open_in_new": false,
+      "created_at": "2026-07-28T21:21:28.888655+08:00",
+      "updated_at": "2026-08-26T21:07:22.686309+08:00",
+      "translations": {
+        "en": "name",
+        "es": "nombre",
+        "fr": "Nom"
+      },
+      "category_type": "custom"
+    },
+    {
+      "id": "cdfc61ad-a2e7-4a49-84d3-cb0ed09d5c66",
+      "label": "项链",
+      "url": null,
+      "category_id": "fda515f8-020f-403c-8aed-76c023d4c4ac",
+      "parent_id": "0827a201-2bbb-406d-bca4-5686c41c0e71",
+      "sort_order": 0,
+      "is_active": true,
+      "open_in_new": false,
+      "created_at": "2026-07-05T14:25:37.888701+08:00",
+      "updated_at": "2026-08-26T21:05:17.520442+08:00",
+      "translations": {
+        "en": "Necklace",
+        "es": "Collar",
+        "fr": "Collier"
+      },
+      "category_type": "custom"
+    },
+    {
+      "id": "d61b9cd5-10f8-4816-91b0-ebf5863831ca",
+      "label": "乡村",
+      "url": null,
+      "category_id": "17612eef-d059-4165-bf8e-9f07ba1d468e",
+      "parent_id": "640aa6d5-d3ad-4218-8cb2-6dd7ac803bd6",
+      "sort_order": 0,
+      "is_active": true,
+      "open_in_new": false,
+      "created_at": "2026-07-28T10:13:25.307228+08:00",
+      "updated_at": "2026-08-16T15:27:08.128121+08:00",
+      "translations": {
+        "en": "countryside",
+        "es": "Pueblo",
+        "fr": "Le village"
+      },
+      "category_type": "spot"
+    },
+    {
+      "id": "ba4f4538-ef15-4e66-8873-bd7afa1af3fc",
+      "label": "儿童",
+      "url": null,
+      "category_id": "4ff6d22c-d009-41de-881e-7475aac0193a",
+      "parent_id": "640aa6d5-d3ad-4218-8cb2-6dd7ac803bd6",
+      "sort_order": 0,
+      "is_active": true,
+      "open_in_new": false,
+      "created_at": "2026-07-28T10:13:48.681179+08:00",
+      "updated_at": "2026-08-16T15:27:10.375437+08:00",
+      "translations": {
+        "en": "Child",
+        "es": "niño",
+        "fr": "Enfant"
+      },
+      "category_type": "spot"
+    },
+    {
+      "id": "654331a0-8d80-4a6d-973b-8e2aa08c23de",
+      "label": "情侣",
+      "url": null,
+      "category_id": "fbd4b2fc-1da4-4b43-a21d-95919d1c88b5",
+      "parent_id": "640aa6d5-d3ad-4218-8cb2-6dd7ac803bd6",
+      "sort_order": 0,
+      "is_active": true,
+      "open_in_new": false,
+      "created_at": "2026-07-28T10:14:19.301273+08:00",
+      "updated_at": "2026-08-16T15:27:13.22675+08:00",
+      "translations": {
+        "en": "couple",
+        "es": "Parejas",
+        "fr": "couple"
+      },
+      "category_type": "spot"
+    },
+    {
+      "id": "751b6d4f-fabd-44c2-8fcf-8d17040e1832",
+      "label": "闺蜜",
+      "url": null,
+      "category_id": "42ae3909-86a7-41db-baec-7f970efaba8c",
+      "parent_id": "640aa6d5-d3ad-4218-8cb2-6dd7ac803bd6",
+      "sort_order": 0,
+      "is_active": true,
+      "open_in_new": false,
+      "created_at": "2026-07-28T10:14:31.654505+08:00",
+      "updated_at": "2026-08-16T15:27:15.093105+08:00",
+      "translations": {
+        "en": "bestie",
+        "es": "Boudoir",
+        "fr": "Meilleure amie"
+      },
+      "category_type": "spot"
+    },
+    {
+      "id": "9baf5b64-332f-4bc0-befa-2426ee049406",
+      "label": "潮玩主题",
+      "url": null,
+      "category_id": "8c2d625e-3193-45d4-866f-656100669a71",
+      "parent_id": "640aa6d5-d3ad-4218-8cb2-6dd7ac803bd6",
+      "sort_order": 0,
+      "is_active": true,
+      "open_in_new": false,
+      "created_at": "2026-07-28T10:15:02.339589+08:00",
+      "updated_at": "2026-08-16T15:27:18.53713+08:00",
+      "translations": {
+        "en": "Trendy Theme",
+        "es": "Tema de juego de marea",
+        "fr": "Thème de jeu de marée"
+      },
+      "category_type": "spot"
+    },
+    {
+      "id": "8a50af05-954c-47fd-a757-fddd37374915",
+      "label": "星座系列",
+      "url": null,
+      "category_id": "8f2d21c8-fe7b-46ad-b65b-6e06c23ed35a",
+      "parent_id": "5f9c9455-e3ed-499a-95f2-343989482ec5",
+      "sort_order": 0,
+      "is_active": true,
+      "open_in_new": false,
+      "created_at": "2026-07-28T10:22:58.325945+08:00",
+      "updated_at": "2026-08-16T15:27:21.633911+08:00",
+      "translations": {
+        "en": "Constellation Series",
+        "es": "Serie de constelaciones",
+        "fr": "Série Constellation"
+      },
+      "category_type": "spot"
+    },
+    {
+      "id": "8171ccdf-33ad-4513-a8d2-6ac18b94c51f",
+      "label": "几何系列",
+      "url": null,
+      "category_id": "4273a40b-dca8-4fb0-8d68-2310b4cb2b01",
+      "parent_id": "5f9c9455-e3ed-499a-95f2-343989482ec5",
+      "sort_order": 0,
+      "is_active": true,
+      "open_in_new": false,
+      "created_at": "2026-07-28T10:24:03.664508+08:00",
+      "updated_at": "2026-08-16T15:27:26.308944+08:00",
+      "translations": {
+        "en": "Geometric Series",
+        "es": "Serie geométrica",
+        "fr": "Série géométrique"
+      },
+      "category_type": "spot"
+    },
+    {
+      "id": "f125d6e7-24c8-4ae6-9a9a-fdd65ef05e10",
+      "label": "印章系列",
+      "url": null,
+      "category_id": "7ee7fffd-72e0-42c9-8d2f-1977cd8bfbcd",
+      "parent_id": "5f9c9455-e3ed-499a-95f2-343989482ec5",
+      "sort_order": 0,
+      "is_active": true,
+      "open_in_new": false,
+      "created_at": "2026-07-28T10:24:17.937063+08:00",
+      "updated_at": "2026-08-16T15:27:28.211811+08:00",
+      "translations": {
+        "en": "Seal series",
+        "es": "Serie de sellos",
+        "fr": "Série seal"
+      },
+      "category_type": "spot"
+    },
+    {
+      "id": "aebaef7e-e054-4627-ada8-31508c0ff75e",
+      "label": "动物系列",
+      "url": null,
+      "category_id": "ed2d40b6-caf7-4d7c-ac56-6c5ddc4db7f5",
+      "parent_id": "5f9c9455-e3ed-499a-95f2-343989482ec5",
+      "sort_order": 0,
+      "is_active": true,
+      "open_in_new": false,
+      "created_at": "2026-07-28T10:24:53.806996+08:00",
+      "updated_at": "2026-08-16T15:27:31.61983+08:00",
+      "translations": {
+        "en": "Animal Series",
+        "es": "Serie animal",
+        "fr": "Série animaux"
+      },
+      "category_type": "spot"
+    },
+    {
+      "id": "a0337781-c74d-407d-ad3c-dd3abc5a8fe0",
+      "label": "森林系列",
+      "url": null,
+      "category_id": "74166e1a-6412-41ce-8284-24101f723e2d",
+      "parent_id": "5f9c9455-e3ed-499a-95f2-343989482ec5",
+      "sort_order": 0,
+      "is_active": true,
+      "open_in_new": false,
+      "created_at": "2026-07-28T10:25:08.125258+08:00",
+      "updated_at": "2026-08-16T15:27:33.475584+08:00",
+      "translations": {
+        "en": "Forest Series",
+        "es": "Serie forestal",
+        "fr": "Série Forest"
+      },
+      "category_type": "spot"
+    },
+    {
+      "id": "fe6d2d5d-e66b-46d7-afa4-0bcde0543f31",
+      "label": "爱心系列",
+      "url": null,
+      "category_id": "d8db82df-fb7e-4eda-98e1-69327bbb469d",
+      "parent_id": "5f9c9455-e3ed-499a-95f2-343989482ec5",
+      "sort_order": 0,
+      "is_active": true,
+      "open_in_new": false,
+      "created_at": "2026-07-28T10:25:42.736707+08:00",
+      "updated_at": "2026-08-16T15:27:37.138246+08:00",
+      "translations": {
+        "en": "Love Series",
+        "es": "Serie de amor",
+        "fr": "Série Love"
+      },
+      "category_type": "spot"
+    },
+    {
+      "id": "d436353d-8dc3-47c2-8608-882ad253d415",
+      "label": "天使系列",
+      "url": null,
+      "category_id": "a869371c-8be1-4ca4-a7f4-1dbf5bf2f87a",
+      "parent_id": "5f9c9455-e3ed-499a-95f2-343989482ec5",
+      "sort_order": 0,
+      "is_active": true,
+      "open_in_new": false,
+      "created_at": "2026-07-28T10:25:59.425706+08:00",
+      "updated_at": "2026-08-16T15:27:38.396017+08:00",
+      "translations": {
+        "en": "Angel Series",
+        "es": "Colección de ángeles",
+        "fr": "Série Angel"
+      },
+      "category_type": "spot"
+    },
+    {
+      "id": "a4a74012-b88f-4005-b09e-91906653a627",
+      "label": "串珠系列",
+      "url": null,
+      "category_id": "7c80fa92-492f-4c06-84d5-24fc4b93a610",
+      "parent_id": "5f9c9455-e3ed-499a-95f2-343989482ec5",
+      "sort_order": 0,
+      "is_active": true,
+      "open_in_new": false,
+      "created_at": "2026-07-28T10:26:41.848942+08:00",
+      "updated_at": "2026-08-16T15:27:42.216022+08:00",
+      "translations": {
+        "en": "Beaded Series",
+        "es": "Serie de cuentas",
+        "fr": "Série Beaded"
+      },
+      "category_type": "spot"
+    },
+    {
+      "id": "0c7edd04-28c7-40c8-8cd3-5b9647e26c81",
+      "label": "蝴蝶结系列",
+      "url": null,
+      "category_id": "8de3c326-05e4-4b20-871d-15b40c2751e9",
+      "parent_id": "5f9c9455-e3ed-499a-95f2-343989482ec5",
+      "sort_order": 0,
+      "is_active": true,
+      "open_in_new": false,
+      "created_at": "2026-07-28T10:27:20.046743+08:00",
+      "updated_at": "2026-08-16T15:27:44.002567+08:00",
+      "translations": {
+        "en": "Bow series",
+        "es": "Colección de lazos",
+        "fr": "Série Bow"
+      },
+      "category_type": "spot"
+    },
+    {
+      "id": "b0cf2605-32b6-4f80-ad1f-4718d2c2b1e2",
+      "label": "圆珠系列",
+      "url": null,
+      "category_id": "912635b2-551c-4edc-90e9-caaaa5a24c0c",
+      "parent_id": "5f9c9455-e3ed-499a-95f2-343989482ec5",
+      "sort_order": 0,
+      "is_active": true,
+      "open_in_new": false,
+      "created_at": "2026-07-28T10:27:53.661807+08:00",
+      "updated_at": "2026-08-16T15:27:47.272079+08:00",
+      "translations": {
+        "en": "Round Ball Series",
+        "es": "Serie de cuentas redondas",
+        "fr": "Série de perles rondes"
+      },
+      "category_type": "spot"
+    },
+    {
+      "id": "bcbc8d7a-0c65-4db4-b823-f589ecc828ef",
+      "label": "昆虫系列",
+      "url": null,
+      "category_id": "55fb92a8-b683-4cea-8d11-65e22646807b",
+      "parent_id": "5f9c9455-e3ed-499a-95f2-343989482ec5",
+      "sort_order": 0,
+      "is_active": true,
+      "open_in_new": false,
+      "created_at": "2026-07-28T10:28:26.131589+08:00",
+      "updated_at": "2026-08-16T15:27:50.561078+08:00",
+      "translations": {
+        "en": "Insect Series",
+        "es": "Colección de insectos",
+        "fr": "Série insectes"
+      },
+      "category_type": "spot"
+    },
+    {
+      "id": "4cef8659-2cdb-42ec-8ab6-7f0af8d485e6",
+      "label": "礼服系列",
+      "url": null,
+      "category_id": "cdb54cb8-e3c1-4726-a601-a9afd0a29bb9",
+      "parent_id": "5f9c9455-e3ed-499a-95f2-343989482ec5",
+      "sort_order": 0,
+      "is_active": true,
+      "open_in_new": false,
+      "created_at": "2026-07-28T10:29:10.995906+08:00",
+      "updated_at": "2026-08-16T15:27:52.564115+08:00",
+      "translations": {
+        "en": "Dress Collection",
+        "es": "Colección de vestidos",
+        "fr": "Série de robes"
+      },
+      "category_type": "spot"
+    },
+    {
+      "id": "e08a0416-9961-4107-a126-64466bcd2fcd",
+      "label": "天然石元素",
+      "url": null,
+      "category_id": "09cc4a23-042d-4967-bf0d-f59d7793398c",
+      "parent_id": "5d322113-9983-458d-b97d-7d2d05579b5c",
+      "sort_order": 0,
+      "is_active": true,
+      "open_in_new": false,
+      "created_at": "2026-07-28T10:29:49.581237+08:00",
+      "updated_at": "2026-08-16T15:27:55.736035+08:00",
+      "translations": {
+        "en": "Natural stone elements",
+        "es": "Elementos de piedra natural",
+        "fr": "Éléments de pierre naturelle"
+      },
+      "category_type": "spot"
+    },
+    {
+      "id": "6cfdce70-71f2-4025-8420-40d461710ec7",
+      "label": "滴油元素",
+      "url": null,
+      "category_id": "9adb1784-84f0-4ebc-8032-d5b493243831",
+      "parent_id": "5d322113-9983-458d-b97d-7d2d05579b5c",
+      "sort_order": 0,
+      "is_active": true,
+      "open_in_new": false,
+      "created_at": "2026-07-28T10:30:17.978767+08:00",
+      "updated_at": "2026-08-16T15:27:59.88364+08:00",
+      "translations": {
+        "en": "Drip oil element",
+        "es": "Elemento de caída de aceite",
+        "fr": "Éléments de goutte d'huile"
+      },
+      "category_type": "spot"
+    },
+    {
+      "id": "59067682-98df-4201-bb23-5ec24898a8c2",
+      "label": "幻彩元素",
+      "url": null,
+      "category_id": "9867b365-4502-4a8c-93f9-8cf69b61663c",
+      "parent_id": "5d322113-9983-458d-b97d-7d2d05579b5c",
+      "sort_order": 0,
+      "is_active": true,
+      "open_in_new": false,
+      "created_at": "2026-07-28T10:31:45.701255+08:00",
+      "updated_at": "2026-08-16T15:28:03.546402+08:00",
+      "translations": {
+        "en": "Illusionary elements",
+        "es": "Elementos de fantasía",
+        "fr": "Éléments de Magic"
+      },
+      "category_type": "spot"
+    },
+    {
+      "id": "912a9084-d7cd-4b6d-be24-20e29c6e26d8",
+      "label": "贝壳元素",
+      "url": null,
+      "category_id": "6dce56a0-1265-498b-8dfc-2d01715335ea",
+      "parent_id": "5d322113-9983-458d-b97d-7d2d05579b5c",
+      "sort_order": 0,
+      "is_active": true,
+      "open_in_new": false,
+      "created_at": "2026-07-28T10:32:01.491133+08:00",
+      "updated_at": "2026-08-16T15:28:05.008377+08:00",
+      "translations": {
+        "en": "Shell element",
+        "es": "Elementos de Concha",
+        "fr": "Éléments de coquille"
+      },
+      "category_type": "spot"
+    },
+    {
+      "id": "74e255f1-e4af-47a6-88ff-3d84fafdb806",
+      "label": "钻石元素",
+      "url": null,
+      "category_id": "2a0f9a46-a418-4643-8b03-44fe70269539",
+      "parent_id": "5d322113-9983-458d-b97d-7d2d05579b5c",
+      "sort_order": 0,
+      "is_active": true,
+      "open_in_new": false,
+      "created_at": "2026-07-28T10:32:21.777963+08:00",
+      "updated_at": "2026-08-16T15:28:08.001271+08:00",
+      "translations": {
+        "en": "Diamond element",
+        "es": "Elementos de diamante",
+        "fr": "Éléments de diamant"
+      },
+      "category_type": "spot"
+    },
+    {
+      "id": "642c12fc-1012-4524-b493-66709fa0b2ad",
+      "label": "元素",
+      "url": null,
+      "category_id": "c4aaefe8-926b-4c24-9c1f-f42ff9799c03",
+      "parent_id": "a3e22cd4-b9d0-4972-8595-03e627edf91d",
+      "sort_order": 0,
+      "is_active": true,
+      "open_in_new": false,
+      "created_at": "2026-07-28T17:56:58.157711+08:00",
+      "updated_at": "2026-08-16T15:28:12.313068+08:00",
+      "translations": {
+        "en": "element",
+        "es": "Elemento",
+        "fr": "Élément"
+      },
+      "category_type": "accessory"
+    },
+    {
+      "id": "7dc0bf7b-9dff-47c1-a10d-734d8d9f3a57",
+      "label": "系列",
+      "url": null,
+      "category_id": "7b50c92e-4dd0-4fa7-8cb9-12faca2b5b77",
+      "parent_id": "a3e22cd4-b9d0-4972-8595-03e627edf91d",
+      "sort_order": 0,
+      "is_active": true,
+      "open_in_new": false,
+      "created_at": "2026-07-28T17:57:32.287099+08:00",
+      "updated_at": "2026-08-16T15:28:13.815184+08:00",
+      "translations": {
+        "en": "series",
+        "es": "Serie",
+        "fr": "série"
+      },
+      "category_type": "accessory"
+    },
+    {
+      "id": "37e9fe68-9798-4ac9-9df7-7777fb32fca8",
+      "label": "风格",
+      "url": null,
+      "category_id": "de528acb-bc6b-4b90-99a3-2d50db12bfdd",
+      "parent_id": "a3e22cd4-b9d0-4972-8595-03e627edf91d",
+      "sort_order": 0,
+      "is_active": true,
+      "open_in_new": false,
+      "created_at": "2026-07-28T17:57:42.980065+08:00",
+      "updated_at": "2026-08-16T15:28:17.625772+08:00",
+      "translations": {
+        "en": "Style",
+        "es": "Estilo",
+        "fr": "Style"
+      },
+      "category_type": "accessory"
+    },
+    {
+      "id": "fb953396-d6a1-4231-b59d-a8313462bcfe",
+      "label": "哥特风",
+      "url": null,
+      "category_id": "88852de2-cef9-420d-b4ed-6f10692572f4",
+      "parent_id": "37e9fe68-9798-4ac9-9df7-7777fb32fca8",
+      "sort_order": 0,
+      "is_active": true,
+      "open_in_new": false,
+      "created_at": "2026-07-30T19:19:07.748522+08:00",
+      "updated_at": "2026-08-16T15:28:33.797717+08:00",
+      "translations": {
+        "en": "Gothic style",
+        "es": "Viento gótico",
+        "fr": "Vent gothique"
+      },
+      "category_type": "accessory"
+    },
+    {
+      "id": "7bb07911-ac18-4c5f-ba94-c6fe94ff4103",
+      "label": "哥伦比亚风",
+      "url": null,
+      "category_id": "bf645a7b-890f-4ab7-a7b6-834e02805b7e",
+      "parent_id": "37e9fe68-9798-4ac9-9df7-7777fb32fca8",
+      "sort_order": 0,
+      "is_active": true,
+      "open_in_new": false,
+      "created_at": "2026-07-30T19:19:27.406051+08:00",
+      "updated_at": "2026-08-16T15:28:35.987713+08:00",
+      "translations": {
+        "en": "Colombian Wind",
+        "es": "Viento colombiano",
+        "fr": "Vent de Colombie"
+      },
+      "category_type": "accessory"
+    },
+    {
+      "id": "d25c42f3-cb9a-417a-a9c3-7ef1f243856a",
+      "label": "极简风",
+      "url": null,
+      "category_id": "07dbbb89-1b44-4458-bf52-c6da23c3c2dc",
+      "parent_id": "37e9fe68-9798-4ac9-9df7-7777fb32fca8",
+      "sort_order": 0,
+      "is_active": true,
+      "open_in_new": false,
+      "created_at": "2026-07-30T19:20:04.281014+08:00",
+      "updated_at": "2026-08-16T15:28:39.535074+08:00",
+      "translations": {
+        "en": "minimalist style",
+        "es": "Viento extremadamente simple",
+        "fr": "Vent minimaliste"
+      },
+      "category_type": "accessory"
+    },
+    {
+      "id": "97d3774f-8d44-43f7-a6a4-22a3276e7061",
+      "label": "日韩风",
+      "url": null,
+      "category_id": "72030648-f1b2-4589-9c37-be4c095de9c5",
+      "parent_id": "37e9fe68-9798-4ac9-9df7-7777fb32fca8",
+      "sort_order": 0,
+      "is_active": true,
+      "open_in_new": false,
+      "created_at": "2026-07-30T19:20:19.962306+08:00",
+      "updated_at": "2026-08-16T15:28:40.969847+08:00",
+      "translations": {
+        "en": "Japanese-Korean style",
+        "es": "Viento japonés y coreano",
+        "fr": "Vent japonais - coréen"
+      },
+      "category_type": "accessory"
+    },
+    {
+      "id": "23f185e2-ddd2-432b-8e66-b2846c0810d3",
+      "label": "珍珠元素",
+      "url": null,
+      "category_id": "a3a8ae34-7aa8-430d-ab93-1bc91668a42d",
+      "parent_id": "642c12fc-1012-4524-b493-66709fa0b2ad",
+      "sort_order": 0,
+      "is_active": true,
+      "open_in_new": false,
+      "created_at": "2026-07-30T19:21:11.901317+08:00",
+      "updated_at": "2026-08-16T15:28:42.228355+08:00",
+      "translations": {
+        "en": "Pearl element",
+        "es": "Elemento Perla",
+        "fr": "Éléments de perles"
+      },
+      "category_type": "accessory"
+    },
+    {
+      "id": "e1f8c6f6-f5a9-4e6e-bdf5-980d52f2cbd0",
+      "label": "金属元素",
+      "url": null,
+      "category_id": "495f11d7-63d8-4fee-8a56-96901de8751c",
+      "parent_id": "642c12fc-1012-4524-b493-66709fa0b2ad",
+      "sort_order": 0,
+      "is_active": true,
+      "open_in_new": false,
+      "created_at": "2026-07-30T19:21:50.713415+08:00",
+      "updated_at": "2026-08-16T15:28:44.218759+08:00",
+      "translations": {
+        "en": "metallic element",
+        "es": "Elementos metálicos",
+        "fr": "Éléments métalliques"
+      },
+      "category_type": "accessory"
+    },
+    {
+      "id": "7534ded9-09d8-42a4-b2a8-423063378434",
+      "label": "圣诞节主题",
+      "url": null,
+      "category_id": "c4f2a51e-c669-49fa-93ec-e3d4935fcd10",
+      "parent_id": "640aa6d5-d3ad-4218-8cb2-6dd7ac803bd6",
+      "sort_order": 0,
+      "is_active": true,
+      "open_in_new": false,
+      "created_at": "2026-07-28T10:08:26.587757+08:00",
+      "updated_at": "2026-08-16T15:26:28.524464+08:00",
+      "translations": {
+        "en": "Christmas theme",
+        "es": "Tema navideño",
+        "fr": "Thème de Noël"
+      },
+      "category_type": "spot"
+    },
+    {
+      "id": "c94a3b1d-223b-436a-ad4e-58c51cb7a7ae",
+      "label": "万圣节主题",
+      "url": null,
+      "category_id": "8a8f2184-8449-4b4f-95ad-5fa8fe5ae961",
+      "parent_id": "640aa6d5-d3ad-4218-8cb2-6dd7ac803bd6",
+      "sort_order": 0,
+      "is_active": true,
+      "open_in_new": false,
+      "created_at": "2026-07-28T10:09:00.943239+08:00",
+      "updated_at": "2026-08-16T15:26:36.965516+08:00",
+      "translations": {
+        "en": "Halloween theme",
+        "es": "Tema de Halloween",
+        "fr": "Thème Halloween"
+      },
+      "category_type": "spot"
+    },
+    {
+      "id": "9c5f1186-fe9e-42b8-affc-005d733c27cb",
+      "label": "都市商务主题",
+      "url": null,
+      "category_id": "9bf9a096-bc89-4c5d-aaca-7d7ba417dd48",
+      "parent_id": "640aa6d5-d3ad-4218-8cb2-6dd7ac803bd6",
+      "sort_order": 0,
+      "is_active": true,
+      "open_in_new": false,
+      "created_at": "2026-07-28T10:09:54.261471+08:00",
+      "updated_at": "2026-08-16T15:26:43.294983+08:00",
+      "translations": {
+        "en": "Urban Business Theme",
+        "es": "Temas de negocios urbanos",
+        "fr": "Thèmes d'affaires urbains"
+      },
+      "category_type": "spot"
+    },
+    {
+      "id": "43d952ca-6954-4d3e-936a-d344e09c75b3",
+      "label": "感恩节",
+      "url": null,
+      "category_id": "afee4691-cb4e-4c8f-8ea6-34b5a3350d8d",
+      "parent_id": "640aa6d5-d3ad-4218-8cb2-6dd7ac803bd6",
+      "sort_order": 0,
+      "is_active": true,
+      "open_in_new": false,
+      "created_at": "2026-07-28T10:10:47.276446+08:00",
+      "updated_at": "2026-08-16T15:26:48.777014+08:00",
+      "translations": {
+        "en": "Thanksgiving",
+        "es": "Acción de gracias",
+        "fr": "Jour de Thanksgiving"
+      },
+      "category_type": "spot"
+    },
+    {
+      "id": "68469990-f8fc-4b62-a868-ee591b92d29d",
+      "label": "独立日",
+      "url": null,
+      "category_id": "e86a558d-615f-4d56-898e-5a882de62b7c",
+      "parent_id": "640aa6d5-d3ad-4218-8cb2-6dd7ac803bd6",
+      "sort_order": 0,
+      "is_active": true,
+      "open_in_new": false,
+      "created_at": "2026-07-28T10:11:34.876178+08:00",
+      "updated_at": "2026-08-16T15:26:55.720561+08:00",
+      "translations": {
+        "en": "Independence Day",
+        "es": "Día de la Independencia",
+        "fr": "Jour de l'indépendance"
+      },
+      "category_type": "spot"
+    },
+    {
+      "id": "4b893038-3346-4e93-870d-3c710655d850",
+      "label": "父亲节",
+      "url": null,
+      "category_id": "5441400d-1eb8-4a8a-800d-ce129f49c3af",
+      "parent_id": "640aa6d5-d3ad-4218-8cb2-6dd7ac803bd6",
+      "sort_order": 0,
+      "is_active": true,
+      "open_in_new": false,
+      "created_at": "2026-07-28T10:12:33.606267+08:00",
+      "updated_at": "2026-08-16T15:27:02.300007+08:00",
+      "translations": {
+        "en": "Father's Day",
+        "es": "Día del padre",
+        "fr": "Fête des pères"
+      },
+      "category_type": "spot"
+    },
+    {
+      "id": "c43527fd-3376-4f75-909e-7347de54dcb1",
+      "label": "纪念日",
+      "url": null,
+      "category_id": "293bf6d6-2cc6-4af2-861e-99349f286715",
+      "parent_id": "640aa6d5-d3ad-4218-8cb2-6dd7ac803bd6",
+      "sort_order": 0,
+      "is_active": true,
+      "open_in_new": false,
+      "created_at": "2026-07-28T10:13:11.375454+08:00",
+      "updated_at": "2026-08-16T15:27:05.990116+08:00",
+      "translations": {
+        "en": "anniversary",
+        "es": "Aniversario",
+        "fr": "Jour du souvenir"
+      },
+      "category_type": "spot"
+    },
+    {
+      "id": "097bde32-0522-48e8-9fb1-855f4c2eee66",
+      "label": "学生",
+      "url": null,
+      "category_id": "bafec5e4-9d3b-4b1d-817d-5a4b3e6a6331",
+      "parent_id": "640aa6d5-d3ad-4218-8cb2-6dd7ac803bd6",
+      "sort_order": 0,
+      "is_active": true,
+      "open_in_new": false,
+      "created_at": "2026-07-28T10:14:04.168183+08:00",
+      "updated_at": "2026-08-16T15:27:11.859144+08:00",
+      "translations": {
+        "en": "student",
+        "es": "estudiante",
+        "fr": "étudiant"
+      },
+      "category_type": "spot"
+    },
+    {
+      "id": "b80c12b9-7325-4de7-a95a-8600525ef1cf",
+      "label": "户外运动",
+      "url": null,
+      "category_id": "374ccb95-6226-4d98-bbfd-1d7e8dd19489",
+      "parent_id": "640aa6d5-d3ad-4218-8cb2-6dd7ac803bd6",
+      "sort_order": 0,
+      "is_active": true,
+      "open_in_new": false,
+      "created_at": "2026-07-28T10:14:44.647483+08:00",
+      "updated_at": "2026-08-16T15:27:16.891869+08:00",
+      "translations": {
+        "en": "outdoor sports",
+        "es": "deportes al aire libre",
+        "fr": "Sports de plein air"
+      },
+      "category_type": "spot"
+    },
+    {
+      "id": "27c6a626-04aa-418c-a224-f101e896fed9",
+      "label": "生辰石系列",
+      "url": null,
+      "category_id": "daa39ee1-1ee8-4898-b69c-26ef89545db4",
+      "parent_id": "5f9c9455-e3ed-499a-95f2-343989482ec5",
+      "sort_order": 0,
+      "is_active": true,
+      "open_in_new": false,
+      "created_at": "2026-07-28T10:21:34.671502+08:00",
+      "updated_at": "2026-08-16T15:27:20.128275+08:00",
+      "translations": {
+        "en": "Birthstone Series",
+        "es": "Serie shengchen Stone",
+        "fr": "Série Pierre de naissance"
+      },
+      "category_type": "spot"
+    },
+    {
+      "id": "16aa0be0-8dac-4156-925c-77509311caee",
+      "label": "花卉系列",
+      "url": null,
+      "category_id": "a4d7c563-6a24-431e-acb6-95c8ea0000ff",
+      "parent_id": "5f9c9455-e3ed-499a-95f2-343989482ec5",
+      "sort_order": 0,
+      "is_active": true,
+      "open_in_new": false,
+      "created_at": "2026-07-28T10:23:48.82357+08:00",
+      "updated_at": "2026-08-16T15:27:24.936147+08:00",
+      "translations": {
+        "en": "Floral Series",
+        "es": "Colección de flores",
+        "fr": "Série florale"
+      },
+      "category_type": "spot"
+    },
+    {
+      "id": "94ddaac3-42b7-46b9-947e-0f9b216f59b6",
+      "label": "太空系列",
+      "url": null,
+      "category_id": "492d6437-dbd0-4f63-a1f6-8ad25e3728a2",
+      "parent_id": "5f9c9455-e3ed-499a-95f2-343989482ec5",
+      "sort_order": 0,
+      "is_active": true,
+      "open_in_new": false,
+      "created_at": "2026-07-28T10:24:36.422984+08:00",
+      "updated_at": "2026-08-16T15:27:30.139642+08:00",
+      "translations": {
+        "en": "Space Series",
+        "es": "Serie espacial",
+        "fr": "Série Space"
+      },
+      "category_type": "spot"
+    },
+    {
+      "id": "28178eea-1766-4610-89a4-3d664480c69f",
+      "label": "滴油元素",
+      "url": null,
+      "category_id": "9f69d0cd-ef56-4c7e-9684-9967d964598f",
+      "parent_id": "642c12fc-1012-4524-b493-66709fa0b2ad",
+      "sort_order": 0,
+      "is_active": true,
+      "open_in_new": false,
+      "created_at": "2026-07-30T19:22:06.325718+08:00",
+      "updated_at": "2026-08-16T15:28:48.711281+08:00",
+      "translations": {
+        "en": "Drip oil element",
+        "es": "Elemento de caída de aceite",
+        "fr": "Éléments de goutte d'huile"
+      },
+      "category_type": "accessory"
+    },
+    {
+      "id": "98193559-755f-4310-84bd-f0f8125b2581",
+      "label": "圣诞节主题",
+      "url": null,
+      "category_id": "4c8eeb8f-6bf5-48f2-81c0-474cac7f5554",
+      "parent_id": "777af77e-d6f6-4486-9309-b70aaea29ac3",
+      "sort_order": 0,
+      "is_active": true,
+      "open_in_new": false,
+      "created_at": "2026-07-30T19:24:32.627153+08:00",
+      "updated_at": "2026-08-16T15:28:51.878557+08:00",
+      "translations": {
+        "en": "Christmas theme",
+        "es": "Tema navideño",
+        "fr": "Thème de Noël"
+      },
+      "category_type": "accessory"
+    },
+    {
+      "id": "fb127649-0727-4610-8051-3903be08b0f5",
+      "label": "万圣节主题",
+      "url": null,
+      "category_id": "17c035ae-3843-413c-9a9f-e5000b27bfdc",
+      "parent_id": "777af77e-d6f6-4486-9309-b70aaea29ac3",
+      "sort_order": 0,
+      "is_active": true,
+      "open_in_new": false,
+      "created_at": "2026-07-30T19:24:47.62317+08:00",
+      "updated_at": "2026-08-16T15:28:53.559885+08:00",
+      "translations": {
+        "en": "Halloween theme",
+        "es": "Tema de Halloween",
+        "fr": "Thème Halloween"
+      },
+      "category_type": "accessory"
+    },
+    {
+      "id": "c2fe6247-d26c-45dd-acdf-9f2d2df076e1",
+      "label": "都市商务",
+      "url": null,
+      "category_id": "cb6ba4af-7a3c-40d0-bed2-dac747b8df70",
+      "parent_id": "777af77e-d6f6-4486-9309-b70aaea29ac3",
+      "sort_order": 0,
+      "is_active": true,
+      "open_in_new": false,
+      "created_at": "2026-07-30T19:25:34.312966+08:00",
+      "updated_at": "2026-08-16T15:28:56.381167+08:00",
+      "translations": {
+        "en": "Urban Business",
+        "es": "Comercio urbano",
+        "fr": "Affaires urbaines"
+      },
+      "category_type": "accessory"
+    },
+    {
+      "id": "91ab2c6e-6164-474c-84f5-7ac16ce116b1",
+      "label": "复活节",
+      "url": null,
+      "category_id": "e4991593-dd2e-434e-ae3e-df4431e334cb",
+      "parent_id": "777af77e-d6f6-4486-9309-b70aaea29ac3",
+      "sort_order": 0,
+      "is_active": true,
+      "open_in_new": false,
+      "created_at": "2026-07-30T19:26:02.683466+08:00",
+      "updated_at": "2026-08-16T15:29:00.526721+08:00",
+      "translations": {
+        "en": "Easter",
+        "es": "Semana Santa",
+        "fr": "Pâques"
+      },
+      "category_type": "accessory"
+    },
+    {
+      "id": "26435c9f-7462-46a0-9ccb-7fff141e5c5e",
+      "label": "感恩节",
+      "url": null,
+      "category_id": "f7da44e3-91fb-4408-b09e-030f91e651b0",
+      "parent_id": "777af77e-d6f6-4486-9309-b70aaea29ac3",
+      "sort_order": 0,
+      "is_active": true,
+      "open_in_new": false,
+      "created_at": "2026-07-30T19:26:16.254208+08:00",
+      "updated_at": "2026-08-16T15:29:02.331462+08:00",
+      "translations": {
+        "en": "Thanksgiving",
+        "es": "Acción de gracias",
+        "fr": "Jour de Thanksgiving"
+      },
+      "category_type": "accessory"
+    },
+    {
+      "id": "eb515adf-2db7-4b20-8737-b005a928b1ec",
+      "label": "狂欢节",
+      "url": null,
+      "category_id": "06d998ef-2e8b-40e5-a278-35732cbcba5d",
+      "parent_id": "777af77e-d6f6-4486-9309-b70aaea29ac3",
+      "sort_order": 0,
+      "is_active": true,
+      "open_in_new": false,
+      "created_at": "2026-07-30T19:26:29.828665+08:00",
+      "updated_at": "2026-08-16T15:29:04.714588+08:00",
+      "translations": {
+        "en": "Carnival",
+        "es": "Carnaval",
+        "fr": "Carnaval"
+      },
+      "category_type": "accessory"
+    },
+    {
+      "id": "aad38c16-8667-4af4-a95a-d65d10d7f399",
+      "label": "独立日",
+      "url": null,
+      "category_id": "29c521ab-cb45-4e74-980e-4d884c3094b4",
+      "parent_id": "777af77e-d6f6-4486-9309-b70aaea29ac3",
+      "sort_order": 0,
+      "is_active": true,
+      "open_in_new": false,
+      "created_at": "2026-07-30T19:27:00.83955+08:00",
+      "updated_at": "2026-08-16T15:29:08.553107+08:00",
+      "translations": {
+        "en": "Independence Day",
+        "es": "Día de la Independencia",
+        "fr": "Jour de l'indépendance"
+      },
+      "category_type": "accessory"
+    },
+    {
+      "id": "95a525be-d604-4e86-9687-96ffd242a788",
+      "label": "母亲节",
+      "url": null,
+      "category_id": "47769702-48f7-4a51-9ec1-1b87c469482f",
+      "parent_id": "777af77e-d6f6-4486-9309-b70aaea29ac3",
+      "sort_order": 0,
+      "is_active": true,
+      "open_in_new": false,
+      "created_at": "2026-07-30T19:27:31.099912+08:00",
+      "updated_at": "2026-08-16T15:29:11.821278+08:00",
+      "translations": {
+        "en": "Mother's Day",
+        "es": "Día de la madre",
+        "fr": "Fête des mères"
+      },
+      "category_type": "accessory"
+    },
+    {
+      "id": "f6a4b4de-b027-43ce-ab99-ccade23ffd72",
+      "label": "父亲节",
+      "url": null,
+      "category_id": "268d7b34-6716-4eb0-aeae-8a9dc312ba3a",
+      "parent_id": "777af77e-d6f6-4486-9309-b70aaea29ac3",
+      "sort_order": 0,
+      "is_active": true,
+      "open_in_new": false,
+      "created_at": "2026-07-30T19:27:46.618261+08:00",
+      "updated_at": "2026-08-16T15:29:13.985505+08:00",
+      "translations": {
+        "en": "Father's Day",
+        "es": "Día del padre",
+        "fr": "Fête des pères"
+      },
+      "category_type": "accessory"
+    },
+    {
+      "id": "7bdee10d-7b8e-4808-9293-ff5739867a26",
+      "label": "纪念日",
+      "url": null,
+      "category_id": "670ce5f0-af69-4384-b9bf-70c5dc0b2c5c",
+      "parent_id": "777af77e-d6f6-4486-9309-b70aaea29ac3",
+      "sort_order": 0,
+      "is_active": true,
+      "open_in_new": false,
+      "created_at": "2026-07-30T19:28:17.833229+08:00",
+      "updated_at": "2026-08-16T15:29:17.141729+08:00",
+      "translations": {
+        "en": "anniversary",
+        "es": "Aniversario",
+        "fr": "Jour du souvenir"
+      },
+      "category_type": "accessory"
+    },
+    {
+      "id": "a4f438e0-083b-4edc-93b6-16ed92ea1aed",
+      "label": "乡村",
+      "url": null,
+      "category_id": "cea92570-dcb3-472c-8c5e-4bd41d04f325",
+      "parent_id": "777af77e-d6f6-4486-9309-b70aaea29ac3",
+      "sort_order": 0,
+      "is_active": true,
+      "open_in_new": false,
+      "created_at": "2026-07-30T19:28:33.761363+08:00",
+      "updated_at": "2026-08-16T15:29:18.742388+08:00",
+      "translations": {
+        "en": "countryside",
+        "es": "Pueblo",
+        "fr": "Le village"
+      },
+      "category_type": "accessory"
+    },
+    {
+      "id": "47d2b331-5722-4c11-8283-e80990e528db",
+      "label": "学生",
+      "url": null,
+      "category_id": "751ac045-c557-430c-ae62-417c9a42bb24",
+      "parent_id": "777af77e-d6f6-4486-9309-b70aaea29ac3",
+      "sort_order": 0,
+      "is_active": true,
+      "open_in_new": false,
+      "created_at": "2026-07-30T19:29:27.115486+08:00",
+      "updated_at": "2026-08-16T15:29:22.272935+08:00",
+      "translations": {
+        "en": "student",
+        "es": "estudiante",
+        "fr": "étudiant"
+      },
+      "category_type": "accessory"
+    },
+    {
+      "id": "d96030f0-5124-4c9a-bbeb-c201c0fe905c",
+      "label": "情侣",
+      "url": null,
+      "category_id": "4e2877a7-5ce8-4a3c-b7ad-66ea8aa0b2fc",
+      "parent_id": "777af77e-d6f6-4486-9309-b70aaea29ac3",
+      "sort_order": 0,
+      "is_active": true,
+      "open_in_new": false,
+      "created_at": "2026-07-30T19:29:42.13546+08:00",
+      "updated_at": "2026-08-16T15:29:24.576554+08:00",
+      "translations": {
+        "en": "couple",
+        "es": "Parejas",
+        "fr": "couple"
+      },
+      "category_type": "accessory"
+    },
+    {
+      "id": "d51eb7a9-9d4e-4096-b102-aa143b9cd704",
+      "label": "运动户外",
+      "url": null,
+      "category_id": "218be5b0-5b03-4df9-8e80-e8726e662167",
+      "parent_id": "777af77e-d6f6-4486-9309-b70aaea29ac3",
+      "sort_order": 0,
+      "is_active": true,
+      "open_in_new": false,
+      "created_at": "2026-07-30T19:30:12.907393+08:00",
+      "updated_at": "2026-08-16T15:29:28.017243+08:00",
+      "translations": {
+        "en": "Sports & Outdoors",
+        "es": "Deportes al aire libre",
+        "fr": "Sport extérieur"
+      },
+      "category_type": "accessory"
+    },
+    {
+      "id": "fc7141c9-ba6c-4ce6-8c38-0968c705d56f",
+      "label": "星座系列",
+      "url": null,
+      "category_id": "3c04f52e-2856-4603-968b-725e7917eec2",
+      "parent_id": "7dc0bf7b-9dff-47c1-a10d-734d8d9f3a57",
+      "sort_order": 0,
+      "is_active": true,
+      "open_in_new": false,
+      "created_at": "2026-07-30T19:32:32.718337+08:00",
+      "updated_at": "2026-08-16T15:29:31.892903+08:00",
+      "translations": {
+        "en": "Constellation Series",
+        "es": "Serie de constelaciones",
+        "fr": "Série Constellation"
+      },
+      "category_type": "accessory"
+    },
+    {
+      "id": "19326574-b0d6-4ad4-831a-ec0579223843",
+      "label": "海洋系列",
+      "url": null,
+      "category_id": "68be70fb-007c-4705-b4de-6a1f21feba16",
+      "parent_id": "7dc0bf7b-9dff-47c1-a10d-734d8d9f3a57",
+      "sort_order": 0,
+      "is_active": true,
+      "open_in_new": false,
+      "created_at": "2026-07-30T19:32:44.197196+08:00",
+      "updated_at": "2026-08-16T15:29:33.396538+08:00",
+      "translations": {
+        "en": "Ocean Series",
+        "es": "Serie marina",
+        "fr": "Série océan"
+      },
+      "category_type": "accessory"
+    },
+    {
+      "id": "50ff5ccd-5a40-40d1-a629-7547a0da6669",
+      "label": "几何系列",
+      "url": null,
+      "category_id": "41d9d690-9a45-4c76-8172-ca92569c8a98",
+      "parent_id": "7dc0bf7b-9dff-47c1-a10d-734d8d9f3a57",
+      "sort_order": 0,
+      "is_active": true,
+      "open_in_new": false,
+      "created_at": "2026-07-30T19:33:07.972747+08:00",
+      "updated_at": "2026-08-16T15:29:36.275816+08:00",
+      "translations": {
+        "en": "Geometric Series",
+        "es": "Serie geométrica",
+        "fr": "Série géométrique"
+      },
+      "category_type": "accessory"
+    },
+    {
+      "id": "3e8e485b-e9f4-4a28-b76c-6b2ba3bbc357",
+      "label": "宇宙系列",
+      "url": null,
+      "category_id": "1e085d58-93be-453e-84dc-65f590428831",
+      "parent_id": "7dc0bf7b-9dff-47c1-a10d-734d8d9f3a57",
+      "sort_order": 0,
+      "is_active": true,
+      "open_in_new": false,
+      "created_at": "2026-07-30T19:33:37.029112+08:00",
+      "updated_at": "2026-08-16T15:29:39.769628+08:00",
+      "translations": {
+        "en": "Universe Series",
+        "es": "Serie cósmica",
+        "fr": "Série univers"
+      },
+      "category_type": "accessory"
+    },
+    {
+      "id": "cb33b064-0f86-4134-96f4-dc27462a7a1d",
+      "label": "动物系列",
+      "url": null,
+      "category_id": "3e9fde79-ba37-476a-9258-4ab2a0577c21",
+      "parent_id": "7dc0bf7b-9dff-47c1-a10d-734d8d9f3a57",
+      "sort_order": 0,
+      "is_active": true,
+      "open_in_new": false,
+      "created_at": "2026-07-30T19:33:53.080541+08:00",
+      "updated_at": "2026-08-16T15:29:41.759894+08:00",
+      "translations": {
+        "en": "Animal Series",
+        "es": "Serie animal",
+        "fr": "Série animaux"
+      },
+      "category_type": "accessory"
+    },
+    {
+      "id": "d515dc3b-62cb-4600-acd2-ba8629972ec2",
+      "label": "水果系列",
+      "url": null,
+      "category_id": "89694e61-0578-4744-815d-a92052987521",
+      "parent_id": "7dc0bf7b-9dff-47c1-a10d-734d8d9f3a57",
+      "sort_order": 0,
+      "is_active": true,
+      "open_in_new": false,
+      "created_at": "2026-07-30T19:34:22.193642+08:00",
+      "updated_at": "2026-08-16T15:29:45.486964+08:00",
+      "translations": {
+        "en": "Fruit Series",
+        "es": "Colección de frutas",
+        "fr": "Série de fruits"
+      },
+      "category_type": "accessory"
+    },
+    {
+      "id": "e7cb2026-9b00-4f42-9ea1-56205a0d8e61",
+      "label": "城市系列",
+      "url": null,
+      "category_id": "9abe0cd1-741a-41a2-8086-fb15bb0b46d7",
+      "parent_id": "7dc0bf7b-9dff-47c1-a10d-734d8d9f3a57",
+      "sort_order": 0,
+      "is_active": true,
+      "open_in_new": false,
+      "created_at": "2026-07-30T19:34:33.702138+08:00",
+      "updated_at": "2026-08-16T15:29:47.32549+08:00",
+      "translations": {
+        "en": "City Series",
+        "es": "Serie urbana",
+        "fr": "Série City"
+      },
+      "category_type": "accessory"
+    },
+    {
+      "id": "2623eade-7e96-48d3-a9b1-523315cbe60b",
+      "label": "字母系列",
+      "url": null,
+      "category_id": "7d17e07d-3bf8-4412-98d3-74e356d9e12f",
+      "parent_id": "7dc0bf7b-9dff-47c1-a10d-734d8d9f3a57",
+      "sort_order": 0,
+      "is_active": true,
+      "open_in_new": false,
+      "created_at": "2026-07-30T19:35:03.555128+08:00",
+      "updated_at": "2026-08-16T15:29:51.170979+08:00",
+      "translations": {
+        "en": "Alphabet series",
+        "es": "Serie alfabética",
+        "fr": "Série de lettres"
+      },
+      "category_type": "accessory"
+    },
+    {
+      "id": "91979659-8b73-40f8-83f9-5a1c2d89c6fd",
+      "label": "数字系列",
+      "url": null,
+      "category_id": "a3c7e909-2d85-4f55-a764-d7e803480a5e",
+      "parent_id": "7dc0bf7b-9dff-47c1-a10d-734d8d9f3a57",
+      "sort_order": 0,
+      "is_active": true,
+      "open_in_new": false,
+      "created_at": "2026-07-30T19:35:16.277646+08:00",
+      "updated_at": "2026-08-16T15:29:53.466204+08:00",
+      "translations": {
+        "en": "Number series",
+        "es": "Serie digital",
+        "fr": "Série numérique"
+      },
+      "category_type": "accessory"
+    },
+    {
+      "id": "67da0ad7-bea6-4289-83c0-bd8b7be937ec",
+      "label": "水果系列",
+      "url": null,
+      "category_id": "8045bc58-a4cf-4165-869d-668df277bef5",
+      "parent_id": "5f9c9455-e3ed-499a-95f2-343989482ec5",
+      "sort_order": 0,
+      "is_active": true,
+      "open_in_new": false,
+      "created_at": "2026-07-28T10:25:23.533614+08:00",
+      "updated_at": "2026-08-16T15:27:35.120632+08:00",
+      "translations": {
+        "en": "Fruit Series",
+        "es": "Colección de frutas",
+        "fr": "Série de fruits"
+      },
+      "category_type": "spot"
+    },
+    {
+      "id": "315b1159-07b7-4ab0-ae95-d008be75c1b9",
+      "label": "水晶元素",
+      "url": null,
+      "category_id": "2dc4c47d-d31c-40eb-ab2f-d362a165962b",
+      "parent_id": "5d322113-9983-458d-b97d-7d2d05579b5c",
+      "sort_order": 0,
+      "is_active": true,
+      "open_in_new": false,
+      "created_at": "2026-07-28T10:30:33.396331+08:00",
+      "updated_at": "2026-08-16T15:28:01.744261+08:00",
+      "translations": {
+        "en": "Crystal element",
+        "es": "Elementos de cristal",
+        "fr": "Éléments de cristal"
+      },
+      "category_type": "spot"
+    },
+    {
+      "id": "7be9a26e-7bc9-42ca-a3df-d4bdb6d68f7e",
+      "label": "嘻哈风",
+      "url": null,
+      "category_id": "978ae0ef-e6e9-418c-9a17-63db9ff3fa64",
+      "parent_id": "37e9fe68-9798-4ac9-9df7-7777fb32fca8",
+      "sort_order": 0,
+      "is_active": true,
+      "open_in_new": false,
+      "created_at": "2026-07-30T19:18:48.836009+08:00",
+      "updated_at": "2026-08-16T15:28:32.665674+08:00",
+      "translations": {
+        "en": "hip-hop style",
+        "es": "Estilo hip - hop",
+        "fr": "Le vent Hip Hop"
+      },
+      "category_type": "accessory"
+    },
+    {
+      "id": "eb232e17-333b-4fd9-820d-67abd4a8049e",
+      "label": "天然石元素",
+      "url": null,
+      "category_id": "4ae74c36-e630-474f-ae63-3e6837a62312",
+      "parent_id": "642c12fc-1012-4524-b493-66709fa0b2ad",
+      "sort_order": 0,
+      "is_active": true,
+      "open_in_new": false,
+      "created_at": "2026-07-30T19:21:34.613084+08:00",
+      "updated_at": "2026-08-16T15:28:47.120339+08:00",
+      "translations": {
+        "en": "Natural stone elements",
+        "es": "Elementos de piedra natural",
+        "fr": "Éléments de pierre naturelle"
+      },
+      "category_type": "accessory"
+    },
+    {
+      "id": "085a08c8-f7e3-4147-8602-ca8be70c259f",
+      "label": "水晶元素",
+      "url": null,
+      "category_id": "1d72e725-410d-4bc9-b9c5-0349166d1d8f",
+      "parent_id": "642c12fc-1012-4524-b493-66709fa0b2ad",
+      "sort_order": 0,
+      "is_active": true,
+      "open_in_new": false,
+      "created_at": "2026-07-30T19:22:20.9805+08:00",
+      "updated_at": "2026-08-16T15:28:50.591533+08:00",
+      "translations": {
+        "en": "Crystal element",
+        "es": "Elementos de cristal",
+        "fr": "Éléments de cristal"
+      },
+      "category_type": "accessory"
+    },
+    {
+      "id": "7478ab89-ddd8-47e8-8ca0-bfe02b012119",
+      "label": "情人节",
+      "url": null,
+      "category_id": "2aba39ad-99dd-4e63-a0eb-9d218962ad61",
+      "parent_id": "777af77e-d6f6-4486-9309-b70aaea29ac3",
+      "sort_order": 0,
+      "is_active": true,
+      "open_in_new": false,
+      "created_at": "2026-07-30T19:25:49.398973+08:00",
+      "updated_at": "2026-08-16T15:28:58.89388+08:00",
+      "translations": {
+        "en": "Valentine's Day",
+        "es": "Día de San Valentín",
+        "fr": "La Saint Valentin"
+      },
+      "category_type": "accessory"
+    },
+    {
+      "id": "c5a31304-bc9a-41fb-ac42-c8b6c623ba8b",
+      "label": "字母系列",
+      "url": null,
+      "category_id": "6838abe2-dfed-4ea6-a2f1-7e8a21e74615",
+      "parent_id": "5f9c9455-e3ed-499a-95f2-343989482ec5",
+      "sort_order": 0,
+      "is_active": true,
+      "open_in_new": false,
+      "created_at": "2026-07-28T10:26:18.079037+08:00",
+      "updated_at": "2026-08-16T15:27:40.533905+08:00",
+      "translations": {
+        "en": "Alphabet series",
+        "es": "Serie alfabética",
+        "fr": "Série de lettres"
+      },
+      "category_type": "spot"
+    },
+    {
+      "id": "a96178aa-4ca3-4431-8876-cc40a79c7bd0",
+      "label": "水滴系列",
+      "url": null,
+      "category_id": "6aa89d10-4fc6-49bb-9743-adfc6015e1ff",
+      "parent_id": "5f9c9455-e3ed-499a-95f2-343989482ec5",
+      "sort_order": 0,
+      "is_active": true,
+      "open_in_new": false,
+      "created_at": "2026-07-28T10:28:10.11102+08:00",
+      "updated_at": "2026-08-16T15:27:48.594707+08:00",
+      "translations": {
+        "en": "Water Drop Series",
+        "es": "Serie de gotas de agua",
+        "fr": "Série water drop"
+      },
+      "category_type": "spot"
+    },
+    {
+      "id": "777af77e-d6f6-4486-9309-b70aaea29ac3",
+      "label": "主题",
+      "url": null,
+      "category_id": "3e671d34-a99b-416d-80c2-cfabad97f2d3",
+      "parent_id": "a3e22cd4-b9d0-4972-8595-03e627edf91d",
+      "sort_order": 0,
+      "is_active": true,
+      "open_in_new": false,
+      "created_at": "2026-07-28T17:57:59.229865+08:00",
+      "updated_at": "2026-08-16T15:28:15.675305+08:00",
+      "translations": {
+        "en": "Theme",
+        "es": "Tema",
+        "fr": "Sujet"
+      },
+      "category_type": "accessory"
+    },
+    {
+      "id": "9b42199e-caa6-41c2-8ea2-d38602069944",
+      "label": "文艺风",
+      "url": null,
+      "category_id": "74caf7c1-98a4-42ac-bfe1-fca1ee06e3b5",
+      "parent_id": "37e9fe68-9798-4ac9-9df7-7777fb32fca8",
+      "sort_order": 0,
+      "is_active": true,
+      "open_in_new": false,
+      "created_at": "2026-07-30T19:18:25.31801+08:00",
+      "updated_at": "2026-08-16T15:28:20.973929+08:00",
+      "translations": {
+        "en": "Literary Wind",
+        "es": "Estilo literario y artístico",
+        "fr": "Vent littéraire"
+      },
+      "category_type": "accessory"
+    },
+    {
+      "id": "9edcff3b-71cf-4df9-a1e7-6d2317618d41",
+      "label": "生辰石系列",
+      "url": null,
+      "category_id": "e7c631dd-0a59-4355-b714-b9f41b59b7a5",
+      "parent_id": "7dc0bf7b-9dff-47c1-a10d-734d8d9f3a57",
+      "sort_order": 0,
+      "is_active": true,
+      "open_in_new": false,
+      "created_at": "2026-07-30T19:32:18.848515+08:00",
+      "updated_at": "2026-08-16T15:29:29.594796+08:00",
+      "translations": {
+        "en": "Birthstone Series",
+        "es": "Serie shengchen Stone",
+        "fr": "Série Pierre de naissance"
+      },
+      "category_type": "accessory"
+    },
+    {
+      "id": "ed289f80-58be-47cc-a34e-cd8ce6e96b18",
+      "label": "笑脸系列",
+      "url": null,
+      "category_id": "5c822b30-583d-45b2-a9b9-d802e3d1c13d",
+      "parent_id": "5f9c9455-e3ed-499a-95f2-343989482ec5",
+      "sort_order": 0,
+      "is_active": true,
+      "open_in_new": false,
+      "created_at": "2026-07-28T10:27:33.16604+08:00",
+      "updated_at": "2026-08-16T15:27:45.770722+08:00",
+      "translations": {
+        "en": "Smiley Face Series",
+        "es": "Colección de caras sonrientes",
+        "fr": "Série smiley"
+      },
+      "category_type": "spot"
+    },
+    {
+      "id": "91418eaa-a5d9-4922-9bd1-0e311600b91c",
+      "label": "金属元素",
+      "url": null,
+      "category_id": "730fada0-9202-4adc-bf7f-3dd891639dc1",
+      "parent_id": "5d322113-9983-458d-b97d-7d2d05579b5c",
+      "sort_order": 0,
+      "is_active": true,
+      "open_in_new": false,
+      "created_at": "2026-07-28T10:30:04.11826+08:00",
+      "updated_at": "2026-08-16T15:27:57.108786+08:00",
+      "translations": {
+        "en": "metallic element",
+        "es": "Elementos metálicos",
+        "fr": "Éléments métalliques"
+      },
+      "category_type": "spot"
+    },
+    {
+      "id": "207dd54e-2058-4b1b-9303-ec159087b8b2",
+      "label": "宝石元素",
+      "url": null,
+      "category_id": "99a0fa40-0f31-41ba-8431-957711a5d705",
+      "parent_id": "5d322113-9983-458d-b97d-7d2d05579b5c",
+      "sort_order": 0,
+      "is_active": true,
+      "open_in_new": false,
+      "created_at": "2026-07-28T10:33:23.656207+08:00",
+      "updated_at": "2026-08-16T15:28:09.547309+08:00",
+      "translations": {
+        "en": "Gemstone elements",
+        "es": "Elementos de piedras preciosas",
+        "fr": "Éléments de pierres précieuses"
+      },
+      "category_type": "spot"
+    },
+    {
+      "id": "e8850816-fd9f-4450-94e7-5b3cb37717c8",
+      "label": "夏日主题",
+      "url": null,
+      "category_id": "13c04553-1a8f-4011-89f9-3ab63850e953",
+      "parent_id": "777af77e-d6f6-4486-9309-b70aaea29ac3",
+      "sort_order": 0,
+      "is_active": true,
+      "open_in_new": false,
+      "created_at": "2026-07-30T19:25:09.918311+08:00",
+      "updated_at": "2026-08-16T15:28:55.018848+08:00",
+      "translations": {
+        "en": "Summer Theme",
+        "es": "Temas de verano",
+        "fr": "Thème d'été"
+      },
+      "category_type": "accessory"
+    },
+    {
+      "id": "48fe7547-9d54-45b5-900e-202dfc60890b",
+      "label": "平安夜",
+      "url": null,
+      "category_id": "bed40c87-b611-4c3a-8c30-70e202fda167",
+      "parent_id": "777af77e-d6f6-4486-9309-b70aaea29ac3",
+      "sort_order": 0,
+      "is_active": true,
+      "open_in_new": false,
+      "created_at": "2026-07-30T19:26:43.797058+08:00",
+      "updated_at": "2026-08-16T15:29:06.997238+08:00",
+      "translations": {
+        "en": "Christmas Eve",
+        "es": "Nochebuena",
+        "fr": "La nuit de Noël"
+      },
+      "category_type": "accessory"
+    },
+    {
+      "id": "e588c5e5-01e7-42dd-9203-9534e9fdc4bb",
+      "label": "儿童",
+      "url": null,
+      "category_id": "e903ce7e-e1a5-40c2-a831-12181a425f07",
+      "parent_id": "777af77e-d6f6-4486-9309-b70aaea29ac3",
+      "sort_order": 0,
+      "is_active": true,
+      "open_in_new": false,
+      "created_at": "2026-07-30T19:28:51.552759+08:00",
+      "updated_at": "2026-08-16T15:29:20.384612+08:00",
+      "translations": {
+        "en": "Child",
+        "es": "niño",
+        "fr": "Enfant"
+      },
+      "category_type": "accessory"
+    },
+    {
+      "id": "50cb477c-0f58-4dd2-9929-1e29f4d9436a",
+      "label": "闺蜜",
+      "url": null,
+      "category_id": "19d32481-aea8-4b59-8c72-08b00cbcda3c",
+      "parent_id": "777af77e-d6f6-4486-9309-b70aaea29ac3",
+      "sort_order": 0,
+      "is_active": true,
+      "open_in_new": false,
+      "created_at": "2026-07-30T19:29:58.253385+08:00",
+      "updated_at": "2026-08-16T15:29:26.015708+08:00",
+      "translations": {
+        "en": "bestie",
+        "es": "Boudoir",
+        "fr": "Meilleure amie"
+      },
+      "category_type": "accessory"
+    },
+    {
+      "id": "6bdd6818-459a-4223-9dcf-61654bee2543",
+      "label": "印章系列",
+      "url": null,
+      "category_id": "bb886cd1-c3c8-4190-9bcb-293d2ef9b54c",
+      "parent_id": "7dc0bf7b-9dff-47c1-a10d-734d8d9f3a57",
+      "sort_order": 0,
+      "is_active": true,
+      "open_in_new": false,
+      "created_at": "2026-07-30T19:33:22.234416+08:00",
+      "updated_at": "2026-08-16T15:29:38.212095+08:00",
+      "translations": {
+        "en": "Seal series",
+        "es": "Serie de sellos",
+        "fr": "Série seal"
+      },
+      "category_type": "accessory"
+    },
+    {
+      "id": "b0e6769c-b6ca-462f-9fb9-3fe20fa17b21",
+      "label": "森林系列",
+      "url": null,
+      "category_id": "ac128ca3-a6a1-4fbe-8d5d-2c0e669c623e",
+      "parent_id": "7dc0bf7b-9dff-47c1-a10d-734d8d9f3a57",
+      "sort_order": 0,
+      "is_active": true,
+      "open_in_new": false,
+      "created_at": "2026-07-30T19:34:08.526682+08:00",
+      "updated_at": "2026-08-16T15:29:43.252501+08:00",
+      "translations": {
+        "en": "Forest Series",
+        "es": "Serie forestal",
+        "fr": "Série Forest"
+      },
+      "category_type": "accessory"
+    },
+    {
+      "id": "4ae39ea6-f882-4587-b02a-b8810e469a7e",
+      "label": "名字",
+      "url": null,
+      "category_id": "c1139ec5-dbab-41a7-b565-3231a219cdc8",
+      "parent_id": "cdfc61ad-a2e7-4a49-84d3-cb0ed09d5c66",
+      "sort_order": 1,
+      "is_active": true,
+      "open_in_new": false,
+      "created_at": "2026-07-28T21:21:28.888655+08:00",
+      "updated_at": "2026-08-26T21:06:33.310238+08:00",
+      "translations": {
+        "en": "name",
+        "es": "nombre",
+        "fr": "Nom"
+      },
+      "category_type": "custom"
+    },
+    {
+      "id": "0827a201-2bbb-406d-bca4-5686c41c0e71",
+      "label": "DIY定制",
+      "url": null,
+      "category_id": null,
+      "parent_id": null,
+      "sort_order": 2,
+      "is_active": true,
+      "open_in_new": false,
+      "created_at": "2026-07-14T18:51:28.814528+08:00",
+      "updated_at": "2026-07-18T21:25:39.179731+08:00",
+      "translations": {
+        "en": "DIY Customize",
+        "es": "DIY Personalizar",
+        "fr": "DIY Personnaliser"
+      },
+      "category_type": "spot"
+    },
+    {
+      "id": "6e0df225-9714-4463-86ef-30468a76013e",
+      "label": "手链",
+      "url": null,
+      "category_id": "ecaf2cfe-96db-4cfc-8144-b076bb812dcf",
+      "parent_id": "0827a201-2bbb-406d-bca4-5686c41c0e71",
+      "sort_order": 2,
+      "is_active": true,
+      "open_in_new": false,
+      "created_at": "2026-07-13T21:24:44.79408+08:00",
+      "updated_at": "2026-08-26T21:06:58.317092+08:00",
+      "translations": {
+        "en": "Bracelet",
+        "es": "Pulsera",
+        "fr": "Bracelet"
+      },
+      "category_type": "custom"
+    },
+    {
+      "id": "64cfd34c-ae62-4b72-b290-f55ad6da014e",
+      "label": "字母",
+      "url": null,
+      "category_id": null,
+      "parent_id": "cdfc61ad-a2e7-4a49-84d3-cb0ed09d5c66",
+      "sort_order": 2,
+      "is_active": true,
+      "open_in_new": false,
+      "created_at": "2026-07-28T21:21:28.888655+08:00",
+      "updated_at": "2026-08-16T15:28:29.414037+08:00",
+      "translations": {
+        "en": "letter",
+        "es": "Letras",
+        "fr": "Lettres"
+      },
+      "category_type": "spot"
+    },
+    {
+      "id": "285bdce6-6c36-4fbd-bbfd-b3967a85ace2",
+      "label": "DIY组合",
+      "url": null,
+      "category_id": null,
+      "parent_id": null,
+      "sort_order": 3,
+      "is_active": true,
+      "open_in_new": false,
+      "created_at": "2026-07-14T18:51:34.174463+08:00",
+      "updated_at": "2026-07-18T21:25:39.179731+08:00",
+      "translations": {
+        "en": "DIY Set",
+        "es": "Conjunto DIY",
+        "fr": "Ensemble DIY"
+      },
+      "category_type": "spot"
+    },
+    {
+      "id": "a3e22cd4-b9d0-4972-8595-03e627edf91d",
+      "label": "配件区",
+      "url": null,
+      "category_id": null,
+      "parent_id": null,
+      "sort_order": 4,
+      "is_active": true,
+      "open_in_new": false,
+      "created_at": "2026-07-14T18:51:40.399809+08:00",
+      "updated_at": "2026-07-18T21:25:39.179731+08:00",
+      "translations": {
+        "en": "Accessories",
+        "es": "Accesorios",
+        "fr": "Accessoires"
+      },
+      "category_type": "spot"
+    },
+    {
+      "id": "5723edfa-1191-46bf-a863-828b7ade26f6",
+      "label": "成品区",
+      "url": null,
+      "category_id": null,
+      "parent_id": null,
+      "sort_order": 5,
+      "is_active": true,
+      "open_in_new": false,
+      "created_at": "2026-07-14T17:37:49.72628+08:00",
+      "updated_at": "2026-07-18T21:25:39.179731+08:00",
+      "translations": {
+        "en": "Finished Jewelry",
+        "es": "Joyas acabadas",
+        "fr": "Bijoux finis"
+      },
+      "category_type": "spot"
+    },
+    {
+      "id": "e43646ff-0db6-4a0a-aa22-0e9a2809906f",
+      "label": "包装区",
+      "url": null,
+      "category_id": null,
+      "parent_id": null,
+      "sort_order": 6,
+      "is_active": true,
+      "open_in_new": false,
+      "created_at": "2026-07-14T22:47:59.829313+08:00",
+      "updated_at": "2026-07-18T21:25:39.179731+08:00",
+      "translations": {
+        "en": "Packaging",
+        "es": "Embalaje",
+        "fr": "Emballage"
+      },
+      "category_type": "spot"
+    },
+    {
+      "id": "bde1e0d4-d29f-40f2-97ff-0c63ce6ca62a",
+      "label": "设计广场",
+      "url": "/design-square",
+      "category_id": null,
+      "parent_id": null,
+      "sort_order": 7,
+      "is_active": true,
+      "open_in_new": false,
+      "created_at": "2026-07-03T18:16:23.458942+08:00",
+      "updated_at": "2026-07-18T12:51:10.110518+08:00",
+      "translations": {
+        "en": "Design Square",
+        "es": "Plaza de diseño",
+        "fr": "Place de design"
+      },
+      "category_type": "spot"
+    }
+  ]
+}

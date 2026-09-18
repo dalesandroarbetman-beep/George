@@ -1,0 +1,11 @@
+{
+  "table": "site_config",
+  "source_url": "https://backend.appmiaoda.com/projects/supabase314724440942358528/rest/v1/site_config?select=value&key=eq.footer_copyright_translations",
+  "status": 200,
+  "captured_at": "2026-09-18T04:58:40.304367+00:00",
+  "data": [
+    {
+      "value": "{\"zh\":\"浙江鸢鸟网络科技有限公司 © 2021–2026 优合源品 All Rights Reserved\",\"en\":\"Zhejiang Yuanniao Network Technology Co., Ltd. © 2021–2026 Yoho Origin All Rights Reserved\",\"es\":\"Zhejiang Yuanniao Network Technology Co., Ltd. © 2021–2026 Yoho Origin Todos los Derechos Reservados\",\"fr\":\"Zhejiang Yuanniao Network Technology Co., Ltd. © 2021–2026 Yoho Origin Tous droits réservés\"}"
+    }
+  ]
+}

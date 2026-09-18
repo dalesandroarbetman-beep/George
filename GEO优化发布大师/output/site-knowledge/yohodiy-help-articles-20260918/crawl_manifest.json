@@ -1,0 +1,199 @@
+{
+  "seed_url": "https://www.yohodiy.com/",
+  "started_at": "2026-09-18T05:02:13.973151+00:00",
+  "crawler": "rendered-playwright-read-only",
+  "robots": {
+    "url": "https://www.yohodiy.com/robots.txt",
+    "status": 200,
+    "final_url": "https://www.yohodiy.com/robots.txt",
+    "text": "User-agent: *\nAllow: /\nDisallow: /admin/\nDisallow: /admin\nDisallow: /checkout\nDisallow: /payment/\nDisallow: /orders/\nDisallow: /user/\nDisallow: /after-sales/\nDisallow: /review/\n\nSitemap: https://www.yohodiy.com/sitemap.xml\n"
+  },
+  "sitemap": {
+    "url": "https://www.yohodiy.com/sitemap.xml",
+    "status": 200,
+    "final_url": "https://www.yohodiy.com/sitemap.xml",
+    "urls": [
+      "https://www.yohodiy.com/",
+      "https://www.yohodiy.com/products",
+      "https://www.yohodiy.com/accessory-products",
+      "https://www.yohodiy.com/customize",
+      "https://www.yohodiy.com/customize/letter",
+      "https://www.yohodiy.com/customize/accessory",
+      "https://www.yohodiy.com/customize/splice",
+      "https://www.yohodiy.com/design-square",
+      "https://www.yohodiy.com/help"
+    ]
+  },
+  "candidate_sitemap_urls": [
+    "https://www.yohodiy.com/sitemap.xml"
+  ],
+  "pages": [
+    {
+      "file": "pages/0001.json",
+      "requested_url": "https://www.yohodiy.com/help/article/1749dc42-2964-46b7-9bfe-a67dc21b20b7",
+      "final_url": "https://www.yohodiy.com/help/article/1749dc42-2964-46b7-9bfe-a67dc21b20b7",
+      "status": 200,
+      "title": "首饰定制网站"
+    },
+    {
+      "file": "pages/0002.json",
+      "requested_url": "https://www.yohodiy.com/help/article/1d407267-f6da-4d8f-aee5-db095eb215ae",
+      "final_url": "https://www.yohodiy.com/help/article/1d407267-f6da-4d8f-aee5-db095eb215ae",
+      "status": 200,
+      "title": "首饰定制网站"
+    },
+    {
+      "file": "pages/0003.json",
+      "requested_url": "https://www.yohodiy.com/help/article/2212fa06-997d-4149-9f1d-65c63abbba55",
+      "final_url": "https://www.yohodiy.com/help/article/2212fa06-997d-4149-9f1d-65c63abbba55",
+      "status": 200,
+      "title": "首饰定制网站"
+    },
+    {
+      "file": "pages/0004.json",
+      "requested_url": "https://www.yohodiy.com/help/article/2341e89e-ae0a-4d27-87e0-0cbae197c507",
+      "final_url": "https://www.yohodiy.com/help/article/2341e89e-ae0a-4d27-87e0-0cbae197c507",
+      "status": 200,
+      "title": "首饰定制网站"
+    },
+    {
+      "file": "pages/0005.json",
+      "requested_url": "https://www.yohodiy.com/help/article/44c1de9a-1dba-4db3-a5c3-87f377350223",
+      "final_url": "https://www.yohodiy.com/help/article/44c1de9a-1dba-4db3-a5c3-87f377350223",
+      "status": 200,
+      "title": "首饰定制网站"
+    },
+    {
+      "file": "pages/0006.json",
+      "requested_url": "https://www.yohodiy.com/help/article/4884163e-16db-48bf-9cda-753bad804787",
+      "final_url": "https://www.yohodiy.com/help/article/4884163e-16db-48bf-9cda-753bad804787",
+      "status": 200,
+      "title": "首饰定制网站"
+    },
+    {
+      "file": "pages/0007.json",
+      "requested_url": "https://www.yohodiy.com/help/article/532d04db-f7c6-4397-909c-f953461bef3f",
+      "final_url": "https://www.yohodiy.com/help/article/532d04db-f7c6-4397-909c-f953461bef3f",
+      "status": 200,
+      "title": "首饰定制网站"
+    },
+    {
+      "file": "pages/0008.json",
+      "requested_url": "https://www.yohodiy.com/help/article/540d82a4-0450-4ce4-b6c4-5b493110e22f",
+      "final_url": "https://www.yohodiy.com/help/article/540d82a4-0450-4ce4-b6c4-5b493110e22f",
+      "status": 200,
+      "title": "首饰定制网站"
+    },
+    {
+      "file": "pages/0009.json",
+      "requested_url": "https://www.yohodiy.com/help/article/5a3cbcfe-c99b-4c24-8ea3-f7436d33c7c9",
+      "final_url": "https://www.yohodiy.com/help/article/5a3cbcfe-c99b-4c24-8ea3-f7436d33c7c9",
+      "status": 200,
+      "title": "首饰定制网站"
+    },
+    {
+      "file": "pages/0010.json",
+      "requested_url": "https://www.yohodiy.com/help/article/7b4533e4-ccdd-4722-94d4-d4df195e006c",
+      "final_url": "https://www.yohodiy.com/help/article/7b4533e4-ccdd-4722-94d4-d4df195e006c",
+      "status": 200,
+      "title": "首饰定制网站"
+    },
+    {
+      "file": "pages/0011.json",
+      "requested_url": "https://www.yohodiy.com/help/article/8b64ce04-1750-47ad-a1bf-781dd42fd85a",
+      "final_url": "https://www.yohodiy.com/help/article/8b64ce04-1750-47ad-a1bf-781dd42fd85a",
+      "status": 200,
+      "title": "首饰定制网站"
+    },
+    {
+      "file": "pages/0012.json",
+      "requested_url": "https://www.yohodiy.com/help/article/97e22777-7a05-4161-b099-a18e6abdb568",
+      "final_url": "https://www.yohodiy.com/help/article/97e22777-7a05-4161-b099-a18e6abdb568",
+      "status": 200,
+      "title": "首饰定制网站"
+    },
+    {
+      "file": "pages/0013.json",
+      "requested_url": "https://www.yohodiy.com/help/article/a556ef8a-715d-447e-9544-507af920678f",
+      "final_url": "https://www.yohodiy.com/help/article/a556ef8a-715d-447e-9544-507af920678f",
+      "status": 200,
+      "title": "首饰定制网站"
+    },
+    {
+      "file": "pages/0014.json",
+      "requested_url": "https://www.yohodiy.com/help/article/b0d6e883-127f-4848-b928-a63c1443fd9b",
+      "final_url": "https://www.yohodiy.com/help/article/b0d6e883-127f-4848-b928-a63c1443fd9b",
+      "status": 200,
+      "title": "首饰定制网站"
+    },
+    {
+      "file": "pages/0015.json",
+      "requested_url": "https://www.yohodiy.com/help/article/c5ddfd89-ac5e-4c4b-a859-929de8807860",
+      "final_url": "https://www.yohodiy.com/help/article/c5ddfd89-ac5e-4c4b-a859-929de8807860",
+      "status": 200,
+      "title": "首饰定制网站"
+    },
+    {
+      "file": "pages/0016.json",
+      "requested_url": "https://www.yohodiy.com/help/article/c88321e5-606f-4356-b695-b1657826158e",
+      "final_url": "https://www.yohodiy.com/help/article/c88321e5-606f-4356-b695-b1657826158e",
+      "status": 200,
+      "title": "首饰定制网站"
+    },
+    {
+      "file": "pages/0017.json",
+      "requested_url": "https://www.yohodiy.com/help/article/d9018a54-7c2b-41d0-87ef-fad81f4e464b",
+      "final_url": "https://www.yohodiy.com/help/article/d9018a54-7c2b-41d0-87ef-fad81f4e464b",
+      "status": 200,
+      "title": "首饰定制网站"
+    },
+    {
+      "file": "pages/0018.json",
+      "requested_url": "https://www.yohodiy.com/help/article/dadf5dcc-c86c-495e-bd4e-41f9009bbc87",
+      "final_url": "https://www.yohodiy.com/help/article/dadf5dcc-c86c-495e-bd4e-41f9009bbc87",
+      "status": 200,
+      "title": "首饰定制网站"
+    },
+    {
+      "file": "pages/0019.json",
+      "requested_url": "https://www.yohodiy.com/help/article/dc876e84-79b9-4eed-a616-6621038385df",
+      "final_url": "https://www.yohodiy.com/help/article/dc876e84-79b9-4eed-a616-6621038385df",
+      "status": 200,
+      "title": "首饰定制网站"
+    },
+    {
+      "file": "pages/0020.json",
+      "requested_url": "https://www.yohodiy.com/help/article/e8617eee-88bc-4b15-b3e0-3b6d6d70afd2",
+      "final_url": "https://www.yohodiy.com/help/article/e8617eee-88bc-4b15-b3e0-3b6d6d70afd2",
+      "status": 200,
+      "title": "首饰定制网站"
+    },
+    {
+      "file": "pages/0021.json",
+      "requested_url": "https://www.yohodiy.com/help/article/ee509d78-7cb7-4009-a04b-c5292d32b70e",
+      "final_url": "https://www.yohodiy.com/help/article/ee509d78-7cb7-4009-a04b-c5292d32b70e",
+      "status": 200,
+      "title": "首饰定制网站"
+    },
+    {
+      "file": "pages/0022.json",
+      "requested_url": "https://www.yohodiy.com/help/article/ffc93a2c-0360-41e8-95d0-969f15d9140a",
+      "final_url": "https://www.yohodiy.com/help/article/ffc93a2c-0360-41e8-95d0-969f15d9140a",
+      "status": 200,
+      "title": "首饰定制网站"
+    }
+  ],
+  "errors": [],
+  "blocked_prefixes": [
+    "/admin",
+    "/checkout",
+    "/payment/",
+    "/orders/",
+    "/user/",
+    "/after-sales/",
+    "/review/"
+  ],
+  "seed_file": "output\\site-knowledge\\help-article-seeds-20260918.txt",
+  "finished_at": "2026-09-18T05:06:28.138697+00:00",
+  "page_count": 22
+}

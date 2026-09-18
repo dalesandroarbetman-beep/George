@@ -1,0 +1,187 @@
+{
+  "captured_at": "2026-09-18T04:58:25.459972+00:00",
+  "allowlist": [
+    "agent_geo_entries",
+    "footer_columns",
+    "home_services",
+    "home_top_nav_categories",
+    "nav_items",
+    "site_config"
+  ],
+  "pages": [
+    {
+      "url": "https://www.yohodiy.com/",
+      "started_at": "2026-09-18T04:58:26.061624+00:00",
+      "status": 200,
+      "final_url": "https://www.yohodiy.com/"
+    },
+    {
+      "url": "https://www.yohodiy.com/products",
+      "started_at": "2026-09-18T04:58:49.540403+00:00",
+      "status": 200,
+      "final_url": "https://www.yohodiy.com/products"
+    },
+    {
+      "url": "https://www.yohodiy.com/accessory-products",
+      "started_at": "2026-09-18T04:59:06.123828+00:00",
+      "status": 200,
+      "final_url": "https://www.yohodiy.com/accessory-products"
+    },
+    {
+      "url": "https://www.yohodiy.com/customize",
+      "started_at": "2026-09-18T04:59:22.677711+00:00",
+      "status": 200,
+      "final_url": "https://www.yohodiy.com/customize"
+    }
+  ],
+  "responses": [
+    {
+      "table": "site_config",
+      "file": "site_config-e955923b6709.json",
+      "status": 200,
+      "records": 1
+    },
+    {
+      "table": "site_config",
+      "file": "site_config-7b7e9f0e9abb.json",
+      "status": 200,
+      "records": 1
+    },
+    {
+      "table": "site_config",
+      "file": "site_config-f8f766aa4b41.json",
+      "status": 200,
+      "records": 1
+    },
+    {
+      "table": "site_config",
+      "file": "site_config-f992481724ce.json",
+      "status": 200,
+      "records": 1
+    },
+    {
+      "table": "site_config",
+      "file": "site_config-7802493e416c.json",
+      "status": 200,
+      "records": 1
+    },
+    {
+      "table": "site_config",
+      "file": "site_config-30c9532722ef.json",
+      "status": 200,
+      "records": 1
+    },
+    {
+      "table": "site_config",
+      "file": "site_config-c2ed0c0e0ad6.json",
+      "status": 200,
+      "records": 1
+    },
+    {
+      "table": "site_config",
+      "file": "site_config-21d3e1f397b4.json",
+      "status": 200,
+      "records": 1
+    },
+    {
+      "table": "site_config",
+      "file": "site_config-f5eb9611851c.json",
+      "status": 200,
+      "records": 1
+    },
+    {
+      "table": "site_config",
+      "file": "site_config-60a1203aa9b9.json",
+      "status": 200,
+      "records": 1
+    },
+    {
+      "table": "site_config",
+      "file": "site_config-aaaae1e24700.json",
+      "status": 200,
+      "records": 1
+    },
+    {
+      "table": "site_config",
+      "file": "site_config-a4c82df9d77c.json",
+      "status": 200,
+      "records": 1
+    },
+    {
+      "table": "site_config",
+      "file": "site_config-f1563e77cfa5.json",
+      "status": 200,
+      "records": 1
+    },
+    {
+      "table": "site_config",
+      "file": "site_config-090144f9f82a.json",
+      "status": 200,
+      "records": 1
+    },
+    {
+      "table": "site_config",
+      "file": "site_config-868e13a97f3b.json",
+      "status": 200,
+      "records": 1
+    },
+    {
+      "table": "site_config",
+      "file": "site_config-cc9d59cb4c48.json",
+      "status": 200,
+      "records": 1
+    },
+    {
+      "table": "site_config",
+      "file": "site_config-7d6dde4c8359.json",
+      "status": 200,
+      "records": 1
+    },
+    {
+      "table": "agent_geo_entries",
+      "file": "agent_geo_entries-541fc8539dc7.json",
+      "status": 200,
+      "records": 5
+    },
+    {
+      "table": "site_config",
+      "file": "site_config-e3ebc5890293.json",
+      "status": 200,
+      "records": 1
+    },
+    {
+      "table": "nav_items",
+      "file": "nav_items-1a5281eafdc6.json",
+      "status": 200,
+      "records": 143
+    },
+    {
+      "table": "home_top_nav_categories",
+      "file": "home_top_nav_categories-5926972c6274.json",
+      "status": 200,
+      "records": 118
+    },
+    {
+      "table": "home_services",
+      "file": "home_services-636f254a52ea.json",
+      "status": 200,
+      "records": 4
+    },
+    {
+      "table": "footer_columns",
+      "file": "footer_columns-3b0e040d2b53.json",
+      "status": 200,
+      "records": 4
+    }
+  ],
+  "errors": [],
+  "excluded_data": [
+    "accounts",
+    "customization histories",
+    "orders",
+    "payments",
+    "reviews",
+    "user records"
+  ],
+  "finished_at": "2026-09-18T04:59:39.356280+00:00"
+}

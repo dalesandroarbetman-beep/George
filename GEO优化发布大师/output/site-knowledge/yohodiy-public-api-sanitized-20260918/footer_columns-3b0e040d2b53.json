@@ -1,0 +1,48 @@
+{
+  "table": "footer_columns",
+  "source_url": "https://backend.appmiaoda.com/projects/supabase314724440942358528/rest/v1/footer_columns?select=id%2Ctitle%2Ctranslations%2Csort_order&is_active=eq.true&order=sort_order.asc",
+  "status": 200,
+  "captured_at": "2026-09-18T04:58:47.577221+00:00",
+  "data": [
+    {
+      "id": "2b18c176-73fd-49f4-aae2-27a6e9d6e108",
+      "title": "公司介绍",
+      "translations": {
+        "en": "About Us",
+        "es": "Sobre nosotros",
+        "fr": "À propos"
+      },
+      "sort_order": 0
+    },
+    {
+      "id": "07c97e4d-7e46-4dee-966e-acde2e2ff742",
+      "title": "订购信息",
+      "translations": {
+        "en": "Order Info",
+        "es": "Información de pedido",
+        "fr": "Infos commande"
+      },
+      "sort_order": 1
+    },
+    {
+      "id": "f2d43c23-b275-410b-a205-6ed64051ae5d",
+      "title": "了解更多",
+      "translations": {
+        "en": "Learn More",
+        "es": "Más información",
+        "fr": "En savoir plus"
+      },
+      "sort_order": 2
+    },
+    {
+      "id": "3bd41cd1-58e2-4c7c-ba5c-323a4f408ba3",
+      "title": "客户服务",
+      "translations": {
+        "en": "Customer Service",
+        "es": "Atención al cliente",
+        "fr": "Service client"
+      },
+      "sort_order": 3
+    }
+  ]
+}

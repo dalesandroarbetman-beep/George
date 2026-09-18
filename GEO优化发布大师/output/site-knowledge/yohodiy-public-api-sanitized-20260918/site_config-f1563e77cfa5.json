@@ -1,0 +1,11 @@
+{
+  "table": "site_config",
+  "source_url": "https://backend.appmiaoda.com/projects/supabase314724440942358528/rest/v1/site_config?select=value&key=eq.footer_icp_translations",
+  "status": 200,
+  "captured_at": "2026-09-18T04:58:40.406530+00:00",
+  "data": [
+    {
+      "value": "{\"zh\":\"浙ICP备2026049641号-2\",\"en\":\"Zhejiang ICP Filing No. 2026049641-2\",\"es\":\"Registro ICP de Zhejiang N.º 2026049641-2\",\"fr\":\"Enregistrement ICP du Zhejiang n° 2026049641-2\"}"
+    }
+  ]
+}

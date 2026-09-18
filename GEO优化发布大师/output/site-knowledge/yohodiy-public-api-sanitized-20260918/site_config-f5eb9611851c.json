@@ -1,0 +1,11 @@
+{
+  "table": "site_config",
+  "source_url": "https://backend.appmiaoda.com/projects/supabase314724440942358528/rest/v1/site_config?select=value&key=eq.og_description",
+  "status": 200,
+  "captured_at": "2026-09-18T04:58:40.159526+00:00",
+  "data": [
+    {
+      "value": "优合源品（YOHE/YOUNG）提供高品质定制珠宝首饰，支持刻字、配件组合、字母串链等多种个性化定制服务。"
+    }
+  ]
+}

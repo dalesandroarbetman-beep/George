@@ -1,0 +1,1383 @@
+{
+  "seed_url": "https://www.yohodiy.com/",
+  "started_at": "2026-09-18T03:43:28.768604+00:00",
+  "crawler": "rendered-playwright-read-only",
+  "robots": {
+    "url": "https://www.yohodiy.com/robots.txt",
+    "status": 200,
+    "final_url": "https://www.yohodiy.com/robots.txt",
+    "text": "User-agent: *\nAllow: /\nDisallow: /admin/\nDisallow: /admin\nDisallow: /checkout\nDisallow: /payment/\nDisallow: /orders/\nDisallow: /user/\nDisallow: /after-sales/\nDisallow: /review/\n\nSitemap: https://diy.lsdit.com/sitemap.xml\n"
+  },
+  "sitemap": {
+    "url": "https://www.yohodiy.com/sitemap.xml",
+    "status": 200,
+    "final_url": "https://www.yohodiy.com/sitemap.xml",
+    "urls": [
+      "https://diy.lsdit.com/",
+      "https://diy.lsdit.com/products",
+      "https://diy.lsdit.com/accessory-products",
+      "https://diy.lsdit.com/customize",
+      "https://diy.lsdit.com/customize/letter",
+      "https://diy.lsdit.com/customize/accessory",
+      "https://diy.lsdit.com/customize/splice",
+      "https://diy.lsdit.com/design-square",
+      "https://diy.lsdit.com/help"
+    ]
+  },
+  "candidate_sitemap_urls": [
+    "https://diy.lsdit.com/sitemap.xml"
+  ],
+  "pages": [
+    {
+      "file": "pages/0001.json",
+      "requested_url": "https://www.yohodiy.com/",
+      "final_url": "https://www.yohodiy.com/",
+      "status": 200,
+      "title": "首饰定制网站"
+    },
+    {
+      "file": "pages/0002.json",
+      "requested_url": "https://www.yohodiy.com/products",
+      "final_url": "https://www.yohodiy.com/products",
+      "status": 200,
+      "title": "全部定制产品 | 优合源品 YOHE/YOUNG"
+    },
+    {
+      "file": "pages/0003.json",
+      "requested_url": "https://www.yohodiy.com/accessory-products",
+      "final_url": "https://www.yohodiy.com/accessory-products",
+      "status": 200,
+      "title": "首饰定制网站"
+    },
+    {
+      "file": "pages/0004.json",
+      "requested_url": "https://www.yohodiy.com/customize",
+      "final_url": "https://www.yohodiy.com/customize",
+      "status": 200,
+      "title": "个性化定制珠宝 | 优合源品 YOHE/YOUNG"
+    },
+    {
+      "file": "pages/0005.json",
+      "requested_url": "https://www.yohodiy.com/customize/letter",
+      "final_url": "https://www.yohodiy.com/customize/letter",
+      "status": 200,
+      "title": "首饰定制网站"
+    },
+    {
+      "file": "pages/0006.json",
+      "requested_url": "https://www.yohodiy.com/customize/accessory",
+      "final_url": "https://www.yohodiy.com/customize/accessory",
+      "status": 200,
+      "title": "首饰定制网站"
+    },
+    {
+      "file": "pages/0007.json",
+      "requested_url": "https://www.yohodiy.com/customize/splice",
+      "final_url": "https://www.yohodiy.com/customize/splice",
+      "status": 200,
+      "title": "首饰定制网站"
+    },
+    {
+      "file": "pages/0008.json",
+      "requested_url": "https://www.yohodiy.com/design-square",
+      "final_url": "https://www.yohodiy.com/design-square",
+      "status": 200,
+      "title": "设计广场 | 优合源品 YOHE/YOUNG"
+    },
+    {
+      "file": "pages/0009.json",
+      "requested_url": "https://www.yohodiy.com/help",
+      "final_url": "https://www.yohodiy.com/help",
+      "status": 200,
+      "title": "首饰定制网站"
+    },
+    {
+      "file": "pages/0010.json",
+      "requested_url": "https://www.yohodiy.com/about-us",
+      "final_url": "https://www.yohodiy.com/",
+      "status": 200,
+      "title": "Wholesale Jewelry, Yohoddiy, Wholesale Jewelry Marketplace, Jewelry Wholesa"
+    },
+    {
+      "file": "pages/0011.json",
+      "requested_url": "https://www.yohodiy.com/why-choose-us",
+      "final_url": "https://www.yohodiy.com/",
+      "status": 200,
+      "title": "Wholesale Jewelry, Yohoddiy, Wholesale Jewelry Marketplace, Jewelry Wholesa"
+    },
+    {
+      "file": "pages/0012.json",
+      "requested_url": "https://www.yohodiy.com/faq",
+      "final_url": "https://www.yohodiy.com/",
+      "status": 200,
+      "title": "Wholesale Jewelry, Yohoddiy, Wholesale Jewelry Marketplace, Jewelry Wholesa"
+    },
+    {
+      "file": "pages/0013.json",
+      "requested_url": "https://www.yohodiy.com/shipping-info",
+      "final_url": "https://www.yohodiy.com/",
+      "status": 200,
+      "title": "Wholesale Jewelry, Yohoddiy, Wholesale Jewelry Marketplace, Jewelry Wholesa"
+    },
+    {
+      "file": "pages/0014.json",
+      "requested_url": "https://www.yohodiy.com/return-policy",
+      "final_url": "https://www.yohodiy.com/",
+      "status": 200,
+      "title": "Wholesale Jewelry, Yohoddiy, Wholesale Jewelry Marketplace, Jewelry Wholesa"
+    },
+    {
+      "file": "pages/0015.json",
+      "requested_url": "https://www.yohodiy.com/warranty",
+      "final_url": "https://www.yohodiy.com/",
+      "status": 200,
+      "title": "Wholesale Jewelry, Yohoddiy, Wholesale Jewelry Marketplace, Jewelry Wholesa"
+    },
+    {
+      "file": "pages/0016.json",
+      "requested_url": "https://www.yohodiy.com/craftsmanship",
+      "final_url": "https://www.yohodiy.com/",
+      "status": 200,
+      "title": "Wholesale Jewelry, Yohoddiy, Wholesale Jewelry Marketplace, Jewelry Wholesa"
+    },
+    {
+      "file": "pages/0017.json",
+      "requested_url": "https://www.yohodiy.com/ring-size-guide",
+      "final_url": "https://www.yohodiy.com/",
+      "status": 200,
+      "title": "Wholesale Jewelry, Yohoddiy, Wholesale Jewelry Marketplace, Jewelry Wholesa"
+    },
+    {
+      "file": "pages/0018.json",
+      "requested_url": "https://www.yohodiy.com/necklace-length-guide",
+      "final_url": "https://www.yohodiy.com/",
+      "status": 200,
+      "title": "优合源品 YOHE/YOUNG - 定制珠宝首饰"
+    },
+    {
+      "file": "pages/0019.json",
+      "requested_url": "https://www.yohodiy.com/packaging",
+      "final_url": "https://www.yohodiy.com/",
+      "status": 200,
+      "title": "Wholesale Jewelry, Yohoddiy, Wholesale Jewelry Marketplace, Jewelry Wholesa"
+    },
+    {
+      "file": "pages/0020.json",
+      "requested_url": "https://www.yohodiy.com/gemstone-guide",
+      "final_url": "https://www.yohodiy.com/",
+      "status": 200,
+      "title": "Wholesale Jewelry, Yohoddiy, Wholesale Jewelry Marketplace, Jewelry Wholesa"
+    },
+    {
+      "file": "pages/0021.json",
+      "requested_url": "https://www.yohodiy.com/diamond-4c",
+      "final_url": "https://www.yohodiy.com/",
+      "status": 200,
+      "title": "Wholesale Jewelry, Yohoddiy, Wholesale Jewelry Marketplace, Jewelry Wholesa"
+    },
+    {
+      "file": "pages/0022.json",
+      "requested_url": "https://www.yohodiy.com/brand-story",
+      "final_url": "https://www.yohodiy.com/",
+      "status": 200,
+      "title": "Wholesale Jewelry, Yohoddiy, Wholesale Jewelry Marketplace, Jewelry Wholesa"
+    },
+    {
+      "file": "pages/0023.json",
+      "requested_url": "https://www.yohodiy.com/order-help",
+      "final_url": "https://www.yohodiy.com/",
+      "status": 200,
+      "title": "优合源品 YOHE/YOUNG - 定制珠宝首饰"
+    },
+    {
+      "file": "pages/0024.json",
+      "requested_url": "https://www.yohodiy.com/contact-us",
+      "final_url": "https://www.yohodiy.com/",
+      "status": 200,
+      "title": "优合源品 YOHE/YOUNG - 定制珠宝首饰"
+    },
+    {
+      "file": "pages/0025.json",
+      "requested_url": "https://www.yohodiy.com/partnership",
+      "final_url": "https://www.yohodiy.com/",
+      "status": 200,
+      "title": "Wholesale Jewelry, Yohoddiy, Wholesale Jewelry Marketplace, Jewelry Wholesa"
+    },
+    {
+      "file": "pages/0110.json",
+      "requested_url": "https://www.yohodiy.com/products/category/e9254eaa-b9fc-485b-aaae-780788edf641",
+      "final_url": "https://www.yohodiy.com/products/category/e9254eaa-b9fc-485b-aaae-780788edf641",
+      "status": 200,
+      "title": "首饰定制网站"
+    },
+    {
+      "file": "pages/0111.json",
+      "requested_url": "https://www.yohodiy.com/products/category/ea830209-ef3d-4c37-a169-ffda3e722510",
+      "final_url": "https://www.yohodiy.com/products/category/ea830209-ef3d-4c37-a169-ffda3e722510",
+      "status": 200,
+      "title": "首饰定制网站"
+    },
+    {
+      "file": "pages/0112.json",
+      "requested_url": "https://www.yohodiy.com/products/category/ecaf2cfe-96db-4cfc-8144-b076bb812dcf",
+      "final_url": "https://www.yohodiy.com/products/category/ecaf2cfe-96db-4cfc-8144-b076bb812dcf",
+      "status": 200,
+      "title": "首饰定制网站"
+    },
+    {
+      "file": "pages/0113.json",
+      "requested_url": "https://www.yohodiy.com/products/category/f026f4e7-9bae-440d-a282-1f998b7efe50",
+      "final_url": "https://www.yohodiy.com/products/category/f026f4e7-9bae-440d-a282-1f998b7efe50",
+      "status": 200,
+      "title": "首饰定制网站"
+    },
+    {
+      "file": "pages/0114.json",
+      "requested_url": "https://www.yohodiy.com/products/category/f5ba81d5-695d-43c9-8695-620e3e8b4285",
+      "final_url": "https://www.yohodiy.com/products/category/f5ba81d5-695d-43c9-8695-620e3e8b4285",
+      "status": 200,
+      "title": "首饰定制网站"
+    },
+    {
+      "file": "pages/0115.json",
+      "requested_url": "https://www.yohodiy.com/products/category/fa35c4be-5ce2-4c2d-bbf1-83c1bb0eaef8",
+      "final_url": "https://www.yohodiy.com/products/category/fa35c4be-5ce2-4c2d-bbf1-83c1bb0eaef8",
+      "status": 200,
+      "title": "首饰定制网站"
+    },
+    {
+      "file": "pages/0116.json",
+      "requested_url": "https://www.yohodiy.com/products/category/fda515f8-020f-403c-8aed-76c023d4c4ac",
+      "final_url": "https://www.yohodiy.com/products/category/fda515f8-020f-403c-8aed-76c023d4c4ac",
+      "status": 200,
+      "title": "首饰定制网站"
+    },
+    {
+      "file": "pages/0117.json",
+      "requested_url": "https://www.yohodiy.com/customize/draggable",
+      "final_url": "https://www.yohodiy.com/customize/draggable",
+      "status": 200,
+      "title": "首饰定制网站"
+    },
+    {
+      "file": "pages/0118.json",
+      "requested_url": "https://www.yohodiy.com/coupon",
+      "final_url": "https://www.yohodiy.com/",
+      "status": 200,
+      "title": "Wholesale Jewelry, Yohoddiy, Wholesale Jewelry Marketplace, Jewelry Wholesa"
+    },
+    {
+      "file": "pages/0119.json",
+      "requested_url": "https://www.yohodiy.com/custom",
+      "final_url": "https://www.yohodiy.com/",
+      "status": 200,
+      "title": "Wholesale Jewelry, Yohoddiy, Wholesale Jewelry Marketplace, Jewelry Wholesa"
+    },
+    {
+      "file": "pages/0120.json",
+      "requested_url": "https://www.yohodiy.com/spot-products",
+      "final_url": "https://www.yohodiy.com/",
+      "status": 200,
+      "title": "优合源品 YOHE/YOUNG - 定制珠宝首饰"
+    },
+    {
+      "file": "pages/0121.json",
+      "requested_url": "https://www.yohodiy.com/accessory-products/category/06d998ef-2e8b-40e5-a278-35732cbcba5d",
+      "final_url": "https://www.yohodiy.com/accessory-products/category/06d998ef-2e8b-40e5-a278-35732cbcba5d",
+      "status": 200,
+      "title": "首饰定制网站"
+    },
+    {
+      "file": "pages/0122.json",
+      "requested_url": "https://www.yohodiy.com/accessory-products/category/07dbbb89-1b44-4458-bf52-c6da23c3c2dc",
+      "final_url": "https://www.yohodiy.com/accessory-products/category/07dbbb89-1b44-4458-bf52-c6da23c3c2dc",
+      "status": 200,
+      "title": "首饰定制网站"
+    }
+  ],
+  "errors": [
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/media-coverage",
+      "captured_at": "2026-09-18T03:46:31.269404+00:00",
+      "error": "Page.goto: net::ERR_CONNECTION_CLOSED at https://www.yohodiy.com/media-coverage\nCall log:\n  - navigating to \"https://www.yohodiy.com/media-coverage\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/accessory-products/category/13c04553-1a8f-4011-89f9-3ab63850e953",
+      "captured_at": "2026-09-18T03:46:32.190986+00:00",
+      "error": "Page.goto: net::ERR_CONNECTION_CLOSED at https://www.yohodiy.com/accessory-products/category/13c04553-1a8f-4011-89f9-3ab63850e953\nCall log:\n  - navigating to \"https://www.yohodiy.com/accessory-products/category/13c04553-1a8f-4011-89f9-3ab63850e953\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/accessory-products/category/16aebb58-2339-41dd-a34e-a7b62e30e31e",
+      "captured_at": "2026-09-18T03:46:33.096443+00:00",
+      "error": "Page.goto: net::ERR_CONNECTION_CLOSED at https://www.yohodiy.com/accessory-products/category/16aebb58-2339-41dd-a34e-a7b62e30e31e\nCall log:\n  - navigating to \"https://www.yohodiy.com/accessory-products/category/16aebb58-2339-41dd-a34e-a7b62e30e31e\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/accessory-products/category/19d32481-aea8-4b59-8c72-08b00cbcda3c",
+      "captured_at": "2026-09-18T03:46:34.013555+00:00",
+      "error": "Page.goto: net::ERR_CONNECTION_CLOSED at https://www.yohodiy.com/accessory-products/category/19d32481-aea8-4b59-8c72-08b00cbcda3c\nCall log:\n  - navigating to \"https://www.yohodiy.com/accessory-products/category/19d32481-aea8-4b59-8c72-08b00cbcda3c\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/accessory-products/category/1d72e725-410d-4bc9-b9c5-0349166d1d8f",
+      "captured_at": "2026-09-18T03:46:34.823386+00:00",
+      "error": "Page.goto: net::ERR_CONNECTION_CLOSED at https://www.yohodiy.com/accessory-products/category/1d72e725-410d-4bc9-b9c5-0349166d1d8f\nCall log:\n  - navigating to \"https://www.yohodiy.com/accessory-products/category/1d72e725-410d-4bc9-b9c5-0349166d1d8f\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/accessory-products/category/274a034f-2465-4d9f-81e6-14f6ab71f006",
+      "captured_at": "2026-09-18T03:46:35.760501+00:00",
+      "error": "Page.goto: net::ERR_CONNECTION_CLOSED at https://www.yohodiy.com/accessory-products/category/274a034f-2465-4d9f-81e6-14f6ab71f006\nCall log:\n  - navigating to \"https://www.yohodiy.com/accessory-products/category/274a034f-2465-4d9f-81e6-14f6ab71f006\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/accessory-products/category/2aba39ad-99dd-4e63-a0eb-9d218962ad61",
+      "captured_at": "2026-09-18T03:46:36.655476+00:00",
+      "error": "Page.goto: net::ERR_CONNECTION_CLOSED at https://www.yohodiy.com/accessory-products/category/2aba39ad-99dd-4e63-a0eb-9d218962ad61\nCall log:\n  - navigating to \"https://www.yohodiy.com/accessory-products/category/2aba39ad-99dd-4e63-a0eb-9d218962ad61\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/accessory-products/category/3e671d34-a99b-416d-80c2-cfabad97f2d3",
+      "captured_at": "2026-09-18T03:46:37.649069+00:00",
+      "error": "Page.goto: net::ERR_CONNECTION_CLOSED at https://www.yohodiy.com/accessory-products/category/3e671d34-a99b-416d-80c2-cfabad97f2d3\nCall log:\n  - navigating to \"https://www.yohodiy.com/accessory-products/category/3e671d34-a99b-416d-80c2-cfabad97f2d3\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/accessory-products/category/4a563e87-0f9a-43ee-a55d-91961811d5f8",
+      "captured_at": "2026-09-18T03:46:38.604895+00:00",
+      "error": "Page.goto: net::ERR_CONNECTION_CLOSED at https://www.yohodiy.com/accessory-products/category/4a563e87-0f9a-43ee-a55d-91961811d5f8\nCall log:\n  - navigating to \"https://www.yohodiy.com/accessory-products/category/4a563e87-0f9a-43ee-a55d-91961811d5f8\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/accessory-products/category/4ae74c36-e630-474f-ae63-3e6837a62312",
+      "captured_at": "2026-09-18T03:46:39.526114+00:00",
+      "error": "Page.goto: net::ERR_CONNECTION_CLOSED at https://www.yohodiy.com/accessory-products/category/4ae74c36-e630-474f-ae63-3e6837a62312\nCall log:\n  - navigating to \"https://www.yohodiy.com/accessory-products/category/4ae74c36-e630-474f-ae63-3e6837a62312\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/accessory-products/category/74caf7c1-98a4-42ac-bfe1-fca1ee06e3b5",
+      "captured_at": "2026-09-18T03:46:40.446793+00:00",
+      "error": "Page.goto: net::ERR_CONNECTION_CLOSED at https://www.yohodiy.com/accessory-products/category/74caf7c1-98a4-42ac-bfe1-fca1ee06e3b5\nCall log:\n  - navigating to \"https://www.yohodiy.com/accessory-products/category/74caf7c1-98a4-42ac-bfe1-fca1ee06e3b5\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/accessory-products/category/7b50c92e-4dd0-4fa7-8cb9-12faca2b5b77",
+      "captured_at": "2026-09-18T03:46:41.361874+00:00",
+      "error": "Page.goto: net::ERR_CONNECTION_CLOSED at https://www.yohodiy.com/accessory-products/category/7b50c92e-4dd0-4fa7-8cb9-12faca2b5b77\nCall log:\n  - navigating to \"https://www.yohodiy.com/accessory-products/category/7b50c92e-4dd0-4fa7-8cb9-12faca2b5b77\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/accessory-products/category/978ae0ef-e6e9-418c-9a17-63db9ff3fa64",
+      "captured_at": "2026-09-18T03:46:42.298486+00:00",
+      "error": "Page.goto: net::ERR_CONNECTION_CLOSED at https://www.yohodiy.com/accessory-products/category/978ae0ef-e6e9-418c-9a17-63db9ff3fa64\nCall log:\n  - navigating to \"https://www.yohodiy.com/accessory-products/category/978ae0ef-e6e9-418c-9a17-63db9ff3fa64\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/accessory-products/category/a4ea53c8-26cb-4395-bbd1-eb5928b8bed8",
+      "captured_at": "2026-09-18T03:46:43.228645+00:00",
+      "error": "Page.goto: net::ERR_CONNECTION_CLOSED at https://www.yohodiy.com/accessory-products/category/a4ea53c8-26cb-4395-bbd1-eb5928b8bed8\nCall log:\n  - navigating to \"https://www.yohodiy.com/accessory-products/category/a4ea53c8-26cb-4395-bbd1-eb5928b8bed8\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/accessory-products/category/a531c790-6adc-41cb-afa3-f20645306144",
+      "captured_at": "2026-09-18T03:46:44.167292+00:00",
+      "error": "Page.goto: net::ERR_CONNECTION_CLOSED at https://www.yohodiy.com/accessory-products/category/a531c790-6adc-41cb-afa3-f20645306144\nCall log:\n  - navigating to \"https://www.yohodiy.com/accessory-products/category/a531c790-6adc-41cb-afa3-f20645306144\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/accessory-products/category/ac128ca3-a6a1-4fbe-8d5d-2c0e669c623e",
+      "captured_at": "2026-09-18T03:46:45.079902+00:00",
+      "error": "Page.goto: net::ERR_CONNECTION_CLOSED at https://www.yohodiy.com/accessory-products/category/ac128ca3-a6a1-4fbe-8d5d-2c0e669c623e\nCall log:\n  - navigating to \"https://www.yohodiy.com/accessory-products/category/ac128ca3-a6a1-4fbe-8d5d-2c0e669c623e\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/accessory-products/category/bb886cd1-c3c8-4190-9bcb-293d2ef9b54c",
+      "captured_at": "2026-09-18T03:46:45.978393+00:00",
+      "error": "Page.goto: net::ERR_CONNECTION_CLOSED at https://www.yohodiy.com/accessory-products/category/bb886cd1-c3c8-4190-9bcb-293d2ef9b54c\nCall log:\n  - navigating to \"https://www.yohodiy.com/accessory-products/category/bb886cd1-c3c8-4190-9bcb-293d2ef9b54c\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/accessory-products/category/bed40c87-b611-4c3a-8c30-70e202fda167",
+      "captured_at": "2026-09-18T03:46:46.922025+00:00",
+      "error": "Page.goto: net::ERR_CONNECTION_CLOSED at https://www.yohodiy.com/accessory-products/category/bed40c87-b611-4c3a-8c30-70e202fda167\nCall log:\n  - navigating to \"https://www.yohodiy.com/accessory-products/category/bed40c87-b611-4c3a-8c30-70e202fda167\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/accessory-products/category/c4aaefe8-926b-4c24-9c1f-f42ff9799c03",
+      "captured_at": "2026-09-18T03:46:47.848352+00:00",
+      "error": "Page.goto: net::ERR_CONNECTION_CLOSED at https://www.yohodiy.com/accessory-products/category/c4aaefe8-926b-4c24-9c1f-f42ff9799c03\nCall log:\n  - navigating to \"https://www.yohodiy.com/accessory-products/category/c4aaefe8-926b-4c24-9c1f-f42ff9799c03\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/accessory-products/category/ddc3625e-c3a3-4d46-a2ea-453b2c6fa446",
+      "captured_at": "2026-09-18T03:46:48.754263+00:00",
+      "error": "Page.goto: net::ERR_CONNECTION_CLOSED at https://www.yohodiy.com/accessory-products/category/ddc3625e-c3a3-4d46-a2ea-453b2c6fa446\nCall log:\n  - navigating to \"https://www.yohodiy.com/accessory-products/category/ddc3625e-c3a3-4d46-a2ea-453b2c6fa446\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/accessory-products/category/de528acb-bc6b-4b90-99a3-2d50db12bfdd",
+      "captured_at": "2026-09-18T03:46:49.661336+00:00",
+      "error": "Page.goto: net::ERR_CONNECTION_CLOSED at https://www.yohodiy.com/accessory-products/category/de528acb-bc6b-4b90-99a3-2d50db12bfdd\nCall log:\n  - navigating to \"https://www.yohodiy.com/accessory-products/category/de528acb-bc6b-4b90-99a3-2d50db12bfdd\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/accessory-products/category/e7c631dd-0a59-4355-b714-b9f41b59b7a5",
+      "captured_at": "2026-09-18T03:46:50.620369+00:00",
+      "error": "Page.goto: net::ERR_CONNECTION_CLOSED at https://www.yohodiy.com/accessory-products/category/e7c631dd-0a59-4355-b714-b9f41b59b7a5\nCall log:\n  - navigating to \"https://www.yohodiy.com/accessory-products/category/e7c631dd-0a59-4355-b714-b9f41b59b7a5\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/accessory-products/category/e903ce7e-e1a5-40c2-a831-12181a425f07",
+      "captured_at": "2026-09-18T03:46:51.530671+00:00",
+      "error": "Page.goto: net::ERR_CONNECTION_CLOSED at https://www.yohodiy.com/accessory-products/category/e903ce7e-e1a5-40c2-a831-12181a425f07\nCall log:\n  - navigating to \"https://www.yohodiy.com/accessory-products/category/e903ce7e-e1a5-40c2-a831-12181a425f07\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/accessory-products/category/f5d45de5-bb3b-4a9a-8432-72019bc2774b",
+      "captured_at": "2026-09-18T03:46:52.428885+00:00",
+      "error": "Page.goto: net::ERR_CONNECTION_CLOSED at https://www.yohodiy.com/accessory-products/category/f5d45de5-bb3b-4a9a-8432-72019bc2774b\nCall log:\n  - navigating to \"https://www.yohodiy.com/accessory-products/category/f5d45de5-bb3b-4a9a-8432-72019bc2774b\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/products/category/0256d0d2-97ee-457c-ad89-9dbbba920551",
+      "captured_at": "2026-09-18T03:46:53.334448+00:00",
+      "error": "Page.goto: net::ERR_CONNECTION_CLOSED at https://www.yohodiy.com/products/category/0256d0d2-97ee-457c-ad89-9dbbba920551\nCall log:\n  - navigating to \"https://www.yohodiy.com/products/category/0256d0d2-97ee-457c-ad89-9dbbba920551\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/products/category/07e4d84f-e555-4654-8e11-e630d832c388",
+      "captured_at": "2026-09-18T03:46:54.245717+00:00",
+      "error": "Page.goto: net::ERR_CONNECTION_CLOSED at https://www.yohodiy.com/products/category/07e4d84f-e555-4654-8e11-e630d832c388\nCall log:\n  - navigating to \"https://www.yohodiy.com/products/category/07e4d84f-e555-4654-8e11-e630d832c388\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/products/category/0921521e-8ab5-44be-8162-85872c181ea9",
+      "captured_at": "2026-09-18T03:46:55.169522+00:00",
+      "error": "Page.goto: net::ERR_CONNECTION_CLOSED at https://www.yohodiy.com/products/category/0921521e-8ab5-44be-8162-85872c181ea9\nCall log:\n  - navigating to \"https://www.yohodiy.com/products/category/0921521e-8ab5-44be-8162-85872c181ea9\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/products/category/0d5cf5ba-76b6-45ef-89dc-0e86b8c47f7d",
+      "captured_at": "2026-09-18T03:46:56.087148+00:00",
+      "error": "Page.goto: net::ERR_CONNECTION_CLOSED at https://www.yohodiy.com/products/category/0d5cf5ba-76b6-45ef-89dc-0e86b8c47f7d\nCall log:\n  - navigating to \"https://www.yohodiy.com/products/category/0d5cf5ba-76b6-45ef-89dc-0e86b8c47f7d\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/products/category/1b69d80d-88b2-4d56-a973-50a30b42f275",
+      "captured_at": "2026-09-18T03:46:57.009515+00:00",
+      "error": "Page.goto: net::ERR_CONNECTION_CLOSED at https://www.yohodiy.com/products/category/1b69d80d-88b2-4d56-a973-50a30b42f275\nCall log:\n  - navigating to \"https://www.yohodiy.com/products/category/1b69d80d-88b2-4d56-a973-50a30b42f275\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/products/category/1b8a5991-f925-4eb4-b6ba-7a4ca6d52f6f",
+      "captured_at": "2026-09-18T03:46:57.945693+00:00",
+      "error": "Page.goto: net::ERR_CONNECTION_CLOSED at https://www.yohodiy.com/products/category/1b8a5991-f925-4eb4-b6ba-7a4ca6d52f6f\nCall log:\n  - navigating to \"https://www.yohodiy.com/products/category/1b8a5991-f925-4eb4-b6ba-7a4ca6d52f6f\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/products/category/220556f8-450f-488f-9d93-3d96fa828753",
+      "captured_at": "2026-09-18T03:46:58.844842+00:00",
+      "error": "Page.goto: net::ERR_CONNECTION_CLOSED at https://www.yohodiy.com/products/category/220556f8-450f-488f-9d93-3d96fa828753\nCall log:\n  - navigating to \"https://www.yohodiy.com/products/category/220556f8-450f-488f-9d93-3d96fa828753\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/products/category/261cebdc-ec53-4805-a56f-f70f9c7affd2",
+      "captured_at": "2026-09-18T03:46:59.802864+00:00",
+      "error": "Page.goto: net::ERR_CONNECTION_CLOSED at https://www.yohodiy.com/products/category/261cebdc-ec53-4805-a56f-f70f9c7affd2\nCall log:\n  - navigating to \"https://www.yohodiy.com/products/category/261cebdc-ec53-4805-a56f-f70f9c7affd2\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/products/category/27ff2506-c852-4bc4-969c-6a751684c30c",
+      "captured_at": "2026-09-18T03:47:00.715410+00:00",
+      "error": "Page.goto: net::ERR_CONNECTION_CLOSED at https://www.yohodiy.com/products/category/27ff2506-c852-4bc4-969c-6a751684c30c\nCall log:\n  - navigating to \"https://www.yohodiy.com/products/category/27ff2506-c852-4bc4-969c-6a751684c30c\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/products/category/2a63e62c-79fa-4420-b4a9-d8e7806e1e71",
+      "captured_at": "2026-09-18T03:47:01.673071+00:00",
+      "error": "Page.goto: net::ERR_CONNECTION_CLOSED at https://www.yohodiy.com/products/category/2a63e62c-79fa-4420-b4a9-d8e7806e1e71\nCall log:\n  - navigating to \"https://www.yohodiy.com/products/category/2a63e62c-79fa-4420-b4a9-d8e7806e1e71\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/products/category/2d11cd2d-ded9-44cd-9cb3-4e48af3cc1a7",
+      "captured_at": "2026-09-18T03:47:02.562599+00:00",
+      "error": "Page.goto: net::ERR_CONNECTION_CLOSED at https://www.yohodiy.com/products/category/2d11cd2d-ded9-44cd-9cb3-4e48af3cc1a7\nCall log:\n  - navigating to \"https://www.yohodiy.com/products/category/2d11cd2d-ded9-44cd-9cb3-4e48af3cc1a7\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/products/category/2dc4c47d-d31c-40eb-ab2f-d362a165962b",
+      "captured_at": "2026-09-18T03:47:03.486326+00:00",
+      "error": "Page.goto: net::ERR_CONNECTION_CLOSED at https://www.yohodiy.com/products/category/2dc4c47d-d31c-40eb-ab2f-d362a165962b\nCall log:\n  - navigating to \"https://www.yohodiy.com/products/category/2dc4c47d-d31c-40eb-ab2f-d362a165962b\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/products/category/2f9e8439-7da1-4c71-b793-5b328772dd6f",
+      "captured_at": "2026-09-18T03:47:04.396170+00:00",
+      "error": "Page.goto: net::ERR_CONNECTION_CLOSED at https://www.yohodiy.com/products/category/2f9e8439-7da1-4c71-b793-5b328772dd6f\nCall log:\n  - navigating to \"https://www.yohodiy.com/products/category/2f9e8439-7da1-4c71-b793-5b328772dd6f\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/products/category/377c5c34-6a4b-4851-b265-6f45898322f1",
+      "captured_at": "2026-09-18T03:47:05.300320+00:00",
+      "error": "Page.goto: net::ERR_CONNECTION_CLOSED at https://www.yohodiy.com/products/category/377c5c34-6a4b-4851-b265-6f45898322f1\nCall log:\n  - navigating to \"https://www.yohodiy.com/products/category/377c5c34-6a4b-4851-b265-6f45898322f1\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/products/category/3aa5e076-6637-4736-b6f1-0e3146ab4a0f",
+      "captured_at": "2026-09-18T03:47:06.236680+00:00",
+      "error": "Page.goto: net::ERR_CONNECTION_CLOSED at https://www.yohodiy.com/products/category/3aa5e076-6637-4736-b6f1-0e3146ab4a0f\nCall log:\n  - navigating to \"https://www.yohodiy.com/products/category/3aa5e076-6637-4736-b6f1-0e3146ab4a0f\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/products/category/41829e08-54b0-4ce0-91a6-f3316d91bbba",
+      "captured_at": "2026-09-18T03:47:07.132465+00:00",
+      "error": "Page.goto: net::ERR_CONNECTION_CLOSED at https://www.yohodiy.com/products/category/41829e08-54b0-4ce0-91a6-f3316d91bbba\nCall log:\n  - navigating to \"https://www.yohodiy.com/products/category/41829e08-54b0-4ce0-91a6-f3316d91bbba\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/products/category/45708861-dac3-4270-8c70-850fc3af9df7",
+      "captured_at": "2026-09-18T03:47:08.066306+00:00",
+      "error": "Page.goto: net::ERR_CONNECTION_CLOSED at https://www.yohodiy.com/products/category/45708861-dac3-4270-8c70-850fc3af9df7\nCall log:\n  - navigating to \"https://www.yohodiy.com/products/category/45708861-dac3-4270-8c70-850fc3af9df7\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/products/category/485f63f1-a8c1-4a6f-9c68-385e4de3b6cc",
+      "captured_at": "2026-09-18T03:47:08.959255+00:00",
+      "error": "Page.goto: net::ERR_CONNECTION_CLOSED at https://www.yohodiy.com/products/category/485f63f1-a8c1-4a6f-9c68-385e4de3b6cc\nCall log:\n  - navigating to \"https://www.yohodiy.com/products/category/485f63f1-a8c1-4a6f-9c68-385e4de3b6cc\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/products/category/4be4f2d7-b8d4-469b-ad83-f3a38d21a2eb",
+      "captured_at": "2026-09-18T03:47:09.916905+00:00",
+      "error": "Page.goto: net::ERR_CONNECTION_CLOSED at https://www.yohodiy.com/products/category/4be4f2d7-b8d4-469b-ad83-f3a38d21a2eb\nCall log:\n  - navigating to \"https://www.yohodiy.com/products/category/4be4f2d7-b8d4-469b-ad83-f3a38d21a2eb\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/products/category/4c57da24-679f-4a88-8608-1e55de8045e9",
+      "captured_at": "2026-09-18T03:47:10.865510+00:00",
+      "error": "Page.goto: net::ERR_CONNECTION_CLOSED at https://www.yohodiy.com/products/category/4c57da24-679f-4a88-8608-1e55de8045e9\nCall log:\n  - navigating to \"https://www.yohodiy.com/products/category/4c57da24-679f-4a88-8608-1e55de8045e9\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/products/category/51eeb960-9d33-4f51-b840-0255c4d6248c",
+      "captured_at": "2026-09-18T03:47:11.779960+00:00",
+      "error": "Page.goto: net::ERR_CONNECTION_CLOSED at https://www.yohodiy.com/products/category/51eeb960-9d33-4f51-b840-0255c4d6248c\nCall log:\n  - navigating to \"https://www.yohodiy.com/products/category/51eeb960-9d33-4f51-b840-0255c4d6248c\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/products/category/569c05ee-8958-41ab-83ea-0539ce2047ed",
+      "captured_at": "2026-09-18T03:47:12.695843+00:00",
+      "error": "Page.goto: net::ERR_CONNECTION_CLOSED at https://www.yohodiy.com/products/category/569c05ee-8958-41ab-83ea-0539ce2047ed\nCall log:\n  - navigating to \"https://www.yohodiy.com/products/category/569c05ee-8958-41ab-83ea-0539ce2047ed\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/products/category/57ec4ce3-36c2-4a52-a6f0-120184588aa4",
+      "captured_at": "2026-09-18T03:47:13.611795+00:00",
+      "error": "Page.goto: net::ERR_CONNECTION_CLOSED at https://www.yohodiy.com/products/category/57ec4ce3-36c2-4a52-a6f0-120184588aa4\nCall log:\n  - navigating to \"https://www.yohodiy.com/products/category/57ec4ce3-36c2-4a52-a6f0-120184588aa4\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/products/category/5c822b30-583d-45b2-a9b9-d802e3d1c13d",
+      "captured_at": "2026-09-18T03:47:14.515460+00:00",
+      "error": "Page.goto: net::ERR_CONNECTION_CLOSED at https://www.yohodiy.com/products/category/5c822b30-583d-45b2-a9b9-d802e3d1c13d\nCall log:\n  - navigating to \"https://www.yohodiy.com/products/category/5c822b30-583d-45b2-a9b9-d802e3d1c13d\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/products/category/5d736a53-8186-455b-b5cb-ff3c09b1f7d4",
+      "captured_at": "2026-09-18T03:47:15.415135+00:00",
+      "error": "Page.goto: net::ERR_CONNECTION_CLOSED at https://www.yohodiy.com/products/category/5d736a53-8186-455b-b5cb-ff3c09b1f7d4\nCall log:\n  - navigating to \"https://www.yohodiy.com/products/category/5d736a53-8186-455b-b5cb-ff3c09b1f7d4\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/products/category/64d26257-22d7-4632-9cb7-7ec7e584fdf5",
+      "captured_at": "2026-09-18T03:47:16.444852+00:00",
+      "error": "Page.goto: net::ERR_CONNECTION_CLOSED at https://www.yohodiy.com/products/category/64d26257-22d7-4632-9cb7-7ec7e584fdf5\nCall log:\n  - navigating to \"https://www.yohodiy.com/products/category/64d26257-22d7-4632-9cb7-7ec7e584fdf5\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/products/category/66a7b744-8d4e-4fdf-973c-6eb2261ca81d",
+      "captured_at": "2026-09-18T03:47:17.348885+00:00",
+      "error": "Page.goto: net::ERR_CONNECTION_CLOSED at https://www.yohodiy.com/products/category/66a7b744-8d4e-4fdf-973c-6eb2261ca81d\nCall log:\n  - navigating to \"https://www.yohodiy.com/products/category/66a7b744-8d4e-4fdf-973c-6eb2261ca81d\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/products/category/673a5a73-51bf-45ba-aa19-1c9f4561937f",
+      "captured_at": "2026-09-18T03:47:18.271154+00:00",
+      "error": "Page.goto: net::ERR_CONNECTION_CLOSED at https://www.yohodiy.com/products/category/673a5a73-51bf-45ba-aa19-1c9f4561937f\nCall log:\n  - navigating to \"https://www.yohodiy.com/products/category/673a5a73-51bf-45ba-aa19-1c9f4561937f\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/products/category/6838abe2-dfed-4ea6-a2f1-7e8a21e74615",
+      "captured_at": "2026-09-18T03:47:19.211003+00:00",
+      "error": "Page.goto: net::ERR_CONNECTION_CLOSED at https://www.yohodiy.com/products/category/6838abe2-dfed-4ea6-a2f1-7e8a21e74615\nCall log:\n  - navigating to \"https://www.yohodiy.com/products/category/6838abe2-dfed-4ea6-a2f1-7e8a21e74615\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/products/category/6aa89d10-4fc6-49bb-9743-adfc6015e1ff",
+      "captured_at": "2026-09-18T03:47:20.141650+00:00",
+      "error": "Page.goto: net::ERR_CONNECTION_CLOSED at https://www.yohodiy.com/products/category/6aa89d10-4fc6-49bb-9743-adfc6015e1ff\nCall log:\n  - navigating to \"https://www.yohodiy.com/products/category/6aa89d10-4fc6-49bb-9743-adfc6015e1ff\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/products/category/730fada0-9202-4adc-bf7f-3dd891639dc1",
+      "captured_at": "2026-09-18T03:47:21.073852+00:00",
+      "error": "Page.goto: net::ERR_CONNECTION_CLOSED at https://www.yohodiy.com/products/category/730fada0-9202-4adc-bf7f-3dd891639dc1\nCall log:\n  - navigating to \"https://www.yohodiy.com/products/category/730fada0-9202-4adc-bf7f-3dd891639dc1\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/products/category/743250d0-c760-4ecf-82c0-12ac6e272559",
+      "captured_at": "2026-09-18T03:47:21.985811+00:00",
+      "error": "Page.goto: net::ERR_CONNECTION_CLOSED at https://www.yohodiy.com/products/category/743250d0-c760-4ecf-82c0-12ac6e272559\nCall log:\n  - navigating to \"https://www.yohodiy.com/products/category/743250d0-c760-4ecf-82c0-12ac6e272559\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/products/category/7c312812-a1b2-40f7-91e6-cadf44913836",
+      "captured_at": "2026-09-18T03:47:22.917917+00:00",
+      "error": "Page.goto: net::ERR_CONNECTION_CLOSED at https://www.yohodiy.com/products/category/7c312812-a1b2-40f7-91e6-cadf44913836\nCall log:\n  - navigating to \"https://www.yohodiy.com/products/category/7c312812-a1b2-40f7-91e6-cadf44913836\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/products/category/8045bc58-a4cf-4165-869d-668df277bef5",
+      "captured_at": "2026-09-18T03:47:23.843392+00:00",
+      "error": "Page.goto: net::ERR_CONNECTION_CLOSED at https://www.yohodiy.com/products/category/8045bc58-a4cf-4165-869d-668df277bef5\nCall log:\n  - navigating to \"https://www.yohodiy.com/products/category/8045bc58-a4cf-4165-869d-668df277bef5\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/products/category/8218ef58-2806-4926-be42-8f1104aab20b",
+      "captured_at": "2026-09-18T03:47:24.794061+00:00",
+      "error": "Page.goto: net::ERR_CONNECTION_CLOSED at https://www.yohodiy.com/products/category/8218ef58-2806-4926-be42-8f1104aab20b\nCall log:\n  - navigating to \"https://www.yohodiy.com/products/category/8218ef58-2806-4926-be42-8f1104aab20b\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/products/category/874c1014-2fd2-48cb-8b6e-1aa3c685a57b",
+      "captured_at": "2026-09-18T03:47:25.762115+00:00",
+      "error": "Page.goto: net::ERR_CONNECTION_CLOSED at https://www.yohodiy.com/products/category/874c1014-2fd2-48cb-8b6e-1aa3c685a57b\nCall log:\n  - navigating to \"https://www.yohodiy.com/products/category/874c1014-2fd2-48cb-8b6e-1aa3c685a57b\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/products/category/8a96e9ba-56d1-41fc-8ff8-7bf285f7ee84",
+      "captured_at": "2026-09-18T03:47:26.666743+00:00",
+      "error": "Page.goto: net::ERR_CONNECTION_CLOSED at https://www.yohodiy.com/products/category/8a96e9ba-56d1-41fc-8ff8-7bf285f7ee84\nCall log:\n  - navigating to \"https://www.yohodiy.com/products/category/8a96e9ba-56d1-41fc-8ff8-7bf285f7ee84\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/products/category/90130ee9-bb4c-4735-a6f9-7140cb1f76f7",
+      "captured_at": "2026-09-18T03:47:27.626713+00:00",
+      "error": "Page.goto: net::ERR_CONNECTION_CLOSED at https://www.yohodiy.com/products/category/90130ee9-bb4c-4735-a6f9-7140cb1f76f7\nCall log:\n  - navigating to \"https://www.yohodiy.com/products/category/90130ee9-bb4c-4735-a6f9-7140cb1f76f7\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/products/category/90e29b11-561b-4f51-a96c-ee6f6df846c4",
+      "captured_at": "2026-09-18T03:47:28.558540+00:00",
+      "error": "Page.goto: net::ERR_CONNECTION_CLOSED at https://www.yohodiy.com/products/category/90e29b11-561b-4f51-a96c-ee6f6df846c4\nCall log:\n  - navigating to \"https://www.yohodiy.com/products/category/90e29b11-561b-4f51-a96c-ee6f6df846c4\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/products/category/99a0fa40-0f31-41ba-8431-957711a5d705",
+      "captured_at": "2026-09-18T03:47:29.511810+00:00",
+      "error": "Page.goto: net::ERR_CONNECTION_CLOSED at https://www.yohodiy.com/products/category/99a0fa40-0f31-41ba-8431-957711a5d705\nCall log:\n  - navigating to \"https://www.yohodiy.com/products/category/99a0fa40-0f31-41ba-8431-957711a5d705\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/products/category/9cf3e1d1-6cf5-4cfc-a25e-0498b53e7f45",
+      "captured_at": "2026-09-18T03:47:30.419161+00:00",
+      "error": "Page.goto: net::ERR_CONNECTION_CLOSED at https://www.yohodiy.com/products/category/9cf3e1d1-6cf5-4cfc-a25e-0498b53e7f45\nCall log:\n  - navigating to \"https://www.yohodiy.com/products/category/9cf3e1d1-6cf5-4cfc-a25e-0498b53e7f45\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/products/category/a8670da1-85b4-4ee9-b9d9-bb406c13e51a",
+      "captured_at": "2026-09-18T03:47:31.387947+00:00",
+      "error": "Page.goto: net::ERR_CONNECTION_CLOSED at https://www.yohodiy.com/products/category/a8670da1-85b4-4ee9-b9d9-bb406c13e51a\nCall log:\n  - navigating to \"https://www.yohodiy.com/products/category/a8670da1-85b4-4ee9-b9d9-bb406c13e51a\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/products/category/ac969c8a-812b-4626-875d-9bca72825263",
+      "captured_at": "2026-09-18T03:47:32.303518+00:00",
+      "error": "Page.goto: net::ERR_CONNECTION_CLOSED at https://www.yohodiy.com/products/category/ac969c8a-812b-4626-875d-9bca72825263\nCall log:\n  - navigating to \"https://www.yohodiy.com/products/category/ac969c8a-812b-4626-875d-9bca72825263\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/products/category/b375b43b-fb83-49ca-9ce1-cbba2aeef0f1",
+      "captured_at": "2026-09-18T03:47:33.233362+00:00",
+      "error": "Page.goto: net::ERR_CONNECTION_CLOSED at https://www.yohodiy.com/products/category/b375b43b-fb83-49ca-9ce1-cbba2aeef0f1\nCall log:\n  - navigating to \"https://www.yohodiy.com/products/category/b375b43b-fb83-49ca-9ce1-cbba2aeef0f1\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/products/category/b534d9e0-f4d9-4fca-bebb-6bfdd582a4f3",
+      "captured_at": "2026-09-18T03:47:34.202384+00:00",
+      "error": "Page.goto: net::ERR_CONNECTION_CLOSED at https://www.yohodiy.com/products/category/b534d9e0-f4d9-4fca-bebb-6bfdd582a4f3\nCall log:\n  - navigating to \"https://www.yohodiy.com/products/category/b534d9e0-f4d9-4fca-bebb-6bfdd582a4f3\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/products/category/b5c5e886-ee52-45e0-9efd-a60ea515d97f",
+      "captured_at": "2026-09-18T03:47:35.145126+00:00",
+      "error": "Page.goto: net::ERR_CONNECTION_CLOSED at https://www.yohodiy.com/products/category/b5c5e886-ee52-45e0-9efd-a60ea515d97f\nCall log:\n  - navigating to \"https://www.yohodiy.com/products/category/b5c5e886-ee52-45e0-9efd-a60ea515d97f\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/products/category/b7b4d1b7-a3a8-4c12-a63e-269e8b7c7423",
+      "captured_at": "2026-09-18T03:47:36.089154+00:00",
+      "error": "Page.goto: net::ERR_CONNECTION_CLOSED at https://www.yohodiy.com/products/category/b7b4d1b7-a3a8-4c12-a63e-269e8b7c7423\nCall log:\n  - navigating to \"https://www.yohodiy.com/products/category/b7b4d1b7-a3a8-4c12-a63e-269e8b7c7423\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/products/category/bc06385d-aa34-4560-8dd2-45e0327f311c",
+      "captured_at": "2026-09-18T03:47:37.022886+00:00",
+      "error": "Page.goto: net::ERR_CONNECTION_CLOSED at https://www.yohodiy.com/products/category/bc06385d-aa34-4560-8dd2-45e0327f311c\nCall log:\n  - navigating to \"https://www.yohodiy.com/products/category/bc06385d-aa34-4560-8dd2-45e0327f311c\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/products/category/bc2ce1d6-14c7-482a-a6f7-947040ea8e0a",
+      "captured_at": "2026-09-18T03:47:37.959679+00:00",
+      "error": "Page.goto: net::ERR_CONNECTION_CLOSED at https://www.yohodiy.com/products/category/bc2ce1d6-14c7-482a-a6f7-947040ea8e0a\nCall log:\n  - navigating to \"https://www.yohodiy.com/products/category/bc2ce1d6-14c7-482a-a6f7-947040ea8e0a\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/products/category/bed1f666-83a0-4a64-9aac-c12cbe5c67c8",
+      "captured_at": "2026-09-18T03:47:38.855747+00:00",
+      "error": "Page.goto: net::ERR_CONNECTION_CLOSED at https://www.yohodiy.com/products/category/bed1f666-83a0-4a64-9aac-c12cbe5c67c8\nCall log:\n  - navigating to \"https://www.yohodiy.com/products/category/bed1f666-83a0-4a64-9aac-c12cbe5c67c8\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/products/category/c1139ec5-dbab-41a7-b565-3231a219cdc8",
+      "captured_at": "2026-09-18T03:47:39.763703+00:00",
+      "error": "Page.goto: net::ERR_CONNECTION_CLOSED at https://www.yohodiy.com/products/category/c1139ec5-dbab-41a7-b565-3231a219cdc8\nCall log:\n  - navigating to \"https://www.yohodiy.com/products/category/c1139ec5-dbab-41a7-b565-3231a219cdc8\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/products/category/c3e1e374-c5fe-443a-93e1-4dac51565642",
+      "captured_at": "2026-09-18T03:47:40.653852+00:00",
+      "error": "Page.goto: net::ERR_CONNECTION_CLOSED at https://www.yohodiy.com/products/category/c3e1e374-c5fe-443a-93e1-4dac51565642\nCall log:\n  - navigating to \"https://www.yohodiy.com/products/category/c3e1e374-c5fe-443a-93e1-4dac51565642\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/products/category/c5cd65d2-c38f-4aac-8ed7-b860511411b8",
+      "captured_at": "2026-09-18T03:47:41.627394+00:00",
+      "error": "Page.goto: net::ERR_CONNECTION_CLOSED at https://www.yohodiy.com/products/category/c5cd65d2-c38f-4aac-8ed7-b860511411b8\nCall log:\n  - navigating to \"https://www.yohodiy.com/products/category/c5cd65d2-c38f-4aac-8ed7-b860511411b8\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/products/category/c9e40c9e-ecf4-4e45-bba0-f08dba251679",
+      "captured_at": "2026-09-18T03:47:42.551762+00:00",
+      "error": "Page.goto: net::ERR_CONNECTION_CLOSED at https://www.yohodiy.com/products/category/c9e40c9e-ecf4-4e45-bba0-f08dba251679\nCall log:\n  - navigating to \"https://www.yohodiy.com/products/category/c9e40c9e-ecf4-4e45-bba0-f08dba251679\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/products/category/cb26fa65-81f3-44ef-97e6-9fdba9459afc",
+      "captured_at": "2026-09-18T03:47:43.501094+00:00",
+      "error": "Page.goto: net::ERR_CONNECTION_CLOSED at https://www.yohodiy.com/products/category/cb26fa65-81f3-44ef-97e6-9fdba9459afc\nCall log:\n  - navigating to \"https://www.yohodiy.com/products/category/cb26fa65-81f3-44ef-97e6-9fdba9459afc\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/products/category/d63cfcbf-25c2-4fc4-9721-a481ca3c490a",
+      "captured_at": "2026-09-18T03:47:44.449279+00:00",
+      "error": "Page.goto: net::ERR_PROXY_CONNECTION_FAILED at https://www.yohodiy.com/products/category/d63cfcbf-25c2-4fc4-9721-a481ca3c490a\nCall log:\n  - navigating to \"https://www.yohodiy.com/products/category/d63cfcbf-25c2-4fc4-9721-a481ca3c490a\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/products/category/d723c916-bd5b-4f61-82c5-8648e0519383",
+      "captured_at": "2026-09-18T03:47:44.988272+00:00",
+      "error": "Page.goto: net::ERR_PROXY_CONNECTION_FAILED at https://www.yohodiy.com/products/category/d723c916-bd5b-4f61-82c5-8648e0519383\nCall log:\n  - navigating to \"https://www.yohodiy.com/products/category/d723c916-bd5b-4f61-82c5-8648e0519383\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/products/category/dba80d25-578f-44c2-b4ca-aea6fae60e7c",
+      "captured_at": "2026-09-18T03:47:45.253320+00:00",
+      "error": "Page.goto: net::ERR_PROXY_CONNECTION_FAILED at https://www.yohodiy.com/products/category/dba80d25-578f-44c2-b4ca-aea6fae60e7c\nCall log:\n  - navigating to \"https://www.yohodiy.com/products/category/dba80d25-578f-44c2-b4ca-aea6fae60e7c\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/products/category/e0a7e0b6-fd85-4025-8bdc-1005846d4308",
+      "captured_at": "2026-09-18T03:47:45.517438+00:00",
+      "error": "Page.goto: net::ERR_PROXY_CONNECTION_FAILED at https://www.yohodiy.com/products/category/e0a7e0b6-fd85-4025-8bdc-1005846d4308\nCall log:\n  - navigating to \"https://www.yohodiy.com/products/category/e0a7e0b6-fd85-4025-8bdc-1005846d4308\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/products/category/e1e2e910-375b-4c13-9ccb-7ee3fcbdd234",
+      "captured_at": "2026-09-18T03:47:45.780972+00:00",
+      "error": "Page.goto: net::ERR_CONNECTION_RESET at https://www.yohodiy.com/products/category/e1e2e910-375b-4c13-9ccb-7ee3fcbdd234\nCall log:\n  - navigating to \"https://www.yohodiy.com/products/category/e1e2e910-375b-4c13-9ccb-7ee3fcbdd234\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/accessory-products/category/17c035ae-3843-413c-9a9f-e5000b27bfdc",
+      "captured_at": "2026-09-18T03:48:20.030170+00:00",
+      "error": "Page.goto: net::ERR_PROXY_CONNECTION_FAILED at https://www.yohodiy.com/accessory-products/category/17c035ae-3843-413c-9a9f-e5000b27bfdc\nCall log:\n  - navigating to \"https://www.yohodiy.com/accessory-products/category/17c035ae-3843-413c-9a9f-e5000b27bfdc\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/accessory-products/category/1e085d58-93be-453e-84dc-65f590428831",
+      "captured_at": "2026-09-18T03:48:20.293313+00:00",
+      "error": "Page.goto: net::ERR_PROXY_CONNECTION_FAILED at https://www.yohodiy.com/accessory-products/category/1e085d58-93be-453e-84dc-65f590428831\nCall log:\n  - navigating to \"https://www.yohodiy.com/accessory-products/category/1e085d58-93be-453e-84dc-65f590428831\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/accessory-products/category/218be5b0-5b03-4df9-8e80-e8726e662167",
+      "captured_at": "2026-09-18T03:48:20.554460+00:00",
+      "error": "Page.goto: net::ERR_PROXY_CONNECTION_FAILED at https://www.yohodiy.com/accessory-products/category/218be5b0-5b03-4df9-8e80-e8726e662167\nCall log:\n  - navigating to \"https://www.yohodiy.com/accessory-products/category/218be5b0-5b03-4df9-8e80-e8726e662167\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/accessory-products/category/268d7b34-6716-4eb0-aeae-8a9dc312ba3a",
+      "captured_at": "2026-09-18T03:48:20.815344+00:00",
+      "error": "Page.goto: net::ERR_PROXY_CONNECTION_FAILED at https://www.yohodiy.com/accessory-products/category/268d7b34-6716-4eb0-aeae-8a9dc312ba3a\nCall log:\n  - navigating to \"https://www.yohodiy.com/accessory-products/category/268d7b34-6716-4eb0-aeae-8a9dc312ba3a\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/accessory-products/category/29c521ab-cb45-4e74-980e-4d884c3094b4",
+      "captured_at": "2026-09-18T03:48:21.077110+00:00",
+      "error": "Page.goto: net::ERR_PROXY_CONNECTION_FAILED at https://www.yohodiy.com/accessory-products/category/29c521ab-cb45-4e74-980e-4d884c3094b4\nCall log:\n  - navigating to \"https://www.yohodiy.com/accessory-products/category/29c521ab-cb45-4e74-980e-4d884c3094b4\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/accessory-products/category/3c04f52e-2856-4603-968b-725e7917eec2",
+      "captured_at": "2026-09-18T03:48:21.337685+00:00",
+      "error": "Page.goto: net::ERR_PROXY_CONNECTION_FAILED at https://www.yohodiy.com/accessory-products/category/3c04f52e-2856-4603-968b-725e7917eec2\nCall log:\n  - navigating to \"https://www.yohodiy.com/accessory-products/category/3c04f52e-2856-4603-968b-725e7917eec2\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/accessory-products/category/3e9fde79-ba37-476a-9258-4ab2a0577c21",
+      "captured_at": "2026-09-18T03:48:21.598595+00:00",
+      "error": "Page.goto: net::ERR_PROXY_CONNECTION_FAILED at https://www.yohodiy.com/accessory-products/category/3e9fde79-ba37-476a-9258-4ab2a0577c21\nCall log:\n  - navigating to \"https://www.yohodiy.com/accessory-products/category/3e9fde79-ba37-476a-9258-4ab2a0577c21\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/accessory-products/category/41d9d690-9a45-4c76-8172-ca92569c8a98",
+      "captured_at": "2026-09-18T03:48:21.861476+00:00",
+      "error": "Page.goto: net::ERR_PROXY_CONNECTION_FAILED at https://www.yohodiy.com/accessory-products/category/41d9d690-9a45-4c76-8172-ca92569c8a98\nCall log:\n  - navigating to \"https://www.yohodiy.com/accessory-products/category/41d9d690-9a45-4c76-8172-ca92569c8a98\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/accessory-products/category/47769702-48f7-4a51-9ec1-1b87c469482f",
+      "captured_at": "2026-09-18T03:48:22.140579+00:00",
+      "error": "Page.goto: net::ERR_PROXY_CONNECTION_FAILED at https://www.yohodiy.com/accessory-products/category/47769702-48f7-4a51-9ec1-1b87c469482f\nCall log:\n  - navigating to \"https://www.yohodiy.com/accessory-products/category/47769702-48f7-4a51-9ec1-1b87c469482f\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/accessory-products/category/495f11d7-63d8-4fee-8a56-96901de8751c",
+      "captured_at": "2026-09-18T03:48:22.402752+00:00",
+      "error": "Page.goto: net::ERR_PROXY_CONNECTION_FAILED at https://www.yohodiy.com/accessory-products/category/495f11d7-63d8-4fee-8a56-96901de8751c\nCall log:\n  - navigating to \"https://www.yohodiy.com/accessory-products/category/495f11d7-63d8-4fee-8a56-96901de8751c\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/accessory-products/category/4c8eeb8f-6bf5-48f2-81c0-474cac7f5554",
+      "captured_at": "2026-09-18T03:48:22.664284+00:00",
+      "error": "Page.goto: net::ERR_PROXY_CONNECTION_FAILED at https://www.yohodiy.com/accessory-products/category/4c8eeb8f-6bf5-48f2-81c0-474cac7f5554\nCall log:\n  - navigating to \"https://www.yohodiy.com/accessory-products/category/4c8eeb8f-6bf5-48f2-81c0-474cac7f5554\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/accessory-products/category/4e2877a7-5ce8-4a3c-b7ad-66ea8aa0b2fc",
+      "captured_at": "2026-09-18T03:48:22.926757+00:00",
+      "error": "Page.goto: net::ERR_PROXY_CONNECTION_FAILED at https://www.yohodiy.com/accessory-products/category/4e2877a7-5ce8-4a3c-b7ad-66ea8aa0b2fc\nCall log:\n  - navigating to \"https://www.yohodiy.com/accessory-products/category/4e2877a7-5ce8-4a3c-b7ad-66ea8aa0b2fc\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/accessory-products/category/670ce5f0-af69-4384-b9bf-70c5dc0b2c5c",
+      "captured_at": "2026-09-18T03:48:23.188261+00:00",
+      "error": "Page.goto: net::ERR_PROXY_CONNECTION_FAILED at https://www.yohodiy.com/accessory-products/category/670ce5f0-af69-4384-b9bf-70c5dc0b2c5c\nCall log:\n  - navigating to \"https://www.yohodiy.com/accessory-products/category/670ce5f0-af69-4384-b9bf-70c5dc0b2c5c\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/accessory-products/category/68be70fb-007c-4705-b4de-6a1f21feba16",
+      "captured_at": "2026-09-18T03:48:23.448513+00:00",
+      "error": "Page.goto: net::ERR_PROXY_CONNECTION_FAILED at https://www.yohodiy.com/accessory-products/category/68be70fb-007c-4705-b4de-6a1f21feba16\nCall log:\n  - navigating to \"https://www.yohodiy.com/accessory-products/category/68be70fb-007c-4705-b4de-6a1f21feba16\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/accessory-products/category/72030648-f1b2-4589-9c37-be4c095de9c5",
+      "captured_at": "2026-09-18T03:48:23.711163+00:00",
+      "error": "Page.goto: net::ERR_PROXY_CONNECTION_FAILED at https://www.yohodiy.com/accessory-products/category/72030648-f1b2-4589-9c37-be4c095de9c5\nCall log:\n  - navigating to \"https://www.yohodiy.com/accessory-products/category/72030648-f1b2-4589-9c37-be4c095de9c5\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/accessory-products/category/751ac045-c557-430c-ae62-417c9a42bb24",
+      "captured_at": "2026-09-18T03:48:23.972644+00:00",
+      "error": "Page.goto: net::ERR_PROXY_CONNECTION_FAILED at https://www.yohodiy.com/accessory-products/category/751ac045-c557-430c-ae62-417c9a42bb24\nCall log:\n  - navigating to \"https://www.yohodiy.com/accessory-products/category/751ac045-c557-430c-ae62-417c9a42bb24\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/accessory-products/category/7d17e07d-3bf8-4412-98d3-74e356d9e12f",
+      "captured_at": "2026-09-18T03:48:24.234388+00:00",
+      "error": "Page.goto: net::ERR_PROXY_CONNECTION_FAILED at https://www.yohodiy.com/accessory-products/category/7d17e07d-3bf8-4412-98d3-74e356d9e12f\nCall log:\n  - navigating to \"https://www.yohodiy.com/accessory-products/category/7d17e07d-3bf8-4412-98d3-74e356d9e12f\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/accessory-products/category/88852de2-cef9-420d-b4ed-6f10692572f4",
+      "captured_at": "2026-09-18T03:48:24.495170+00:00",
+      "error": "Page.goto: net::ERR_PROXY_CONNECTION_FAILED at https://www.yohodiy.com/accessory-products/category/88852de2-cef9-420d-b4ed-6f10692572f4\nCall log:\n  - navigating to \"https://www.yohodiy.com/accessory-products/category/88852de2-cef9-420d-b4ed-6f10692572f4\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/accessory-products/category/89694e61-0578-4744-815d-a92052987521",
+      "captured_at": "2026-09-18T03:48:24.756638+00:00",
+      "error": "Page.goto: net::ERR_PROXY_CONNECTION_FAILED at https://www.yohodiy.com/accessory-products/category/89694e61-0578-4744-815d-a92052987521\nCall log:\n  - navigating to \"https://www.yohodiy.com/accessory-products/category/89694e61-0578-4744-815d-a92052987521\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/accessory-products/category/9abe0cd1-741a-41a2-8086-fb15bb0b46d7",
+      "captured_at": "2026-09-18T03:48:25.019315+00:00",
+      "error": "Page.goto: net::ERR_PROXY_CONNECTION_FAILED at https://www.yohodiy.com/accessory-products/category/9abe0cd1-741a-41a2-8086-fb15bb0b46d7\nCall log:\n  - navigating to \"https://www.yohodiy.com/accessory-products/category/9abe0cd1-741a-41a2-8086-fb15bb0b46d7\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/accessory-products/category/9f69d0cd-ef56-4c7e-9684-9967d964598f",
+      "captured_at": "2026-09-18T03:48:25.282318+00:00",
+      "error": "Page.goto: net::ERR_PROXY_CONNECTION_FAILED at https://www.yohodiy.com/accessory-products/category/9f69d0cd-ef56-4c7e-9684-9967d964598f\nCall log:\n  - navigating to \"https://www.yohodiy.com/accessory-products/category/9f69d0cd-ef56-4c7e-9684-9967d964598f\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/accessory-products/category/a3a8ae34-7aa8-430d-ab93-1bc91668a42d",
+      "captured_at": "2026-09-18T03:48:25.543696+00:00",
+      "error": "Page.goto: net::ERR_PROXY_CONNECTION_FAILED at https://www.yohodiy.com/accessory-products/category/a3a8ae34-7aa8-430d-ab93-1bc91668a42d\nCall log:\n  - navigating to \"https://www.yohodiy.com/accessory-products/category/a3a8ae34-7aa8-430d-ab93-1bc91668a42d\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/accessory-products/category/a3c7e909-2d85-4f55-a764-d7e803480a5e",
+      "captured_at": "2026-09-18T03:48:25.804675+00:00",
+      "error": "Page.goto: net::ERR_PROXY_CONNECTION_FAILED at https://www.yohodiy.com/accessory-products/category/a3c7e909-2d85-4f55-a764-d7e803480a5e\nCall log:\n  - navigating to \"https://www.yohodiy.com/accessory-products/category/a3c7e909-2d85-4f55-a764-d7e803480a5e\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/accessory-products/category/a3e4da8e-e786-48ad-8b9c-170e872879c8",
+      "captured_at": "2026-09-18T03:48:26.066772+00:00",
+      "error": "Page.goto: net::ERR_PROXY_CONNECTION_FAILED at https://www.yohodiy.com/accessory-products/category/a3e4da8e-e786-48ad-8b9c-170e872879c8\nCall log:\n  - navigating to \"https://www.yohodiy.com/accessory-products/category/a3e4da8e-e786-48ad-8b9c-170e872879c8\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/accessory-products/category/bf645a7b-890f-4ab7-a7b6-834e02805b7e",
+      "captured_at": "2026-09-18T03:48:26.328897+00:00",
+      "error": "Page.goto: net::ERR_PROXY_CONNECTION_FAILED at https://www.yohodiy.com/accessory-products/category/bf645a7b-890f-4ab7-a7b6-834e02805b7e\nCall log:\n  - navigating to \"https://www.yohodiy.com/accessory-products/category/bf645a7b-890f-4ab7-a7b6-834e02805b7e\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/accessory-products/category/cb6ba4af-7a3c-40d0-bed2-dac747b8df70",
+      "captured_at": "2026-09-18T03:48:26.589737+00:00",
+      "error": "Page.goto: net::ERR_PROXY_CONNECTION_FAILED at https://www.yohodiy.com/accessory-products/category/cb6ba4af-7a3c-40d0-bed2-dac747b8df70\nCall log:\n  - navigating to \"https://www.yohodiy.com/accessory-products/category/cb6ba4af-7a3c-40d0-bed2-dac747b8df70\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/accessory-products/category/cea92570-dcb3-472c-8c5e-4bd41d04f325",
+      "captured_at": "2026-09-18T03:48:26.850404+00:00",
+      "error": "Page.goto: net::ERR_PROXY_CONNECTION_FAILED at https://www.yohodiy.com/accessory-products/category/cea92570-dcb3-472c-8c5e-4bd41d04f325\nCall log:\n  - navigating to \"https://www.yohodiy.com/accessory-products/category/cea92570-dcb3-472c-8c5e-4bd41d04f325\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/accessory-products/category/e4991593-dd2e-434e-ae3e-df4431e334cb",
+      "captured_at": "2026-09-18T03:48:27.115772+00:00",
+      "error": "Page.goto: net::ERR_PROXY_CONNECTION_FAILED at https://www.yohodiy.com/accessory-products/category/e4991593-dd2e-434e-ae3e-df4431e334cb\nCall log:\n  - navigating to \"https://www.yohodiy.com/accessory-products/category/e4991593-dd2e-434e-ae3e-df4431e334cb\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/accessory-products/category/f7da44e3-91fb-4408-b09e-030f91e651b0",
+      "captured_at": "2026-09-18T03:48:27.376491+00:00",
+      "error": "Page.goto: net::ERR_PROXY_CONNECTION_FAILED at https://www.yohodiy.com/accessory-products/category/f7da44e3-91fb-4408-b09e-030f91e651b0\nCall log:\n  - navigating to \"https://www.yohodiy.com/accessory-products/category/f7da44e3-91fb-4408-b09e-030f91e651b0\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/help/article/1749dc42-2964-46b7-9bfe-a67dc21b20b7",
+      "captured_at": "2026-09-18T03:48:27.637558+00:00",
+      "error": "Page.goto: net::ERR_PROXY_CONNECTION_FAILED at https://www.yohodiy.com/help/article/1749dc42-2964-46b7-9bfe-a67dc21b20b7\nCall log:\n  - navigating to \"https://www.yohodiy.com/help/article/1749dc42-2964-46b7-9bfe-a67dc21b20b7\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/help/article/1d407267-f6da-4d8f-aee5-db095eb215ae",
+      "captured_at": "2026-09-18T03:48:27.899250+00:00",
+      "error": "Page.goto: net::ERR_PROXY_CONNECTION_FAILED at https://www.yohodiy.com/help/article/1d407267-f6da-4d8f-aee5-db095eb215ae\nCall log:\n  - navigating to \"https://www.yohodiy.com/help/article/1d407267-f6da-4d8f-aee5-db095eb215ae\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/help/article/2212fa06-997d-4149-9f1d-65c63abbba55",
+      "captured_at": "2026-09-18T03:48:28.161400+00:00",
+      "error": "Page.goto: net::ERR_PROXY_CONNECTION_FAILED at https://www.yohodiy.com/help/article/2212fa06-997d-4149-9f1d-65c63abbba55\nCall log:\n  - navigating to \"https://www.yohodiy.com/help/article/2212fa06-997d-4149-9f1d-65c63abbba55\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/help/article/2341e89e-ae0a-4d27-87e0-0cbae197c507",
+      "captured_at": "2026-09-18T03:48:28.421656+00:00",
+      "error": "Page.goto: net::ERR_PROXY_CONNECTION_FAILED at https://www.yohodiy.com/help/article/2341e89e-ae0a-4d27-87e0-0cbae197c507\nCall log:\n  - navigating to \"https://www.yohodiy.com/help/article/2341e89e-ae0a-4d27-87e0-0cbae197c507\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/help/article/44c1de9a-1dba-4db3-a5c3-87f377350223",
+      "captured_at": "2026-09-18T03:48:28.682617+00:00",
+      "error": "Page.goto: net::ERR_PROXY_CONNECTION_FAILED at https://www.yohodiy.com/help/article/44c1de9a-1dba-4db3-a5c3-87f377350223\nCall log:\n  - navigating to \"https://www.yohodiy.com/help/article/44c1de9a-1dba-4db3-a5c3-87f377350223\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/help/article/4884163e-16db-48bf-9cda-753bad804787",
+      "captured_at": "2026-09-18T03:48:28.945353+00:00",
+      "error": "Page.goto: net::ERR_PROXY_CONNECTION_FAILED at https://www.yohodiy.com/help/article/4884163e-16db-48bf-9cda-753bad804787\nCall log:\n  - navigating to \"https://www.yohodiy.com/help/article/4884163e-16db-48bf-9cda-753bad804787\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/help/article/532d04db-f7c6-4397-909c-f953461bef3f",
+      "captured_at": "2026-09-18T03:48:29.206124+00:00",
+      "error": "Page.goto: net::ERR_PROXY_CONNECTION_FAILED at https://www.yohodiy.com/help/article/532d04db-f7c6-4397-909c-f953461bef3f\nCall log:\n  - navigating to \"https://www.yohodiy.com/help/article/532d04db-f7c6-4397-909c-f953461bef3f\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/help/article/540d82a4-0450-4ce4-b6c4-5b493110e22f",
+      "captured_at": "2026-09-18T03:48:29.467964+00:00",
+      "error": "Page.goto: net::ERR_PROXY_CONNECTION_FAILED at https://www.yohodiy.com/help/article/540d82a4-0450-4ce4-b6c4-5b493110e22f\nCall log:\n  - navigating to \"https://www.yohodiy.com/help/article/540d82a4-0450-4ce4-b6c4-5b493110e22f\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/help/article/5a3cbcfe-c99b-4c24-8ea3-f7436d33c7c9",
+      "captured_at": "2026-09-18T03:48:29.729107+00:00",
+      "error": "Page.goto: net::ERR_PROXY_CONNECTION_FAILED at https://www.yohodiy.com/help/article/5a3cbcfe-c99b-4c24-8ea3-f7436d33c7c9\nCall log:\n  - navigating to \"https://www.yohodiy.com/help/article/5a3cbcfe-c99b-4c24-8ea3-f7436d33c7c9\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/help/article/7b4533e4-ccdd-4722-94d4-d4df195e006c",
+      "captured_at": "2026-09-18T03:48:29.989401+00:00",
+      "error": "Page.goto: net::ERR_PROXY_CONNECTION_FAILED at https://www.yohodiy.com/help/article/7b4533e4-ccdd-4722-94d4-d4df195e006c\nCall log:\n  - navigating to \"https://www.yohodiy.com/help/article/7b4533e4-ccdd-4722-94d4-d4df195e006c\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/help/article/8b64ce04-1750-47ad-a1bf-781dd42fd85a",
+      "captured_at": "2026-09-18T03:48:30.252265+00:00",
+      "error": "Page.goto: net::ERR_PROXY_CONNECTION_FAILED at https://www.yohodiy.com/help/article/8b64ce04-1750-47ad-a1bf-781dd42fd85a\nCall log:\n  - navigating to \"https://www.yohodiy.com/help/article/8b64ce04-1750-47ad-a1bf-781dd42fd85a\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/help/article/97e22777-7a05-4161-b099-a18e6abdb568",
+      "captured_at": "2026-09-18T03:48:30.513410+00:00",
+      "error": "Page.goto: net::ERR_PROXY_CONNECTION_FAILED at https://www.yohodiy.com/help/article/97e22777-7a05-4161-b099-a18e6abdb568\nCall log:\n  - navigating to \"https://www.yohodiy.com/help/article/97e22777-7a05-4161-b099-a18e6abdb568\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/help/article/a556ef8a-715d-447e-9544-507af920678f",
+      "captured_at": "2026-09-18T03:48:30.775033+00:00",
+      "error": "Page.goto: net::ERR_PROXY_CONNECTION_FAILED at https://www.yohodiy.com/help/article/a556ef8a-715d-447e-9544-507af920678f\nCall log:\n  - navigating to \"https://www.yohodiy.com/help/article/a556ef8a-715d-447e-9544-507af920678f\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/help/article/b0d6e883-127f-4848-b928-a63c1443fd9b",
+      "captured_at": "2026-09-18T03:48:31.036459+00:00",
+      "error": "Page.goto: net::ERR_PROXY_CONNECTION_FAILED at https://www.yohodiy.com/help/article/b0d6e883-127f-4848-b928-a63c1443fd9b\nCall log:\n  - navigating to \"https://www.yohodiy.com/help/article/b0d6e883-127f-4848-b928-a63c1443fd9b\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/help/article/c5ddfd89-ac5e-4c4b-a859-929de8807860",
+      "captured_at": "2026-09-18T03:48:31.297858+00:00",
+      "error": "Page.goto: net::ERR_PROXY_CONNECTION_FAILED at https://www.yohodiy.com/help/article/c5ddfd89-ac5e-4c4b-a859-929de8807860\nCall log:\n  - navigating to \"https://www.yohodiy.com/help/article/c5ddfd89-ac5e-4c4b-a859-929de8807860\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/help/article/c88321e5-606f-4356-b695-b1657826158e",
+      "captured_at": "2026-09-18T03:48:31.558802+00:00",
+      "error": "Page.goto: net::ERR_PROXY_CONNECTION_FAILED at https://www.yohodiy.com/help/article/c88321e5-606f-4356-b695-b1657826158e\nCall log:\n  - navigating to \"https://www.yohodiy.com/help/article/c88321e5-606f-4356-b695-b1657826158e\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/help/article/d9018a54-7c2b-41d0-87ef-fad81f4e464b",
+      "captured_at": "2026-09-18T03:48:31.820213+00:00",
+      "error": "Page.goto: net::ERR_PROXY_CONNECTION_FAILED at https://www.yohodiy.com/help/article/d9018a54-7c2b-41d0-87ef-fad81f4e464b\nCall log:\n  - navigating to \"https://www.yohodiy.com/help/article/d9018a54-7c2b-41d0-87ef-fad81f4e464b\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/help/article/dadf5dcc-c86c-495e-bd4e-41f9009bbc87",
+      "captured_at": "2026-09-18T03:48:32.082488+00:00",
+      "error": "Page.goto: net::ERR_PROXY_CONNECTION_FAILED at https://www.yohodiy.com/help/article/dadf5dcc-c86c-495e-bd4e-41f9009bbc87\nCall log:\n  - navigating to \"https://www.yohodiy.com/help/article/dadf5dcc-c86c-495e-bd4e-41f9009bbc87\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/help/article/dc876e84-79b9-4eed-a616-6621038385df",
+      "captured_at": "2026-09-18T03:48:32.342972+00:00",
+      "error": "Page.goto: net::ERR_PROXY_CONNECTION_FAILED at https://www.yohodiy.com/help/article/dc876e84-79b9-4eed-a616-6621038385df\nCall log:\n  - navigating to \"https://www.yohodiy.com/help/article/dc876e84-79b9-4eed-a616-6621038385df\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/help/article/e8617eee-88bc-4b15-b3e0-3b6d6d70afd2",
+      "captured_at": "2026-09-18T03:48:32.604233+00:00",
+      "error": "Page.goto: net::ERR_PROXY_CONNECTION_FAILED at https://www.yohodiy.com/help/article/e8617eee-88bc-4b15-b3e0-3b6d6d70afd2\nCall log:\n  - navigating to \"https://www.yohodiy.com/help/article/e8617eee-88bc-4b15-b3e0-3b6d6d70afd2\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/help/article/ee509d78-7cb7-4009-a04b-c5292d32b70e",
+      "captured_at": "2026-09-18T03:48:32.865613+00:00",
+      "error": "Page.goto: net::ERR_PROXY_CONNECTION_FAILED at https://www.yohodiy.com/help/article/ee509d78-7cb7-4009-a04b-c5292d32b70e\nCall log:\n  - navigating to \"https://www.yohodiy.com/help/article/ee509d78-7cb7-4009-a04b-c5292d32b70e\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/help/article/ffc93a2c-0360-41e8-95d0-969f15d9140a",
+      "captured_at": "2026-09-18T03:48:33.125937+00:00",
+      "error": "Page.goto: net::ERR_PROXY_CONNECTION_FAILED at https://www.yohodiy.com/help/article/ffc93a2c-0360-41e8-95d0-969f15d9140a\nCall log:\n  - navigating to \"https://www.yohodiy.com/help/article/ffc93a2c-0360-41e8-95d0-969f15d9140a\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/products/category/09cc4a23-042d-4967-bf0d-f59d7793398c",
+      "captured_at": "2026-09-18T03:48:33.388910+00:00",
+      "error": "Page.goto: net::ERR_PROXY_CONNECTION_FAILED at https://www.yohodiy.com/products/category/09cc4a23-042d-4967-bf0d-f59d7793398c\nCall log:\n  - navigating to \"https://www.yohodiy.com/products/category/09cc4a23-042d-4967-bf0d-f59d7793398c\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/products/category/17612eef-d059-4165-bf8e-9f07ba1d468e",
+      "captured_at": "2026-09-18T03:48:33.650977+00:00",
+      "error": "Page.goto: net::ERR_PROXY_CONNECTION_FAILED at https://www.yohodiy.com/products/category/17612eef-d059-4165-bf8e-9f07ba1d468e\nCall log:\n  - navigating to \"https://www.yohodiy.com/products/category/17612eef-d059-4165-bf8e-9f07ba1d468e\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/products/category/293bf6d6-2cc6-4af2-861e-99349f286715",
+      "captured_at": "2026-09-18T03:48:33.911604+00:00",
+      "error": "Page.goto: net::ERR_PROXY_CONNECTION_FAILED at https://www.yohodiy.com/products/category/293bf6d6-2cc6-4af2-861e-99349f286715\nCall log:\n  - navigating to \"https://www.yohodiy.com/products/category/293bf6d6-2cc6-4af2-861e-99349f286715\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/products/category/2a0f9a46-a418-4643-8b03-44fe70269539",
+      "captured_at": "2026-09-18T03:48:34.172223+00:00",
+      "error": "Page.goto: net::ERR_PROXY_CONNECTION_FAILED at https://www.yohodiy.com/products/category/2a0f9a46-a418-4643-8b03-44fe70269539\nCall log:\n  - navigating to \"https://www.yohodiy.com/products/category/2a0f9a46-a418-4643-8b03-44fe70269539\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/products/category/374ccb95-6226-4d98-bbfd-1d7e8dd19489",
+      "captured_at": "2026-09-18T03:48:34.434978+00:00",
+      "error": "Page.goto: net::ERR_PROXY_CONNECTION_FAILED at https://www.yohodiy.com/products/category/374ccb95-6226-4d98-bbfd-1d7e8dd19489\nCall log:\n  - navigating to \"https://www.yohodiy.com/products/category/374ccb95-6226-4d98-bbfd-1d7e8dd19489\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/products/category/386fad3b-e10c-488c-afad-1738d7998e89",
+      "captured_at": "2026-09-18T03:48:34.697419+00:00",
+      "error": "Page.goto: net::ERR_PROXY_CONNECTION_FAILED at https://www.yohodiy.com/products/category/386fad3b-e10c-488c-afad-1738d7998e89\nCall log:\n  - navigating to \"https://www.yohodiy.com/products/category/386fad3b-e10c-488c-afad-1738d7998e89\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/products/category/4273a40b-dca8-4fb0-8d68-2310b4cb2b01",
+      "captured_at": "2026-09-18T03:48:34.959110+00:00",
+      "error": "Page.goto: net::ERR_PROXY_CONNECTION_FAILED at https://www.yohodiy.com/products/category/4273a40b-dca8-4fb0-8d68-2310b4cb2b01\nCall log:\n  - navigating to \"https://www.yohodiy.com/products/category/4273a40b-dca8-4fb0-8d68-2310b4cb2b01\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/products/category/42ae3909-86a7-41db-baec-7f970efaba8c",
+      "captured_at": "2026-09-18T03:48:35.220255+00:00",
+      "error": "Page.goto: net::ERR_PROXY_CONNECTION_FAILED at https://www.yohodiy.com/products/category/42ae3909-86a7-41db-baec-7f970efaba8c\nCall log:\n  - navigating to \"https://www.yohodiy.com/products/category/42ae3909-86a7-41db-baec-7f970efaba8c\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/products/category/492d6437-dbd0-4f63-a1f6-8ad25e3728a2",
+      "captured_at": "2026-09-18T03:48:35.481231+00:00",
+      "error": "Page.goto: net::ERR_PROXY_CONNECTION_FAILED at https://www.yohodiy.com/products/category/492d6437-dbd0-4f63-a1f6-8ad25e3728a2\nCall log:\n  - navigating to \"https://www.yohodiy.com/products/category/492d6437-dbd0-4f63-a1f6-8ad25e3728a2\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/products/category/4ff6d22c-d009-41de-881e-7475aac0193a",
+      "captured_at": "2026-09-18T03:48:35.745004+00:00",
+      "error": "Page.goto: net::ERR_PROXY_CONNECTION_FAILED at https://www.yohodiy.com/products/category/4ff6d22c-d009-41de-881e-7475aac0193a\nCall log:\n  - navigating to \"https://www.yohodiy.com/products/category/4ff6d22c-d009-41de-881e-7475aac0193a\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/products/category/5441400d-1eb8-4a8a-800d-ce129f49c3af",
+      "captured_at": "2026-09-18T03:48:36.006921+00:00",
+      "error": "Page.goto: net::ERR_PROXY_CONNECTION_FAILED at https://www.yohodiy.com/products/category/5441400d-1eb8-4a8a-800d-ce129f49c3af\nCall log:\n  - navigating to \"https://www.yohodiy.com/products/category/5441400d-1eb8-4a8a-800d-ce129f49c3af\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/products/category/55fb92a8-b683-4cea-8d11-65e22646807b",
+      "captured_at": "2026-09-18T03:48:36.269067+00:00",
+      "error": "Page.goto: net::ERR_PROXY_CONNECTION_FAILED at https://www.yohodiy.com/products/category/55fb92a8-b683-4cea-8d11-65e22646807b\nCall log:\n  - navigating to \"https://www.yohodiy.com/products/category/55fb92a8-b683-4cea-8d11-65e22646807b\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/products/category/6dce56a0-1265-498b-8dfc-2d01715335ea",
+      "captured_at": "2026-09-18T03:48:36.531128+00:00",
+      "error": "Page.goto: net::ERR_PROXY_CONNECTION_FAILED at https://www.yohodiy.com/products/category/6dce56a0-1265-498b-8dfc-2d01715335ea\nCall log:\n  - navigating to \"https://www.yohodiy.com/products/category/6dce56a0-1265-498b-8dfc-2d01715335ea\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/products/category/74166e1a-6412-41ce-8284-24101f723e2d",
+      "captured_at": "2026-09-18T03:48:36.794212+00:00",
+      "error": "Page.goto: net::ERR_PROXY_CONNECTION_FAILED at https://www.yohodiy.com/products/category/74166e1a-6412-41ce-8284-24101f723e2d\nCall log:\n  - navigating to \"https://www.yohodiy.com/products/category/74166e1a-6412-41ce-8284-24101f723e2d\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/products/category/7c80fa92-492f-4c06-84d5-24fc4b93a610",
+      "captured_at": "2026-09-18T03:48:37.056601+00:00",
+      "error": "Page.goto: net::ERR_PROXY_CONNECTION_FAILED at https://www.yohodiy.com/products/category/7c80fa92-492f-4c06-84d5-24fc4b93a610\nCall log:\n  - navigating to \"https://www.yohodiy.com/products/category/7c80fa92-492f-4c06-84d5-24fc4b93a610\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/products/category/7ee7fffd-72e0-42c9-8d2f-1977cd8bfbcd",
+      "captured_at": "2026-09-18T03:48:37.320035+00:00",
+      "error": "Page.goto: net::ERR_PROXY_CONNECTION_FAILED at https://www.yohodiy.com/products/category/7ee7fffd-72e0-42c9-8d2f-1977cd8bfbcd\nCall log:\n  - navigating to \"https://www.yohodiy.com/products/category/7ee7fffd-72e0-42c9-8d2f-1977cd8bfbcd\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/products/category/8a8f2184-8449-4b4f-95ad-5fa8fe5ae961",
+      "captured_at": "2026-09-18T03:48:37.581960+00:00",
+      "error": "Page.goto: net::ERR_PROXY_CONNECTION_FAILED at https://www.yohodiy.com/products/category/8a8f2184-8449-4b4f-95ad-5fa8fe5ae961\nCall log:\n  - navigating to \"https://www.yohodiy.com/products/category/8a8f2184-8449-4b4f-95ad-5fa8fe5ae961\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/products/category/8c2d625e-3193-45d4-866f-656100669a71",
+      "captured_at": "2026-09-18T03:48:37.843170+00:00",
+      "error": "Page.goto: net::ERR_PROXY_CONNECTION_FAILED at https://www.yohodiy.com/products/category/8c2d625e-3193-45d4-866f-656100669a71\nCall log:\n  - navigating to \"https://www.yohodiy.com/products/category/8c2d625e-3193-45d4-866f-656100669a71\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/products/category/8de3c326-05e4-4b20-871d-15b40c2751e9",
+      "captured_at": "2026-09-18T03:48:38.104995+00:00",
+      "error": "Page.goto: net::ERR_PROXY_CONNECTION_FAILED at https://www.yohodiy.com/products/category/8de3c326-05e4-4b20-871d-15b40c2751e9\nCall log:\n  - navigating to \"https://www.yohodiy.com/products/category/8de3c326-05e4-4b20-871d-15b40c2751e9\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/products/category/8f2d21c8-fe7b-46ad-b65b-6e06c23ed35a",
+      "captured_at": "2026-09-18T03:48:38.366776+00:00",
+      "error": "Page.goto: net::ERR_PROXY_CONNECTION_FAILED at https://www.yohodiy.com/products/category/8f2d21c8-fe7b-46ad-b65b-6e06c23ed35a\nCall log:\n  - navigating to \"https://www.yohodiy.com/products/category/8f2d21c8-fe7b-46ad-b65b-6e06c23ed35a\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/products/category/912635b2-551c-4edc-90e9-caaaa5a24c0c",
+      "captured_at": "2026-09-18T03:48:38.629668+00:00",
+      "error": "Page.goto: net::ERR_PROXY_CONNECTION_FAILED at https://www.yohodiy.com/products/category/912635b2-551c-4edc-90e9-caaaa5a24c0c\nCall log:\n  - navigating to \"https://www.yohodiy.com/products/category/912635b2-551c-4edc-90e9-caaaa5a24c0c\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/products/category/9867b365-4502-4a8c-93f9-8cf69b61663c",
+      "captured_at": "2026-09-18T03:48:38.891848+00:00",
+      "error": "Page.goto: net::ERR_PROXY_CONNECTION_FAILED at https://www.yohodiy.com/products/category/9867b365-4502-4a8c-93f9-8cf69b61663c\nCall log:\n  - navigating to \"https://www.yohodiy.com/products/category/9867b365-4502-4a8c-93f9-8cf69b61663c\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/products/category/9adb1784-84f0-4ebc-8032-d5b493243831",
+      "captured_at": "2026-09-18T03:48:39.153457+00:00",
+      "error": "Page.goto: net::ERR_PROXY_CONNECTION_FAILED at https://www.yohodiy.com/products/category/9adb1784-84f0-4ebc-8032-d5b493243831\nCall log:\n  - navigating to \"https://www.yohodiy.com/products/category/9adb1784-84f0-4ebc-8032-d5b493243831\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/products/category/9bf9a096-bc89-4c5d-aaca-7d7ba417dd48",
+      "captured_at": "2026-09-18T03:48:39.415005+00:00",
+      "error": "Page.goto: net::ERR_PROXY_CONNECTION_FAILED at https://www.yohodiy.com/products/category/9bf9a096-bc89-4c5d-aaca-7d7ba417dd48\nCall log:\n  - navigating to \"https://www.yohodiy.com/products/category/9bf9a096-bc89-4c5d-aaca-7d7ba417dd48\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/products/category/a4d7c563-6a24-431e-acb6-95c8ea0000ff",
+      "captured_at": "2026-09-18T03:48:39.678567+00:00",
+      "error": "Page.goto: net::ERR_PROXY_CONNECTION_FAILED at https://www.yohodiy.com/products/category/a4d7c563-6a24-431e-acb6-95c8ea0000ff\nCall log:\n  - navigating to \"https://www.yohodiy.com/products/category/a4d7c563-6a24-431e-acb6-95c8ea0000ff\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/products/category/a869371c-8be1-4ca4-a7f4-1dbf5bf2f87a",
+      "captured_at": "2026-09-18T03:48:39.940912+00:00",
+      "error": "Page.goto: net::ERR_PROXY_CONNECTION_FAILED at https://www.yohodiy.com/products/category/a869371c-8be1-4ca4-a7f4-1dbf5bf2f87a\nCall log:\n  - navigating to \"https://www.yohodiy.com/products/category/a869371c-8be1-4ca4-a7f4-1dbf5bf2f87a\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/products/category/afee4691-cb4e-4c8f-8ea6-34b5a3350d8d",
+      "captured_at": "2026-09-18T03:48:40.203935+00:00",
+      "error": "Page.goto: net::ERR_PROXY_CONNECTION_FAILED at https://www.yohodiy.com/products/category/afee4691-cb4e-4c8f-8ea6-34b5a3350d8d\nCall log:\n  - navigating to \"https://www.yohodiy.com/products/category/afee4691-cb4e-4c8f-8ea6-34b5a3350d8d\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/products/category/b6b3992c-cab7-4666-b3da-d95b65a309f9",
+      "captured_at": "2026-09-18T03:48:40.466005+00:00",
+      "error": "Page.goto: net::ERR_PROXY_CONNECTION_FAILED at https://www.yohodiy.com/products/category/b6b3992c-cab7-4666-b3da-d95b65a309f9\nCall log:\n  - navigating to \"https://www.yohodiy.com/products/category/b6b3992c-cab7-4666-b3da-d95b65a309f9\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/products/category/bafec5e4-9d3b-4b1d-817d-5a4b3e6a6331",
+      "captured_at": "2026-09-18T03:48:40.730907+00:00",
+      "error": "Page.goto: net::ERR_PROXY_CONNECTION_FAILED at https://www.yohodiy.com/products/category/bafec5e4-9d3b-4b1d-817d-5a4b3e6a6331\nCall log:\n  - navigating to \"https://www.yohodiy.com/products/category/bafec5e4-9d3b-4b1d-817d-5a4b3e6a6331\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/products/category/c4f2a51e-c669-49fa-93ec-e3d4935fcd10",
+      "captured_at": "2026-09-18T03:48:40.993289+00:00",
+      "error": "Page.goto: net::ERR_PROXY_CONNECTION_FAILED at https://www.yohodiy.com/products/category/c4f2a51e-c669-49fa-93ec-e3d4935fcd10\nCall log:\n  - navigating to \"https://www.yohodiy.com/products/category/c4f2a51e-c669-49fa-93ec-e3d4935fcd10\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/products/category/cdb54cb8-e3c1-4726-a601-a9afd0a29bb9",
+      "captured_at": "2026-09-18T03:48:41.255459+00:00",
+      "error": "Page.goto: net::ERR_PROXY_CONNECTION_FAILED at https://www.yohodiy.com/products/category/cdb54cb8-e3c1-4726-a601-a9afd0a29bb9\nCall log:\n  - navigating to \"https://www.yohodiy.com/products/category/cdb54cb8-e3c1-4726-a601-a9afd0a29bb9\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/products/category/d0055f83-f3d4-471b-b96f-248988ebac06",
+      "captured_at": "2026-09-18T03:48:41.517220+00:00",
+      "error": "Page.goto: net::ERR_PROXY_CONNECTION_FAILED at https://www.yohodiy.com/products/category/d0055f83-f3d4-471b-b96f-248988ebac06\nCall log:\n  - navigating to \"https://www.yohodiy.com/products/category/d0055f83-f3d4-471b-b96f-248988ebac06\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/products/category/d8db82df-fb7e-4eda-98e1-69327bbb469d",
+      "captured_at": "2026-09-18T03:48:41.781969+00:00",
+      "error": "Page.goto: net::ERR_PROXY_CONNECTION_FAILED at https://www.yohodiy.com/products/category/d8db82df-fb7e-4eda-98e1-69327bbb469d\nCall log:\n  - navigating to \"https://www.yohodiy.com/products/category/d8db82df-fb7e-4eda-98e1-69327bbb469d\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/products/category/daa39ee1-1ee8-4898-b69c-26ef89545db4",
+      "captured_at": "2026-09-18T03:48:42.046575+00:00",
+      "error": "Page.goto: net::ERR_PROXY_CONNECTION_FAILED at https://www.yohodiy.com/products/category/daa39ee1-1ee8-4898-b69c-26ef89545db4\nCall log:\n  - navigating to \"https://www.yohodiy.com/products/category/daa39ee1-1ee8-4898-b69c-26ef89545db4\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/products/category/e86a558d-615f-4d56-898e-5a882de62b7c",
+      "captured_at": "2026-09-18T03:48:42.309599+00:00",
+      "error": "Page.goto: net::ERR_PROXY_CONNECTION_FAILED at https://www.yohodiy.com/products/category/e86a558d-615f-4d56-898e-5a882de62b7c\nCall log:\n  - navigating to \"https://www.yohodiy.com/products/category/e86a558d-615f-4d56-898e-5a882de62b7c\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/products/category/ed2d40b6-caf7-4d7c-ac56-6c5ddc4db7f5",
+      "captured_at": "2026-09-18T03:48:42.571161+00:00",
+      "error": "Page.goto: net::ERR_PROXY_CONNECTION_FAILED at https://www.yohodiy.com/products/category/ed2d40b6-caf7-4d7c-ac56-6c5ddc4db7f5\nCall log:\n  - navigating to \"https://www.yohodiy.com/products/category/ed2d40b6-caf7-4d7c-ac56-6c5ddc4db7f5\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/products/category/f7a605d0-beab-4bef-a198-63bb3a35e84f",
+      "captured_at": "2026-09-18T03:48:42.832951+00:00",
+      "error": "Page.goto: net::ERR_PROXY_CONNECTION_FAILED at https://www.yohodiy.com/products/category/f7a605d0-beab-4bef-a198-63bb3a35e84f\nCall log:\n  - navigating to \"https://www.yohodiy.com/products/category/f7a605d0-beab-4bef-a198-63bb3a35e84f\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/products/category/fbd4b2fc-1da4-4b43-a21d-95919d1c88b5",
+      "captured_at": "2026-09-18T03:48:43.096271+00:00",
+      "error": "Page.goto: net::ERR_PROXY_CONNECTION_FAILED at https://www.yohodiy.com/products/category/fbd4b2fc-1da4-4b43-a21d-95919d1c88b5\nCall log:\n  - navigating to \"https://www.yohodiy.com/products/category/fbd4b2fc-1da4-4b43-a21d-95919d1c88b5\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/products/category/3ce6e8f1-352a-4e19-8157-79cf9018490e",
+      "captured_at": "2026-09-18T03:48:43.357898+00:00",
+      "error": "Page.goto: net::ERR_PROXY_CONNECTION_FAILED at https://www.yohodiy.com/products/category/3ce6e8f1-352a-4e19-8157-79cf9018490e\nCall log:\n  - navigating to \"https://www.yohodiy.com/products/category/3ce6e8f1-352a-4e19-8157-79cf9018490e\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/products/category/63016c71-df83-4859-bfa3-2f626fac8aaf",
+      "captured_at": "2026-09-18T03:48:43.620063+00:00",
+      "error": "Page.goto: net::ERR_PROXY_CONNECTION_FAILED at https://www.yohodiy.com/products/category/63016c71-df83-4859-bfa3-2f626fac8aaf\nCall log:\n  - navigating to \"https://www.yohodiy.com/products/category/63016c71-df83-4859-bfa3-2f626fac8aaf\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/products/category/91fc6d4f-5433-435d-8cd9-8392185cd0fe",
+      "captured_at": "2026-09-18T03:48:43.882655+00:00",
+      "error": "Page.goto: net::ERR_PROXY_CONNECTION_FAILED at https://www.yohodiy.com/products/category/91fc6d4f-5433-435d-8cd9-8392185cd0fe\nCall log:\n  - navigating to \"https://www.yohodiy.com/products/category/91fc6d4f-5433-435d-8cd9-8392185cd0fe\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/products/category/92640a8a-5fdb-4c89-b1f7-2e3d988b0ed4",
+      "captured_at": "2026-09-18T03:48:44.144853+00:00",
+      "error": "Page.goto: net::ERR_PROXY_CONNECTION_FAILED at https://www.yohodiy.com/products/category/92640a8a-5fdb-4c89-b1f7-2e3d988b0ed4\nCall log:\n  - navigating to \"https://www.yohodiy.com/products/category/92640a8a-5fdb-4c89-b1f7-2e3d988b0ed4\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/products/category/bbdf20b0-9cbd-4cc0-bcc7-6c9ee93f238b",
+      "captured_at": "2026-09-18T03:48:44.406572+00:00",
+      "error": "Page.goto: net::ERR_PROXY_CONNECTION_FAILED at https://www.yohodiy.com/products/category/bbdf20b0-9cbd-4cc0-bcc7-6c9ee93f238b\nCall log:\n  - navigating to \"https://www.yohodiy.com/products/category/bbdf20b0-9cbd-4cc0-bcc7-6c9ee93f238b\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "stage": "page",
+      "requested_url": "https://www.yohodiy.com/accessories",
+      "captured_at": "2026-09-18T03:48:44.670774+00:00",
+      "error": "Page.goto: net::ERR_PROXY_CONNECTION_FAILED at https://www.yohodiy.com/accessories\nCall log:\n  - navigating to \"https://www.yohodiy.com/accessories\", waiting until \"domcontentloaded\"\n"
+    }
+  ],
+  "blocked_prefixes": [
+    "/admin",
+    "/checkout",
+    "/payment/",
+    "/orders/",
+    "/user/",
+    "/after-sales/",
+    "/review/"
+  ]
+}

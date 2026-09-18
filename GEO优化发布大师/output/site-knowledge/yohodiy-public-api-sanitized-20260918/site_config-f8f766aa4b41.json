@@ -1,0 +1,11 @@
+{
+  "table": "site_config",
+  "source_url": "https://backend.appmiaoda.com/projects/supabase314724440942358528/rest/v1/site_config?select=value&key=eq.seo_title",
+  "status": 200,
+  "captured_at": "2026-09-18T04:58:39.143664+00:00",
+  "data": [
+    {
+      "value": "Wholesale Jewelry, Yohoddiy,  Wholesale Jewelry Marketplace, Jewelry Wholesa"
+    }
+  ]
+}

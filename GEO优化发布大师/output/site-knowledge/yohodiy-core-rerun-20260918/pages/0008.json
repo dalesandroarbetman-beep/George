@@ -1,0 +1,81 @@
+{
+  "requested_url": "https://www.yohodiy.com/design-square",
+  "captured_at": "2026-09-18T03:55:04.676993+00:00",
+  "status": 200,
+  "final_url": "https://www.yohodiy.com/design-square",
+  "title": "首饰定制网站",
+  "lang": "zh-CN",
+  "text": "",
+  "canonical": null,
+  "meta": [
+    {
+      "name": "viewport",
+      "content": "width=375, user-scalable=no, minimal-ui"
+    },
+    {
+      "name": "description",
+      "content": "优合源品（YOHE/YOUNG）提供高品质定制珠宝首饰，支持刻字、配件组合、字母串链等多种个性化定制服务，打造专属于你的爱的见证。"
+    },
+    {
+      "name": "keywords",
+      "content": "定制珠宝,刻字首饰,个性化定制,戒指,项链,手链,情侣饰品,YOHE YOUNG,优合源品"
+    },
+    {
+      "name": "robots",
+      "content": "index,follow"
+    },
+    {
+      "name": "author",
+      "content": "杭州螺丝钉智能科技有限公司"
+    },
+    {
+      "name": "google-site-verification",
+      "content": "5MgGWdNgNnm3gqhuaK0Cbh2tRGLvj4--AfAU3fz_OFw"
+    },
+    {
+      "name": null,
+      "content": "website"
+    },
+    {
+      "name": null,
+      "content": "优合源品 YOHE/YOUNG"
+    },
+    {
+      "name": null,
+      "content": "优合源品 YOHE/YOUNG - 定制珠宝首饰"
+    },
+    {
+      "name": null,
+      "content": "优合源品（YOHE/YOUNG）提供高品质定制珠宝首饰，支持刻字、配件组合、字母串链等多种个性化定制服务，打造专属于你的爱的见证。"
+    },
+    {
+      "name": null,
+      "content": "https://backend.appmiaoda.com/projects/supabase314724440942358528/storage/v1/object/public/site-assets/logo/logo_1781981878474.jpg"
+    },
+    {
+      "name": null,
+      "content": "zh_CN"
+    },
+    {
+      "name": "twitter:card",
+      "content": "summary_large_image"
+    },
+    {
+      "name": "twitter:title",
+      "content": "优合源品 YOHE/YOUNG - 定制珠宝首饰"
+    },
+    {
+      "name": "twitter:description",
+      "content": "优合源品（YOHE/YOUNG）提供高品质定制珠宝首饰，支持刻字、配件组合、字母串链等多种个性化定制服务。"
+    },
+    {
+      "name": "twitter:image",
+      "content": "https://backend.appmiaoda.com/projects/supabase314724440942358528/storage/v1/object/public/site-assets/logo/logo_1781981878474.jpg"
+    }
+  ],
+  "jsonld": [
+    "\n    {\n      \"@context\": \"https://schema.org\",\n      \"@graph\": [\n        {\n          \"@type\": \"Organization\",\n          \"@id\": \"#organization\",\n          \"name\": \"优合源品 YOHE/YOUNG\",\n          \"alternateName\": \"杭州螺丝钉智能科技有限公司\",\n          \"description\": \"提供高品质定制珠宝首饰，支持刻字、配件组合、字母串链等多种个性化定制服务\",\n          \"logo\": {\n            \"@type\": \"ImageObject\",\n            \"url\": \"https://backend.appmiaoda.com/projects/supabase314724440942358528/storage/v1/object/public/site-assets/logo/logo_1781981878474.jpg\"\n          },\n          \"foundingLocation\": {\n            \"@type\": \"Place\",\n            \"name\": \"杭州\"\n          },\n          \"knowsAbout\": [\"定制珠宝\", \"刻字首饰\", \"项链定制\", \"戒指定制\", \"手链定制\", \"情侣饰品\"],\n          \"makesOffer\": [\n            {\"@type\": \"Offer\", \"itemOffered\": {\"@type\": \"Product\", \"name\": \"定制刻字珠宝首饰\"}},\n            {\"@type\": \"Offer\", \"itemOffered\": {\"@type\": \"Product\", \"name\": \"字母串链项链\"}},\n            {\"@type\": \"Offer\", \"itemOffered\": {\"@type\": \"Product\", \"name\": \"配件组合定制\"}}\n          ]\n        },\n        {\n          \"@type\": \"WebSite\",\n          \"@id\": \"#website\",\n          \"name\": \"优合源品 YOHE/YOUNG\",\n          \"description\": \"高品质定制珠宝首饰品牌，支持个性化刻字、配件组合定制\",\n          \"publisher\": {\"@id\": \"#organization\"},\n          \"inLanguage\": [\"zh-CN\", \"en\", \"es\", \"fr\"],\n          \"potentialAction\": {\n            \"@type\": \"SearchAction\",\n            \"target\": {\n              \"@type\": \"EntryPoint\",\n              \"urlTemplate\": \"/products?q={search_term_string}\"\n            },\n            \"query-input\": \"required name=search_term_string\"\n          }\n        }\n      ]\n    }\n    "
+  ],
+  "warning": "Rendered body text remained short after settle timeout; treat page as shell/partial evidence.",
+  "links": []
+}

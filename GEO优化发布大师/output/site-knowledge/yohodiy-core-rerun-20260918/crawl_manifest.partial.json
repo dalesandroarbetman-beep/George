@@ -1,0 +1,126 @@
+{
+  "seed_url": "https://www.yohodiy.com/",
+  "started_at": "2026-09-18T03:53:26.264477+00:00",
+  "crawler": "rendered-playwright-read-only",
+  "robots": {
+    "url": "https://www.yohodiy.com/robots.txt",
+    "status": 200,
+    "final_url": "https://www.yohodiy.com/robots.txt",
+    "text": "User-agent: *\nAllow: /\nDisallow: /admin/\nDisallow: /admin\nDisallow: /checkout\nDisallow: /payment/\nDisallow: /orders/\nDisallow: /user/\nDisallow: /after-sales/\nDisallow: /review/\n\nSitemap: https://diy.lsdit.com/sitemap.xml\n"
+  },
+  "sitemap": {
+    "url": "https://www.yohodiy.com/sitemap.xml",
+    "status": 200,
+    "final_url": "https://www.yohodiy.com/sitemap.xml",
+    "urls": [
+      "https://diy.lsdit.com/",
+      "https://diy.lsdit.com/products",
+      "https://diy.lsdit.com/accessory-products",
+      "https://diy.lsdit.com/customize",
+      "https://diy.lsdit.com/customize/letter",
+      "https://diy.lsdit.com/customize/accessory",
+      "https://diy.lsdit.com/customize/splice",
+      "https://diy.lsdit.com/design-square",
+      "https://diy.lsdit.com/help"
+    ]
+  },
+  "candidate_sitemap_urls": [
+    "https://diy.lsdit.com/sitemap.xml"
+  ],
+  "pages": [
+    {
+      "file": "pages/0001.json",
+      "requested_url": "https://www.yohodiy.com/",
+      "final_url": "https://www.yohodiy.com/",
+      "status": 200,
+      "title": "优合源品 YOHE/YOUNG - 定制珠宝首饰"
+    },
+    {
+      "file": "pages/0002.json",
+      "requested_url": "https://www.yohodiy.com/products",
+      "final_url": "https://www.yohodiy.com/products",
+      "status": 200,
+      "title": "全部定制产品 | 优合源品 YOHE/YOUNG"
+    },
+    {
+      "file": "pages/0003.json",
+      "requested_url": "https://www.yohodiy.com/accessory-products",
+      "final_url": "https://www.yohodiy.com/accessory-products",
+      "status": 200,
+      "title": "首饰定制网站"
+    },
+    {
+      "file": "pages/0004.json",
+      "requested_url": "https://www.yohodiy.com/customize",
+      "final_url": "https://www.yohodiy.com/customize",
+      "status": 200,
+      "title": "个性化定制珠宝 | 优合源品 YOHE/YOUNG"
+    },
+    {
+      "file": "pages/0005.json",
+      "requested_url": "https://www.yohodiy.com/customize/letter",
+      "final_url": "https://www.yohodiy.com/customize/letter",
+      "status": 200,
+      "title": "首饰定制网站"
+    },
+    {
+      "file": "pages/0006.json",
+      "requested_url": "https://www.yohodiy.com/customize/accessory",
+      "final_url": "https://www.yohodiy.com/customize/accessory",
+      "status": 200,
+      "title": "首饰定制网站"
+    },
+    {
+      "file": "pages/0007.json",
+      "requested_url": "https://www.yohodiy.com/customize/splice",
+      "final_url": "https://www.yohodiy.com/customize/splice",
+      "status": 200,
+      "title": "首饰定制网站"
+    },
+    {
+      "file": "pages/0008.json",
+      "requested_url": "https://www.yohodiy.com/design-square",
+      "final_url": "https://www.yohodiy.com/design-square",
+      "status": 200,
+      "title": "首饰定制网站"
+    },
+    {
+      "file": "pages/0009.json",
+      "requested_url": "https://www.yohodiy.com/help",
+      "final_url": "https://www.yohodiy.com/help",
+      "status": 200,
+      "title": "首饰定制网站"
+    },
+    {
+      "file": "pages/0010.json",
+      "requested_url": "https://www.yohodiy.com/about-us",
+      "final_url": "https://www.yohodiy.com/about-us",
+      "status": 200,
+      "title": "首饰定制网站"
+    },
+    {
+      "file": "pages/0011.json",
+      "requested_url": "https://www.yohodiy.com/why-choose-us",
+      "final_url": "https://www.yohodiy.com/why-choose-us",
+      "status": 200,
+      "title": "首饰定制网站"
+    },
+    {
+      "file": "pages/0012.json",
+      "requested_url": "https://www.yohodiy.com/faq",
+      "final_url": "https://www.yohodiy.com/faq",
+      "status": 200,
+      "title": "首饰定制网站"
+    }
+  ],
+  "errors": [],
+  "blocked_prefixes": [
+    "/admin",
+    "/checkout",
+    "/payment/",
+    "/orders/",
+    "/user/",
+    "/after-sales/",
+    "/review/"
+  ]
+}

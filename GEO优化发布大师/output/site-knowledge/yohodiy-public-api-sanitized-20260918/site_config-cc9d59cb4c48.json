@@ -1,0 +1,11 @@
+{
+  "table": "site_config",
+  "source_url": "https://backend.appmiaoda.com/projects/supabase314724440942358528/rest/v1/site_config?select=value&key=eq.footer_slogan",
+  "status": 200,
+  "captured_at": "2026-09-18T04:58:41.323079+00:00",
+  "data": [
+    {
+      "value": "每一件珠宝，都是你独有的故事"
+    }
+  ]
+}

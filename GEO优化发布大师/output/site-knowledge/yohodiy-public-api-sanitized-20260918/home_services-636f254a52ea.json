@@ -1,0 +1,68 @@
+{
+  "table": "home_services",
+  "source_url": "https://backend.appmiaoda.com/projects/supabase314724440942358528/rest/v1/home_services?select=*&is_active=eq.true&order=sort_order.asc",
+  "status": 200,
+  "captured_at": "2026-09-18T04:58:45.989132+00:00",
+  "data": [
+    {
+      "id": "d6f1eb9b-c33e-4b52-939c-ca94ffd37aee",
+      "title": "Worldwide Shipping",
+      "title_cn": "全球极速物流",
+      "subtitle": "Multi Reliable Shipping Methods Worldwide; DDP Express with US Duties Covered",
+      "subtitle_cn": "全球多种可靠物流方式；覆盖专属包税特快",
+      "icon_name": "truck",
+      "icon_url": null,
+      "link_url": "",
+      "sort_order": 1,
+      "is_active": true,
+      "badge_color": "#16a34a",
+      "created_at": "2026-09-10T17:31:48.289844+08:00",
+      "updated_at": "2026-09-10T17:31:48.289844+08:00"
+    },
+    {
+      "id": "8318cafc-36ff-4589-8212-95c1bb3e7a6b",
+      "title": "Daily Updates of Trendy Products",
+      "title_cn": "潮流新品每日更新",
+      "subtitle": "Nihao Choice, Sourcing, Value-added Services - no extra cost",
+      "subtitle_cn": "严选尖货、深度搜源、多重增值服务零额外费用",
+      "icon_name": "package",
+      "icon_url": null,
+      "link_url": "/products",
+      "sort_order": 2,
+      "is_active": true,
+      "badge_color": "#2563eb",
+      "created_at": "2026-09-10T17:31:48.289844+08:00",
+      "updated_at": "2026-09-10T17:31:48.289844+08:00"
+    },
+    {
+      "id": "6be4ab24-71eb-44a5-b324-ddc146bfc642",
+      "title": "No MOQ, Factory Direct Supply",
+      "title_cn": "零起订量，源头工厂直供",
+      "subtitle": "Factory Lowest Price, Bulk Discount, Price Match Guarantee",
+      "subtitle_cn": "源头工厂底价直发、大额批发梯度折扣、全网价格保障",
+      "icon_name": "factory",
+      "icon_url": null,
+      "link_url": "",
+      "sort_order": 3,
+      "is_active": true,
+      "badge_color": "#d97706",
+      "created_at": "2026-09-10T17:31:48.289844+08:00",
+      "updated_at": "2026-09-10T17:31:48.289844+08:00"
+    },
+    {
+      "id": "038924ba-c2ab-48b7-b812-0124996e1fc9",
+      "title": "Exclusive Customer Manager",
+      "title_cn": "专属一对一客服经理",
+      "subtitle": "24 Hours One to One Customer Service, 30-day Aftersales Guarantee",
+      "subtitle_cn": "24小时一对一售前售后专席、30天无忧质保与售后服务",
+      "icon_name": "headset",
+      "icon_url": null,
+      "link_url": "",
+      "sort_order": 4,
+      "is_active": true,
+      "badge_color": "#4f46e5",
+      "created_at": "2026-09-10T17:31:48.289844+08:00",
+      "updated_at": "2026-09-10T17:31:48.289844+08:00"
+    }
+  ]
+}
