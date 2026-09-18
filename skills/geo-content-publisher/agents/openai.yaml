@@ -1,0 +1,6 @@
+interface:
+  display_name: "每日发布"
+  short_description: "生成待审批队列与人工发布执行包"
+  default_prompt: "Use $geo-content-publisher to prepare a manual publishing queue and evidence log for these approved drafts."
+policy:
+  allow_implicit_invocation: true

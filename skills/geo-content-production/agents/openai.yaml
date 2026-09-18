@@ -1,0 +1,6 @@
+interface:
+  display_name: "GEO内容生产"
+  short_description: "生成英文母稿与平台原生版本"
+  default_prompt: "Use $geo-content-production to create fact-gated English master and native forum variants from this approved brief."
+policy:
+  allow_implicit_invocation: true

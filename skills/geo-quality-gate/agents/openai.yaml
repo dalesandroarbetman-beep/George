@@ -1,0 +1,6 @@
+interface:
+  display_name: "GEO质量闸门"
+  short_description: "审查事实、逻辑、平台语气与风险"
+  default_prompt: "Use $geo-quality-gate to review these drafts and return severity-tagged defects before human approval."
+policy:
+  allow_implicit_invocation: true

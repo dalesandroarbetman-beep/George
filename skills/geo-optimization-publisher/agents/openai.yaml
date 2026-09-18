@@ -1,0 +1,6 @@
+interface:
+  display_name: "GEO优化发布大师"
+  short_description: "把独立站事实转成英文论坛与多平台内容"
+  default_prompt: "Use $geo-optimization-publisher to turn my approved site facts into Reddit, Quora, Indie Hackers, X, LinkedIn, and Facebook drafts with a human approval gate."
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,6 @@
+interface:
+  display_name: "GEO架构师"
+  short_description: "把客户问题变成优先级与内容资产地图"
+  default_prompt: "Use $geo-architect to turn approved facts and real customer questions into a prioritized GEO brief and handoff plan."
+policy:
+  allow_implicit_invocation: true

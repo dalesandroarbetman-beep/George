@@ -1,0 +1,6 @@
+interface:
+  display_name: "GEO扫描器"
+  short_description: "只读检查官网与公开实体证据"
+  default_prompt: "Use $geo-scanner to create a dated, reproducible read-only GEO baseline for this official site and question set."
+policy:
+  allow_implicit_invocation: true

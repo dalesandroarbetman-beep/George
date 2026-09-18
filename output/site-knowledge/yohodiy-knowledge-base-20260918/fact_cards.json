@@ -1,0 +1,855 @@
+{
+  "generated_at": "2026-09-18T05:19:32.752243+00:00",
+  "site": "https://www.yohodiy.com/",
+  "status": "review_required",
+  "identity_policy": {
+    "canonical_brand": "YOHO",
+    "canonical_source": "https://www.yohodiy.com/",
+    "legal_entity_disclosure": "held_in_fact_cards_only_until_explicitly_approved",
+    "observed_aliases": [
+      "YOHE/YOUNG",
+      "Yoho Origin",
+      "YOHO DIY"
+    ]
+  },
+  "cards": [
+    {
+      "fact_id": "FC-0C39D76D3F",
+      "subject": "brand",
+      "claim": "Public site configuration contains `footer_copyright_translations`.",
+      "status": "pending",
+      "source_type": "official_page",
+      "source_ref": "https://backend.appmiaoda.com/projects/supabase314724440942358528/rest/v1/site_config?select=value&key=eq.footer_copyright_translations",
+      "evidence_quote": "[{\"value\": \"{\\\"zh\\\":\\\"浙江鸢鸟网络科技有限公司 © 2021–2026 优合源品 All Rights Reserved\\\",\\\"en\\\":\\\"Zhejiang Yuanniao Network Technology Co., Ltd. © 2021–2026 Yoho Origin All Rights Reserved\\\",\\\"es\\\":\\\"Zhejiang Yuanniao Network Technology Co., Ltd. © 2021–2026 Yoho Origin Todos los Derechos Reservados\\\",\\\"fr\\\":\\\"Zhejiang Yuanniao Network Technology Co., Ltd. © 2021–2026 Yoho Origin Tous droits réservés\\\"}\"}]",
+      "captured_at": "2026-09-18",
+      "review_due": null,
+      "approved_channels": [],
+      "notes": "Configuration evidence; treat as pending until entity and wording are approved."
+    },
+    {
+      "fact_id": "FC-18EA022E98",
+      "subject": "brand",
+      "claim": "The public site describes YOHO/YOUNG as a provider of customizable jewelry and personalized services.",
+      "status": "pending",
+      "source_type": "official_page",
+      "source_ref": "https://www.yohodiy.com/customize/splice",
+      "evidence_quote": "优合源品（YOHE/YOUNG）提供高品质定制珠宝首饰，支持刻字、配件组合、字母串链等多种个性化定制服务，打造专属于你的爱的见证。",
+      "captured_at": "2026-09-18",
+      "review_due": null,
+      "approved_channels": [],
+      "notes": "Observed in page metadata; business approval required."
+    },
+    {
+      "fact_id": "FC-196635BC2E",
+      "subject": "brand",
+      "claim": "Public site configuration contains `seo_author`.",
+      "status": "pending",
+      "source_type": "official_page",
+      "source_ref": "https://backend.appmiaoda.com/projects/supabase314724440942358528/rest/v1/site_config?select=value&key=eq.seo_author",
+      "evidence_quote": "[{\"value\": \"Zhejiang Yuanniao Network Technology Co., Ltd\"}]",
+      "captured_at": "2026-09-18",
+      "review_due": null,
+      "approved_channels": [],
+      "notes": "Configuration evidence; treat as pending until entity and wording are approved."
+    },
+    {
+      "fact_id": "FC-1C1DF8D03A",
+      "subject": "brand",
+      "claim": "The public site describes YOHO/YOUNG as a provider of customizable jewelry and personalized services.",
+      "status": "pending",
+      "source_type": "official_page",
+      "source_ref": "https://www.yohodiy.com/",
+      "evidence_quote": "优合源品（YOHE/YOUNG）提供高品质定制珠宝首饰，支持刻字、配件组合、字母串链等多种个性化定制服务，打造专属于你的爱的见证。",
+      "captured_at": "2026-09-18",
+      "review_due": null,
+      "approved_channels": [],
+      "notes": "Observed in page metadata; business approval required."
+    },
+    {
+      "fact_id": "FC-1DCE4D7BDB",
+      "subject": "brand",
+      "claim": "Public site configuration contains `seo_title`.",
+      "status": "pending",
+      "source_type": "official_page",
+      "source_ref": "https://backend.appmiaoda.com/projects/supabase314724440942358528/rest/v1/site_config?select=value&key=eq.seo_title",
+      "evidence_quote": "[{\"value\": \"Wholesale Jewelry, Yohoddiy,  Wholesale Jewelry Marketplace, Jewelry Wholesa\"}]",
+      "captured_at": "2026-09-18",
+      "review_due": null,
+      "approved_channels": [],
+      "notes": "Configuration evidence; treat as pending until entity and wording are approved."
+    },
+    {
+      "fact_id": "FC-37DE9CDB8B",
+      "subject": "service",
+      "claim": "The public homepage lists the service 'Worldwide Shipping' with the description 'Multi Reliable Shipping Methods Worldwide; DDP Express with US Duties Covered'.",
+      "status": "pending",
+      "source_type": "official_page",
+      "source_ref": "https://backend.appmiaoda.com/projects/supabase314724440942358528/rest/v1/home_services?select=*&is_active=eq.true&order=sort_order.asc",
+      "evidence_quote": "{\"id\": \"d6f1eb9b-c33e-4b52-939c-ca94ffd37aee\", \"title\": \"Worldwide Shipping\", \"title_cn\": \"全球极速物流\", \"subtitle\": \"Multi Reliable Shipping Methods Worldwide; DDP Express with US Duties Covered\", \"subtitle_cn\": \"全球多种可靠物流方式；覆盖专属包税特快\", \"icon_name\": \"truck\", \"icon_url\": null, \"link_url\": \"\", \"sort_order\": 1, \"is_active\": true, \"badge_color\": \"#16a34a\", \"created_at\": \"2026-09-10T17:31:48.289844+08:00\", \"updated_at\": \"2026-09-10T17:31:48.289844+08:00\"}",
+      "captured_at": "2026-09-18",
+      "review_due": null,
+      "approved_channels": [],
+      "notes": "Operational promise; confirm scope, geography, exceptions, and current validity."
+    },
+    {
+      "fact_id": "FC-41877C88F3",
+      "subject": "service",
+      "claim": "The site publicly advertises one-to-one customer service.",
+      "status": "pending",
+      "source_type": "official_page",
+      "source_ref": "https://www.yohodiy.com/",
+      "evidence_quote": "Exclusive Customer Manager",
+      "captured_at": "2026-09-18",
+      "review_due": null,
+      "approved_channels": [],
+      "notes": "Observed rendered text; exact operational terms need approval."
+    },
+    {
+      "fact_id": "FC-524CCBB1D7",
+      "subject": "brand",
+      "claim": "The public site describes YOHO/YOUNG as a provider of customizable jewelry and personalized services.",
+      "status": "pending",
+      "source_type": "official_page",
+      "source_ref": "https://www.yohodiy.com/about-us",
+      "evidence_quote": "优合源品（YOHE/YOUNG）提供高品质定制珠宝首饰，支持刻字、配件组合、字母串链等多种个性化定制服务，打造专属于你的爱的见证。",
+      "captured_at": "2026-09-18",
+      "review_due": null,
+      "approved_channels": [],
+      "notes": "Observed in page metadata; business approval required."
+    },
+    {
+      "fact_id": "FC-5710616524",
+      "subject": "site_content",
+      "claim": "支持哪些定制内容？",
+      "status": "pending",
+      "source_type": "official_page",
+      "source_ref": "https://backend.appmiaoda.com/projects/supabase314724440942358528/rest/v1/agent_geo_entries?select=id%2Ctype%2Ctitle%2Ccontent%2Ctarget_queries%2Cpage_scope&is_active=eq.true",
+      "evidence_quote": "支持刻字（中英文/日期/图案）、宝石种类选择（钻石/红宝石/蓝宝石等）、材质选择（18K金/铂金/925银）、戒圈尺寸调整以及完全原创设计。",
+      "captured_at": "2026-09-18",
+      "review_due": null,
+      "approved_channels": [],
+      "notes": "Public API content entry; high-risk claims and metrics require evidence review."
+    },
+    {
+      "fact_id": "FC-58FFED387B",
+      "subject": "brand",
+      "claim": "The public site describes YOHO/YOUNG as a provider of customizable jewelry and personalized services.",
+      "status": "pending",
+      "source_type": "official_page",
+      "source_ref": "https://www.yohodiy.com/why-choose-us",
+      "evidence_quote": "优合源品（YOHE/YOUNG）提供高品质定制珠宝首饰，支持刻字、配件组合、字母串链等多种个性化定制服务，打造专属于你的爱的见证。",
+      "captured_at": "2026-09-18",
+      "review_due": null,
+      "approved_channels": [],
+      "notes": "Observed in page metadata; business approval required."
+    },
+    {
+      "fact_id": "FC-6D70BABF34",
+      "subject": "catalog",
+      "claim": "The public site exposes 4 records in `footer_columns` for navigation or footer taxonomy.",
+      "status": "pending",
+      "source_type": "official_page",
+      "source_ref": "https://backend.appmiaoda.com/projects/supabase314724440942358528/rest/v1/footer_columns?select=id%2Ctitle%2Ctranslations%2Csort_order&is_active=eq.true&order=sort_order.asc",
+      "evidence_quote": "record_count=4",
+      "captured_at": "2026-09-18",
+      "review_due": null,
+      "approved_channels": [],
+      "notes": "Taxonomy evidence, not a claim about inventory or availability."
+    },
+    {
+      "fact_id": "FC-6DC6BD49DC",
+      "subject": "brand",
+      "claim": "The public site describes YOHO/YOUNG as a provider of customizable jewelry and personalized services.",
+      "status": "pending",
+      "source_type": "official_page",
+      "source_ref": "https://www.yohodiy.com/customize",
+      "evidence_quote": "优合源品提供多种珠宝定制方式：字母刻字、配件换装、字母串链、可拖动模型，打造专属你的爱的见证。",
+      "captured_at": "2026-09-18",
+      "review_due": null,
+      "approved_channels": [],
+      "notes": "Observed in page metadata; business approval required."
+    },
+    {
+      "fact_id": "FC-6EEDA0DC0F",
+      "subject": "site_content",
+      "claim": "定制珠宝需要多长时间？",
+      "status": "pending",
+      "source_type": "official_page",
+      "source_ref": "https://backend.appmiaoda.com/projects/supabase314724440942358528/rest/v1/agent_geo_entries?select=id%2Ctype%2Ctitle%2Ccontent%2Ctarget_queries%2Cpage_scope&is_active=eq.true",
+      "evidence_quote": "我们的标准定制周期为7-15个工作日，复杂工艺可能需要20个工作日。下单后可在订单页面实时追踪生产进度。",
+      "captured_at": "2026-09-18",
+      "review_due": null,
+      "approved_channels": [],
+      "notes": "Public API content entry; high-risk claims and metrics require evidence review."
+    },
+    {
+      "fact_id": "FC-7051D31361",
+      "subject": "brand",
+      "claim": "Public site configuration contains `footer_icp_translations`.",
+      "status": "pending",
+      "source_type": "official_page",
+      "source_ref": "https://backend.appmiaoda.com/projects/supabase314724440942358528/rest/v1/site_config?select=value&key=eq.footer_icp_translations",
+      "evidence_quote": "[{\"value\": \"{\\\"zh\\\":\\\"浙ICP备2026049641号-2\\\",\\\"en\\\":\\\"Zhejiang ICP Filing No. 2026049641-2\\\",\\\"es\\\":\\\"Registro ICP de Zhejiang N.º 2026049641-2\\\",\\\"fr\\\":\\\"Enregistrement ICP du Zhejiang n° 2026049641-2\\\"}\"}]",
+      "captured_at": "2026-09-18",
+      "review_due": null,
+      "approved_channels": [],
+      "notes": "Configuration evidence; treat as pending until entity and wording are approved."
+    },
+    {
+      "fact_id": "FC-7C5D245062",
+      "subject": "brand",
+      "claim": "Public site configuration contains `seo_keywords`.",
+      "status": "pending",
+      "source_type": "official_page",
+      "source_ref": "https://backend.appmiaoda.com/projects/supabase314724440942358528/rest/v1/site_config?select=value&key=eq.seo_keywords",
+      "evidence_quote": "[{\"value\": \"Wholesale Jewelry, Nihaojewelry,  Wholesale Jewelry Marketplace, Yohodiy Wholesale\"}]",
+      "captured_at": "2026-09-18",
+      "review_due": null,
+      "approved_channels": [],
+      "notes": "Configuration evidence; treat as pending until entity and wording are approved."
+    },
+    {
+      "fact_id": "FC-81AD2B9761",
+      "subject": "brand",
+      "claim": "Public site configuration contains `footer_slogan_translations`.",
+      "status": "pending",
+      "source_type": "official_page",
+      "source_ref": "https://backend.appmiaoda.com/projects/supabase314724440942358528/rest/v1/site_config?select=value&key=eq.footer_slogan_translations",
+      "evidence_quote": "[{\"value\": \"{\\\"zh\\\":\\\"每一件珠宝，都是你独有的故事\\\",\\\"en\\\":\\\"Every piece of jewelry is your unique story\\\"}\"}]",
+      "captured_at": "2026-09-18",
+      "review_due": null,
+      "approved_channels": [],
+      "notes": "Configuration evidence; treat as pending until entity and wording are approved."
+    },
+    {
+      "fact_id": "FC-846949E4B9",
+      "subject": "brand",
+      "claim": "Public site configuration contains `site_domain`.",
+      "status": "pending",
+      "source_type": "official_page",
+      "source_ref": "https://backend.appmiaoda.com/projects/supabase314724440942358528/rest/v1/site_config?select=value&key=eq.site_domain",
+      "evidence_quote": "[{\"value\": \"https://www.yohodiy.com\"}]",
+      "captured_at": "2026-09-18",
+      "review_due": null,
+      "approved_channels": [],
+      "notes": "Configuration evidence; treat as pending until entity and wording are approved."
+    },
+    {
+      "fact_id": "FC-87817F3875",
+      "subject": "brand",
+      "claim": "The public site describes YOHO/YOUNG as a provider of customizable jewelry and personalized services.",
+      "status": "pending",
+      "source_type": "official_page",
+      "source_ref": "https://www.yohodiy.com/customize/accessory",
+      "evidence_quote": "优合源品（YOHE/YOUNG）提供高品质定制珠宝首饰，支持刻字、配件组合、字母串链等多种个性化定制服务，打造专属于你的爱的见证。",
+      "captured_at": "2026-09-18",
+      "review_due": null,
+      "approved_channels": [],
+      "notes": "Observed in page metadata; business approval required."
+    },
+    {
+      "fact_id": "FC-8A168BEC0A",
+      "subject": "brand",
+      "claim": "Public site configuration contains `og_title`.",
+      "status": "pending",
+      "source_type": "official_page",
+      "source_ref": "https://backend.appmiaoda.com/projects/supabase314724440942358528/rest/v1/site_config?select=value&key=eq.og_title",
+      "evidence_quote": "[{\"value\": \"优合源品 YOHE/YOUNG - 定制珠宝首饰\"}]",
+      "captured_at": "2026-09-18",
+      "review_due": null,
+      "approved_channels": [],
+      "notes": "Configuration evidence; treat as pending until entity and wording are approved."
+    },
+    {
+      "fact_id": "FC-9104DB1BA6",
+      "subject": "catalog",
+      "claim": "The public site exposes 118 records in `home_top_nav_categories` for navigation or footer taxonomy.",
+      "status": "pending",
+      "source_type": "official_page",
+      "source_ref": "https://backend.appmiaoda.com/projects/supabase314724440942358528/rest/v1/home_top_nav_categories?select=*&is_active=eq.true&order=sort_order.asc",
+      "evidence_quote": "record_count=118",
+      "captured_at": "2026-09-18",
+      "review_due": null,
+      "approved_channels": [],
+      "notes": "Taxonomy evidence, not a claim about inventory or availability."
+    },
+    {
+      "fact_id": "FC-9480F871F6",
+      "subject": "brand",
+      "claim": "The public site describes YOHO/YOUNG as a provider of customizable jewelry and personalized services.",
+      "status": "pending",
+      "source_type": "official_page",
+      "source_ref": "https://www.yohodiy.com/faq",
+      "evidence_quote": "优合源品（YOHE/YOUNG）提供高品质定制珠宝首饰，支持刻字、配件组合、字母串链等多种个性化定制服务，打造专属于你的爱的见证。",
+      "captured_at": "2026-09-18",
+      "review_due": null,
+      "approved_channels": [],
+      "notes": "Observed in page metadata; business approval required."
+    },
+    {
+      "fact_id": "FC-949A453842",
+      "subject": "site_content",
+      "claim": "定制戒指产品说明",
+      "status": "pending",
+      "source_type": "official_page",
+      "source_ref": "https://backend.appmiaoda.com/projects/supabase314724440942358528/rest/v1/agent_geo_entries?select=id%2Ctype%2Ctitle%2Ccontent%2Ctarget_queries%2Cpage_scope&is_active=eq.true",
+      "evidence_quote": "我们的定制戒指系列支持从0到1的原创设计，也可基于现有款式二次创作。每件作品附带品质证书，支持退换货保障。材质涵盖18K黄金、玫瑰金、铂金及925纯银。",
+      "captured_at": "2026-09-18",
+      "review_due": null,
+      "approved_channels": [],
+      "notes": "Public API content entry; high-risk claims and metrics require evidence review."
+    },
+    {
+      "fact_id": "FC-9A148A8D15",
+      "subject": "customization",
+      "claim": "The site publicly presents a jewelry customization journey.",
+      "status": "pending",
+      "source_type": "official_page",
+      "source_ref": "https://www.yohodiy.com/",
+      "evidence_quote": "Start Your Custom Journey",
+      "captured_at": "2026-09-18",
+      "review_due": null,
+      "approved_channels": [],
+      "notes": "Observed rendered text; exact operational terms need approval."
+    },
+    {
+      "fact_id": "FC-9DED53911C",
+      "subject": "company",
+      "claim": "Public site configuration contains `footer_company_name`.",
+      "status": "pending",
+      "source_type": "official_page",
+      "source_ref": "https://backend.appmiaoda.com/projects/supabase314724440942358528/rest/v1/site_config?select=value&key=eq.footer_company_name",
+      "evidence_quote": "[{\"value\": \"浙江鸢鸟网络科技有限公司\"}]",
+      "captured_at": "2026-09-18",
+      "review_due": null,
+      "approved_channels": [],
+      "notes": "Configuration evidence; treat as pending until entity and wording are approved."
+    },
+    {
+      "fact_id": "FC-A93566A4E4",
+      "subject": "brand",
+      "claim": "The public site describes YOHO/YOUNG as a provider of customizable jewelry and personalized services.",
+      "status": "pending",
+      "source_type": "official_page",
+      "source_ref": "https://www.yohodiy.com/products",
+      "evidence_quote": "浏览优合源品（YOHE/YOUNG）全系列定制珠宝首饰，包含戒指、项链、手链等多种品类，支持个性化刻字与配件定制。",
+      "captured_at": "2026-09-18",
+      "review_due": null,
+      "approved_channels": [],
+      "notes": "Observed in page metadata; business approval required."
+    },
+    {
+      "fact_id": "FC-AA56BEE0CD",
+      "subject": "brand",
+      "claim": "The public site describes YOHO/YOUNG as a provider of customizable jewelry and personalized services.",
+      "status": "pending",
+      "source_type": "official_page",
+      "source_ref": "https://www.yohodiy.com/customize/letter",
+      "evidence_quote": "优合源品（YOHE/YOUNG）提供高品质定制珠宝首饰，支持刻字、配件组合、字母串链等多种个性化定制服务，打造专属于你的爱的见证。",
+      "captured_at": "2026-09-18",
+      "review_due": null,
+      "approved_channels": [],
+      "notes": "Observed in page metadata; business approval required."
+    },
+    {
+      "fact_id": "FC-AB89D586F9",
+      "subject": "service",
+      "claim": "The site publicly advertises no minimum order quantity and factory-direct supply.",
+      "status": "pending",
+      "source_type": "official_page",
+      "source_ref": "https://www.yohodiy.com/",
+      "evidence_quote": "No MOQ, Factory Direct Supply",
+      "captured_at": "2026-09-18",
+      "review_due": null,
+      "approved_channels": [],
+      "notes": "Observed rendered text; exact operational terms need approval."
+    },
+    {
+      "fact_id": "FC-AD12C7ECEE",
+      "subject": "catalog",
+      "claim": "The public site exposes 143 records in `nav_items` for navigation or footer taxonomy.",
+      "status": "pending",
+      "source_type": "official_page",
+      "source_ref": "https://backend.appmiaoda.com/projects/supabase314724440942358528/rest/v1/nav_items?select=*&is_active=eq.true&order=sort_order.asc",
+      "evidence_quote": "record_count=143",
+      "captured_at": "2026-09-18",
+      "review_due": null,
+      "approved_channels": [],
+      "notes": "Taxonomy evidence, not a claim about inventory or availability."
+    },
+    {
+      "fact_id": "FC-B0CF41B206",
+      "subject": "brand",
+      "claim": "Public site configuration contains `og_description`.",
+      "status": "pending",
+      "source_type": "official_page",
+      "source_ref": "https://backend.appmiaoda.com/projects/supabase314724440942358528/rest/v1/site_config?select=value&key=eq.og_description",
+      "evidence_quote": "[{\"value\": \"优合源品（YOHE/YOUNG）提供高品质定制珠宝首饰，支持刻字、配件组合、字母串链等多种个性化定制服务。\"}]",
+      "captured_at": "2026-09-18",
+      "review_due": null,
+      "approved_channels": [],
+      "notes": "Configuration evidence; treat as pending until entity and wording are approved."
+    },
+    {
+      "fact_id": "FC-B328E055F2",
+      "subject": "brand",
+      "claim": "The public site describes YOHO/YOUNG as a provider of customizable jewelry and personalized services.",
+      "status": "pending",
+      "source_type": "official_page",
+      "source_ref": "https://www.yohodiy.com/help",
+      "evidence_quote": "优合源品（YOHE/YOUNG）提供高品质定制珠宝首饰，支持刻字、配件组合、字母串链等多种个性化定制服务，打造专属于你的爱的见证。",
+      "captured_at": "2026-09-18",
+      "review_due": null,
+      "approved_channels": [],
+      "notes": "Observed in page metadata; business approval required."
+    },
+    {
+      "fact_id": "FC-C098BD7D9C",
+      "subject": "service",
+      "claim": "The site publicly advertises worldwide shipping.",
+      "status": "pending",
+      "source_type": "official_page",
+      "source_ref": "https://www.yohodiy.com/",
+      "evidence_quote": "Worldwide Shipping",
+      "captured_at": "2026-09-18",
+      "review_due": null,
+      "approved_channels": [],
+      "notes": "Observed rendered text; exact operational terms need approval."
+    },
+    {
+      "fact_id": "FC-C14381D696",
+      "subject": "brand",
+      "claim": "The public site describes YOHO/YOUNG as a provider of customizable jewelry and personalized services.",
+      "status": "pending",
+      "source_type": "official_page",
+      "source_ref": "https://www.yohodiy.com/accessory-products",
+      "evidence_quote": "优合源品（YOHE/YOUNG）提供高品质定制珠宝首饰，支持刻字、配件组合、字母串链等多种个性化定制服务，打造专属于你的爱的见证。",
+      "captured_at": "2026-09-18",
+      "review_due": null,
+      "approved_channels": [],
+      "notes": "Observed in page metadata; business approval required."
+    },
+    {
+      "fact_id": "FC-D5FE8FCE09",
+      "subject": "company",
+      "claim": "Public site configuration contains `site_name`.",
+      "status": "pending",
+      "source_type": "official_page",
+      "source_ref": "https://backend.appmiaoda.com/projects/supabase314724440942358528/rest/v1/site_config?select=value&key=eq.site_name",
+      "evidence_quote": "[{\"value\": \"浙江鸢鸟网络科技有限公司\"}]",
+      "captured_at": "2026-09-18",
+      "review_due": null,
+      "approved_channels": [],
+      "notes": "Configuration evidence; treat as pending until entity and wording are approved."
+    },
+    {
+      "fact_id": "FC-D69799214A",
+      "subject": "brand",
+      "claim": "Public site configuration contains `display_currency`.",
+      "status": "pending",
+      "source_type": "official_page",
+      "source_ref": "https://backend.appmiaoda.com/projects/supabase314724440942358528/rest/v1/site_config?select=value&key=eq.display_currency",
+      "evidence_quote": "[{\"value\": \"USD\"}]",
+      "captured_at": "2026-09-18",
+      "review_due": null,
+      "approved_channels": [],
+      "notes": "Configuration evidence; treat as pending until entity and wording are approved."
+    },
+    {
+      "fact_id": "FC-DA2547F24B",
+      "subject": "service",
+      "claim": "The public homepage lists the service 'Exclusive Customer Manager' with the description '24 Hours One to One Customer Service, 30-day Aftersales Guarantee'.",
+      "status": "pending",
+      "source_type": "official_page",
+      "source_ref": "https://backend.appmiaoda.com/projects/supabase314724440942358528/rest/v1/home_services?select=*&is_active=eq.true&order=sort_order.asc",
+      "evidence_quote": "{\"id\": \"038924ba-c2ab-48b7-b812-0124996e1fc9\", \"title\": \"Exclusive Customer Manager\", \"title_cn\": \"专属一对一客服经理\", \"subtitle\": \"24 Hours One to One Customer Service, 30-day Aftersales Guarantee\", \"subtitle_cn\": \"24小时一对一售前售后专席、30天无忧质保与售后服务\", \"icon_name\": \"headset\", \"icon_url\": null, \"link_url\": \"\", \"sort_order\": 4, \"is_active\": true, \"badge_color\": \"#4f46e5\", \"created_at\": \"2026-09-10T17:31:48.289844+08:00\", \"updated_at\": \"2026-09-10T17:31:48.289844+08:00\"}",
+      "captured_at": "2026-09-18",
+      "review_due": null,
+      "approved_channels": [],
+      "notes": "Operational promise; confirm scope, geography, exceptions, and current validity."
+    },
+    {
+      "fact_id": "FC-DB1C36A51F",
+      "subject": "service",
+      "claim": "The public homepage lists the service 'Daily Updates of Trendy Products' with the description 'Nihao Choice, Sourcing, Value-added Services - no extra cost'.",
+      "status": "pending",
+      "source_type": "official_page",
+      "source_ref": "https://backend.appmiaoda.com/projects/supabase314724440942358528/rest/v1/home_services?select=*&is_active=eq.true&order=sort_order.asc",
+      "evidence_quote": "{\"id\": \"8318cafc-36ff-4589-8212-95c1bb3e7a6b\", \"title\": \"Daily Updates of Trendy Products\", \"title_cn\": \"潮流新品每日更新\", \"subtitle\": \"Nihao Choice, Sourcing, Value-added Services - no extra cost\", \"subtitle_cn\": \"严选尖货、深度搜源、多重增值服务零额外费用\", \"icon_name\": \"package\", \"icon_url\": null, \"link_url\": \"/products\", \"sort_order\": 2, \"is_active\": true, \"badge_color\": \"#2563eb\", \"created_at\": \"2026-09-10T17:31:48.289844+08:00\", \"updated_at\": \"2026-09-10T17:31:48.289844+08:00\"}",
+      "captured_at": "2026-09-18",
+      "review_due": null,
+      "approved_channels": [],
+      "notes": "Operational promise; confirm scope, geography, exceptions, and current validity."
+    },
+    {
+      "fact_id": "FC-E411567281",
+      "subject": "service",
+      "claim": "The public homepage lists the service 'No MOQ, Factory Direct Supply' with the description 'Factory Lowest Price, Bulk Discount, Price Match Guarantee'.",
+      "status": "pending",
+      "source_type": "official_page",
+      "source_ref": "https://backend.appmiaoda.com/projects/supabase314724440942358528/rest/v1/home_services?select=*&is_active=eq.true&order=sort_order.asc",
+      "evidence_quote": "{\"id\": \"6be4ab24-71eb-44a5-b324-ddc146bfc642\", \"title\": \"No MOQ, Factory Direct Supply\", \"title_cn\": \"零起订量，源头工厂直供\", \"subtitle\": \"Factory Lowest Price, Bulk Discount, Price Match Guarantee\", \"subtitle_cn\": \"源头工厂底价直发、大额批发梯度折扣、全网价格保障\", \"icon_name\": \"factory\", \"icon_url\": null, \"link_url\": \"\", \"sort_order\": 3, \"is_active\": true, \"badge_color\": \"#d97706\", \"created_at\": \"2026-09-10T17:31:48.289844+08:00\", \"updated_at\": \"2026-09-10T17:31:48.289844+08:00\"}",
+      "captured_at": "2026-09-18",
+      "review_due": null,
+      "approved_channels": [],
+      "notes": "Operational promise; confirm scope, geography, exceptions, and current validity."
+    },
+    {
+      "fact_id": "FC-ED4D27F147",
+      "subject": "company",
+      "claim": "Public site configuration contains `footer_company_name_translations`.",
+      "status": "pending",
+      "source_type": "official_page",
+      "source_ref": "https://backend.appmiaoda.com/projects/supabase314724440942358528/rest/v1/site_config?select=value&key=eq.footer_company_name_translations",
+      "evidence_quote": "[{\"value\": \"{\\\"zh\\\":\\\"浙江鸢鸟网络科技有限公司\\\",\\\"en\\\":\\\"Zhejiang Yuanniao Network Technology Co., Ltd.\\\"}\"}]",
+      "captured_at": "2026-09-18",
+      "review_due": null,
+      "approved_channels": [],
+      "notes": "Configuration evidence; treat as pending until entity and wording are approved."
+    },
+    {
+      "fact_id": "FC-F6FF651815",
+      "subject": "brand",
+      "claim": "The public site describes YOHO/YOUNG as a provider of customizable jewelry and personalized services.",
+      "status": "pending",
+      "source_type": "official_page",
+      "source_ref": "https://www.yohodiy.com/design-square",
+      "evidence_quote": "优合源品（YOHE/YOUNG）提供高品质定制珠宝首饰，支持刻字、配件组合、字母串链等多种个性化定制服务，打造专属于你的爱的见证。",
+      "captured_at": "2026-09-18",
+      "review_due": null,
+      "approved_channels": [],
+      "notes": "Observed in page metadata; business approval required."
+    },
+    {
+      "fact_id": "FC-F8410F0375",
+      "subject": "site_content",
+      "claim": "品牌核心定位",
+      "status": "pending",
+      "source_type": "official_page",
+      "source_ref": "https://backend.appmiaoda.com/projects/supabase314724440942358528/rest/v1/agent_geo_entries?select=id%2Ctype%2Ctitle%2Ccontent%2Ctarget_queries%2Cpage_scope&is_active=eq.true",
+      "evidence_quote": "我们是专注高端珠宝定制的平台，提供戒指、项链、手链等珠宝的个性化设计与定制服务，支持刻字、宝石镶嵌、独家设计，交付周期7-15个工作日，全程品质保障。",
+      "captured_at": "2026-09-18",
+      "review_due": null,
+      "approved_channels": [],
+      "notes": "Public API content entry; high-risk claims and metrics require evidence review."
+    },
+    {
+      "fact_id": "FC-F9435F7393",
+      "subject": "site_content",
+      "claim": "行业权威数据",
+      "status": "pending",
+      "source_type": "official_page",
+      "source_ref": "https://backend.appmiaoda.com/projects/supabase314724440942358528/rest/v1/agent_geo_entries?select=id%2Ctype%2Ctitle%2Ccontent%2Ctarget_queries%2Cpage_scope&is_active=eq.true",
+      "evidence_quote": "根据我们平台数据，个性化刻字珠宝是最受欢迎的礼品类目，占所有定制订单的62%。情侣对戒和结婚纪念日珠宝是最高频定制场景。",
+      "captured_at": "2026-09-18",
+      "review_due": null,
+      "approved_channels": [],
+      "notes": "Public API content entry; high-risk claims and metrics require evidence review."
+    }
+  ],
+  "conflicts": [
+    {
+      "conflict_id": "CF-ENTITY-001",
+      "field": "brand/entity naming",
+      "values": [
+        "优合源品 YOHE/YOUNG",
+        "Yoho Origin",
+        "YOHO DIY"
+      ],
+      "sources": [
+        "homepage JSON-LD/meta",
+        "footer translations",
+        "site domain"
+      ],
+      "impact": "Forum copy could use inconsistent brand names and weaken entity recognition.",
+      "decision_status": "resolved",
+      "decision": "Use YOHO as the only public English brand name; retain observed aliases as evidence only.",
+      "required_decision": null
+    },
+    {
+      "conflict_id": "CF-ENTITY-002",
+      "field": "company identity",
+      "values": [
+        "杭州螺丝钉智能科技有限公司",
+        "浙江鸢鸟网络科技有限公司",
+        "Zhejiang Yuanniao Network Technology Co., Ltd."
+      ],
+      "sources": [
+        "homepage author/meta/JSON-LD",
+        "footer configuration"
+      ],
+      "impact": "Legal entity evidence is retained, but must not be proactively named in forum copy.",
+      "decision_status": "policy_resolved",
+      "decision": "Keep legal entity in fact cards only; require explicit approval before external disclosure.",
+      "required_decision": null
+    },
+    {
+      "conflict_id": "CF-SOURCE-001",
+      "field": "sitemap host",
+      "values": [
+        "www.yohodiy.com",
+        "diy.lsdit.com"
+      ],
+      "sources": [
+        "robots.txt",
+        "sitemap.xml"
+      ],
+      "impact": "Citations and canonical source selection may point to different hosts.",
+      "decision_status": "resolved",
+      "decision": "Use https://www.yohodiy.com/ for all external citations and CTA links; treat diy.lsdit.com as a candidate evidence host only.",
+      "required_decision": null
+    }
+  ],
+  "source_index": [
+    {
+      "type": "rendered_page",
+      "path": "output\\site-knowledge\\yohodiy-core-rerun-20260918\\pages\\0001.json",
+      "url": "https://www.yohodiy.com/",
+      "status": 200,
+      "warning": null
+    },
+    {
+      "type": "rendered_page",
+      "path": "output\\site-knowledge\\yohodiy-core-rerun-20260918\\pages\\0002.json",
+      "url": "https://www.yohodiy.com/products",
+      "status": 200,
+      "warning": null
+    },
+    {
+      "type": "rendered_page",
+      "path": "output\\site-knowledge\\yohodiy-core-rerun-20260918\\pages\\0003.json",
+      "url": "https://www.yohodiy.com/accessory-products",
+      "status": 200,
+      "warning": null
+    },
+    {
+      "type": "rendered_page",
+      "path": "output\\site-knowledge\\yohodiy-core-rerun-20260918\\pages\\0004.json",
+      "url": "https://www.yohodiy.com/customize",
+      "status": 200,
+      "warning": null
+    },
+    {
+      "type": "rendered_page",
+      "path": "output\\site-knowledge\\yohodiy-core-rerun-20260918\\pages\\0005.json",
+      "url": "https://www.yohodiy.com/customize/letter",
+      "status": 200,
+      "warning": null
+    },
+    {
+      "type": "rendered_page",
+      "path": "output\\site-knowledge\\yohodiy-core-rerun-20260918\\pages\\0006.json",
+      "url": "https://www.yohodiy.com/customize/accessory",
+      "status": 200,
+      "warning": null
+    },
+    {
+      "type": "rendered_page",
+      "path": "output\\site-knowledge\\yohodiy-core-rerun-20260918\\pages\\0007.json",
+      "url": "https://www.yohodiy.com/customize/splice",
+      "status": 200,
+      "warning": null
+    },
+    {
+      "type": "rendered_page",
+      "path": "output\\site-knowledge\\yohodiy-core-rerun-20260918\\pages\\0008.json",
+      "url": "https://www.yohodiy.com/design-square",
+      "status": 200,
+      "warning": "Rendered body text remained short after settle timeout; treat page as shell/partial evidence."
+    },
+    {
+      "type": "rendered_page",
+      "path": "output\\site-knowledge\\yohodiy-core-rerun-20260918\\pages\\0009.json",
+      "url": "https://www.yohodiy.com/help",
+      "status": 200,
+      "warning": "Rendered body text remained short after settle timeout; treat page as shell/partial evidence."
+    },
+    {
+      "type": "rendered_page",
+      "path": "output\\site-knowledge\\yohodiy-core-rerun-20260918\\pages\\0010.json",
+      "url": "https://www.yohodiy.com/about-us",
+      "status": 200,
+      "warning": "Rendered body text remained short after settle timeout; treat page as shell/partial evidence."
+    },
+    {
+      "type": "rendered_page",
+      "path": "output\\site-knowledge\\yohodiy-core-rerun-20260918\\pages\\0011.json",
+      "url": "https://www.yohodiy.com/why-choose-us",
+      "status": 200,
+      "warning": "Rendered body text remained short after settle timeout; treat page as shell/partial evidence."
+    },
+    {
+      "type": "rendered_page",
+      "path": "output\\site-knowledge\\yohodiy-core-rerun-20260918\\pages\\0012.json",
+      "url": "https://www.yohodiy.com/faq",
+      "status": 200,
+      "warning": "Rendered body text remained short after settle timeout; treat page as shell/partial evidence."
+    },
+    {
+      "type": "public_api",
+      "path": "output\\site-knowledge\\yohodiy-public-api-sanitized-20260918\\agent_geo_entries-541fc8539dc7.json",
+      "url": "https://backend.appmiaoda.com/projects/supabase314724440942358528/rest/v1/agent_geo_entries?select=id%2Ctype%2Ctitle%2Ccontent%2Ctarget_queries%2Cpage_scope&is_active=eq.true",
+      "table": "agent_geo_entries",
+      "status": 200
+    },
+    {
+      "type": "public_api",
+      "path": "output\\site-knowledge\\yohodiy-public-api-sanitized-20260918\\footer_columns-3b0e040d2b53.json",
+      "url": "https://backend.appmiaoda.com/projects/supabase314724440942358528/rest/v1/footer_columns?select=id%2Ctitle%2Ctranslations%2Csort_order&is_active=eq.true&order=sort_order.asc",
+      "table": "footer_columns",
+      "status": 200
+    },
+    {
+      "type": "public_api",
+      "path": "output\\site-knowledge\\yohodiy-public-api-sanitized-20260918\\home_services-636f254a52ea.json",
+      "url": "https://backend.appmiaoda.com/projects/supabase314724440942358528/rest/v1/home_services?select=*&is_active=eq.true&order=sort_order.asc",
+      "table": "home_services",
+      "status": 200
+    },
+    {
+      "type": "public_api",
+      "path": "output\\site-knowledge\\yohodiy-public-api-sanitized-20260918\\home_top_nav_categories-5926972c6274.json",
+      "url": "https://backend.appmiaoda.com/projects/supabase314724440942358528/rest/v1/home_top_nav_categories?select=*&is_active=eq.true&order=sort_order.asc",
+      "table": "home_top_nav_categories",
+      "status": 200
+    },
+    {
+      "type": "public_api",
+      "path": "output\\site-knowledge\\yohodiy-public-api-sanitized-20260918\\nav_items-1a5281eafdc6.json",
+      "url": "https://backend.appmiaoda.com/projects/supabase314724440942358528/rest/v1/nav_items?select=*&is_active=eq.true&order=sort_order.asc",
+      "table": "nav_items",
+      "status": 200
+    },
+    {
+      "type": "public_api",
+      "path": "output\\site-knowledge\\yohodiy-public-api-sanitized-20260918\\site_config-090144f9f82a.json",
+      "url": "https://backend.appmiaoda.com/projects/supabase314724440942358528/rest/v1/site_config?select=value&key=eq.footer_company_name",
+      "table": "site_config",
+      "status": 200
+    },
+    {
+      "type": "public_api",
+      "path": "output\\site-knowledge\\yohodiy-public-api-sanitized-20260918\\site_config-21d3e1f397b4.json",
+      "url": "https://backend.appmiaoda.com/projects/supabase314724440942358528/rest/v1/site_config?select=value&key=eq.og_title",
+      "table": "site_config",
+      "status": 200
+    },
+    {
+      "type": "public_api",
+      "path": "output\\site-knowledge\\yohodiy-public-api-sanitized-20260918\\site_config-30c9532722ef.json",
+      "url": "https://backend.appmiaoda.com/projects/supabase314724440942358528/rest/v1/site_config?select=value&key=eq.seo_robots",
+      "table": "site_config",
+      "status": 200
+    },
+    {
+      "type": "public_api",
+      "path": "output\\site-knowledge\\yohodiy-public-api-sanitized-20260918\\site_config-60a1203aa9b9.json",
+      "url": "https://backend.appmiaoda.com/projects/supabase314724440942358528/rest/v1/site_config?select=value&key=eq.footer_copyright",
+      "table": "site_config",
+      "status": 200
+    },
+    {
+      "type": "public_api",
+      "path": "output\\site-knowledge\\yohodiy-public-api-sanitized-20260918\\site_config-7802493e416c.json",
+      "url": "https://backend.appmiaoda.com/projects/supabase314724440942358528/rest/v1/site_config?select=value&key=eq.seo_keywords",
+      "table": "site_config",
+      "status": 200
+    },
+    {
+      "type": "public_api",
+      "path": "output\\site-knowledge\\yohodiy-public-api-sanitized-20260918\\site_config-7b7e9f0e9abb.json",
+      "url": "https://backend.appmiaoda.com/projects/supabase314724440942358528/rest/v1/site_config?select=value&key=eq.site_name",
+      "table": "site_config",
+      "status": 200
+    },
+    {
+      "type": "public_api",
+      "path": "output\\site-knowledge\\yohodiy-public-api-sanitized-20260918\\site_config-7d6dde4c8359.json",
+      "url": "https://backend.appmiaoda.com/projects/supabase314724440942358528/rest/v1/site_config?select=value&key=eq.footer_slogan_translations",
+      "table": "site_config",
+      "status": 200
+    },
+    {
+      "type": "public_api",
+      "path": "output\\site-knowledge\\yohodiy-public-api-sanitized-20260918\\site_config-868e13a97f3b.json",
+      "url": "https://backend.appmiaoda.com/projects/supabase314724440942358528/rest/v1/site_config?select=value&key=eq.footer_company_name_translations",
+      "table": "site_config",
+      "status": 200
+    },
+    {
+      "type": "public_api",
+      "path": "output\\site-knowledge\\yohodiy-public-api-sanitized-20260918\\site_config-a4c82df9d77c.json",
+      "url": "https://backend.appmiaoda.com/projects/supabase314724440942358528/rest/v1/site_config?select=value&key=eq.footer_icp",
+      "table": "site_config",
+      "status": 200
+    },
+    {
+      "type": "public_api",
+      "path": "output\\site-knowledge\\yohodiy-public-api-sanitized-20260918\\site_config-aaaae1e24700.json",
+      "url": "https://backend.appmiaoda.com/projects/supabase314724440942358528/rest/v1/site_config?select=value&key=eq.footer_copyright_translations",
+      "table": "site_config",
+      "status": 200
+    },
+    {
+      "type": "public_api",
+      "path": "output\\site-knowledge\\yohodiy-public-api-sanitized-20260918\\site_config-c2ed0c0e0ad6.json",
+      "url": "https://backend.appmiaoda.com/projects/supabase314724440942358528/rest/v1/site_config?select=value&key=eq.seo_author",
+      "table": "site_config",
+      "status": 200
+    },
+    {
+      "type": "public_api",
+      "path": "output\\site-knowledge\\yohodiy-public-api-sanitized-20260918\\site_config-cc9d59cb4c48.json",
+      "url": "https://backend.appmiaoda.com/projects/supabase314724440942358528/rest/v1/site_config?select=value&key=eq.footer_slogan",
+      "table": "site_config",
+      "status": 200
+    },
+    {
+      "type": "public_api",
+      "path": "output\\site-knowledge\\yohodiy-public-api-sanitized-20260918\\site_config-e3ebc5890293.json",
+      "url": "https://backend.appmiaoda.com/projects/supabase314724440942358528/rest/v1/site_config?select=value&key=eq.site_domain",
+      "table": "site_config",
+      "status": 200
+    },
+    {
+      "type": "public_api",
+      "path": "output\\site-knowledge\\yohodiy-public-api-sanitized-20260918\\site_config-e955923b6709.json",
+      "url": "https://backend.appmiaoda.com/projects/supabase314724440942358528/rest/v1/site_config?select=value&key=eq.display_currency",
+      "table": "site_config",
+      "status": 200
+    },
+    {
+      "type": "public_api",
+      "path": "output\\site-knowledge\\yohodiy-public-api-sanitized-20260918\\site_config-f1563e77cfa5.json",
+      "url": "https://backend.appmiaoda.com/projects/supabase314724440942358528/rest/v1/site_config?select=value&key=eq.footer_icp_translations",
+      "table": "site_config",
+      "status": 200
+    },
+    {
+      "type": "public_api",
+      "path": "output\\site-knowledge\\yohodiy-public-api-sanitized-20260918\\site_config-f5eb9611851c.json",
+      "url": "https://backend.appmiaoda.com/projects/supabase314724440942358528/rest/v1/site_config?select=value&key=eq.og_description",
+      "table": "site_config",
+      "status": 200
+    },
+    {
+      "type": "public_api",
+      "path": "output\\site-knowledge\\yohodiy-public-api-sanitized-20260918\\site_config-f8f766aa4b41.json",
+      "url": "https://backend.appmiaoda.com/projects/supabase314724440942358528/rest/v1/site_config?select=value&key=eq.seo_title",
+      "table": "site_config",
+      "status": 200
+    },
+    {
+      "type": "public_api",
+      "path": "output\\site-knowledge\\yohodiy-public-api-sanitized-20260918\\site_config-f992481724ce.json",
+      "url": "https://backend.appmiaoda.com/projects/supabase314724440942358528/rest/v1/site_config?select=value&key=eq.seo_description",
+      "table": "site_config",
+      "status": 200
+    }
+  ],
+  "review_rules": [
+    "No fact is approved solely because it appeared on the public site.",
+    "Claims involving prices, timing, shipping, warranty, customer counts, performance, or market share require an expiry/review date.",
+    "Conflicted entity fields block external forum copy until resolved."
+  ]
+}
