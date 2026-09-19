@@ -1,0 +1,94 @@
+{
+  "site": "https://www.yohodiy.com/",
+  "scanned_at": "2026-09-18",
+  "mode": "read_only_rendered_browser",
+  "rubric_version": "geo-baseline-v1",
+  "sample": {
+    "sitemap_url_count": 9,
+    "rendered_page_count": 8,
+    "notes_zh": "抽样包含首页、产品、配件、定制、设计广场、帮助、一个产品详情和一篇帮助文章；不是全站收录或排名检查。"
+  },
+  "robots": {
+    "url": "https://www.yohodiy.com/robots.txt",
+    "status": 200,
+    "summary_zh": "允许公开路径抓取，并保护账号、结账、支付、订单、售后和评价路径。"
+  },
+  "sitemap": {
+    "url": "https://www.yohodiy.com/sitemap.xml",
+    "status": 200,
+    "url_count": 9,
+    "hosts": ["www.yohodiy.com"]
+  },
+  "scorecard": {
+    "total": 68,
+    "max_score": 100,
+    "dimensions": [
+      {
+        "id": "discoverable",
+        "name_zh": "可发现性",
+        "score": 16,
+        "max_score": 20,
+        "criteria": [
+          {"id":"robots","score":5,"max_score":5,"evidence_zh":"robots.txt 返回 200，并列出公开与受保护路径。"},
+          {"id":"sitemap","score":3,"max_score":5,"evidence_zh":"sitemap 返回 200，但只列出 9 个核心入口。"},
+          {"id":"core_crawl","score":5,"max_score":5,"evidence_zh":"抽样核心页面均可通过渲染浏览器读取。"},
+          {"id":"detail_coverage","score":3,"max_score":5,"evidence_zh":"产品和帮助详情可访问，但未进入 sitemap 抽样清单。"}
+        ]
+      },
+      {
+        "id": "understandable",
+        "name_zh": "可理解性",
+        "score": 15,
+        "max_score": 20,
+        "criteria": [
+          {"id":"titles","score":3,"max_score":5,"evidence_zh":"部分页面有特异标题，但配件、帮助和详情样本仍使用通用标题。"},
+          {"id":"headings","score":3,"max_score":5,"evidence_zh":"部分页面有 H1；首页和设计广场缺少 H1。"},
+          {"id":"language","score":4,"max_score":5,"evidence_zh":"主要英文内容可读，但定制页出现未翻译的 customize.* 键。"},
+          {"id":"rendered_body","score":5,"max_score":5,"evidence_zh":"JavaScript 渲染后可提取导航、商品、服务和帮助正文。"}
+        ]
+      },
+      {
+        "id": "trustworthy",
+        "name_zh": "可信度",
+        "score": 14,
+        "max_score": 20,
+        "criteria": [
+          {"id":"entity_consistency","score":2,"max_score":5,"evidence_zh":"页脚、JSON-LD 和 About 内容出现多个品牌或主体名称。"},
+          {"id":"contact_policy","score":4,"max_score":5,"evidence_zh":"公开页面提供联系、配送、退换和保修等入口，但具体承诺仍待业务确认。"},
+          {"id":"identity_schema","score":4,"max_score":5,"evidence_zh":"抽样页存在 Organization 和 WebPage JSON-LD，但实体字段需统一。"},
+          {"id":"dated_sources","score":4,"max_score":5,"evidence_zh":"扫描和事实卡保存抓取日期与来源；多项时效性声明尚无复核日期。"}
+        ]
+      },
+      {
+        "id": "citable",
+        "name_zh": "可引用性",
+        "score": 11,
+        "max_score": 20,
+        "criteria": [
+          {"id":"canonical","score":2,"max_score":5,"evidence_zh":"首页、产品和定制页有 canonical；配件、帮助和详情样本缺失。"},
+          {"id":"stable_urls","score":3,"max_score":5,"evidence_zh":"核心页 URL 稳定，详情页存在可访问 UUID URL，但发现覆盖不足。"},
+          {"id":"extractable_text","score":3,"max_score":5,"evidence_zh":"渲染后正文可引用，但部分页面标题和段落缺少自包含语义。"},
+          {"id":"structured_dedup","score":3,"max_score":5,"evidence_zh":"有基础 JSON-LD，但产品、文章、FAQ 和去重信号不完整。"}
+        ]
+      },
+      {
+        "id": "in_answer",
+        "name_zh": "答案可用性",
+        "score": 12,
+        "max_score": 20,
+        "criteria": [
+          {"id":"direct_answers","score":3,"max_score":5,"evidence_zh":"定制、产品与帮助内容可支持基础回答，但部分关键问题没有稳定问答结构。"},
+          {"id":"limitations","score":2,"max_score":5,"evidence_zh":"公开主张较多，适用条件、例外和更新时间不够集中。"},
+          {"id":"traceability","score":3,"max_score":5,"evidence_zh":"内容可绑定页面和公开接口，但具体运营事实仍需业务批准。"},
+          {"id":"machine_extraction","score":4,"max_score":5,"evidence_zh":"渲染文本和基础结构化数据可提取；国际化键和详情结构仍有缺口。"}
+        ]
+      }
+    ]
+  },
+  "priority_findings_zh": [
+    "统一 YOHO、YOHE/YOUNG、Yoho Origin 与法律主体的页面表达。",
+    "为配件、帮助、产品详情和文章补唯一英文标题、H1、描述与 self-canonical。",
+    "修复 customize.* 未翻译键并补充与页面内容一致的结构化数据。"
+  ],
+  "limitations_zh": "该分数是 2026-09-18 的公开页面抽样基线，不代表搜索排名、收录、外链权重或 AI 引用率。"
+}

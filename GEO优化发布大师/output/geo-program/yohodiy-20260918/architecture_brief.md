@@ -1,56 +1,57 @@
-# YOHO GEO content architecture v0
+# YOHO GEO 内容架构 v1
 
-- Program: `GEO优化发布大师`
-- Source of truth: `https://www.yohodiy.com/`
-- Public brand: `YOHO`
-- Working language: English
-- Initial channels: Reddit, Quora, Indie Hackers
-- Derived channels after approval: X, LinkedIn, Facebook
-- Publication mode: human review and manual posting only
-- Program state: `scope_confirmed_topic_and_claim_approval_pending`
+- 项目：`GEO优化发布大师`
+- 规范来源：`https://www.yohodiy.com/`
+- 对外品牌：`YOHO`
+- 外部内容语言：英语
+- 用户审核文件：中文，或英文原文附完整中文翻译
+- 首批平台：Reddit、Quora、Indie Hackers
+- 发布方式：逐条人工审核、人工发布
+- 当前项目状态：可继续受控试写，正式发布条件尚未满足
 
-## Objective
+## 目标
 
-Build a reusable answer-first content program for English-speaking communities to improve the independent site's search visibility and authority over time. Each item should answer a real customer question, cite only approved site evidence, disclose the relationship where relevant, and end with one useful next action rather than a link dump. Search-engine improvement is a program objective, not a guaranteed ranking outcome.
+持续回答海外用户真实问题，逐步改善独立站的搜索可见性和可信引用信号。排名、收录、答案引擎引用、外链存活和流量都只作为长期观测指标，不作保证。
 
-## Candidate v1 content tracks
+## 三条内容线
 
-All three tracks are in scope for the program. They should be planned as separate content clusters; one post should still have one primary audience and one question.
+1. 个性化珠宝：服务英语女性时尚消费者和礼物购买者。
+2. 珠宝批发与采购：服务小型批发商和首次采购者。
+3. 独立站饰品销售：服务经营独立站的饰品卖家。
 
-1. Personalized jewelry: customization journeys, engraving/personalization, and product discovery.
-2. Jewelry sourcing/wholesale: catalog discovery, no-MOQ/factory-direct positioning, and buyer questions.
-3. Independent-store jewelry selling: product testing, merchandising, content, and supplier evaluation for sellers running their own storefronts.
+三条线都保留，但每篇只处理一个问题、一个主要受众和一个具体社区/主题。
 
-Primary audience segments: overseas female fashion enthusiasts, wholesalers, and independent-store jewelry sellers. These are audience definitions, not proof that a given claim applies to every segment.
+## 状态模型
 
-The specific first customer question and the fact cards approved for it are still unknown. No track is being rejected; sequencing remains open.
+内容成熟度与发布状态分开：
 
-## Recommended channel sequence
+- `concept`：仅用于探索问题和结构。
+- `experimental`：可以测试语气和平台适配，但不进入发布审批。
+- `release_candidate`：具体社区已选、声明已分类、事实已批准、质量门已通过。
+- 发布状态由事件日志派生：`draft → pending_approval → approved → published → verified`；未解除的阻断显示为 `blocked`。
 
-1. Reddit: test whether the question and language feel useful in a real discussion.
-2. Quora: expand the answer into a durable, directly quotable explanation.
-3. Indie Hackers: use only when the story is genuinely about building, sourcing, experimentation, or operating a product business.
-4. X, LinkedIn, Facebook: derive native short/professional/community versions after the master passes review.
+当前三篇试稿全部属于 `experimental/draft`。它们不是正式待发布稿，因此与“首个正式问题和事实尚未批准”不冲突。
 
-## SEO measurement model
+## 阶段闸门
 
-Use measurable signals rather than promising rankings: indexed forum pages where available, relevant referral visits, branded-search movement, mentions/citations in answer engines, qualified engagement, and links that remain live. Record the date, platform, URL, and limitations for every observation.
+- `G0 身份`：已解决。只使用 YOHO 与规范官网。
+- `G1 范围`：已解决。三类受众均进入长期计划。
+- `G2 具体问题`：候选已建立，正式首发问题仍待选择。
+- `G3 声明与证据`：41 张事实卡仍未获业务批准；按稿件实际声明做最小审批。
+- `G4 受控试写`：允许，但必须标记 `concept/experimental`。
+- `G5 正式质量门`：逐项事实、自然语气、平台规则、披露、重复度和打包一致性。
+- `G6 人工批准`：用户明确批准内容 ID、版本、平台和具体主题。
+- `G7 人工发布`：用户发布并回传真实 URL 与时间。
+- `G8 复盘`：记录存活/收录、合格互动、引荐访问和限制。
 
-## Stage gates
+## 并行工作
 
-- `G0 identity`: resolved. Use YOHO and the canonical source host.
-- `G1 scope`: resolved for the program. All three content tracks are in scope.
-- `G2 question`: pending. Choose one real customer question for each item and one primary audience segment.
-- `G3 evidence`: pending. Approve fact-card IDs and any time-sensitive claims per item.
-- `G4 draft`: blocked until G1-G3 are ready.
-- `G5 quality`: fact, platform, disclosure, and duplication review.
-- `G6 approval`: user approves item IDs and platform targets.
-- `G7 manual publish`: user posts manually and returns real URLs.
+官网实体一致性、元数据、canonical、H1、翻译键和结构化数据修复，可以与内容实验并行。只有实体冲突或稿件实际使用的未批准事实会阻断该篇正式升级。
 
-## Identity and disclosure guardrails
+## 固定边界
 
-- Write the public brand as `YOHO` only.
-- Link only to `https://www.yohodiy.com/`.
-- Keep legal-entity evidence in the fact-card package; do not proactively name it in forum copy.
-- Do not use pending claims about timing, materials, shipping coverage, certificates, market share, or performance as hard assertions.
-- Treat SEO authority as a measured objective; never promise ranking, indexing, citation, or traffic outcomes.
+- 对外只写 `YOHO`，只链接 `https://www.yohodiy.com/`。
+- 法律主体保留在事实卡，未经逐条批准不主动写入论坛文案。
+- 价格、时效、物流、材质、证书、比例、案例和效果都要单独批准。
+- 首轮社区试稿默认不带商业链接；披露简短、自然、准确。
+- 不自动登录或发布，不伪造发布结果。

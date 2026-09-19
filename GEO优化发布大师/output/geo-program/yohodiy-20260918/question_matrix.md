@@ -1,33 +1,26 @@
-# YOHO GEO question matrix v0
+# YOHO GEO 问题矩阵 v1
 
-All rows are planning candidates. All three tracks are in scope for the program, but no row is ready for drafting until the owner supplies the missing answer and approves the supporting fact-card IDs.
+以下问题都是候选。可以据此生成隔离的探索稿；只有选择具体社区/主题并完成本篇声明审批后，才能升级为正式候选稿。
 
-## Confirmed program settings
-
-- Scope: all three tracks (personalized jewelry, wholesale/sourcing, and independent-store jewelry selling).
-- Audience segments: overseas female fashion enthusiasts, wholesalers, and independent-store jewelry sellers.
-- Program objective: improve the independent site's search-engine visibility and authority through useful, traceable answers. This is not a ranking guarantee.
-- First row: not chosen yet.
-- Evidence approvals: not chosen yet.
-
-| ID | Candidate customer question | Audience hypothesis | Channel fit | Evidence candidates | Status |
+| ID | 候选问题 | 主受众 | 平台适配 | 证据候选 | 当前状态 |
 |---|---|---|---|---|---|
-| Q-001 | How do I order personalized jewelry online without losing control over the final design? | Overseas female fashion enthusiasts considering engraving or customization | Reddit, Quora | FC-9A148A8D15; site customization pages | pending question confirmation and approved workflow facts |
-| Q-002 | What should I check before choosing a customizable jewelry supplier for a small order? | Wholesalers and first-time sourcing buyers | Reddit, Quora, Indie Hackers | FC-AB89D586F9; FC-E411567281; catalog cards | pending question confirmation and operational proof |
-| Q-003 | What are the practical trade-offs between a ready-made jewelry item and a personalized one? | Overseas female fashion enthusiasts comparing options | Quora, Reddit | customization/product evidence | pending question confirmation and approved comparison facts |
-| Q-004 | How can an independent-store jewelry seller test products without committing to a large minimum order? | Independent-store jewelry sellers and early-stage operators | Indie Hackers, Reddit | FC-AB89D586F9; FC-E411567281 | pending question confirmation and no-MOQ scope |
-| Q-005 | What questions should I ask before placing an international jewelry order? | Wholesalers and independent-store jewelry sellers | Quora, Reddit | FC-C098BD7D9; FC-37DE9CDB8B | pending question confirmation, geography, and current policy |
+| Q-001 | 如何在线购买个性化珠宝，同时避免失去对最终设计的控制？ | 英语女性时尚消费者、礼物购买者 | Quora、Reddit | FC-6DC6BD49DC；定制页面 | 已有探索稿；社区和事实审批待定 |
+| Q-002 | 选择小批量珠宝供应商前应该检查什么？ | 小型批发商、首次采购者 | Reddit、Quora | FC-AB89D586F9；FC-E411567281 | 已有探索稿；subreddit 和事实审批待定 |
+| Q-003 | 成品珠宝与个性化珠宝有哪些实际取舍？ | 比较交付、独特性和决策风险的消费者 | Quora、Reddit | 定制与产品证据 | 待开发 |
+| Q-004 | 小型珠宝独立站怎样用测试订单降低库存决策风险？ | 独立站饰品卖家 | Indie Hackers、Reddit | FC-AB89D586F9；FC-E411567281 | 已有探索稿；真实实验和社区待定 |
+| Q-005 | 国际珠宝订单下单前应该确认哪些问题？ | 海外消费者和采购者 | Quora、Reddit | FC-C098BD7D9C；FC-37DE9CDB8B | 配送范围和现行政策待批准 |
 
-## First-round questions still needed
+## 正式首发只需再确认
 
-1. Which one row above is the first real customer question, or what wording should replace it?
-2. Which evidence cards may be promoted from `pending` to approved for that item?
-3. What is the one reader-facing next action for that item: browse, start customization, request help, or ask a follow-up question? The program-level objective remains search visibility and authority.
+1. 从上表选择一个问题，并确定一个具体 Quora 主题、subreddit 或 Indie Hackers 讨论区。
+2. 确认该内容项的版本与平台。
+3. 若加入 YOHO 具体能力或商业链接，只审批该稿实际需要的事实卡和准确措辞。
+4. 明确一个自然的读者下一步。
 
-## Detail questions after the first row is chosen
+## 不需要重复确认
 
-- Target subreddit/community and its self-promotion rules.
-- Whether the author should disclose affiliation in the opening, body, or footer.
-- Tone: practical answer, founder lesson, sourcing checklist, or discussion starter.
-- Required images, screenshots, product examples, or no-media constraint.
-- Reviewer, publication window, and what result will count as a useful test.
+- 品牌为 `YOHO`。
+- 唯一官网为 `https://www.yohodiy.com/`。
+- 三类受众都进入长期计划。
+- 外部内容默认英语，审核文件必须带完整中文。
+- 最终发布由用户人工操作。

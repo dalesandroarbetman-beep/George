@@ -1,0 +1,109 @@
+{
+  "schema_version": "1.0",
+  "program_id": "yohodiy-20260918",
+  "manifest_path": "output/geo-program/yohodiy-20260918/workflow_manifest.json",
+  "brand": "YOHO",
+  "official_url": "https://www.yohodiy.com/",
+  "fact_cards_path": "output/site-knowledge/yohodiy-knowledge-base-20260918/fact_cards.json",
+  "approval_events_path": "output/geo-program/yohodiy-20260918/approval_events.jsonl",
+  "scan": {
+    "scan_path": "output/geo-scan/yohodiy-20260918/scan.json",
+    "offsite_path": "output/geo-scan/yohodiy-20260918/offsite.json",
+    "baseline_path": "output/geo-scan/yohodiy-20260918/baseline.md"
+  },
+  "items": [
+    {
+      "content_id": "YOHO-TRIAL-001",
+      "version": 2,
+      "maturity": "experimental",
+      "target_question": "How can I order personalized jewelry without losing control of the final design?",
+      "audience": "English-speaking fashion-jewelry shoppers and gift buyers",
+      "platform": "quora",
+      "community": null,
+      "claim_inventory": [
+        {"claim_id":"C-001","type":"recommendation","text_en":"Write down irreversible customization details and obtain written confirmation before paying.","text_zh":"付款前写清难以修改的定制细节，并取得书面确认。","fact_ids":[]},
+        {"claim_id":"C-002","type":"recommendation","text_en":"Read cancellation and return terms and ask a specific written question when wording is unclear.","text_zh":"阅读取消和退货条款，文字不清时用书面方式提出具体问题。","fact_ids":[]},
+        {"claim_id":"C-003","type":"disclosure","text_en":"The author works with YOHO and is not an independent reviewer.","text_zh":"作者与 YOHO 有工作关系，不是独立测评者。","fact_ids":[]}
+      ],
+      "approved_fact_ids": [],
+      "source_records": ["Editorial decision framework; no YOHO operating claim."],
+      "master_path": null,
+      "variant_path": "output/geo-program/yohodiy-20260918/first_trial_v2/content_01_quora_personalized_jewelry.md",
+      "angle_difference_zh": "Quora 版本直接回答，再给出下单前检查步骤和限制。",
+      "angle_difference_en": "Direct Quora answer followed by a pre-order checklist and limitations.",
+      "cta_zh": "把清单用于下一次个性化订单比较。",
+      "cta_en": "Use the checklist for the next personalized order comparison.",
+      "risks_zh": ["具体 Quora 主题及规则尚未确认。"],
+      "risks_en": ["The exact Quora topic and its current rules are not confirmed."],
+      "quality_status": "pass"
+    },
+    {
+      "content_id": "YOHO-TRIAL-002",
+      "version": 2,
+      "maturity": "experimental",
+      "target_question": "What do you ask a jewelry supplier before a small test order?",
+      "audience": "Small wholesale buyers and first-time jewelry sourcing buyers",
+      "platform": "reddit",
+      "community": null,
+      "claim_inventory": [
+        {"claim_id":"C-001","type":"recommendation","text_en":"Use the same short checklist with each supplier.","text_zh":"对每家供应商使用同一份简短清单。","fact_ids":[]},
+        {"claim_id":"C-002","type":"opinion","text_en":"Conditions behind promotional phrases matter more than the phrases themselves.","text_zh":"宣传语成立的条件比宣传语本身更重要。","fact_ids":[]},
+        {"claim_id":"C-003","type":"disclosure","text_en":"The author works with YOHO and is not reviewing YOHO or stating its current terms.","text_zh":"作者与 YOHO 有工作关系，本文不是 YOHO 测评，也不陈述其当前条款。","fact_ids":[]}
+      ],
+      "approved_fact_ids": [],
+      "source_records": ["Editorial comparison checklist; no YOHO operating claim."],
+      "master_path": null,
+      "variant_path": "output/geo-program/yohodiy-20260918/first_trial_v2/content_02_reddit_supplier_checklist.md",
+      "angle_difference_zh": "Reddit 版本使用简短清单和开放式讨论问题。",
+      "angle_difference_en": "Reddit version uses a compact checklist and an open discussion question.",
+      "cta_zh": "邀请社区补充有用的测试订单问题。",
+      "cta_en": "Invite the community to add useful test-order questions.",
+      "risks_zh": ["具体 subreddit 和自我推广规则尚未确认。"],
+      "risks_en": ["The target subreddit and self-promotion rules are not confirmed."],
+      "quality_status": "pass"
+    },
+    {
+      "content_id": "YOHO-TRIAL-003",
+      "version": 2,
+      "maturity": "experimental",
+      "target_question": "What should a small jewelry-store test order prove besides product appearance?",
+      "audience": "Independent-store owners and early-stage jewelry sellers",
+      "platform": "indie_hackers",
+      "community": null,
+      "claim_inventory": [
+        {"claim_id":"C-001","type":"recommendation","text_en":"Define the business question a small test order should answer before placing it.","text_zh":"下测试订单前先定义它需要回答的经营问题。","fact_ids":[]},
+        {"claim_id":"C-002","type":"disclosure","text_en":"The draft is a discussion framework, not a YOHO case study or result.","text_zh":"本稿是讨论框架，不是 YOHO 案例或成果。","fact_ids":[]}
+      ],
+      "approved_fact_ids": [],
+      "source_records": ["Editorial discussion framework; no case study or metric."],
+      "master_path": null,
+      "variant_path": "output/geo-program/yohodiy-20260918/first_trial_v2/content_03_indie_hackers_test_order.md",
+      "angle_difference_zh": "Indie Hackers 版本聚焦经营假设、测试记录和停止条件。",
+      "angle_difference_en": "Indie Hackers version focuses on business hypotheses, test records, and stop conditions.",
+      "cta_zh": "邀请经营者说明第一笔订单应证明什么。",
+      "cta_en": "Ask operators what the first order should prove.",
+      "risks_zh": ["缺少真实、带日期的内部实验；具体讨论区尚未确认。"],
+      "risks_en": ["No dated internal experiment is available and the discussion area is not confirmed."],
+      "quality_status": "pass"
+    }
+  ],
+  "package_files": [
+    "output/geo-program/yohodiy-20260918/architecture_brief.md",
+    "output/geo-program/yohodiy-20260918/question_matrix.md",
+    "output/geo-program/yohodiy-20260918/handoff_brief.md",
+    "output/geo-program/yohodiy-20260918/workflow_manifest.json",
+    "output/geo-program/yohodiy-20260918/approval_events.jsonl",
+    "output/geo-program/yohodiy-20260918/workflow_status.json",
+    "output/geo-program/yohodiy-20260918/workflow_status.md",
+    "output/geo-program/yohodiy-20260918/fact_approval_shortlist.md",
+    "output/site-knowledge/yohodiy-knowledge-base-20260918/fact_card_review.md",
+    "output/geo-program/yohodiy-20260918/first_trial_v2/content_01_quora_personalized_jewelry.md",
+    "output/geo-program/yohodiy-20260918/first_trial_v2/content_02_reddit_supplier_checklist.md",
+    "output/geo-program/yohodiy-20260918/first_trial_v2/content_03_indie_hackers_test_order.md",
+    "output/geo-program/yohodiy-20260918/first_trial_v2/approval_queue.md",
+    "output/geo-program/yohodiy-20260918/first_trial_v2/quality_report.md",
+    "output/geo-scan/yohodiy-20260918/scan.json",
+    "output/geo-scan/yohodiy-20260918/offsite.json",
+    "output/geo-scan/yohodiy-20260918/baseline.md"
+  ]
+}

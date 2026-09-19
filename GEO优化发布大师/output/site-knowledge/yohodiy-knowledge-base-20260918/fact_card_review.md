@@ -1,32 +1,32 @@
-# YOHO fact-card review
+# YOHO 事实卡审核摘要
 
-- Generated: `2026-09-18T05:19:32.752243+00:00`
-- Cards: `41`
-- Conflicts recorded: `3`
-- Canonical public brand: `YOHO`
-- Canonical citation host: `https://www.yohodiy.com/`
-- Legal entity disclosure: held in fact cards only until explicit approval
+- 生成时间：`2026-09-18T05:19:32.752243+00:00`
+- 事实卡数量：`41`
+- 已记录冲突：`3`
+- 规范对外品牌：`YOHO`
+- 规范引用域名：`https://www.yohodiy.com/`
+- 法律主体披露：仅保留在事实卡中，得到明确批准后才能对外使用
 
-## Recorded conflicts and decisions
+## 已记录冲突与决定
 
-### CF-ENTITY-001 — brand/entity naming
-- Values: 优合源品 YOHE/YOUNG, Yoho Origin, YOHO DIY
-- Status: `resolved`
-- Impact: Forum copy could use inconsistent brand names and weaken entity recognition.
-- Decision: Use YOHO as the only public English brand name; retain observed aliases as evidence only.
+### CF-ENTITY-001：品牌与实体名称
+- 观察值：优合源品 YOHE/YOUNG、Yoho Origin、YOHO DIY
+- 状态：`resolved`
+- 影响：论坛文案混用名称会削弱实体识别的一致性。
+- 决定：对外英文品牌只使用 YOHO；其他别名仅作为原始证据保留。
 
-### CF-ENTITY-002 — company identity
-- Values: 杭州螺丝钉智能科技有限公司, 浙江鸢鸟网络科技有限公司, Zhejiang Yuanniao Network Technology Co., Ltd.
-- Status: `policy_resolved`
-- Impact: Legal entity evidence is retained, but must not be proactively named in forum copy.
-- Decision: Keep legal entity in fact cards only; require explicit approval before external disclosure.
+### CF-ENTITY-002：公司主体
+- 观察值：杭州螺丝钉智能科技有限公司、浙江鸢鸟网络科技有限公司、Zhejiang Yuanniao Network Technology Co., Ltd.
+- 状态：`policy_resolved`
+- 影响：法律主体证据需要保留，但论坛文案不得主动写入。
+- 决定：法律主体只保留在事实卡；对外披露前必须单独批准。
 
-### CF-SOURCE-001 — sitemap host
-- Values: www.yohodiy.com, diy.lsdit.com
-- Status: `resolved`
-- Impact: Citations and canonical source selection may point to different hosts.
-- Decision: Use https://www.yohodiy.com/ for all external citations and CTA links; treat diy.lsdit.com as a candidate evidence host only.
+### CF-SOURCE-001：sitemap 主机
+- 观察值：www.yohodiy.com、diy.lsdit.com
+- 状态：`resolved`
+- 影响：引用和规范来源可能指向不同主机。
+- 决定：所有外部引用和 CTA 使用 https://www.yohodiy.com/；diy.lsdit.com 只作为候选证据主机。
 
-## Card status
+## 事实卡状态
 
-All cards remain `pending` until the business owner approves the wording, source, and channel scope. Identity and source-host policy are resolved separately from claim approval.
+在业务负责人批准准确措辞、来源和渠道范围前，所有事实卡保持 `pending`。品牌身份和规范来源策略已经解决，但不等于具体声明已经批准。

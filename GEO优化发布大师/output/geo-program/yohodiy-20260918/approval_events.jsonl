@@ -1,0 +1,6 @@
+{"event_id":"EV-20260919-001","event_type":"program_decision","subject_id":"public_brand","decision":"approved","recorded_at":"2026-09-19","actor":"user","details_zh":"对外英文品牌统一使用 YOHO。"}
+{"event_id":"EV-20260919-002","event_type":"program_decision","subject_id":"official_url","decision":"approved","recorded_at":"2026-09-19","actor":"user","details_zh":"所有对外引用和 CTA 统一使用 https://www.yohodiy.com/。"}
+{"event_id":"EV-20260919-003","event_type":"program_decision","subject_id":"legal_entity_disclosure","decision":"hold","recorded_at":"2026-09-19","actor":"user","details_zh":"法律主体保留在事实卡中，论坛文案暂不主动强调。"}
+{"event_id":"EV-20260919-004","event_type":"program_decision","subject_id":"publication_mode","decision":"manual_only","recorded_at":"2026-09-19","actor":"user","details_zh":"发布由用户人工操作，Skill 不自动登录或发帖。"}
+{"event_id":"EV-20260919-005","event_type":"program_decision","subject_id":"review_language","decision":"bilingual_required","recorded_at":"2026-09-19","actor":"user","details_zh":"用户可见文件必须使用中文，或英文原文附完整中文翻译。"}
+{"event_id":"EV-20260919-006","event_type":"program_decision","subject_id":"forum_voice","decision":"plain_language","recorded_at":"2026-09-19","actor":"user","details_zh":"论坛稿减少营销腔，使用自然、直接、像真人回答的表达。"}

@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.0",
+  "program_id": "yohodiy-20260918",
+  "generated_from": [
+    "output/geo-program/yohodiy-20260918/workflow_manifest.json",
+    "output/geo-program/yohodiy-20260918/approval_events.jsonl"
+  ],
+  "items": [
+    {
+      "content_id": "YOHO-TRIAL-001",
+      "version": 2,
+      "maturity": "experimental",
+      "publication_state": "draft",
+      "platform": "quora",
+      "community": null,
+      "quality_status": "pass",
+      "variant_path": "output/geo-program/yohodiy-20260918/first_trial_v2/content_01_quora_personalized_jewelry.md",
+      "sha256": "3a3cba0f42dce11696ae73ce7573f0397ae5d66aa650b03764faba9c2ff074b0"
+    },
+    {
+      "content_id": "YOHO-TRIAL-002",
+      "version": 2,
+      "maturity": "experimental",
+      "publication_state": "draft",
+      "platform": "reddit",
+      "community": null,
+      "quality_status": "pass",
+      "variant_path": "output/geo-program/yohodiy-20260918/first_trial_v2/content_02_reddit_supplier_checklist.md",
+      "sha256": "bf8a29ee046b3ec865b92561f6d716531f2837c722225d83f1f650961fd8cbeb"
+    },
+    {
+      "content_id": "YOHO-TRIAL-003",
+      "version": 2,
+      "maturity": "experimental",
+      "publication_state": "draft",
+      "platform": "indie_hackers",
+      "community": null,
+      "quality_status": "pass",
+      "variant_path": "output/geo-program/yohodiy-20260918/first_trial_v2/content_03_indie_hackers_test_order.md",
+      "sha256": "f7e02aaca45cd468a74fea3e9fb58e632132fd767bdc2d7a7a6b01f6b5123ae1"
+    }
+  ]
+}

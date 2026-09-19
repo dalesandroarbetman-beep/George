@@ -1,15 +1,16 @@
-# Progressive questionnaire
+# 渐进式问答表
 
-## Round 1 — core
+## 第一轮：只问核心问题
 
-1. What product/service and official URL are in scope? (Default: `https://www.yohodiy.com/`.)
-2. Who is the audience, location, language level, and buying stage?
-3. What real question should the content answer?
-4. Which forum comes first: Reddit, Quora, or Indie Hackers? Name a community if known.
-5. Which facts, proof, cases, prices, limitations, and links are approved?
-6. What action should a reader take next?
+1. 这篇先服务哪一类受众，他们正在做什么决定？
+2. 要回答的真实问题是哪一句？
+3. 首发平台和具体社区/主题是什么？
+4. 本篇允许使用哪些事实卡，哪些表达明确不能说？
+5. 读者看完后最自然的下一步是什么？
 
-## Round 2 — detail
+YOHO 项目已确认品牌、官网、三类长期受众、英语受众和人工发布边界，不重复询问。
+
+## 第二轮：成稿前细化
 
 - Community rules, self-promotion disclosure, prohibited topics, and account history.
 - Tone: founder story, expert answer, peer lesson, comparison, tutorial, or discussion starter.
@@ -17,4 +18,4 @@
 - Platform variants: X, LinkedIn, Facebook; required length, hashtags, and visual constraints.
 - Reviewers, approval evidence, measurement questions, and acceptable risk.
 
-If the user cannot answer, retain a `pending` field and produce a reversible v0 draft only when the missing item does not affect factual safety.
+用户暂时无法回答时保留 `pending`。缺少的信息不影响事实安全时，可以输出可撤销的 `concept` 或 `experimental` 稿；不得升级为正式待发布稿。

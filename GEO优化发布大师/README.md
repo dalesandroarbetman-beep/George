@@ -1,6 +1,6 @@
 # GEO优化发布大师
 
-面向 YOHO 独立站的 GEO 内容协作项目。它将公开网站证据整理为可追溯事实卡，再以问答方式生成适合 Reddit、Quora、Indie Hackers 的英文内容，并可派生 X、LinkedIn、Facebook 版本。
+面向 YOHO 独立站的 GEO 内容协作项目。它将公开网站证据整理为可追溯事实卡，再以问答方式生成适合 Reddit、Quora、Indie Hackers 的英语内容，并可派生 X、LinkedIn、Facebook 版本。所有用户审核文件使用中文，或英文原文附完整中文翻译。
 
 ## 项目目标
 
@@ -17,8 +17,8 @@
 | `geo-scanner` | 只读扫描公开站点与可复现证据 |
 | `geo-knowledge-base` | 生成带来源、状态和冲突记录的事实卡 |
 | `geo-architect` | 规划受众、问题矩阵、内容集群与平台顺序 |
-| `geo-content-production` | 生成英文母稿及平台原生版本 |
-| `geo-quality-gate` | 检查事实、逻辑、披露、平台语气和风险 |
+| `geo-content-production` | 生成受控探索稿或有事实依据的正式双语审核稿 |
+| `geo-quality-gate` | 检查事实、逻辑、说人话、披露、平台语气和打包一致性 |
 | `geo-content-publisher` | 生成审批队列、人工发布包与真实 URL 记录 |
 
 ## 已确认规则
@@ -29,6 +29,8 @@
 - 三条内容方向全部纳入长期计划：个性化珠宝、批发/采购、独立站饰品销售。
 - 单篇内容只选择一个主要问题、一个主受众和一个自然的读者下一步。
 - 网站上出现的价格、时效、物流、材质、证书、比例和效果数据必须单独批准后才能成为外部硬断言。
+- 内容成熟度与发布状态分开；允许受控试写，不允许把探索稿当成正式待发布稿。
+- 人工决定写入追加式事件日志，当前状态由工具自动生成。
 
 ## 工作流
 
@@ -36,16 +38,18 @@
 核心问答
   -> 网站证据与知识库
   -> 问题矩阵和内容架构
-  -> 事实批准
-  -> 英文母稿
-  -> Reddit / Quora / Indie Hackers 原生版本
+  -> 逐项声明分类与最小事实批准
+  -> 受控探索稿或规范母稿
+  -> Reddit / Quora / Indie Hackers 双语审核版本
   -> 质量审查
+  -> 正式候选稿
   -> 人工批准
+  -> 带 SHA-256 的发布包
   -> 人工发布
   -> 真实 URL 与效果复盘
 ```
 
-当前已建立 41 张待审事实卡。品牌、法律主体披露策略和规范来源域名已经确认；首篇具体问题、对应事实卡和读者 CTA 仍待选择。
+当前已建立 41 张待审事实卡和三篇 `experimental` 双语试稿。品牌、法律主体披露策略、规范来源域名、人工发布和自然语气规则已经确认；首篇正式内容仍需选择具体社区/主题。
 
 ## 目录
 
@@ -54,6 +58,7 @@ GEO优化发布大师/
 |-- README.md
 |-- AGENTS.md
 |-- requirements.txt
+|-- tests/
 |-- skills/
 |   |-- geo-optimization-publisher/
 |   |-- geo-scanner/
@@ -63,13 +68,22 @@ GEO优化发布大师/
 |   |-- geo-quality-gate/
 |   `-- geo-content-publisher/
 `-- output/
+    |-- geo-scan/yohodiy-20260918/
     |-- geo-program/yohodiy-20260918/
     `-- site-knowledge/yohodiy-knowledge-base-20260918/
 ```
 
 ## 验证
 
-使用 Codex 的 `skill-creator/scripts/quick_validate.py` 验证每个 Skill，并用 Python 编译检查知识库脚本。抓取依赖见 `requirements.txt`。
+项目根目录下运行：
+
+```text
+python skills/geo-optimization-publisher/scripts/geo_workflow.py --project-root . validate
+python skills/geo-optimization-publisher/scripts/geo_workflow.py --project-root . status --json-out output/geo-program/yohodiy-20260918/workflow_status.json --md-out output/geo-program/yohodiy-20260918/workflow_status.md
+python -m unittest discover -s tests -p "test_*.py"
+```
+
+审核 ZIP 使用 `package --mode review --content-id <ID>`；`package --mode publish --content-id <ID>` 会拒绝探索稿、缺少具体目标 URL 的稿件，以及批准事件与版本、平台、目标或正文哈希不一致的内容。两种模式都不会执行真实发布。
 
 ## 数据边界
 

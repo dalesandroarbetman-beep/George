@@ -1,12 +1,12 @@
-# YOHO DIY crawl report
+# YOHO 网站抓取报告
 
-- Seed: `https://www.yohodiy.com/`
-- Captured: `2026-09-18T03:56:54.981745+00:00`
-- Rendered pages: `12`
-- Status: source evidence only; fact cards remain `pending` until reviewed.
+- 种子地址：`https://www.yohodiy.com/`
+- 抓取时间：`2026-09-18T03:56:54.981745+00:00`
+- 已渲染页面：`12`
+- 状态：仅作为来源证据；事实卡在人工审核前保持 `pending`。
 
-## Notes
+## 说明
 
-- Static HTML is not treated as complete because the storefront is JavaScript-rendered.
-- Account, transaction, review, and admin paths are excluded.
-- Prices, stock, promotions, and recommendations require a review date.
+- 商城依赖 JavaScript 渲染，因此静态 HTML 不视为完整页面内容。
+- 已排除账号、交易、评价和后台路径。
+- 价格、库存、促销和推荐内容必须设置复核日期。

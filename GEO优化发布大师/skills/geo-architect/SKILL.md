@@ -17,7 +17,9 @@ description: "Plan a GEO content program from approved facts, real customer ques
 
 ## 闸门
 
-没有真实问题、批准事实、负责人或目标平台时，保持 `pending`。P0 不能依赖未核实案例、数字、资质或比较结论。优先少量高价值问题，不承诺引用、排名或转化。
+没有真实问题、负责人或目标平台时，正式稿保持 `pending`。可以先建立不含硬断言的 `concept`/`experimental` 稿来测试问题和语气，但必须与正式发布队列隔离。P0 不能依赖未核实案例、数字、资质或比较结论。优先少量高价值问题，不承诺引用、排名或转化。
+
+每个正式内容项必须选择一个具体社区/主题，而不只是平台名称。单篇 Quora、Reddit 或 Indie Hackers 试发只定义为流程冒烟测试；渠道有效性需要多问题、多内容样本和较长观察期。
 
 ## 五门诊断
 

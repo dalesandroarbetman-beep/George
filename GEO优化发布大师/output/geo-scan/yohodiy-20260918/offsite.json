@@ -1,0 +1,10 @@
+{
+  "site": "https://www.yohodiy.com/",
+  "scanned_at": "2026-09-18",
+  "status": "not_assessed",
+  "anchors": [],
+  "conflicts": [],
+  "summary_zh": "本轮没有完成系统性的站外品牌锚点、第三方提及或 NAP 一致性检查。空数组表示未评估，不表示没有站外记录或冲突。",
+  "summary_en": "Systematic offsite brand anchors, third-party mentions, and NAP consistency were not assessed. Empty arrays mean not assessed, not that no records or conflicts exist.",
+  "next_action_zh": "后续只检查公开可访问来源，并为每条记录保存 URL、抓取日期、证据摘要和实体名称差异。"
+}
