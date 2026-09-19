@@ -1,0 +1,59 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "jewelry-listing/1.2",
+  "title": "饰品单 SKU 上品包",
+  "type": "object",
+  "required": ["contract_version", "sku", "status", "risk_review", "title", "image_order", "size_facts", "hard_stops", "submission"],
+  "properties": {
+    "contract_version": {"const": "1.2"},
+    "sku": {"type": "string", "minLength": 1},
+    "image_order": {"type": "array", "maxItems": 6, "items": {"type": "string"}},
+    "size_facts": {
+      "type": "object",
+      "required": ["length_confirmed", "weight_confirmed", "complete", "missing"],
+      "properties": {
+        "length_confirmed": {"type": "boolean"},
+        "weight_confirmed": {"type": "boolean"},
+        "complete": {"type": "boolean"},
+        "missing": {"type": "array", "items": {"type": "string"}}
+      }
+    },
+    "hard_stops": {"type": "array", "items": {"type": "string"}},
+    "submission": {
+      "type": "object",
+      "required": ["ready", "blocked_reasons", "action"],
+      "properties": {
+        "ready": {"type": "boolean"},
+        "blocked_reasons": {"type": "array", "items": {"type": "string"}},
+        "action": {"enum": ["create_then_unpublish", "review_only"]}
+      }
+    }
+  },
+  "allOf": [
+    {
+      "if": {"properties": {"submission": {"properties": {"ready": {"const": true}}}}},
+      "then": {
+        "properties": {
+          "status": {"const": "可上架"},
+          "title": {"type": "string", "minLength": 1},
+          "image_order": {"minItems": 6, "maxItems": 6, "uniqueItems": true},
+          "size_facts": {
+            "properties": {
+              "length_confirmed": {"const": true},
+              "weight_confirmed": {"const": true},
+              "complete": {"const": true},
+              "missing": {"maxItems": 0}
+            }
+          },
+          "hard_stops": {"maxItems": 0},
+          "submission": {
+            "properties": {
+              "blocked_reasons": {"maxItems": 0},
+              "action": {"const": "create_then_unpublish"}
+            }
+          }
+        }
+      }
+    }
+  ]
+}

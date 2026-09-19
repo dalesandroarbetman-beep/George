@@ -1,6 +1,20 @@
 .env.local
+.env
+.env.*
+!.env.example
+client_secret.json
+secrets.json
+auth.json
+token.txt
+*.key
+*.pem
 __pycache__/
 .playwright-cli/
+.playwright/
+browser-data/
+user-data-dir/
+.skill_review_tmp_*/
+__MACOSX/
 output/transcribe/
 video-script-workflow/output/transcribe/
 

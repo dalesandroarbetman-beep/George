@@ -1,0 +1,60 @@
+@import "fonts.css";
+/* ============================================================
+   text-to-pdf · 科技/暗色风 (tech.css)
+   方向: AI 产品 / 技术白皮书 / 数据报告 — 现代深色
+   配色: 深蓝灰底 + 电光青强调(克制单色, 不用紫渐变)
+   特征: 满版深色 / 数据卡 / 等宽数字 / 网格细线
+   注意: 转换需 --margin "0 0 0 0" --no-footer (满版无页脚)
+   ============================================================ */
+:root{
+  --bg:#0d1117; --panel:#161b22; --line:#2a313c;
+  --text:#c9d1d9; --dim:#8b949e; --cyan:#2dd4bf; --white:#f0f6fc;
+  --sans:"PingFang SC","Source Han Sans SC","Noto Sans CJK SC",-apple-system,"Segoe UI",sans-serif;
+  --mono:"SF Mono","JetBrains Mono","DejaVu Sans Mono",monospace;
+}
+@page{ size:A4; margin:0; }
+*{ box-sizing:border-box; }
+html{ -webkit-print-color-adjust:exact; print-color-adjust:exact; }
+body{ font-family:var(--sans); background:var(--bg); color:var(--text);
+      font-size:11.5pt; line-height:1.7; margin:0; }
+.page{ padding:14mm 18mm; min-height:297mm; }
+
+/* 顶栏 */
+.topbar{ display:flex; justify-content:space-between; align-items:center;
+  font-family:var(--mono); font-size:10pt; color:var(--dim); letter-spacing:.05em;
+  border-bottom:1px solid var(--line); padding-bottom:4mm; margin-bottom:10mm; }
+.topbar .dot{ color:var(--cyan); }
+
+/* 标题区 */
+.hero .tag{ font-family:var(--mono); font-size:10.5pt; color:var(--cyan);
+  letter-spacing:.12em; margin-bottom:4mm; }
+.hero h1{ font-size:32pt; line-height:1.2; font-weight:700; color:var(--white);
+  margin:0 0 5mm; letter-spacing:-.01em; }
+.hero .sub{ font-size:14pt; color:var(--dim); max-width:142mm; margin-bottom:10mm; line-height:1.6; }
+
+/* 数据指标卡 */
+.metrics{ display:flex; gap:5mm; margin-bottom:10mm; }
+.metric{ flex:1; background:var(--panel); border:1px solid var(--line);
+  border-radius:8px; padding:5mm 6mm; }
+.metric .v{ font-family:var(--mono); font-size:25pt; font-weight:700;
+  color:var(--cyan); line-height:1; }
+.metric .k{ font-size:10pt; color:var(--dim); margin-top:3mm; }
+
+/* 能力列表 */
+h2{ font-size:15pt; color:var(--white); font-weight:600; margin:0 0 6mm;
+  display:flex; align-items:center; }
+h2::before{ content:"//"; color:var(--cyan); font-family:var(--mono); margin-right:3mm; }
+.feat{ display:flex; gap:5mm; padding:4.5mm 0; border-bottom:1px solid var(--line); }
+.feat:last-child{ border-bottom:none; }
+.feat .ic{ color:var(--cyan); font-family:var(--mono); font-weight:700;
+  font-size:12pt; flex-shrink:0; width:8mm; }
+.feat .tx .t{ color:var(--white); font-weight:600; display:block; margin-bottom:1mm; }
+.feat .tx .d{ color:var(--dim); font-size:10.5pt; }
+
+.note{ font-family:var(--mono); font-size:9pt; color:var(--dim);
+  margin-top:9mm; border-top:1px solid var(--line); padding-top:3mm; }
+
+/* --- 分页稳定性(全局增强) --- */
+h1,h2,h3,h4{ break-after:avoid; }
+p{ orphans:2; widows:2; }
+table,figure,blockquote,.kpi-row,.summary,.takeaway,.chart,.metrics,.metric,.feat,.highlights,.hl,.info,.cta,.pullquote{ break-inside:avoid; }

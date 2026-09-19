@@ -1,6 +1,6 @@
 @echo off
 chcp 65001 >nul
-setlocal
+setlocal EnableExtensions EnableDelayedExpansion
 cd /d "%~dp0"
 where py >nul 2>&1
 if errorlevel 1 (
@@ -26,19 +26,30 @@ if not exist "%RECORD%" (
   pause
   exit /b 2
 )
-set /p SOURCE_ROOT=请输入货盘根目录：
-if "%SOURCE_ROOT%"=="" (
-  echo 货盘根目录不能为空。
-  pause
-  exit /b 1
+set /p CONFIG=请输入可选的配置文件路径（直接回车则手动填写路径）：
+if not "!CONFIG!"=="" (
+  set "CONFIG=!CONFIG:"=!"
+  if not exist "!CONFIG!" (
+    echo 找不到配置文件：!CONFIG!
+    pause
+    exit /b 2
+  )
+  py -3 "%~dp0auto_listing.py" "%SKU%" --record "%RECORD%" --config "!CONFIG!"
+) else (
+  set /p SOURCE_ROOT=请输入货盘根目录：
+  if "%SOURCE_ROOT%"=="" (
+    echo 货盘根目录不能为空。
+    pause
+    exit /b 1
+  )
+  set /p REVIEW_ROOT=请输入可写的复审和备份根目录：
+  if "%REVIEW_ROOT%"=="" (
+    echo 复审和备份根目录不能为空。
+    pause
+    exit /b 1
+  )
+  py -3 "%~dp0auto_listing.py" "%SKU%" --record "%RECORD%" --source-root "%SOURCE_ROOT%" --review-root "%REVIEW_ROOT%"
 )
-set /p REVIEW_ROOT=请输入可写的复审和备份根目录：
-if "%REVIEW_ROOT%"=="" (
-  echo 复审和备份根目录不能为空。
-  pause
-  exit /b 1
-)
-py -3 "%~dp0auto_listing.py" "%SKU%" --record "%RECORD%" --source-root "%SOURCE_ROOT%" --review-root "%REVIEW_ROOT%"
 if errorlevel 1 echo 程序执行失败，请查看上面的错误信息。
 echo.
 pause

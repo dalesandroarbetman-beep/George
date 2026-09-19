@@ -21,6 +21,7 @@ from typing import Any
 ROOT = Path(__file__).resolve().parent
 OLLAMA_DEFAULT_URL = "http://127.0.0.1:11434/api/generate"
 OLLAMA_DEFAULT_MODEL = "qwen2.5-coder:14b"
+CONTRACT_VERSION = "video-workflow/1.0"
 BRAND_UNVERIFIED_RE = re.compile(
     r"[^。！？!?]*(?:(?:\d+|[一二三四五六七八九十百千万零两]+)\s*(?:美元|元|块|刀)|价格|便宜|折扣|优惠|抖音(?:小店|购物|商城)|TikTok\s*(?:shop|店|商店)|TikTok店)[^。！？!?]*[。！？!?]?",
     re.I,
@@ -90,6 +91,7 @@ def transcribe(args: argparse.Namespace) -> dict[str, Any]:
         segment_list.append(item)
 
     return {
+        "contract_version": CONTRACT_VERSION,
         "source_file": str(video),
         "source_name": video.name,
         "retrieved_at_utc": datetime.now(timezone.utc).isoformat(),

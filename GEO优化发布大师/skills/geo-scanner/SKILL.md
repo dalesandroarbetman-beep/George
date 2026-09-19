@@ -27,4 +27,4 @@ description: "Read-only GEO baseline and public evidence scanner for an official
 
 对动态站点先读取 `robots.txt` 和 sitemap，再使用渲染浏览器提取页面正文、链接和结构化数据；静态 HTML 只作为响应证据，不能假定它包含完整页面内容。
 
-原压缩包的 `geo_scan.py` 在 Python 3.11 下存在 f-string 语法错误；修复并通过回归测试前不得调用该脚本。没有脚本时仍可产出结构化人工检查表。
+使用 `scripts/scan_public_site.py` 生成版本化的 `scan.json`、`offsite.json` 和中文 `baseline.md`。脚本仅访问公开 HTTP(S) 页面，拒绝本地/私网地址，先读取 robots 与 sitemap，再用 Playwright 渲染主页；不会登录、提交表单或修改网站。原压缩包脚本已弃用，不再作为执行入口。

@@ -1,0 +1,25 @@
+/* ============================================================
+   fonts.css · 内嵌简体中文字体(跨环境渲染一致)
+   字体子集自 Noto/思源(同源), CJK 基本区 + 标点 + 符号
+   被各模板 CSS 顶部 @import; 相对路径指向 ../fonts/
+   ============================================================ */
+@font-face{
+  font-family:"Source Han Sans SC";
+  src:url("../fonts/SourceHanSansSC-Regular.woff2") format("woff2");
+  font-weight:400; font-style:normal;
+}
+@font-face{
+  font-family:"Source Han Sans SC";
+  src:url("../fonts/SourceHanSansSC-Bold.woff2") format("woff2");
+  font-weight:700; font-style:normal;
+}
+@font-face{
+  font-family:"Source Han Serif SC";
+  src:url("../fonts/SourceHanSerifSC-Regular.woff2") format("woff2");
+  font-weight:400; font-style:normal;
+}
+@font-face{
+  font-family:"Source Han Serif SC";
+  src:url("../fonts/SourceHanSerifSC-Bold.woff2") format("woff2");
+  font-weight:700; font-style:normal;
+}

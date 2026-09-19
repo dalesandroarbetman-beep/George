@@ -1,0 +1,57 @@
+@import "fonts.css";
+/* ============================================================
+   text-to-pdf · 杂志/编辑风 (editorial.css)
+   方向: 深度长文 / 观点 / 方法论 — 高端杂志质感
+   配色: 米白底 + 墨黑字 + 编辑红强调
+   特征: 超大衬线标题 / 首字下沉 / 大号引文 / 窄栏留白
+   ============================================================ */
+:root{
+  --paper:#faf8f3; --ink:#1a1a1a; --red:#c0392b;
+  --muted:#6b6b6b; --line:#dcd8cf;
+  --serif:"Source Han Serif SC","Songti SC","Noto Serif CJK SC",Georgia,serif;
+  --sans:"PingFang SC","Source Han Sans SC","Noto Sans CJK SC",sans-serif;
+}
+@page{ size:A4; margin:22mm 24mm; }
+*{ box-sizing:border-box; }
+html{ -webkit-print-color-adjust:exact; print-color-adjust:exact; }
+body{ font-family:var(--serif); background:var(--paper); color:var(--ink);
+      font-size:12pt; line-height:1.85; margin:0; }
+
+/* 刊头 */
+.masthead{ display:flex; justify-content:space-between; align-items:baseline;
+  border-bottom:2px solid var(--ink); padding-bottom:3mm; margin-bottom:9mm; }
+.masthead .brand{ font-family:var(--sans); font-weight:700; letter-spacing:.12em; font-size:13pt; }
+.masthead .issue{ font-family:var(--sans); font-size:10pt; color:var(--muted); letter-spacing:.05em; }
+
+/* 标题区 */
+.kicker{ font-family:var(--sans); font-size:11pt; letter-spacing:.22em; text-transform:uppercase;
+  color:var(--red); font-weight:600; margin-bottom:4mm; }
+h1.title{ font-size:38pt; line-height:1.16; font-weight:700; margin:0 0 6mm; letter-spacing:-.01em; }
+.standfirst{ font-size:15pt; line-height:1.62; color:#333; font-style:italic;
+  margin-bottom:6mm; max-width:152mm; }
+.byline{ font-family:var(--sans); font-size:10.5pt; color:var(--muted);
+  border-top:1px solid var(--line); border-bottom:1px solid var(--line);
+  padding:2.5mm 0; margin-bottom:9mm; }
+.byline strong{ color:var(--ink); font-weight:600; }
+
+/* 正文 + 首字下沉 */
+.body>p:first-of-type::first-letter{
+  font-size:54pt; line-height:.78; float:left; font-weight:700;
+  color:var(--red); margin:1mm 3mm 0 0; font-family:var(--serif); }
+.body p{ margin:0 0 4mm; text-align:justify; }
+.body h2{ font-family:var(--sans); font-size:15pt; font-weight:700; color:var(--ink);
+  margin:9mm 0 3mm; break-after:avoid; }
+
+/* 大号引文 */
+.pullquote{ font-size:21pt; line-height:1.42; font-weight:700; color:var(--ink);
+  border-left:4px solid var(--red); padding-left:7mm; margin:9mm 0; }
+.pullquote .by{ display:block; font-family:var(--sans); font-size:11pt; font-weight:400;
+  color:var(--muted); margin-top:3mm; }
+
+.note{ font-family:var(--sans); font-size:9pt; color:var(--muted);
+  margin-top:11mm; border-top:1px solid var(--line); padding-top:3mm; }
+
+/* --- 分页稳定性(全局增强) --- */
+h1,h2,h3,h4{ break-after:avoid; }
+p{ orphans:2; widows:2; }
+table,figure,blockquote,.kpi-row,.summary,.takeaway,.chart,.metrics,.metric,.feat,.highlights,.hl,.info,.cta,.pullquote{ break-inside:avoid; }

@@ -20,6 +20,8 @@
 | `geo-content-production` | 生成英文母稿及平台原生版本 |
 | `geo-quality-gate` | 检查事实、逻辑、披露、平台语气和风险 |
 | `geo-content-publisher` | 生成审批队列、人工发布包与真实 URL 记录 |
+| `mingjingmen` | 对复杂答案和改写稿进行独立批判审查 |
+| `text-to-pdf` | 将中文审核材料排版为 HTML/PDF；依赖 Chromium、Playwright 或 WeasyPrint |
 
 ## 已确认规则
 
@@ -47,6 +49,8 @@
 
 当前已建立 41 张待审事实卡。品牌、法律主体披露策略和规范来源域名已经确认；首篇具体问题、对应事实卡和读者 CTA 仍待选择。
 
+扫描和发布数据分别由 `contracts/geo-scan-v1.schema.json` 与 `contracts/geo-publish-pack-v1.schema.json` 约束。扫描器只读取公开页面；发布器只生成本地人工执行包，`--dry-run` 不会登录或发帖。
+
 ## 目录
 
 ```text
@@ -70,6 +74,12 @@ GEO优化发布大师/
 ## 验证
 
 使用 Codex 的 `skill-creator/scripts/quick_validate.py` 验证每个 Skill，并用 Python 编译检查知识库脚本。抓取依赖见 `requirements.txt`。
+
+仓库根目录可统一运行：
+
+```powershell
+python -X utf8 tools/run_project_checks.py
+```
 
 ## 数据边界
 

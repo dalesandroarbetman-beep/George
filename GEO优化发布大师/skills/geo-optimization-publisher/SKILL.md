@@ -5,7 +5,7 @@ description: "GEO优化发布大师：以问答方式把独立站事实转成 Re
 
 # GEO优化发布大师
 
-这是一个总控 Skill，不是单纯的文案生成器。它负责按阶段调用专项 Skill，保证“事实先于表达、一个母稿多个原生版本、人工批准后发布”。默认输出英文，必要时用中文解释决策。
+这是一个总控 Skill，不是单纯的文案生成器。它负责按阶段调用专项 Skill，保证“事实先于表达、一个母稿多个原生版本、人工批准后发布”。外部平台稿默认使用英文；凡交付给用户查看的文件，必须使用中文，或提供英文原文并附完整中文翻译。
 
 ## 团队分工
 
@@ -20,9 +20,8 @@ description: "GEO优化发布大师：以问答方式把独立站事实转成 Re
 
 - 论坛：Reddit、Quora、Indie Hackers。
 - 派生平台：X、LinkedIn、Facebook；用户指定平台优先。
-- 语言：英文内容；中文说明仅用于向用户解释事实状态、风险和选择。
+- 语言：外部平台内容默认英文；用户可见的报告、草稿、审核单、执行包和说明必须为中文，或英文原文加完整中文翻译。
 - 发布：人工操作。没有用户逐条确认，不进入 `approved` 或 `published`。
-- 项目目标：通过持续发布有用、可追溯、平台原生的英文回答，提升独立站的搜索可见性与权威信号；不承诺排名、收录、引用或流量结果。
 - 知识库：首版默认从 `https://www.yohodiy.com/` 的公开渲染页面抓取；后续仍可补充 Markdown、Word、PDF、表格或数据库导出。所有抓取内容先进入事实卡，不直接当成已批准事实。
 
 ## 已确认的身份与来源策略
@@ -39,13 +38,13 @@ description: "GEO优化发布大师：以问答方式把独立站事实转成 Re
 核心问题：
 
 1. What product or service is being promoted, and what is the official site?
-2. Who is the primary English-speaking audience and what decision are they trying to make? (Audience segments are defined; choose one per item.)
-3. What customer question should the content answer? (Still pending per item.)
-4. Which of Reddit, Quora, and Indie Hackers is the first priority, and what communities or topics are relevant? (All three are in scope; sequencing remains open.)
-5. What facts, proof, limitations, pricing, cases, or links are approved for use? (Still pending per item.)
-6. What is the desired next action: learn more, compare, try, contact, or buy? (Choose a reader-facing action; SEO authority is the program-level objective.)
+2. Who is the primary English-speaking audience and what decision are they trying to make?
+3. What customer question should the content answer?
+4. Which of Reddit, Quora, and Indie Hackers is the first priority, and what communities or topics are relevant?
+5. What facts, proof, limitations, pricing, cases, or links are approved for use?
+6. What is the desired next action: learn more, compare, try, contact, or buy?
 
-第二轮再询问平台社区、语气、禁用表达、CTA、素材、时间、负责人和测量方式。缺失信息必须标为 `pending`，不得猜测。三类受众都纳入长期计划，但单篇内容只选择一个主受众。
+第二轮再询问平台社区、语气、禁用表达、CTA、素材、时间、负责人和测量方式。缺失信息必须标为 `pending`，不得猜测。
 
 ## 标准流水线
 

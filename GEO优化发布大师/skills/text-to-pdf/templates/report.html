@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="report.css">
+<title>业务分析报告样张</title>
+</head>
+<body>
+
+<!-- ============ 封面 ============ -->
+<section class="cover">
+  <div>
+    <div class="eyebrow">Quarterly Review</div>
+  </div>
+  <div>
+    <h1>AI 培训业务<br>2026 上半年运营分析</h1>
+    <div class="sub">市场验证阶段复盘:渠道、转化与增长路径</div>
+    <div class="accent-bar"></div>
+  </div>
+  <div class="meta">
+    报告周期 &nbsp;<strong>2026.01 — 2026.06</strong><br>
+    编制 &nbsp;<strong>战略研究组</strong><br>
+    密级 &nbsp;<strong>内部参阅</strong>
+  </div>
+</section>
+
+<!-- ============ 正文 ============ -->
+<section class="section">
+  <h2><span class="num">01</span>执行摘要</h2>
+  <div class="summary">
+    <span class="label">Executive Summary</span>
+    上半年业务处于早期验证阶段,核心目标是跑通"获客—转化—交付"闭环。199 元线上分享与小型闭门会作为前端漏斗,1 对 1 深访沉淀用户画像。整体转化路径已初步成立,瓶颈集中在<strong>前端流量规模</strong>与<strong>高客单转化率</strong>两项,下半年需以内容资产与私域复购为撬动点。
+  </div>
+
+  <div class="kpi-row">
+    <div class="kpi">
+      <div class="val">2,840</div>
+      <div class="key">累计触达用户</div>
+      <div class="delta up">▲ 较上期 +62%</div>
+    </div>
+    <div class="kpi">
+      <div class="val">11.5%</div>
+      <div class="key">前端付费转化率</div>
+      <div class="delta up">▲ +2.3pt</div>
+    </div>
+    <div class="kpi">
+      <div class="val">¥666</div>
+      <div class="key">高阶沙龙客单价</div>
+      <div class="delta down">▼ 转化率待提升</div>
+    </div>
+  </div>
+
+  <h3>渠道结构</h3>
+  <p>当前流量以私域存量与转介绍为主,公域投放尚未规模化。各渠道的获客成本与转化质量差异显著,数据如下:</p>
+  <table>
+    <thead>
+      <tr><th>渠道</th><th class="num">触达</th><th class="num">付费转化</th><th class="num">单客成本</th><th>质量</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>私域社群</td><td class="num">1,420</td><td class="num">14.8%</td><td class="num">¥38</td><td>高</td></tr>
+      <tr><td>转介绍</td><td class="num">760</td><td class="num">19.2%</td><td class="num">¥12</td><td>高</td></tr>
+      <tr><td>公域内容</td><td class="num">520</td><td class="num">6.1%</td><td class="num">¥95</td><td>中</td></tr>
+      <tr><td>付费投放</td><td class="num">140</td><td class="num">3.4%</td><td class="num">¥210</td><td>低</td></tr>
+    </tbody>
+  </table>
+
+  <div class="chart">
+    <svg viewBox="0 0 600 240" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
+      <!-- 轴 -->
+      <line x1="48" y1="200" x2="576" y2="200" stroke="#cdd3db" stroke-width="1"/>
+      <!-- 网格 + 刻度 -->
+      <g stroke="#eceef2" stroke-width="1">
+        <line x1="48" y1="155" x2="576" y2="155"/>
+        <line x1="48" y1="110" x2="576" y2="110"/>
+        <line x1="48" y1="65"  x2="576" y2="65"/>
+      </g>
+      <g fill="#5c6573" font-size="11" text-anchor="end">
+        <text x="42" y="204">0</text><text x="42" y="159">200</text>
+        <text x="42" y="114">400</text><text x="42" y="69">600</text>
+      </g>
+      <!-- 柱: 各渠道触达 (示意) -->
+      <!-- max≈600 → 高度比例 (200-y) -->
+      <g>
+        <rect x="80"  y="58"  width="58" height="142" fill="#14213d"/>
+        <rect x="208" y="124" width="58" height="76"  fill="#0a6e6e"/>
+        <rect x="336" y="148" width="58" height="52"  fill="#0a6e6e"/>
+        <rect x="464" y="169" width="58" height="31"  fill="#cdd3db"/>
+      </g>
+      <!-- 数值 -->
+      <g fill="#14213d" font-size="11.5" font-weight="700" text-anchor="middle">
+        <text x="109" y="50">1420</text><text x="237" y="116">760</text>
+        <text x="365" y="140">520</text><text x="493" y="161">140</text>
+      </g>
+      <!-- x 标签 -->
+      <g fill="#5c6573" font-size="11" text-anchor="middle">
+        <text x="109" y="218">私域社群</text><text x="237" y="218">转介绍</text>
+        <text x="365" y="218">公域内容</text><text x="493" y="218">付费投放</text>
+      </g>
+    </svg>
+    <div class="cap">图 1 &nbsp;各渠道累计触达用户分布(示意数据)</div>
+  </div>
+</section>
+
+<section class="section">
+  <h2><span class="num">02</span>关键发现</h2>
+  <h3>转化漏斗的真实瓶颈</h3>
+  <p>深访反馈显示,用户对 AI 实操内容付费意愿强,但从前端 199 元产品跨越到 666 元高阶沙龙存在明显断层。主要障碍并非价格,而是<strong>价值锚点不清晰</strong>——用户难以提前判断高阶产品的增量收益。</p>
+  <ul>
+    <li>私域与转介绍渠道质量最高,应作为下半年投入重心</li>
+    <li>付费投放当前 ROI 为负,暂缓规模化,先打磨内容钩子</li>
+    <li>高客单转化需补足"案例—方法论—交付物"的证据链</li>
+  </ul>
+  <blockquote>"我愿意为能直接用的东西付费,但我需要先看到别人用它做出了什么。"——深访用户原话(脱敏)</blockquote>
+
+  <div class="takeaway">
+    <h3>下半年三个动作</h3>
+    <p><strong>① 内容资产化</strong>:把交付过程沉淀为可复用案例库,直接做高客单的价值锚。<br>
+    <strong>② 私域复购</strong>:围绕存量高质量用户设计阶梯产品,提升 LTV。<br>
+    <strong>③ 投放暂缓</strong>:公域先验证内容钩子的自然转化,再决定是否加投。</p>
+  </div>
+
+  <p class="note">本文为 text-to-pdf 模板样张,所有数据均为演示用示意数据,不代表任何真实经营情况。</p>
+</section>
+
+</body>
+</html>

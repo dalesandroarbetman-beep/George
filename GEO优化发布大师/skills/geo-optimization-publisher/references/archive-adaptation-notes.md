@@ -25,4 +25,4 @@ The current environment now has Python Playwright and Chromium. A public-API cap
 
 ## Blocked scripts
 
-Static compilation on Python 3.11 found f-string syntax errors in `geo-scanner-final/scripts/geo_scan.py` and `geo-content-publisher/scripts/pipeline.py` (`f-string expression part cannot include a backslash`). Do not call either script until patched and re-tested. The production scorer, architect renderer, and text-to-pdf renderer compiled successfully; the production scorer's six regression tests passed.
+Static compilation on Python 3.11 found f-string syntax errors in the archived `geo-scanner-final/scripts/geo_scan.py` and `geo-content-publisher/scripts/pipeline.py`. Those archive copies remain historical evidence and are not execution paths. The maintained replacements are `skills/geo-scanner/scripts/scan_public_site.py` and `skills/geo-content-publisher/scripts/build_execution_pack.py`; both compile on Python 3.11 and have regression and smoke-test coverage.

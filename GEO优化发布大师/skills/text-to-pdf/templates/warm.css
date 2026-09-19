@@ -1,0 +1,59 @@
+@import "fonts.css";
+/* ============================================================
+   text-to-pdf · 暖色/活力风 (warm.css)
+   方向: 培训招生 / 活动一页纸 / 面向新人 — 亲和有活力
+   配色: 奶油底 + 暖橙主色 + 深棕字
+   特征: 圆角卡片 / 大色块 / 信息条 / CTA 按钮
+   注意: 转换需 --margin "0 0 0 0" --no-footer (满版无页脚)
+   ============================================================ */
+:root{
+  --paper:#fff8f0; --ink:#3a2a1a; --orange:#e8590c;
+  --soft:#fdeede; --muted:#8a7a6a; --line:#f0e2d2;
+  --sans:"PingFang SC","Source Han Sans SC","Noto Sans CJK SC",-apple-system,"Segoe UI",sans-serif;
+}
+@page{ size:A4; margin:0; }
+*{ box-sizing:border-box; }
+html{ -webkit-print-color-adjust:exact; print-color-adjust:exact; }
+body{ font-family:var(--sans); background:var(--paper); color:var(--ink);
+      font-size:12pt; line-height:1.7; margin:0; }
+.page{ padding:18mm; min-height:297mm; }
+
+/* 头部 */
+.badge{ display:inline-block; background:var(--orange); color:#fff; font-size:10.5pt;
+  font-weight:700; letter-spacing:.08em; padding:2mm 5mm; border-radius:20px; margin-bottom:6mm; }
+h1{ font-size:34pt; line-height:1.2; font-weight:800; color:var(--ink);
+  margin:0 0 4mm; letter-spacing:-.01em; }
+h1 em{ color:var(--orange); font-style:normal; }
+.lead{ font-size:15pt; color:var(--muted); margin-bottom:11mm; max-width:152mm; line-height:1.55; }
+
+/* 亮点卡 */
+.highlights{ display:flex; gap:4mm; margin-bottom:11mm; }
+.hl{ flex:1; background:#fff; border:1px solid var(--line); border-radius:14px; padding:6mm 5mm; }
+.hl .n{ display:inline-flex; width:9mm; height:9mm; border-radius:10px; background:var(--soft);
+  color:var(--orange); font-weight:800; align-items:center; justify-content:center;
+  font-size:14pt; margin-bottom:3mm; }
+.hl .t{ font-weight:700; font-size:12.5pt; display:block; margin-bottom:1.5mm; }
+.hl .d{ font-size:10.5pt; color:var(--muted); line-height:1.5; }
+
+/* 信息条 */
+.info{ background:var(--soft); border-radius:14px; padding:6mm 7mm;
+  display:flex; justify-content:space-between; margin-bottom:11mm; }
+.info .item{ text-align:center; flex:1; }
+.info .item .k{ font-size:10pt; color:var(--muted); margin-bottom:1.5mm; }
+.info .item .v{ font-size:15pt; font-weight:800; color:var(--ink); }
+.info .item .v.price{ color:var(--orange); }
+
+/* 行动号召 */
+.cta{ background:var(--ink); border-radius:16px; padding:8mm 9mm;
+  display:flex; justify-content:space-between; align-items:center; }
+.cta .txt .t{ color:#fff; font-size:16pt; font-weight:800; display:block; margin-bottom:1.5mm; }
+.cta .txt .d{ color:#d8c8b8; font-size:11pt; }
+.cta .btn{ background:var(--orange); color:#fff; font-size:14pt; font-weight:800;
+  padding:4mm 9mm; border-radius:30px; white-space:nowrap; }
+
+.note{ font-size:9pt; color:var(--muted); margin-top:11mm; text-align:center; }
+
+/* --- 分页稳定性(全局增强) --- */
+h1,h2,h3,h4{ break-after:avoid; }
+p{ orphans:2; widows:2; }
+table,figure,blockquote,.kpi-row,.summary,.takeaway,.chart,.metrics,.metric,.feat,.highlights,.hl,.info,.cta,.pullquote{ break-inside:avoid; }

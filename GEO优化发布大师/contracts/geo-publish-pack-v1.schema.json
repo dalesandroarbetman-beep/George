@@ -1,0 +1,59 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "geo-publish-pack/1.0",
+  "title": "GEO 人工发布执行包",
+  "type": "object",
+  "required": ["contract_version", "mode", "generated_at", "items"],
+  "properties": {
+    "contract_version": {"const": "geo-publish-pack/1.0"},
+    "mode": {"const": "manual_dry_run"},
+    "generated_at": {"type": "string", "format": "date-time"},
+    "destination_url": {"type": "string", "format": "uri"},
+    "publication_performed": {"const": false},
+    "valid": {"type": "boolean"},
+    "errors": {"type": "array", "items": {"type": "string"}},
+    "items": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["content_id", "platform", "english_text", "chinese_translation", "status", "human_approval", "manual_ready"],
+        "properties": {
+          "content_id": {"type": "string", "minLength": 1},
+          "platform": {"type": "string", "minLength": 1},
+          "english_text": {"type": "string", "minLength": 1},
+          "chinese_translation": {"type": "string", "minLength": 1},
+          "status": {"enum": ["draft", "pending", "ready", "queued", "approved", "blocked"]},
+          "human_approval": {"type": "boolean"},
+          "manual_ready": {"type": "boolean"},
+          "title_or_first_line": {"type": "string"},
+          "disclosure": {"type": "string"},
+          "destination_url": {"type": "string", "format": "uri"},
+          "media_slot": {"type": "string"},
+          "community_rules": {"type": "string"},
+          "prohibited_claim_check": {"type": "boolean"},
+          "suggested_timing": {"type": "string"},
+          "published_url": {"type": ["string", "null"]},
+          "published_at": {"type": ["string", "null"]}
+        },
+        "allOf": [{
+          "if": {"properties": {"status": {"const": "approved"}}, "required": ["status"]},
+          "then": {
+            "required": ["title_or_first_line", "disclosure", "destination_url", "media_slot", "community_rules", "prohibited_claim_check", "suggested_timing"],
+            "properties": {
+              "human_approval": {"const": true},
+              "manual_ready": {"const": true},
+              "title_or_first_line": {"minLength": 1},
+              "disclosure": {"minLength": 1},
+              "media_slot": {"minLength": 1},
+              "community_rules": {"minLength": 1},
+              "prohibited_claim_check": {"const": true},
+              "suggested_timing": {"minLength": 1}
+            }
+          }
+        }]
+      }
+    }
+  },
+  "additionalProperties": false
+}

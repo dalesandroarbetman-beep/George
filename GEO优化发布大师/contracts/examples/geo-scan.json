@@ -1,0 +1,19 @@
+{
+  "contract_version": "geo-scan/1.0",
+  "site": "https://www.example.com/",
+  "scanned_at": "2026-09-19T00:00:00Z",
+  "mode": "read_only_rendered_browser",
+  "robots": {"status": 200},
+  "sitemap": {"status": 200},
+  "pages": [{"url": "https://www.example.com/", "status": 200, "title": "Example"}],
+  "observations": {
+    "positive": [{
+      "summary": "首页可公开访问",
+      "url": "https://www.example.com/",
+      "observed_at": "2026-09-19T00:00:00Z",
+      "evidence_summary": "渲染请求返回 HTTP 200。"
+    }],
+    "risks": []
+  },
+  "limits": ["扫描结果不是事实批准"]
+}

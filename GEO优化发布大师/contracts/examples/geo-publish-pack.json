@@ -1,0 +1,27 @@
+{
+  "contract_version": "geo-publish-pack/1.0",
+  "mode": "manual_dry_run",
+  "generated_at": "2026-09-19T00:00:00Z",
+  "destination_url": "https://www.yohodiy.com/",
+  "publication_performed": false,
+  "valid": true,
+  "errors": [],
+  "items": [{
+    "content_id": "TEST-001",
+    "platform": "quora",
+    "english_text": "A concise answer.",
+    "chinese_translation": "一段简洁回答。",
+    "status": "approved",
+    "human_approval": true,
+    "manual_ready": true,
+    "title_or_first_line": "A concise answer",
+    "disclosure": "Industry participant",
+    "destination_url": "https://www.yohodiy.com/",
+    "media_slot": "none",
+    "community_rules": "人工已核对具体主题规则",
+    "prohibited_claim_check": true,
+    "suggested_timing": "人工选择并记录时区",
+    "published_url": null,
+    "published_at": null
+  }]
+}

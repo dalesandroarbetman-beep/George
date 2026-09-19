@@ -1,0 +1,14 @@
+{
+  "contract_version": "video-workflow/1.0",
+  "source_name": "sample.mp4",
+  "language": "en",
+  "inference": "local faster-whisper; OpenAI API not used",
+  "segments": [{"start": 0, "end": 1, "text": "Choose a style."}],
+  "enrichment": {
+    "mode": "full",
+    "translation": "选择一种款式。",
+    "rewrite": "挑一款适合你的设计。",
+    "analysis": {"hook": "选择问题"},
+    "ollama_model": "qwen2.5-coder:14b"
+  }
+}

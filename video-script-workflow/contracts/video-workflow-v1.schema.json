@@ -1,0 +1,56 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "video-workflow/1.0",
+  "title": "本地视频脚本工作流产物",
+  "type": "object",
+  "required": ["contract_version", "source_name", "language", "inference", "segments", "enrichment"],
+  "properties": {
+    "contract_version": {"const": "video-workflow/1.0"},
+    "source_name": {"type": "string", "minLength": 1},
+    "language": {"type": "string", "minLength": 1},
+    "inference": {"const": "local faster-whisper; OpenAI API not used"},
+    "segments": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["start", "end", "text"],
+        "properties": {
+          "start": {"type": "number", "minimum": 0},
+          "end": {"type": "number", "minimum": 0},
+          "text": {"type": "string"}
+        }
+      }
+    },
+    "enrichment": {
+      "type": "object",
+      "required": ["mode"],
+      "properties": {
+        "mode": {"enum": ["full", "extract-only"]},
+        "translation": {"type": "string"},
+        "rewrite": {"type": "string"},
+        "analysis": {"type": "object"},
+        "ollama_model": {"type": "string"}
+      }
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {"enrichment": {"properties": {"mode": {"const": "full"}}}}
+      },
+      "then": {
+        "properties": {
+          "enrichment": {
+            "required": ["translation", "rewrite", "analysis", "ollama_model"],
+            "properties": {
+              "translation": {"type": "string", "minLength": 1},
+              "rewrite": {"type": "string", "minLength": 1},
+              "analysis": {"type": "object", "minProperties": 1},
+              "ollama_model": {"type": "string", "minLength": 1}
+            }
+          }
+        }
+      }
+    }
+  ]
+}

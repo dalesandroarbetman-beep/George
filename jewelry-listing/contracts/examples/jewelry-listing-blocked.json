@@ -1,0 +1,20 @@
+{
+  "contract_version": "1.2",
+  "sku": "SKU",
+  "status": "风险无法确认",
+  "risk_review": {"manual_review_required": true},
+  "title": "",
+  "image_order": [],
+  "size_facts": {
+    "length_confirmed": false,
+    "weight_confirmed": false,
+    "complete": false,
+    "missing": ["长度", "重量"]
+  },
+  "hard_stops": ["风险状态为风险无法确认"],
+  "submission": {
+    "ready": false,
+    "blocked_reasons": ["风险状态为风险无法确认"],
+    "action": "review_only"
+  }
+}

@@ -13,10 +13,12 @@ description: "Plan and track manual GEO publishing from approved platform drafts
 
 For each platform include final text, title/first line, disclosure, destination URL, media slot, community rule checks, prohibited-claim check, suggested timing, and fields for actual URL/result. Do not treat a generated file, screenshot, or planned slot as proof of publication.
 
+Every user-visible execution pack must be in Chinese or include the complete Chinese translation alongside the English publication text. The English text may remain the copy-paste version for the external platform; the Chinese translation is required for user review.
+
 For this project, the destination URL defaults to `https://www.yohodiy.com/`; use `YOHO` as the public brand and omit legal-entity naming unless the approval queue contains an explicit disclosure decision.
 
 ## Calendar and review
 
 Schedule only the requested horizon. Keep a per-item owner, dependency, status, master path, platform difference, reviewer, and evidence path. Weekly metrics must state method, date, sample size, and limitations; use `待测`/`unknown` instead of invented values.
 
-The archived publisher script has a Python 3.11 f-string syntax error and remains blocked until patched and tested. Manual Markdown/JSON execution packs are the fallback.
+Use `scripts/build_execution_pack.py` to validate approved draft metadata and build a versioned JSON pack plus a Chinese approval queue. The helper is always local and dry-run: it never logs in, posts, or changes a platform. The archived script is deprecated and no longer an execution path.

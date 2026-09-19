@@ -5,6 +5,10 @@ description: "Produce fact-gated English GEO master drafts and native Reddit, Qu
 
 # GEO Content Production
 
+## User-visible language rule
+
+External forum copy defaults to English, but every file delivered for user review must be Chinese or English with a complete Chinese translation. This applies to the master draft, platform variants, disclosure, limitations, quality notes, and approval instructions. Do not deliver an English-only draft file.
+
 ## Required input
 
 Approved target question, audience, fact-card IDs, source records, prohibited claims, official destination, platform, CTA, reviewer, and due date. If any fact is `pending`, either omit it or label the uncertainty; never upgrade it silently.
@@ -16,7 +20,6 @@ Use `YOHO` as the only public English brand name and link only to `https://www.y
 ## Drafting rules
 
 - Master draft answers the question directly, then gives evidence, context, limitations, and one CTA.
-- The CTA is reader-facing and useful; improving search visibility is the program objective, not a reason to add an artificial keyword or link.
 - Each H2/H3 starts with a self-contained answer sentence that can be quoted without losing scope.
 - Make each platform version native: Reddit discussion, Quora answer, Indie Hackers build lesson, X short claim/thread, LinkedIn professional lesson, Facebook scenario prompt.
 - Keep affiliation transparent; never simulate a customer, independent reviewer, credential, metric, or third-party endorsement.
