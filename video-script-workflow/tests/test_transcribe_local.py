@@ -19,6 +19,17 @@ validator_spec.loader.exec_module(validator)
 
 
 class TranscribeWorkflowTests(unittest.TestCase):
+    def test_quality_summary_flags_low_confidence_and_non_speech(self):
+        result = module.summarize_transcription_quality([
+            {"avg_logprob": -1.2, "compression_ratio": 1.1, "no_speech_prob": 0.1},
+            {"avg_logprob": -0.2, "compression_ratio": 2.8, "no_speech_prob": 0.7},
+        ])
+        self.assertTrue(result["needs_visual_review"])
+        self.assertEqual(result["low_confidence_segments"], 1)
+        self.assertEqual(result["suspicious_compression_segments"], 1)
+        self.assertEqual(result["likely_non_speech_segments"], 1)
+        self.assertEqual(len(result["review_reasons"]), 3)
+
     def test_brand_rewrite_removes_unverified_commercial_claims(self):
         result = module.sanitize_brand_rewrite(
             "TikTok Shop 只要 9 美元。保留这个设计动作。",
@@ -38,6 +49,7 @@ class TranscribeWorkflowTests(unittest.TestCase):
             "language_probability": 0.99,
             "inference": "local faster-whisper; OpenAI API not used",
             "segments": [{"start": 0.0, "end": 1.0, "text": "Choose a style."}],
+            "transcription_quality": {"needs_visual_review": False, "review_reasons": []},
             "enrichment": {
                 "mode": "full",
                 "ollama_model": "qwen2.5-coder:14b",

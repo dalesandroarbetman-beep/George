@@ -44,6 +44,27 @@ def sanitize_brand_rewrite(text: str, brand: str, brand_url: str) -> str:
     return cleaned
 
 
+def summarize_transcription_quality(segments: list[dict[str, Any]]) -> dict[str, Any]:
+    """Turn model diagnostics into an explicit visual-review signal."""
+    low_confidence = [item for item in segments if item.get("avg_logprob") is not None and item["avg_logprob"] < -1.0]
+    suspicious_compression = [item for item in segments if item.get("compression_ratio") is not None and item["compression_ratio"] > 2.4]
+    likely_non_speech = [item for item in segments if item.get("no_speech_prob") is not None and item["no_speech_prob"] > 0.6]
+    reasons = []
+    if low_confidence:
+        reasons.append("部分片段平均对数概率偏低")
+    if suspicious_compression:
+        reasons.append("部分片段存在重复或异常压缩迹象")
+    if likely_non_speech:
+        reasons.append("部分片段疑似把静音或环境声识别为文字")
+    return {
+        "needs_visual_review": bool(reasons),
+        "low_confidence_segments": len(low_confidence),
+        "suspicious_compression_segments": len(suspicious_compression),
+        "likely_non_speech_segments": len(likely_non_speech),
+        "review_reasons": reasons,
+    }
+
+
 def transcribe(args: argparse.Namespace) -> dict[str, Any]:
     try:
         from faster_whisper import WhisperModel
@@ -79,6 +100,10 @@ def transcribe(args: argparse.Namespace) -> dict[str, Any]:
             "end": round(segment.end, 3),
             "text": segment.text.strip(),
         }
+        for field in ("avg_logprob", "compression_ratio", "no_speech_prob"):
+            value = getattr(segment, field, None)
+            if value is not None:
+                item[field] = round(float(value), 5)
         if args.word_timestamps and segment.words:
             item["words"] = [
                 {
@@ -101,6 +126,7 @@ def transcribe(args: argparse.Namespace) -> dict[str, Any]:
         "model": args.model,
         "inference": "local faster-whisper; OpenAI API not used",
         "segments": segment_list,
+        "transcription_quality": summarize_transcription_quality(segment_list),
     }
 
 
@@ -199,6 +225,11 @@ def write_outputs(report: dict[str, Any], output_dir: Path) -> None:
             "## 结构分析",
             "",
         ]
+        quality = report.get("transcription_quality", {})
+        lines.extend(["## 转写质量提示", "", f"- 需要画面复核：{'是' if quality.get('needs_visual_review') else '否'}"])
+        for reason in quality.get("review_reasons", []):
+            lines.append(f"- 复核原因：{reason}")
+        lines.append("")
         for key, value in analysis.items():
             if isinstance(value, list):
                 lines.append(f"- {key}：{'；'.join(str(item) for item in value)}")

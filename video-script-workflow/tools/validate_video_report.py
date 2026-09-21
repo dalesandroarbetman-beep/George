@@ -28,6 +28,12 @@ def validate(path: Path, require_full: bool = False) -> dict[str, Any]:
     segments = report.get("segments")
     if not isinstance(segments, list) or not all(isinstance(item, dict) and "text" in item for item in segments):
         errors.append("segments 必须是包含 text 的对象数组")
+    quality = report.get("transcription_quality")
+    if quality is not None:
+        if not isinstance(quality, dict) or not isinstance(quality.get("needs_visual_review"), bool):
+            errors.append("transcription_quality.needs_visual_review 必须是布尔值")
+        elif not isinstance(quality.get("review_reasons", []), list):
+            errors.append("transcription_quality.review_reasons 必须是数组")
     enrichment = report.get("enrichment")
     if not isinstance(enrichment, dict) or enrichment.get("mode") not in {"full", "extract-only"}:
         errors.append("enrichment.mode 必须是 full 或 extract-only")
