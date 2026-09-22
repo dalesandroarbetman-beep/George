@@ -3,6 +3,7 @@
 import { useMemo, useRef, useState } from "react";
 import { AppShell } from "../components/AppShell";
 import { Check, Copy, FileImage, FileText, FileVideo, RefreshCw, Sparkles, UploadCloud } from "lucide-react";
+import type { WorkbenchTask } from "../lib/task-contract";
 
 const platforms = ["TikTok", "Instagram", "YouTube", "Facebook", "X", "DIY 账号"];
 const copy: Record<string, { text: string; tags: string[] }> = {
@@ -20,6 +21,8 @@ export default function QuickCopyPage() {
   const [source, setSource] = useState("");
   const [fileName, setFileName] = useState("");
   const [generated, setGenerated] = useState(false);
+  const [busy, setBusy] = useState(false);
+  const [error, setError] = useState("");
   const [active, setActive] = useState("TikTok");
   const [copied, setCopied] = useState(false);
   const fileRef = useRef<HTMLInputElement>(null);
@@ -31,9 +34,31 @@ export default function QuickCopyPage() {
     setSelected((items) => items.includes(platform) ? items.filter((item) => item !== platform) : [...items, platform]);
   }
 
+  async function generateCopy() {
+    setError("");
+    setBusy(true);
+    try {
+      const sourceName = fileName || `${inputType}素材-${new Date().toISOString().slice(0, 10)}`;
+      const response = await fetch("/api/tasks", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ name: sourceName, type: "quick-copy", source: { name: sourceName, mediaType: inputType, size: 0 }, settings: { brand: "YOHO", brandUrl: "www.yohodiy.com" } }) });
+      const payload = await response.json();
+      if (!response.ok) throw new Error(payload.error || "创建快速任务失败");
+      const created = payload.task as WorkbenchTask;
+      const resultResponse = await fetch(`/api/tasks/${created.id}`, { method: "PATCH", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ status: "completed", stage: "result", progress: 100 }) });
+      const resultPayload = await resultResponse.json();
+      if (!resultResponse.ok) throw new Error(resultPayload.error || "保存快速任务失败");
+      setGenerated(true);
+      setActive(selected[0]);
+    } catch (caught) {
+      setError(caught instanceof Error ? caught.message : "快速任务操作失败");
+    } finally {
+      setBusy(false);
+    }
+  }
+
   return (
     <AppShell title="快速发布文案">
       <section className="page-heading compact"><div><span className="eyebrow">QUICK SOCIAL COPY</span><h1>快速发布文案</h1><p>单条素材直接生成平台文案、标签和互动话术。</p></div><span className="mode-chip teal"><Sparkles size={14} />快速任务</span></section>
+      {error && <div className="inline-error" role="alert">{error}</div>}
       <div className="quick-layout">
         <section className="surface quick-input-panel">
           <div className="section-head"><div><h2>输入素材</h2><p>选择一种素材类型。</p></div></div>
@@ -42,7 +67,7 @@ export default function QuickCopyPage() {
           <input ref={fileRef} className="sr-only" type="file" accept={inputType === "视频" ? "video/*" : "image/*"} onChange={(event) => setFileName(event.target.files?.[0]?.name ?? "")} />
           <div className="control-group"><span className="control-label">目标平台</span><div className="platform-picker">{platforms.map((platform) => <button key={platform} className={selected.includes(platform) ? "selected" : ""} onClick={() => togglePlatform(platform)}>{selected.includes(platform) && <Check size={13} />}{platform}</button>)}</div></div>
           <div className="field-grid"><label>输出语言<select defaultValue="英文 + 中文翻译"><option>英文 + 中文翻译</option><option>仅英文</option><option>仅中文</option></select></label><label>内容语气<select defaultValue="自然种草"><option>自然种草</option><option>专业批发</option><option>DIY 教程</option><option>人设口播</option></select></label></div>
-          <button className="button primary wide" disabled={!canGenerate || !selected.length} onClick={() => { setGenerated(true); setActive(selected[0]); }}><Sparkles size={17} />生成 {selected.length || 0} 个平台方案</button>
+          <button className="button primary wide" disabled={!canGenerate || !selected.length || busy} onClick={generateCopy}><Sparkles size={17} />{busy ? "保存中…" : `生成 ${selected.length || 0} 个平台方案`}</button>
         </section>
 
         <section className="surface result-panel">

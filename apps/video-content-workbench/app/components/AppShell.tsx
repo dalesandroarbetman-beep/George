@@ -66,8 +66,8 @@ export function AppShell({ children, title }: { children: React.ReactNode; title
           </div>
           <div className="topbar-actions">
             <button className="icon-button" aria-label="通知"><Bell size={19} /><i className="notice-dot" /></button>
-            <div className="operator"><span>林主管</span><small>内容运营</small></div>
-            <div className="avatar">林</div>
+            <div className="operator"><span>王主管</span><small>内容运营</small></div>
+            <div className="avatar">王</div>
           </div>
         </header>
         <div className="page-content">{children}</div>

@@ -1,14 +1,24 @@
 import Link from "next/link";
 import { ArrowRight, CheckCircle2, Clapperboard, Clock3, FileOutput, FileText, Sparkles } from "lucide-react";
 import { AppShell } from "./components/AppShell";
+import { listTasks } from "./lib/task-store";
+import { statusLabels, type WorkbenchTask } from "./lib/task-contract";
 
-const recent = [
-  { name: "珍珠项链开箱视频", type: "完整生产线", state: "待审核", time: "今天 10:24", tone: "amber" },
-  { name: "DIY 串珠过程图", type: "快速发布文案", state: "已生成", time: "昨天 16:40", tone: "green" },
-  { name: "不锈钢耳环展示", type: "完整生产线", state: "平台适配中", time: "昨天 14:12", tone: "blue" },
-];
+export const dynamic = "force-dynamic";
 
-export default function Dashboard() {
+function taskTone(task: WorkbenchTask) {
+  if (task.status === "review" || task.status === "failed" || task.status === "cancelled") return "amber";
+  if (task.status === "processing" || task.status === "queued") return "blue";
+  return "green";
+}
+
+export default async function Dashboard() {
+  const tasks = await listTasks();
+  const pipelineActive = tasks.filter((task) => task.type === "pipeline" && !["completed", "cancelled", "failed"].includes(task.status)).length;
+  const quickThisWeek = tasks.filter((task) => task.type === "quick-copy" && Date.now() - new Date(task.createdAt).getTime() < 7 * 24 * 60 * 60 * 1000).length;
+  const reviewCount = tasks.filter((task) => task.status === "review").length;
+  const completedCount = tasks.filter((task) => task.status === "completed").length;
+  const recent = tasks.slice(0, 5);
   return (
     <AppShell title="工作台总览">
       <section className="page-heading">
@@ -29,16 +39,17 @@ export default function Dashboard() {
       </section>
 
       <section className="stat-strip">
-        <div><Clapperboard size={18} /><span>进行中</span><strong>3</strong><small>个完整项目</small></div>
-        <div><Sparkles size={18} /><span>本周快写</span><strong>12</strong><small>条发布文案</small></div>
-        <div><Clock3 size={18} /><span>待审核</span><strong>2</strong><small>项需要确认</small></div>
-        <div><FileOutput size={18} /><span>本月导出</span><strong>27</strong><small>份内容包</small></div>
+        <div><Clapperboard size={18} /><span>进行中</span><strong>{pipelineActive}</strong><small>个完整项目</small></div>
+        <div><Sparkles size={18} /><span>本周快写</span><strong>{quickThisWeek}</strong><small>条发布文案</small></div>
+        <div><Clock3 size={18} /><span>待审核</span><strong>{reviewCount}</strong><small>项需要确认</small></div>
+        <div><FileOutput size={18} /><span>已完成</span><strong>{completedCount}</strong><small>个本地任务</small></div>
       </section>
 
       <section className="surface recent-section">
         <div className="section-head"><div><h2>最近任务</h2><p>继续处理或查看已经生成的内容。</p></div><Link href="/tasks">查看全部 <ArrowRight size={15} /></Link></div>
         <div className="task-list">
-          {recent.map((task) => <div className="task-row" key={task.name}><div className="task-glyph"><FileText size={18} /></div><div className="task-name"><strong>{task.name}</strong><span>{task.type}</span></div><span className={`status ${task.tone}`}>{task.state}</span><time>{task.time}</time><button className="icon-button" aria-label={`打开${task.name}`}><ArrowRight size={17} /></button></div>)}
+          {recent.map((task) => <div className="task-row" key={task.id}><div className="task-glyph"><FileText size={18} /></div><div className="task-name"><strong>{task.name}</strong><span>{task.type === "pipeline" ? "完整生产线" : "快速发布文案"}</span></div><span className={`status ${taskTone(task)}`}>{statusLabels[task.status]}</span><time>{new Date(task.updatedAt).toLocaleString("zh-CN", { month: "numeric", day: "numeric", hour: "2-digit", minute: "2-digit" })}</time><Link className="icon-button" href="/tasks" aria-label={`查看${task.name}`}><ArrowRight size={17} /></Link></div>)}
+          {!recent.length && <div className="loading-state">还没有本地任务，可以从上方任一入口开始。</div>}
         </div>
       </section>
 
