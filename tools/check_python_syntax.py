@@ -12,11 +12,25 @@ from pathlib import Path
 EXCLUDED_PARTS = {"__pycache__", "__MACOSX", ".git", ".venv", "venv"}
 
 
+def _is_excluded(path: Path) -> bool:
+    parts = path.parts
+    if any(part in EXCLUDED_PARTS or part.startswith(".skill_review_tmp_") for part in parts):
+        return True
+    # lo-extract2 bundles a separate Python 3.13 stdlib under work/; it is
+    # generated tooling, not repository source, and may use newer syntax.
+    return (
+        "work" in parts
+        and "lo-extract2" in parts
+        and "program" in parts
+        and any(part.startswith("python-core-") for part in parts)
+    )
+
+
 def check(root: Path) -> dict[str, object]:
     failures = []
     checked = 0
     for path in sorted(root.rglob("*.py")):
-        if any(part in EXCLUDED_PARTS or part.startswith(".skill_review_tmp_") for part in path.parts):
+        if _is_excluded(path):
             continue
         checked += 1
         try:
